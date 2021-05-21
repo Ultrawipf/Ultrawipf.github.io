@@ -10,6 +10,7 @@ var hcd_8h =
     [ "hcd_event_device_remove", "group___group___h_c_d.html#gac619a022e4ccfc07f658cf9c8ec4ea0f", null ],
     [ "hcd_event_handler", "group___group___h_c_d.html#ga8f36b6f1ecc776dddd271e7c4607f0b2", null ],
     [ "hcd_event_xfer_complete", "group___group___h_c_d.html#gacdabc4ab32fb9593c5463e58224ddd9e", null ],
+    [ "hcd_frame_number", "group___group___h_c_d.html#gab5a6599ea374175569446c6d2cc19e2c", null ],
     [ "hcd_init", "group___group___h_c_d.html#ga5010f02a821fb6277b179b7db71fa397", null ],
     [ "hcd_int_disable", "group___group___h_c_d.html#ga197a56f3a9dce3d87a16641afd7b0dc5", null ],
     [ "hcd_int_enable", "group___group___h_c_d.html#ga69bc2917c5933edb2c1b0a3cb67e3815", null ],

@@ -42,6 +42,7 @@ var class_normalized_axis =
     [ "idlespringclip", "class_normalized_axis.html#ab577da6cecce368e1d0639d1e8b0681d", null ],
     [ "idlespringscale", "class_normalized_axis.html#a7f5c011d2812bb3d480652a5b3739045", null ],
     [ "idlespringstrength", "class_normalized_axis.html#ad900b3cb905e849600ab102ef8860d06", null ],
+    [ "info", "class_normalized_axis.html#a801308f62a386b30331f83c19ca9f573", null ],
     [ "invertAxis", "class_normalized_axis.html#a148ff5d0a6ef33df8e06d12bd7875e32", null ],
     [ "metric", "class_normalized_axis.html#ae03fcf90d5136233bcb214c1880a3d81", null ],
     [ "nextDegreesOfRotation", "class_normalized_axis.html#a925b12e1f7f13b2f81dee5317cc7bd55", null ],

@@ -18,6 +18,9 @@ var usbtmc__device_8c =
       [ "STATE_NUM_STATES", "usbtmc__device_8c.html#a1894598404de628b7ff560a783174d8ead05e5909188aeda93a6c40cb6a02581d", null ]
     ] ],
     [ "atomicChangeState", "usbtmc__device_8c.html#a4fcf2643132139947f418d317d8eb65e", null ],
+    [ "handle_devMsgIn", "usbtmc__device_8c.html#a045666af2db639d04c8fc2b70e719e20", null ],
+    [ "handle_devMsgOut", "usbtmc__device_8c.html#a127cb27488153cc671a38fa86935858e", null ],
+    [ "handle_devMsgOutStart", "usbtmc__device_8c.html#a59c18e183f48953019d1650172f8a542", null ],
     [ "TU_VERIFY_STATIC", "usbtmc__device_8c.html#a4f5f533e26b5b8a11a7e98428363f081", null ],
     [ "TU_VERIFY_STATIC", "usbtmc__device_8c.html#aff1eca3022ceca293c997bfa43ded1e9", null ],
     [ "tud_usbtmc_start_bus_read", "usbtmc__device_8c.html#a44cf48a6226bc0a8f210be5785127267", null ],
@@ -27,5 +30,10 @@ var usbtmc__device_8c =
     [ "usbtmcd_open_cb", "usbtmc__device_8c.html#a6a0a57c3a531c8a6d99bddce70ea56dc", null ],
     [ "usbtmcd_reset_cb", "usbtmc__device_8c.html#a93961c1f1560a68d9366b3957e1956a1", null ],
     [ "usbtmcd_xfer_cb", "usbtmc__device_8c.html#a2040bfe784e7a5fba339b3301f2c6fe5", null ],
+    [ "logMsg", "usbtmc__device_8c.html#acc1f47bef0ca348ab67b55c4c63f7274", null ],
+    [ "termChar", "usbtmc__device_8c.html#abd5b0a211242502d65b0b607f118e19d", null ],
+    [ "termCharRequested", "usbtmc__device_8c.html#a09ad8ab54b2bd5b6516c935421df19fb", null ],
+    [ "usbtmc_state", "usbtmc__device_8c.html#a37848f9a07529c5f98573d8a81506c5c", null ],
+    [ "usbtmcLock", "usbtmc__device_8c.html#a9fc7cf85089ab63ee2fd3db6d3a40cc3", null ],
     [ "usbtmcLockBuffer", "usbtmc__device_8c.html#a2399cbafd30f308eed2ec0de24e12398", null ]
 ];

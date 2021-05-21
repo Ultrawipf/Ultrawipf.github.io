@@ -14,6 +14,7 @@ var usbd_8h =
     [ "tud_init", "usbd_8h.html#a9b260b10ebb04f8022be14c614f0e4a1", null ],
     [ "tud_mount_cb", "usbd_8h.html#ae3f8d900eb61f91e7ef9ae86395a13d1", null ],
     [ "tud_mounted", "usbd_8h.html#a46690990392d9f37e1c20f08ae30e409", null ],
+    [ "tud_ready", "usbd_8h.html#ae83dcaccb36ea6531aed7299a1c2e97c", null ],
     [ "tud_remote_wakeup", "usbd_8h.html#a351581126e3b14764e2bbe44e420815e", null ],
     [ "tud_resume_cb", "usbd_8h.html#afc9842df2892673d5860090f69bb9774", null ],
     [ "tud_speed_get", "usbd_8h.html#a334ffbfc1a51afce0144d4e18ea3fd18", null ],

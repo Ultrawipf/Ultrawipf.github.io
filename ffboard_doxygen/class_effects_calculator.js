@@ -36,5 +36,6 @@ var class_effects_calculator =
     [ "gain", "class_effects_calculator.html#a7bc1656240ffd645a917f2e292761668", null ],
     [ "global_gain", "class_effects_calculator.html#a16dd559d84404850ed15ca1f971e2997", null ],
     [ "inertia_f", "class_effects_calculator.html#accc9cf20c3b16aef5d1a4334f96eb87a", null ],
-    [ "inertia_q", "class_effects_calculator.html#aea3e0b6e1c4dc0a2045e7903cec5a47e", null ]
+    [ "inertia_q", "class_effects_calculator.html#aea3e0b6e1c4dc0a2045e7903cec5a47e", null ],
+    [ "info", "class_effects_calculator.html#ae06082726e9bd9666accc46ec445b48c", null ]
 ];

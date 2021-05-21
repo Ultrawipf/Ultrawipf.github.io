@@ -140,7 +140,8 @@ var NAVTREEINDEX0 =
 "_motor_driver_8h_source.html":[4,0,119],
 "_motor_p_w_m_8cpp.html":[4,0,120],
 "_motor_p_w_m_8cpp.html#a09726fb164c0fd8e4c6d9ed44cbb81ab":[4,0,120,2],
-"_motor_p_w_m_8cpp.html#a193f6cdec75c05547dbc533e966ff34b":[4,0,120,4],
+"_motor_p_w_m_8cpp.html#a0a97906ed76f939d35158a822df1fbf3":[4,0,120,4],
+"_motor_p_w_m_8cpp.html#a193f6cdec75c05547dbc533e966ff34b":[4,0,120,5],
 "_motor_p_w_m_8cpp.html#aa620397e266270d2de3ebab509e02d81":[4,0,120,3],
 "_motor_p_w_m_8cpp.html#ac8d569a1d10fd3d832531a9662c2be91":[4,0,120,1],
 "_motor_p_w_m_8cpp.html#ace15dc350de6e192efed087e5648cfd0":[4,0,120,0],
@@ -171,9 +172,12 @@ var NAVTREEINDEX0 =
 "_ressource_manager_8h.html":[4,0,140],
 "_ressource_manager_8h_source.html":[4,0,140],
 "_s_p_i_8cpp.html":[4,0,145],
+"_s_p_i_8cpp.html#a55bac928c2ab7198d1462b6bd69f43b5":[4,0,145,0],
 "_s_p_i_8h.html":[4,0,146],
 "_s_p_i_8h_source.html":[4,0,146],
 "_s_p_i_buttons_8cpp.html":[4,0,147],
+"_s_p_i_buttons_8cpp.html#a9fa3945a0dbce41ff83a49064dee08d9":[4,0,147,1],
+"_s_p_i_buttons_8cpp.html#aba7b4e25cf0f787f1f1d27fca7797a56":[4,0,147,2],
 "_s_p_i_buttons_8cpp.html#adaeab78891966518199a2ae170dcfc4b":[4,0,147,0],
 "_s_p_i_buttons_8h.html":[4,0,148],
 "_s_p_i_buttons_8h.html#a72a1ce4856563d78aa57e8f9a6994cfe":[4,0,148,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX0 =
 "_t_m_c4671_8h.html#addb917dd45972d75a9b40bab2ce78492ab50339a10e1de285ac99d4c3990b8693":[4,0,159,18,6],
 "_t_m_c4671_8h.html#addb917dd45972d75a9b40bab2ce78492af0cc7c5edf94f9dc31e12fae5543040b":[4,0,159,18,1],
 "_t_m_c4671_8h.html#af7a9c4e6e1bf0678c768e3210cdeadad":[4,0,159,13],
-"_t_m_c4671_8h.html#af7a9c4e6e1bf0678c768e3210cdeadada42dd1a73d072bb6bf3f494f22b15db8e":[4,0,159,13,0],
-"_t_m_c4671_8h.html#af7a9c4e6e1bf0678c768e3210cdeadadace5fb8df125a4721d1df328bc6f2ddea":[4,0,159,13,3],
-"_t_m_c4671_8h.html#af7a9c4e6e1bf0678c768e3210cdeadadad09f48e4c1dd9be0167e409cce110a01":[4,0,159,13,1],
-"_t_m_c4671_8h.html#af7a9c4e6e1bf0678c768e3210cdeadadae0aa021e21dddbd6d8cecec71e9cf564":[4,0,159,13,4],
-"_t_m_c4671_8h.html#af7a9c4e6e1bf0678c768e3210cdeadadaf24e40acf49c4786ebeaa4768c1e490c":[4,0,159,13,2]
+"_t_m_c4671_8h.html#af7a9c4e6e1bf0678c768e3210cdeadada42dd1a73d072bb6bf3f494f22b15db8e":[4,0,159,13,0]
 };

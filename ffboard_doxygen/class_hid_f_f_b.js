@@ -7,6 +7,7 @@ var class_hid_f_f_b =
     [ "free_effect", "class_hid_f_f_b.html#a5c07dc9aa10722a984264c2845710f18", null ],
     [ "getFfbActive", "class_hid_f_f_b.html#abde71d53de6ebc0c407298f14a9ea0ed", null ],
     [ "getRate", "class_hid_f_f_b.html#a8a868407c35459e61002e12272d5e1b1", null ],
+    [ "HID_SendReport", "class_hid_f_f_b.html#ac56b07513a5d6ab1f81bbf14bec20111", null ],
     [ "hidGet", "class_hid_f_f_b.html#a28c452d1376b5da7708211745df4c845", null ],
     [ "hidOut", "class_hid_f_f_b.html#ad3e02bb8a6b00288cc2be6a6f331b20e", null ],
     [ "new_effect", "class_hid_f_f_b.html#ac78312c5d6c85ee23fca0c8bf5e2feb3", null ],

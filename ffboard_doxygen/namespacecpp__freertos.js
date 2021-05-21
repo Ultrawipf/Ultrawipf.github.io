@@ -1,7 +1,7 @@
 var namespacecpp__freertos =
 [
     [ "ConditionVariable", "classcpp__freertos_1_1_condition_variable.html", "classcpp__freertos_1_1_condition_variable" ],
-    [ "CriticalSection", "classcpp__freertos_1_1_critical_section.html", null ],
+    [ "CriticalSection", "classcpp__freertos_1_1_critical_section.html", "classcpp__freertos_1_1_critical_section" ],
     [ "EventGroupCreateException", "classcpp__freertos_1_1_event_group_create_exception.html", "classcpp__freertos_1_1_event_group_create_exception" ],
     [ "EventGroup", "classcpp__freertos_1_1_event_group.html", "classcpp__freertos_1_1_event_group" ],
     [ "MemoryPoolMallocException", "classcpp__freertos_1_1_memory_pool_malloc_exception.html", "classcpp__freertos_1_1_memory_pool_malloc_exception" ],
@@ -28,7 +28,7 @@ var namespacecpp__freertos =
     [ "Tasklet", "classcpp__freertos_1_1_tasklet.html", "classcpp__freertos_1_1_tasklet" ],
     [ "Thread", "classcpp__freertos_1_1_thread.html", "classcpp__freertos_1_1_thread" ],
     [ "TickHook", "classcpp__freertos_1_1_tick_hook.html", "classcpp__freertos_1_1_tick_hook" ],
-    [ "Ticks", "classcpp__freertos_1_1_ticks.html", null ],
+    [ "Ticks", "classcpp__freertos_1_1_ticks.html", "classcpp__freertos_1_1_ticks" ],
     [ "TimerCreateException", "classcpp__freertos_1_1_timer_create_exception.html", "classcpp__freertos_1_1_timer_create_exception" ],
     [ "Timer", "classcpp__freertos_1_1_timer.html", "classcpp__freertos_1_1_timer" ],
     [ "WorkItem", "classcpp__freertos_1_1_work_item.html", "classcpp__freertos_1_1_work_item" ],

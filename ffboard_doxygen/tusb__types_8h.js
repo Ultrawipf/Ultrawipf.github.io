@@ -152,6 +152,13 @@ var tusb__types_8h =
       [ "XFER_RESULT_FAILED", "group___u_s_b_def___type.html#gga6a3b3a4d6801fd9b02feb0510c84e5f9a25a26f92e6369131560cb95863c145a7", null ],
       [ "XFER_RESULT_STALLED", "group___u_s_b_def___type.html#gga6a3b3a4d6801fd9b02feb0510c84e5f9afd15857b96b2f33fd3139cce70c61a09", null ]
     ] ],
+    [ "bm_request_type", "group___u_s_b_def___type.html#ga7af729bb868b8672878a098ff9cde15e", null ],
+    [ "tu_desc_len", "group___u_s_b_def___type.html#ga874af9e4300217d76323918b61a0fc93", null ],
+    [ "tu_desc_next", "group___u_s_b_def___type.html#gada5e96e4ab9e63c55e99f179085116f0", null ],
+    [ "tu_desc_type", "group___u_s_b_def___type.html#gaec3d617e38f349c026a4d2558d814513", null ],
+    [ "tu_edpt_addr", "group___u_s_b_def___type.html#gafac3eb7a5d95891e1520a24a472811d7", null ],
+    [ "tu_edpt_dir", "group___u_s_b_def___type.html#gaaa353f2da73c8d7c4dda783341e4c681", null ],
+    [ "tu_edpt_number", "group___u_s_b_def___type.html#gaec0233a77ef66c106dfdfd2f391d245f", null ],
     [ "TU_VERIFY_STATIC", "group___u_s_b_def___type.html#gae2054465c7ed133c1b2ff71ff5101257", null ],
     [ "C", "group___u_s_b_def___type.html#gaaa53ca0b650dfd85c4f59fa156f7a2cc", null ]
 ];

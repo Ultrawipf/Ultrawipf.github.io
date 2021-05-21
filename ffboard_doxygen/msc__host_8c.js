@@ -1,6 +1,11 @@
 var msc__host_8c =
 [
     [ "msch_interface_t", "structmsch__interface__t.html", "structmsch__interface__t" ],
+    [ "cbw_init", "msc__host_8c.html#a23fe34a8de6314726bdc9dce18bb9180", null ],
+    [ "config_get_maxlun_complete", "msc__host_8c.html#afeab172ab2e6b4e0c3d188c9b2ded49f", null ],
+    [ "config_read_capacity_complete", "msc__host_8c.html#a5ade05cd7f70906457585a5328f6765c", null ],
+    [ "config_request_sense_complete", "msc__host_8c.html#a053acb4d725dbbc98499e873434196c7", null ],
+    [ "config_test_unit_ready_complete", "msc__host_8c.html#a096209d281ca1d5b7a288a527a15019d", null ],
     [ "msch_close", "msc__host_8c.html#a6807cd61b3cd2833ade45c7f58663081", null ],
     [ "msch_init", "msc__host_8c.html#adf532c93b1dfd28c649e2af47c874221", null ],
     [ "msch_open", "msc__host_8c.html#a0248b81f79d844502b38ced9b7dee244", null ],
@@ -19,5 +24,6 @@ var msc__host_8c =
     [ "tuh_msc_reset", "msc__host_8c.html#add7ece891c1c8c649487b20570321eb3", null ],
     [ "tuh_msc_scsi_command", "msc__host_8c.html#a19ff5d9727b3c5b4fca5357c80e17415", null ],
     [ "tuh_msc_test_unit_ready", "msc__host_8c.html#af0948ad5451e6421f21bee6547d7cf06", null ],
-    [ "tuh_msc_write10", "msc__host_8c.html#ae0e9867c10480442a421b626c97574bf", null ]
+    [ "tuh_msc_write10", "msc__host_8c.html#ae0e9867c10480442a421b626c97574bf", null ],
+    [ "_msch_itf", "msc__host_8c.html#ab54d1cdfcb06c38a897082b85138906a", null ]
 ];

@@ -2,6 +2,7 @@ var class_spi_handler =
 [
     [ "SpiHandler", "class_spi_handler.html#a280291936f841d31da404e9bfda7efee", null ],
     [ "~SpiHandler", "class_spi_handler.html#a0fc4a2bd7aca7120d31c3cedf0706db3", null ],
+    [ "getSPIHandlers", "class_spi_handler.html#ad9911ef3b8dfc5fccee8a68b8a7d8642", null ],
     [ "SpiError", "class_spi_handler.html#aa9332f451a8cd110ec0a6393cde57135", null ],
     [ "SpiRxCplt", "class_spi_handler.html#aab15f9c12659559f3e85d034a58227a9", null ],
     [ "SpiRxHalfCplt", "class_spi_handler.html#a3b266d024ae729cb4a50e5de45145127", null ],

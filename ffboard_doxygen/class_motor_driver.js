@@ -11,5 +11,7 @@ var class_motor_driver =
     [ "startMotor", "class_motor_driver.html#aa7de17ce2e32f58c9d3ab2d379c636a9", null ],
     [ "stopMotor", "class_motor_driver.html#aef624f5da2b1644823052cc80ac218bd", null ],
     [ "turn", "class_motor_driver.html#a07baeeb52b30dd507b9ba903d7876835", null ],
-    [ "drvEncoder", "class_motor_driver.html#ace8bd58b55e5c070c293ef03cc29b79e", null ]
+    [ "all_drivers", "class_motor_driver.html#ac6564132bb5e5aa5a041fc53ac987bd7", null ],
+    [ "drvEncoder", "class_motor_driver.html#ace8bd58b55e5c070c293ef03cc29b79e", null ],
+    [ "info", "class_motor_driver.html#aa8dafac3a66d9703ae42e2aa3b876347", null ]
 ];

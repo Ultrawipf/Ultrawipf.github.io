@@ -8,5 +8,7 @@ var class_encoder =
     [ "getPos_f", "class_encoder.html#a99e71d386d47f62b67988142d6fb133c", null ],
     [ "getType", "class_encoder.html#ae30dc67ff9a64629e4d55e21a424b68b", null ],
     [ "setPos", "class_encoder.html#aacf98b034fee3e2fd70cc443a784a5e0", null ],
-    [ "cpr", "class_encoder.html#aba57ae0de8a7c2adabb47445d9c845c8", null ]
+    [ "all_encoders", "class_encoder.html#af67ff4bb229901b96416060a6d5fcf25", null ],
+    [ "cpr", "class_encoder.html#aba57ae0de8a7c2adabb47445d9c845c8", null ],
+    [ "info", "class_encoder.html#aca93704c64f6c921eec0969f7ef89f4f", null ]
 ];

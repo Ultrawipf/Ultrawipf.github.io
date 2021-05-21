@@ -6,6 +6,7 @@ var usbh_8h =
     [ "tuh_control_xfer", "usbh_8h.html#a2373ba839c0481d57e0b9e18261dd995", null ],
     [ "tuh_device_get_speed", "usbh_8h.html#a289f78ee227fcf12236a7c02497b7423", null ],
     [ "tuh_device_get_state", "usbh_8h.html#a2a2d1b19214c589d44dad41c88b248fa", null ],
+    [ "tuh_device_is_configured", "usbh_8h.html#a0ca8055b3e41a9fc30d81ca7e5fc88f7", null ],
     [ "tuh_init", "usbh_8h.html#a07a63a339928458c350a6cbb0017c7ab", null ],
     [ "tuh_mount_cb", "usbh_8h.html#a24d0d51e2e9a769cd860203e4d04a48c", null ],
     [ "tuh_task", "usbh_8h.html#a7fe8646e3914ee119f5f1744fcfeafed", null ],

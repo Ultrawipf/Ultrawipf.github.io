@@ -127,6 +127,7 @@ var cdc_8h =
       [ "CONNECTION_SPEED_CHANGE", "group___class_driver___c_d_c.html#ggafe51e6ac2b0028e0d33de1cbb4739e6fa396f8875eac6a9948fd4e5ae378cd093", null ],
       [ "MDLM_SEMANTIC_MODEL_NOTIFICATION", "group___class_driver___c_d_c.html#ggafe51e6ac2b0028e0d33de1cbb4739e6fa90522e4b2f6bdd460a65a5cae516a0d3", null ]
     ] ],
+    [ "cdc_functional_desc_typeof", "group___class_driver___c_d_c.html#gade837ca5a3595c03ce64204ab78b8f28", null ],
     [ "TU_VERIFY_STATIC", "group___class_driver___c_d_c.html#ga1f1cbb9b6df240ce5645f04dfa09f1d9", null ],
     [ "TU_VERIFY_STATIC", "group___class_driver___c_d_c.html#ga317a36afafa7b889be7fcb751653658f", null ],
     [ "C", "group___class_driver___c_d_c.html#gaaa53ca0b650dfd85c4f59fa156f7a2cc", null ]

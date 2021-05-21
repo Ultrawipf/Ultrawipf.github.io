@@ -7,5 +7,6 @@ var classcpp__freertos_1_1_tick_hook =
     [ "Register", "classcpp__freertos_1_1_tick_hook.html#a4521dcae85c773d230572b290b16c471", null ],
     [ "Run", "classcpp__freertos_1_1_tick_hook.html#ad066f6c25d23e546bf7bc0190d8907f7", null ],
     [ "void ::vApplicationTickHook", "classcpp__freertos_1_1_tick_hook.html#a9dd45c0860b51c5e22140d71fa1b337c", null ],
+    [ "Callbacks", "classcpp__freertos_1_1_tick_hook.html#a619bcbea555984bab3932ab6d4106683", null ],
     [ "Enabled", "classcpp__freertos_1_1_tick_hook.html#ac439b5b8316d1a15d4de93bf509d6618", null ]
 ];

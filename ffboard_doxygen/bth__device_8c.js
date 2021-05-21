@@ -1,6 +1,7 @@
 var bth__device_8c =
 [
     [ "btd_interface_t", "structbtd__interface__t.html", "structbtd__interface__t" ],
+    [ "bt_tx_data", "bth__device_8c.html#a4a66d3b58c05f36281c212f6a824d37c", null ],
     [ "btd_control_xfer_cb", "bth__device_8c.html#a3ffed698b5afe18aa95c5b0f96cdcd64", null ],
     [ "btd_init", "bth__device_8c.html#a34173a613bd4ee7c2bb58a118ca13514", null ],
     [ "btd_open", "bth__device_8c.html#a822abc760633e0817742baeec1d07a8a", null ],

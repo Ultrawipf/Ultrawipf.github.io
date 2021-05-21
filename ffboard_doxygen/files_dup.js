@@ -69,7 +69,7 @@ var files_dup =
     [ "cqueue.cpp", "cqueue_8cpp.html", null ],
     [ "cread_write_lock.cpp", "cread__write__lock_8cpp.html", null ],
     [ "critical.hpp", "critical_8hpp.html", [
-      [ "CriticalSection", "classcpp__freertos_1_1_critical_section.html", null ]
+      [ "CriticalSection", "classcpp__freertos_1_1_critical_section.html", "classcpp__freertos_1_1_critical_section" ]
     ] ],
     [ "csemaphore.cpp", "csemaphore_8cpp.html", null ],
     [ "ctasklet.cpp", "ctasklet_8cpp.html", null ],
@@ -83,7 +83,7 @@ var files_dup =
     [ "cworkqueue.cpp", "cworkqueue_8cpp.html", null ],
     [ "dcd.h", "dcd_8h.html", "dcd_8h" ],
     [ "dcd_stm32_fsdev.c", "dcd__stm32__fsdev_8c.html", "dcd__stm32__fsdev_8c" ],
-    [ "dcd_stm32_fsdev_pvt_st.h", "dcd__stm32__fsdev__pvt__st_8h.html", null ],
+    [ "dcd_stm32_fsdev_pvt_st.h", "dcd__stm32__fsdev__pvt__st_8h.html", "dcd__stm32__fsdev__pvt__st_8h" ],
     [ "dcd_synopsys.c", "dcd__synopsys_8c.html", "dcd__synopsys_8c" ],
     [ "dfu_rt_device.c", "dfu__rt__device_8c.html", "dfu__rt__device_8c" ],
     [ "dfu_rt_device.h", "dfu__rt__device_8h.html", "dfu__rt__device_8h" ],
@@ -244,7 +244,7 @@ var files_dup =
     [ "Singleton.h", "_singleton_8h.html", [
       [ "Singleton", "class_singleton.html", "class_singleton" ]
     ] ],
-    [ "SPI.cpp", "_s_p_i_8cpp.html", null ],
+    [ "SPI.cpp", "_s_p_i_8cpp.html", "_s_p_i_8cpp" ],
     [ "SPI.h", "_s_p_i_8h.html", [
       [ "SPIConfig", "struct_s_p_i_config.html", "struct_s_p_i_config" ],
       [ "SPIPort", "class_s_p_i_port.html", "class_s_p_i_port" ],
@@ -265,7 +265,7 @@ var files_dup =
     ] ],
     [ "tickhook.hpp", "tickhook_8hpp.html", "tickhook_8hpp" ],
     [ "ticks.hpp", "ticks_8hpp.html", [
-      [ "Ticks", "classcpp__freertos_1_1_ticks.html", null ]
+      [ "Ticks", "classcpp__freertos_1_1_ticks.html", "classcpp__freertos_1_1_ticks" ]
     ] ],
     [ "timer.hpp", "timer_8hpp.html", [
       [ "TimerCreateException", "classcpp__freertos_1_1_timer_create_exception.html", "classcpp__freertos_1_1_timer_create_exception" ],
@@ -291,7 +291,7 @@ var files_dup =
     [ "tusb_timeout.h", "tusb__timeout_8h.html", "tusb__timeout_8h" ],
     [ "tusb_types.h", "tusb__types_8h.html", "tusb__types_8h" ],
     [ "tusb_verify.h", "tusb__verify_8h.html", null ],
-    [ "UART.cpp", "_u_a_r_t_8cpp.html", null ],
+    [ "UART.cpp", "_u_a_r_t_8cpp.html", "_u_a_r_t_8cpp" ],
     [ "UART.h", "_u_a_r_t_8h.html", [
       [ "UARTPort", "class_u_a_r_t_port.html", "class_u_a_r_t_port" ],
       [ "UARTDevice", "class_u_a_r_t_device.html", "class_u_a_r_t_device" ]
