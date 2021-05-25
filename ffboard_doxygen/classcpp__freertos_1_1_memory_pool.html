@@ -136,6 +136,8 @@ Private Attributes</h2></td></tr>
 <div class="textblock"><p>Memory Pools are fixed size allocations to prevent fragmentation.</p>
 <p>This is a new feature to FreeRTOS Wrappers and is not in and of itself a wrapper.</p>
 <p>Memory Pools are thread safe, but cannot be used in ISR context. The OS must be running, because these use Mutexes to protect internal data structures. </p>
+
+<p class="definition">Definition at line <a class="el" href="mem__pool_8hpp_source.html#l00140">140</a> of file <a class="el" href="mem__pool_8hpp_source.html">mem_pool.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5f5b240d0720de0a1db06730a4d1ba2c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5f5b240d0720de0a1db06730a4d1ba2c">&#9670;&nbsp;</a></span>MemoryPool() <span class="overload">[1/2]</span></h2>
@@ -185,6 +187,8 @@ Private Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+<p class="definition">Definition at line <a class="el" href="cmem__pool_8cpp_source.html#l00096">96</a> of file <a class="el" href="cmem__pool_8cpp_source.html">cmem_pool.cpp</a>.</p>
 
 </div>
 </div>
@@ -242,6 +246,8 @@ Private Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+<p class="definition">Definition at line <a class="el" href="cmem__pool_8cpp_source.html#l00125">125</a> of file <a class="el" href="cmem__pool_8cpp_source.html">cmem_pool.cpp</a>.</p>
 
 </div>
 </div>
@@ -328,6 +334,8 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
+<p class="definition">Definition at line <a class="el" href="cmem__pool_8cpp_source.html#l00170">170</a> of file <a class="el" href="cmem__pool_8cpp_source.html">cmem_pool.cpp</a>.</p>
+
 </div>
 </div>
 <a id="abc987382be536cc5111a38202301a042"></a>
@@ -365,6 +373,8 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
+<p class="definition">Definition at line <a class="el" href="cmem__pool_8cpp_source.html#l00192">192</a> of file <a class="el" href="cmem__pool_8cpp_source.html">cmem_pool.cpp</a>.</p>
+
 </div>
 </div>
 <a id="a109b992270d9845d80b4cdb404dbd10f"></a>
@@ -383,6 +393,8 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Allocate an item from the pool.</p>
 <dl class="section return"><dt>Returns</dt><dd>Pointer of the memory or NULL if the pool is empty. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="cmem__pool_8cpp_source.html#l00149">149</a> of file <a class="el" href="cmem__pool_8cpp_source.html">cmem_pool.cpp</a>.</p>
 
 </div>
 </div>
@@ -409,6 +421,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Calculate the true item size, based on alignment. </p>
+
+<p class="definition">Definition at line <a class="el" href="cmem__pool_8cpp_source.html#l00078">78</a> of file <a class="el" href="cmem__pool_8cpp_source.html">cmem_pool.cpp</a>.</p>
 
 </div>
 </div>
@@ -437,6 +451,8 @@ Private Attributes</h2></td></tr>
 <p>Adjusts and validates the alignment argument passed in the ctor. </p>
 <p>Guarantee that the alignment is the size of a pointer.</p>
 
+<p class="definition">Definition at line <a class="el" href="cmem__pool_8cpp_source.html#l00049">49</a> of file <a class="el" href="cmem__pool_8cpp_source.html">cmem_pool.cpp</a>.</p>
+
 </div>
 </div>
 <a id="a9756d53a0991b842c7d6b5b3393765f8"></a>
@@ -456,6 +472,8 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Returns the item back to it's pool.</p>
 <dl class="section note"><dt>Note</dt><dd>There is no checking that the item is actually valid to be returned to this pool. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="cmem__pool_8cpp_source.html#l00163">163</a> of file <a class="el" href="cmem__pool_8cpp_source.html">cmem_pool.cpp</a>.</p>
 
 </div>
 </div>
@@ -481,6 +499,8 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>The overall alignment of an item. </p>
 
+<p class="definition">Definition at line <a class="el" href="mem__pool_8hpp_source.html#l00246">246</a> of file <a class="el" href="mem__pool_8hpp_source.html">mem_pool.hpp</a>.</p>
+
 </div>
 </div>
 <a id="a1bc4f7897e0613345112e004898fa167"></a>
@@ -503,6 +523,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>All of the real work is done with STL lists. </p>
+
+<p class="definition">Definition at line <a class="el" href="mem__pool_8hpp_source.html#l00251">251</a> of file <a class="el" href="mem__pool_8hpp_source.html">mem_pool.hpp</a>.</p>
 
 </div>
 </div>
@@ -527,6 +549,8 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Save the item size for additions. </p>
 
+<p class="definition">Definition at line <a class="el" href="mem__pool_8hpp_source.html#l00241">241</a> of file <a class="el" href="mem__pool_8hpp_source.html">mem_pool.hpp</a>.</p>
+
 </div>
 </div>
 <a id="ad2a811121cf9095b2b312aa49a26cf4f"></a>
@@ -550,11 +574,13 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Standard <a class="el" href="classcpp__freertos_1_1_mutex.html">Mutex</a> to allow thread safety. </p>
 
+<p class="definition">Definition at line <a class="el" href="mem__pool_8hpp_source.html#l00236">236</a> of file <a class="el" href="mem__pool_8hpp_source.html">mem_pool.hpp</a>.</p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="mem__pool_8hpp_source.html">mem_pool.hpp</a></li>
-<li><a class="el" href="cmem__pool_8cpp.html">cmem_pool.cpp</a></li>
+<li><a class="el" href="cmem__pool_8cpp_source.html">cmem_pool.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

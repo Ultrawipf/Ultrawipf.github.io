@@ -126,6 +126,8 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Standard usage <a class="el" href="classcpp__freertos_1_1_mutex.html">Mutex</a>. By default calls to Lock these objects block forever, but this can be changed by simply passing in a argument to the <a class="el" href="classcpp__freertos_1_1_mutex_standard.html#a496a92f219f93f431a9249ba5d140a61">Lock()</a> method. These objects are not recursively acquirable. Calling <a class="el" href="classcpp__freertos_1_1_mutex_standard.html#a496a92f219f93f431a9249ba5d140a61">Lock()</a> twice from the same <a class="el" href="classcpp__freertos_1_1_thread.html">Thread</a> (i.e. task) will deadlock.</p>
 <dl class="section note"><dt>Note</dt><dd>Standard mutexes use less resources than recursive mutexes. You should typically use this type of <a class="el" href="classcpp__freertos_1_1_mutex.html">Mutex</a>, unless you have a strong need for a <a class="el" href="classcpp__freertos_1_1_mutex_recursive.html">MutexRecursive</a> mutex. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="mutex_8hpp_source.html#l00169">169</a> of file <a class="el" href="mutex_8hpp_source.html">mutex.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa42d0a64a53ce605d519f87d46fc6d9d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa42d0a64a53ce605d519f87d46fc6d9d">&#9670;&nbsp;</a></span>MutexStandard()</h2>
@@ -148,6 +150,8 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+<p class="definition">Definition at line <a class="el" href="cmutex_8cpp_source.html#l00057">57</a> of file <a class="el" href="cmutex_8cpp_source.html">cmutex.cpp</a>.</p>
 
 </div>
 </div>
@@ -186,6 +190,8 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classcpp__freertos_1_1_mutex.html#ad32b3657e5bab97b248273e80c0c3ae7">cpp_freertos::Mutex</a>.</p>
 
+<p class="definition">Definition at line <a class="el" href="cmutex_8cpp_source.html#l00071">71</a> of file <a class="el" href="cmutex_8cpp_source.html">cmutex.cpp</a>.</p>
+
 </div>
 </div>
 <a id="ac035aaf9134b1be0f03aa748b0e3b289"></a>
@@ -215,11 +221,13 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classcpp__freertos_1_1_mutex.html#a9acd81676fcd099254ecca161d51a4a3">cpp_freertos::Mutex</a>.</p>
 
+<p class="definition">Definition at line <a class="el" href="cmutex_8cpp_source.html#l00078">78</a> of file <a class="el" href="cmutex_8cpp_source.html">cmutex.cpp</a>.</p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="mutex_8hpp_source.html">mutex.hpp</a></li>
-<li><a class="el" href="cmutex_8cpp.html">cmutex.cpp</a></li>
+<li><a class="el" href="cmutex_8cpp_source.html">cmutex.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -113,6 +113,8 @@ Private Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class encapsulates the idea of a discrete, non-repeating task. Create a <a class="el" href="classcpp__freertos_1_1_work_item.html">WorkItem</a> when there is something you need to do on a different <a class="el" href="classcpp__freertos_1_1_thread.html">Thread</a>, but doesn't have to happen periodically. This is a great construct for one off fire and forget tasks.</p>
 <p>This is an abstract base class. To use this, you need to subclass it. All of your WorkItems should be derived from this class. Then implement the virtual Run function. This is a similar design to Java threading. </p>
+
+<p class="definition">Definition at line <a class="el" href="workqueue_8hpp_source.html#l00067">67</a> of file <a class="el" href="workqueue_8hpp_source.html">workqueue.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a89e7d76c18f85c738215e6fe44f39f0f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a89e7d76c18f85c738215e6fe44f39f0f">&#9670;&nbsp;</a></span>WorkItem()</h2>
@@ -137,6 +139,8 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>Only set freeAfterComplete = true if: 1) You dynamically allocated it (i.e. used "new") 2) After you call QueueWork() you promise never to touch this object again. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="cworkqueue_8cpp_source.html#l00046">46</a> of file <a class="el" href="cworkqueue_8cpp_source.html">cworkqueue.cpp</a>.</p>
 
 </div>
 </div>
@@ -164,6 +168,8 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Our destructor. </p>
 
+<p class="definition">Definition at line <a class="el" href="cworkqueue_8cpp_source.html#l00052">52</a> of file <a class="el" href="cworkqueue_8cpp_source.html">cworkqueue.cpp</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -182,6 +188,8 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Allows a client to decide if this <a class="el" href="classcpp__freertos_1_1_work_item.html">WorkItem</a> is marked for automatic deletion. </p>
+
+<p class="definition">Definition at line <a class="el" href="cworkqueue_8cpp_source.html#l00057">57</a> of file <a class="el" href="cworkqueue_8cpp_source.html">cworkqueue.cpp</a>.</p>
 
 </div>
 </div>
@@ -233,11 +241,13 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Designates whether this <a class="el" href="classcpp__freertos_1_1_work_item.html">WorkItem</a> should be deleted after the <a class="el" href="classcpp__freertos_1_1_work_queue.html">WorkQueue</a> has run it. </p>
 
+<p class="definition">Definition at line <a class="el" href="workqueue_8hpp_source.html#l00117">117</a> of file <a class="el" href="workqueue_8hpp_source.html">workqueue.hpp</a>.</p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="workqueue_8hpp_source.html">workqueue.hpp</a></li>
-<li><a class="el" href="cworkqueue_8cpp.html">cworkqueue.cpp</a></li>
+<li><a class="el" href="cworkqueue_8cpp_source.html">cworkqueue.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

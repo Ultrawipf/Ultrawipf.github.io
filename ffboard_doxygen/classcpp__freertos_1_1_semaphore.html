@@ -132,6 +132,8 @@ Protected Attributes</h2></td></tr>
 <div class="textblock"><p>Base wrapper class around FreeRTOS's implementation of semaphores.</p>
 <p>It is not expected that an application will derive from this class.</p>
 <p>Note that we distinguish between <a class="el" href="classcpp__freertos_1_1_semaphore.html">Semaphore</a>, Binary Semaphores, Counting Semaphores, and Mutexes. Mutexes, while implemented as a kind of semaphore in FreeRTOS, are conceptually very different in use and behavior from semaphores. We acknowledge this difference in the class heirarchy, implementing mutextes as a completely different class heirarchy. </p>
+
+<p class="definition">Definition at line <a class="el" href="semaphore_8hpp_source.html#l00119">119</a> of file <a class="el" href="semaphore_8hpp_source.html">semaphore.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a633658a6fde276bffc912028725c6ade"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a633658a6fde276bffc912028725c6ade">&#9670;&nbsp;</a></span>~Semaphore()</h2>
@@ -156,6 +158,8 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Our destructor </p>
+
+<p class="definition">Definition at line <a class="el" href="csemaphore_8cpp_source.html#l00091">91</a> of file <a class="el" href="csemaphore_8cpp_source.html">csemaphore.cpp</a>.</p>
 
 </div>
 </div>
@@ -183,6 +187,8 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>We do not want a <a class="el" href="classcpp__freertos_1_1_semaphore.html">Semaphore</a> ctor. This class should never be directly created, this is a base class only. </p>
 
+<p class="definition">Definition at line <a class="el" href="csemaphore_8cpp_source.html#l00086">86</a> of file <a class="el" href="csemaphore_8cpp_source.html">csemaphore.cpp</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -202,6 +208,8 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Release (give) a semaphore.</p>
 <dl class="section return"><dt>Returns</dt><dd>true if the <a class="el" href="classcpp__freertos_1_1_semaphore.html">Semaphore</a> was released, false if it failed. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="csemaphore_8cpp_source.html#l00066">66</a> of file <a class="el" href="csemaphore_8cpp_source.html">csemaphore.cpp</a>.</p>
 
 </div>
 </div>
@@ -228,6 +236,8 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the <a class="el" href="classcpp__freertos_1_1_semaphore.html">Semaphore</a> was released, false if it failed. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="csemaphore_8cpp_source.html#l00076">76</a> of file <a class="el" href="csemaphore_8cpp_source.html">csemaphore.cpp</a>.</p>
 
 </div>
 </div>
@@ -257,6 +267,8 @@ Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the <a class="el" href="classcpp__freertos_1_1_semaphore.html">Semaphore</a> was acquired, false if it timed out. </dd></dl>
 
+<p class="definition">Definition at line <a class="el" href="csemaphore_8cpp_source.html#l00046">46</a> of file <a class="el" href="csemaphore_8cpp_source.html">csemaphore.cpp</a>.</p>
+
 </div>
 </div>
 <a id="aa8f8ce6e3fa6704572c29f672d8d2db6"></a>
@@ -283,6 +295,8 @@ Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the <a class="el" href="classcpp__freertos_1_1_semaphore.html">Semaphore</a> was acquired, false if it timed out. </dd></dl>
 
+<p class="definition">Definition at line <a class="el" href="csemaphore_8cpp_source.html#l00056">56</a> of file <a class="el" href="csemaphore_8cpp_source.html">csemaphore.cpp</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -307,11 +321,13 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>FreeRTOS semaphore handle. </p>
 
+<p class="definition">Definition at line <a class="el" href="semaphore_8hpp_source.html#l00181">181</a> of file <a class="el" href="semaphore_8hpp_source.html">semaphore.hpp</a>.</p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="semaphore_8hpp_source.html">semaphore.hpp</a></li>
-<li><a class="el" href="csemaphore_8cpp.html">csemaphore.cpp</a></li>
+<li><a class="el" href="csemaphore_8cpp_source.html">csemaphore.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

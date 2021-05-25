@@ -129,6 +129,8 @@ Protected Attributes</h2></td></tr>
 <li>document this class </li>
 </ul>
 </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="event__groups_8hpp_source.html#l00108">108</a> of file <a class="el" href="event__groups_8hpp_source.html">event_groups.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a8d5e797dbd7a2f10435198ae964511aa"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8d5e797dbd7a2f10435198ae964511aa">&#9670;&nbsp;</a></span>EventGroup() <span class="overload">[1/2]</span></h2>
@@ -145,6 +147,8 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Construct a Event Group </p>
+
+<p class="definition">Definition at line <a class="el" href="cevent__groups_8cpp_source.html#l00042">42</a> of file <a class="el" href="cevent__groups_8cpp_source.html">cevent_groups.cpp</a>.</p>
 
 </div>
 </div>
@@ -164,6 +168,8 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Construct a Event Group with static allocation </p>
+
+<p class="definition">Definition at line <a class="el" href="cevent__groups_8cpp_source.html#l00059">59</a> of file <a class="el" href="cevent__groups_8cpp_source.html">cevent_groups.cpp</a>.</p>
 
 </div>
 </div>
@@ -190,6 +196,8 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Our destructor </p>
+
+<p class="definition">Definition at line <a class="el" href="cevent__groups_8cpp_source.html#l00075">75</a> of file <a class="el" href="cevent__groups_8cpp_source.html">cevent_groups.cpp</a>.</p>
 
 </div>
 </div>
@@ -218,6 +226,8 @@ Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The value of the event group before the specified bits were cleared. </dd></dl>
 
+<p class="definition">Definition at line <a class="el" href="cevent__groups_8cpp_source.html#l00108">108</a> of file <a class="el" href="cevent__groups_8cpp_source.html">cevent_groups.cpp</a>.</p>
+
 </div>
 </div>
 <a id="abf4b70273f295c118d0ee878c6ba6a93"></a>
@@ -244,6 +254,8 @@ Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The value of the event group before the specified bits were cleared. </dd></dl>
 
+<p class="definition">Definition at line <a class="el" href="cevent__groups_8cpp_source.html#l00114">114</a> of file <a class="el" href="cevent__groups_8cpp_source.html">cevent_groups.cpp</a>.</p>
+
 </div>
 </div>
 <a id="a077779e0d377357eac0369b38b60454a"></a>
@@ -263,6 +275,8 @@ Protected Attributes</h2></td></tr>
 <p>Returns the current value of the event bits (event flags) in an event group.</p>
 <dl class="section return"><dt>Returns</dt><dd>The value of the event bits in the event group at the time <a class="el" href="classcpp__freertos_1_1_event_group.html#a06cbcf19e4210c4f15058f42f3ee6387">EventGroup::GetBitsFromISR</a> was called. </dd></dl>
 
+<p class="definition">Definition at line <a class="el" href="cevent__groups_8cpp_source.html#l00120">120</a> of file <a class="el" href="cevent__groups_8cpp_source.html">cevent_groups.cpp</a>.</p>
+
 </div>
 </div>
 <a id="a06cbcf19e4210c4f15058f42f3ee6387"></a>
@@ -281,6 +295,8 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Returns the current value of the event bits (event flags) in an event group from ISR context.</p>
 <dl class="section return"><dt>Returns</dt><dd>The value of the event bits in the event group at the time <a class="el" href="classcpp__freertos_1_1_event_group.html#a06cbcf19e4210c4f15058f42f3ee6387">EventGroup::GetBitsFromISR</a> was called. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="cevent__groups_8cpp_source.html#l00126">126</a> of file <a class="el" href="cevent__groups_8cpp_source.html">cevent_groups.cpp</a>.</p>
 
 </div>
 </div>
@@ -307,6 +323,8 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The value of the event group at the time the call to <a class="el" href="classcpp__freertos_1_1_event_group.html#a72f524b57d52b1f311d750ab260cdd05">EventGroup::SetBits</a> returns </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="cevent__groups_8cpp_source.html#l00132">132</a> of file <a class="el" href="cevent__groups_8cpp_source.html">cevent_groups.cpp</a>.</p>
 
 </div>
 </div>
@@ -344,6 +362,8 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Calling this function will result in a message being sent to the RTOS daemon task. If the priority of the daemon task is higher than the priority of the currently running task (the task the interrupt interrupted) then *pxHigherPriorityTaskWoken will be set to true by EventGroupSetBitsFromISR, indicating that a context switch should be requested before the interrupt exits. For that reason *pxHigherPriorityTaskWoken must be initialised to false. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="cevent__groups_8cpp_source.html#l00140">140</a> of file <a class="el" href="cevent__groups_8cpp_source.html">cevent_groups.cpp</a>.</p>
 
 </div>
 </div>
@@ -388,6 +408,8 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>If <a class="el" href="classcpp__freertos_1_1_event_group.html#a3b7f5f1f4ce5af448f58c039e1bda551">EventGroup::Sync</a> returned because all the bits it was waiting for were set then the returned value is the event group value before any bits were automatically cleared. If <a class="el" href="classcpp__freertos_1_1_event_group.html#a3b7f5f1f4ce5af448f58c039e1bda551">EventGroup::Sync</a> returned because its timeout expired then not all the bits being waited for will be set. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="cevent__groups_8cpp_source.html#l00081">81</a> of file <a class="el" href="cevent__groups_8cpp_source.html">cevent_groups.cpp</a>.</p>
 
 </div>
 </div>
@@ -451,6 +473,8 @@ Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The value of the event group at the time either the event bits being waited for became set, or the block time expired. The current value of the event bits in an event group will be different to the returned value if a higher priority task or interrupt changed the value of an event bit between the calling task leaving the Blocked state and exiting the <a class="el" href="classcpp__freertos_1_1_event_group.html#ae646467645dddbec16d4a2a51ffff7a0">EventGroup::WaitBits</a> function. Test the return value to know which bits were set. If <a class="el" href="classcpp__freertos_1_1_event_group.html#ae646467645dddbec16d4a2a51ffff7a0">EventGroup::WaitBits</a> returned because its timeout expired then not all the bits being waited for will be set. If <a class="el" href="classcpp__freertos_1_1_event_group.html#ae646467645dddbec16d4a2a51ffff7a0">EventGroup::WaitBits</a> returned because the bits it was waiting for were set then the returned value is the event group value before any bits were automatically cleared because the xClearOnExit parameter was set to true. </dd></dl>
 
+<p class="definition">Definition at line <a class="el" href="cevent__groups_8cpp_source.html#l00094">94</a> of file <a class="el" href="cevent__groups_8cpp_source.html">cevent_groups.cpp</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -475,11 +499,13 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>FreeRTOS Event Group handle. </p>
 
+<p class="definition">Definition at line <a class="el" href="event__groups_8hpp_source.html#l00301">301</a> of file <a class="el" href="event__groups_8hpp_source.html">event_groups.hpp</a>.</p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="event__groups_8hpp_source.html">event_groups.hpp</a></li>
-<li><a class="el" href="cevent__groups_8cpp.html">cevent_groups.cpp</a></li>
+<li><a class="el" href="cevent__groups_8cpp_source.html">cevent_groups.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

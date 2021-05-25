@@ -132,6 +132,8 @@ Protected Attributes</h2></td></tr>
 <div class="textblock"><p>Abstract base class encapsulating a Reader/Writer lock.</p>
 <p>These locks are based on mutexs and cannot be used in any way from ISR context. Likewise, these locks block indefinitely.</p>
 <dl class="section note"><dt>Note</dt><dd>It is expected that an application will instantiate one of the derived classes and use that object for synchronization. It is not expected that a user or application will derive from these classes. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="read__write__lock_8hpp_source.html#l00110">110</a> of file <a class="el" href="read__write__lock_8hpp_source.html">read_write_lock.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a6717282a541aca49a6c1df7968fef3de"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6717282a541aca49a6c1df7968fef3de">&#9670;&nbsp;</a></span>ReadWriteLock()</h2>
@@ -154,6 +156,8 @@ Protected Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+<p class="definition">Definition at line <a class="el" href="cread__write__lock_8cpp_source.html#l00046">46</a> of file <a class="el" href="cread__write__lock_8cpp_source.html">cread_write_lock.cpp</a>.</p>
 
 </div>
 </div>
@@ -180,6 +184,8 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Destructor </p>
+
+<p class="definition">Definition at line <a class="el" href="cread__write__lock_8cpp_source.html#l00082">82</a> of file <a class="el" href="cread__write__lock_8cpp_source.html">cread_write_lock.cpp</a>.</p>
 
 </div>
 </div>
@@ -318,6 +324,8 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>How many active readers are there. </p>
 
+<p class="definition">Definition at line <a class="el" href="read__write__lock_8hpp_source.html#l00162">162</a> of file <a class="el" href="read__write__lock_8hpp_source.html">read_write_lock.hpp</a>.</p>
+
 </div>
 </div>
 <a id="a7046a504a0a711b560b2b29d77200f90"></a>
@@ -340,6 +348,8 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Protect ReadCount. </p>
+
+<p class="definition">Definition at line <a class="el" href="read__write__lock_8hpp_source.html#l00167">167</a> of file <a class="el" href="read__write__lock_8hpp_source.html">read_write_lock.hpp</a>.</p>
 
 </div>
 </div>
@@ -364,11 +374,13 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Protect this resource from multiple writer access, or from Reader access when a writer is changing something. </p>
 
+<p class="definition">Definition at line <a class="el" href="read__write__lock_8hpp_source.html#l00173">173</a> of file <a class="el" href="read__write__lock_8hpp_source.html">read_write_lock.hpp</a>.</p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="read__write__lock_8hpp_source.html">read_write_lock.hpp</a></li>
-<li><a class="el" href="cread__write__lock_8cpp.html">cread_write_lock.cpp</a></li>
+<li><a class="el" href="cread__write__lock_8cpp_source.html">cread_write_lock.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

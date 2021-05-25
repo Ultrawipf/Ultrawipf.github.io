@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['edpt_5fctrl_5fin_7157',['EDPT_CTRL_IN',['../usbd__control_8c.html#a6b7b47dd702d9e331586d485013fd1eaa8a1851cf1510242b761b5c12931b22e8',1,'usbd_control.c']]],
-  ['edpt_5fctrl_5fout_7158',['EDPT_CTRL_OUT',['../usbd__control_8c.html#a6b7b47dd702d9e331586d485013fd1eaad2c9d77df4e773f1efab6703daff69b1',1,'usbd_control.c']]],
+  ['edpt_5fctrl_5fin_7157',['EDPT_CTRL_IN',['../usbd__control_8c.html#ae4d5251432e1a9e6803c0240cc492e18a8a1851cf1510242b761b5c12931b22e8',1,'usbd_control.c']]],
+  ['edpt_5fctrl_5fout_7158',['EDPT_CTRL_OUT',['../usbd__control_8c.html#ae4d5251432e1a9e6803c0240cc492e18ad2c9d77df4e773f1efab6703daff69b1',1,'usbd_control.c']]],
   ['emergencystop_7159',['emergencyStop',['../_error_handler_8h.html#a6f3b1ba4fbf4167d3a58b0b331ddcfefaf295dcb7afd6ae61d4d7e5f99d9bf71a',1,'ErrorHandler.h']]],
   ['enc_5fbang_7160',['Enc_bang',['../_t_m_c4671_8h.html#a08a7449bf7a92827d2af8ebebb8f218ea5d7785ab7289f008bd23c0ccf335eb22',1,'TMC4671.h']]],
   ['encminimove_7161',['encminimove',['../_t_m_c4671_8h.html#a1b04aa8e350271255d351486d3720741a7835a9484bd667036c7f1794b51a7414',1,'TMC4671.h']]],

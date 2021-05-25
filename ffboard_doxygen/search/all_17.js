@@ -7,7 +7,7 @@ var searchData=
   ['x_5fval_3765',['x_val',['../class_shifter_analog.html#a09720ce759c3567d6f8fb3b4859d3baa',1,'ShifterAnalog']]],
   ['xfer_3766',['xfer',['../struct_t_u___a_t_t_r___p_a_c_k_e_d_1_1_t_u___a_t_t_r___p_a_c_k_e_d.html#af1e3f0c127f6454024f1024ccc88da0c',1,'TU_ATTR_PACKED::TU_ATTR_PACKED']]],
   ['xfer_5fcb_3767',['xfer_cb',['../structusbh__class__driver__t.html#a142a71954a11d7d34fa3ef4dedcb1def',1,'usbh_class_driver_t']]],
-  ['xfer_5fcomplete_3768',['xfer_complete',['../structhcd__event__t.html#adb34bebdcf85b9a7af3c3a8ce4c22849',1,'hcd_event_t']]],
+  ['xfer_5fcomplete_3768',['xfer_complete',['../structhcd__event__t.html#a841bfb7dd9f9182960fa58f8a890530e',1,'hcd_event_t']]],
   ['xfer_5fctl_5fptr_3769',['xfer_ctl_ptr',['../dcd__stm32__fsdev_8c.html#ae5723be251929d390d797bbf5fe14bda',1,'dcd_stm32_fsdev.c']]],
   ['xfer_5fctl_5ft_3770',['xfer_ctl_t',['../structxfer__ctl__t.html',1,'xfer_ctl_t'],['../dcd__synopsys_8c.html#a5e0b1319e252f52cc6998b472378c97f',1,'xfer_ctl_t():&#160;dcd_synopsys.c']]],
   ['xfer_5fresult_5ffailed_3771',['XFER_RESULT_FAILED',['../group___u_s_b_def___type.html#gga6a3b3a4d6801fd9b02feb0510c84e5f9a25a26f92e6369131560cb95863c145a7',1,'tusb_types.h']]],

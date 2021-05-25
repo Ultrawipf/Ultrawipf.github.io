@@ -126,6 +126,8 @@ Friends</h2></td></tr>
 <div class="textblock"><p>Class implementation of condition variable based on FreeRTOS C++ Wrapper classes.</p>
 <p>A condition variable isn't really a variable. It's a list of threads.</p>
 <p>The design here is that a <a class="el" href="classcpp__freertos_1_1_thread.html">Thread</a> "waits", and a <a class="el" href="classcpp__freertos_1_1_condition_variable.html">ConditionVariable</a> "signals". This affects where the public interfaces reside. </p>
+
+<p class="definition">Definition at line <a class="el" href="condition__variable_8hpp_source.html#l00074">74</a> of file <a class="el" href="condition__variable_8hpp_source.html">condition_variable.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a37d388bea146c06f2e1341a542096333"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a37d388bea146c06f2e1341a542096333">&#9670;&nbsp;</a></span>ConditionVariable()</h2>
@@ -142,6 +144,8 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Constructor to create a condition variable. </p>
+
+<p class="definition">Definition at line <a class="el" href="ccondition__variable_8cpp_source.html#l00052">52</a> of file <a class="el" href="ccondition__variable_8cpp_source.html">ccondition_variable.cpp</a>.</p>
 
 </div>
 </div>
@@ -171,6 +175,8 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 <p>Internal helper function to queue a <a class="el" href="classcpp__freertos_1_1_thread.html">Thread</a> to this <a class="el" href="classcpp__freertos_1_1_condition_variable.html">ConditionVariable</a>'s wait list. </p>
 
+<p class="definition">Definition at line <a class="el" href="ccondition__variable_8cpp_source.html#l00058">58</a> of file <a class="el" href="ccondition__variable_8cpp_source.html">ccondition_variable.cpp</a>.</p>
+
 </div>
 </div>
 <a id="a1a761e4196ddcfa8ecb32dc598090091"></a>
@@ -189,6 +195,8 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 <p>Signal all threads waiting on this <a class="el" href="classcpp__freertos_1_1_condition_variable.html">ConditionVariable</a>. </p>
 
+<p class="definition">Definition at line <a class="el" href="ccondition__variable_8cpp_source.html#l00098">98</a> of file <a class="el" href="ccondition__variable_8cpp_source.html">ccondition_variable.cpp</a>.</p>
+
 </div>
 </div>
 <a id="a0138363e79628a7d0c0af8ae39e36bb3"></a>
@@ -206,6 +214,8 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Signal a thread waiting on this <a class="el" href="classcpp__freertos_1_1_condition_variable.html">ConditionVariable</a>. Signaling is implemented as FIFO. </p>
+
+<p class="definition">Definition at line <a class="el" href="ccondition__variable_8cpp_source.html#l00077">77</a> of file <a class="el" href="ccondition__variable_8cpp_source.html">ccondition_variable.cpp</a>.</p>
 
 </div>
 </div>
@@ -231,6 +241,8 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 <p>The <a class="el" href="classcpp__freertos_1_1_thread.html">Thread</a> class and the <a class="el" href="classcpp__freertos_1_1_condition_variable.html">ConditionVariable</a> class are interdependent. If we allow the <a class="el" href="classcpp__freertos_1_1_thread.html">Thread</a> class to access the internals of the <a class="el" href="classcpp__freertos_1_1_condition_variable.html">ConditionVariable</a>, we can reduce the public interface which is a good thing. </p>
 
+<p class="definition">Definition at line <a class="el" href="condition__variable_8hpp_source.html#l00130">130</a> of file <a class="el" href="condition__variable_8hpp_source.html">condition_variable.hpp</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -255,6 +267,8 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 <p>Protect the internal <a class="el" href="classcpp__freertos_1_1_condition_variable.html">ConditionVariable</a> state. </p>
 
+<p class="definition">Definition at line <a class="el" href="condition__variable_8hpp_source.html#l00111">111</a> of file <a class="el" href="condition__variable_8hpp_source.html">condition_variable.hpp</a>.</p>
+
 </div>
 </div>
 <a id="a6f1f045948cbf5a9c807a142666bcc95"></a>
@@ -278,11 +292,13 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 <p>Implementation of a wait list of Threads. </p>
 
+<p class="definition">Definition at line <a class="el" href="condition__variable_8hpp_source.html#l00116">116</a> of file <a class="el" href="condition__variable_8hpp_source.html">condition_variable.hpp</a>.</p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="condition__variable_8hpp_source.html">condition_variable.hpp</a></li>
-<li><a class="el" href="ccondition__variable_8cpp.html">ccondition_variable.cpp</a></li>
+<li><a class="el" href="ccondition__variable_8cpp_source.html">ccondition_variable.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
