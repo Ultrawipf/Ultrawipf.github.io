@@ -16,5 +16,6 @@ var class_t_m_c_debug_bridge =
     [ "csport", "class_t_m_c_debug_bridge.html#af51e4f7148d7d3e587ddae5a82d8cab1", null ],
     [ "drv", "class_t_m_c_debug_bridge.html#acc5768c34d861cf954391e3684e34aa1", null ],
     [ "info", "class_t_m_c_debug_bridge.html#af2b7b337ddac633d91da07c1c29d8b44", null ],
-    [ "spi", "class_t_m_c_debug_bridge.html#a49e06822390cc11f2c55cc25e0adef73", null ]
+    [ "spi", "class_t_m_c_debug_bridge.html#a49e06822390cc11f2c55cc25e0adef73", null ],
+    [ "tmcpids", "class_t_m_c_debug_bridge.html#a218f11af80c8eaa34e6857cbad1b35a2", null ]
 ];

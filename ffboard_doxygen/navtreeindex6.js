@@ -1,5 +1,16 @@
 var NAVTREEINDEX6 =
 {
+"class_usb_hid_handler.html#a05a390b45bacd9fb9a3882a44c3d7005":[3,0,120,3],
+"class_usb_hid_handler.html#a138d05a49b2a61e4a72fc912dd4b8022":[3,0,120,0],
+"class_usb_hid_handler.html#a16f8b48a5d16c4089bdc2ce725549fd8":[3,0,120,6],
+"class_usb_hid_handler.html#a9734a0e103bb2c934de8cab9bef202ea":[3,0,120,7],
+"class_usb_hid_handler.html#a981a9cf241853cdb3529cacc9bb724ee":[3,0,120,4],
+"class_usb_hid_handler.html#ab1cf0dc68e3c491d0cd73458d74dcbd3":[3,0,120,1],
+"class_usb_hid_handler.html#abdde7385ad6bf0a906dbeeba9d4b3ba9":[3,0,120,8],
+"class_usb_hid_handler.html#acac96b09cc73832aebf6283cb3999a50":[3,0,120,2],
+"class_usb_hid_handler.html#af644b224875908eb4b8efb77a7e47864":[3,0,120,5],
+"classcpp__freertos_1_1_binary_queue.html":[3,0,0,15],
+"classcpp__freertos_1_1_binary_queue.html#a31dd0fdb9cd32779cca8e25c18768256":[3,0,0,15,1],
 "classcpp__freertos_1_1_binary_queue.html#a3cbe4921a69a33f335e56d5891225e4c":[3,0,0,15,0],
 "classcpp__freertos_1_1_binary_queue.html#a4e6009dbf51321dd28fd5e9de521df52":[3,0,0,15,2],
 "classcpp__freertos_1_1_binary_semaphore.html":[3,0,0,22],
@@ -238,16 +249,5 @@ var NAVTREEINDEX6 =
 "classcpp__freertos_1_1_timer.html#abe2ba000ef220abfb0ad36e9d61094f2":[3,0,0,30,6],
 "classcpp__freertos_1_1_timer.html#abfb9dfc3970efe4c1d5e344df787ad80":[3,0,0,30,7],
 "classcpp__freertos_1_1_timer.html#ae512d19700e4197dfb6b6e7c59fa6143":[3,0,0,30,11],
-"classcpp__freertos_1_1_timer.html#af6d4167af4fd308d78e56ca6d713b8c4":[3,0,0,30,3],
-"classcpp__freertos_1_1_timer_create_exception.html":[3,0,0,29],
-"classcpp__freertos_1_1_timer_create_exception.html#a11a735565f6fa85b5e3e5de75e53b07c":[3,0,0,29,0],
-"classcpp__freertos_1_1_timer_create_exception.html#a36aa8d90c53b84b4f91b8418f354a206":[3,0,0,29,1],
-"classcpp__freertos_1_1_timer_create_exception.html#ab5e677d4eb9f02f1b6dfae7bcba57de2":[3,0,0,29,2],
-"classcpp__freertos_1_1_work_item.html":[3,0,0,31],
-"classcpp__freertos_1_1_work_item.html#a89e7d76c18f85c738215e6fe44f39f0f":[3,0,0,31,0],
-"classcpp__freertos_1_1_work_item.html#a9671b0cf7d043ae9052c59acb5e8d397":[3,0,0,31,3],
-"classcpp__freertos_1_1_work_item.html#aa9f7978be78e1a12cf3e20a7196d2066":[3,0,0,31,1],
-"classcpp__freertos_1_1_work_item.html#ab38768c98eba55fb35fab948a0856103":[3,0,0,31,2],
-"classcpp__freertos_1_1_work_item.html#ab4ca0c643dfd6ab00a3cd37333e807e9":[3,0,0,31,4],
-"classcpp__freertos_1_1_work_queue.html":[3,0,0,32]
+"classcpp__freertos_1_1_timer.html#af6d4167af4fd308d78e56ca6d713b8c4":[3,0,0,30,3]
 };

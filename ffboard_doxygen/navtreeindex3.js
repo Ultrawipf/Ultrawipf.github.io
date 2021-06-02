@@ -1,6 +1,5 @@
 var NAVTREEINDEX3 =
 {
-"class_encoder_local.html#a21db1a0ac9fdd28317814747a79e39f5":[3,0,31,8],
 "class_encoder_local.html#a273b5b8b1919140824f0c303e84287d1":[3,0,31,1],
 "class_encoder_local.html#a42d756320fcb3ff9c5f6c85977d80b1a":[3,0,31,16],
 "class_encoder_local.html#a4e0c0be256435e1d4766247486c0f1b2":[3,0,31,14],
@@ -249,5 +248,6 @@ var NAVTREEINDEX3 =
 "class_motor_driver.html":[3,0,57],
 "class_motor_driver.html#a05c9fc372e3b52d0b317e3be83c0400c":[3,0,57,7],
 "class_motor_driver.html#a07baeeb52b30dd507b9ba903d7876835":[3,0,57,10],
-"class_motor_driver.html#a0df66c7274364da4eb4391bc497ff354":[3,0,57,1]
+"class_motor_driver.html#a0df66c7274364da4eb4391bc497ff354":[3,0,57,1],
+"class_motor_driver.html#a3852b1dea06787db1a5302943284c5a4":[3,0,57,4]
 };

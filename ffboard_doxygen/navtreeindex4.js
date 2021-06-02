@@ -1,6 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"class_motor_driver.html#a3852b1dea06787db1a5302943284c5a4":[3,0,57,4],
 "class_motor_driver.html#a3acb195cff8b383d6d30ce4b97b70b29":[3,0,57,6],
 "class_motor_driver.html#a52801ff0d1d12eb8a74cbf09159a3001":[3,0,57,0],
 "class_motor_driver.html#aa286a9611cf33a4a140010d99be1d58d":[3,0,57,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX4 =
 "class_singleton.html#a0ab1f8eeb75db0decbf7a1426efa2118":[3,0,81,6],
 "class_singleton.html#a23b2407170cc04f6746874704b928044":[3,0,81,2],
 "class_singleton.html#a3a924c986029211d675f0707816fa25e":[3,0,81,4],
-"class_singleton.html#a923b995920da9c06590adb170ab2f890":[3,0,81,0]
+"class_singleton.html#a923b995920da9c06590adb170ab2f890":[3,0,81,0],
+"class_singleton.html#a95170232f32d9e779eb5c6e45e4702d9":[3,0,81,5]
 };

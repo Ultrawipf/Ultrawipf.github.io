@@ -123,6 +123,7 @@ var annotated_dup =
     [ "SPIDevice", "class_s_p_i_device.html", "class_s_p_i_device" ],
     [ "SpiHandler", "class_spi_handler.html", "class_spi_handler" ],
     [ "SPIPort", "class_s_p_i_port.html", "class_s_p_i_port" ],
+    [ "StatusFlags", "union_status_flags.html", "union_status_flags" ],
     [ "TimerHandler", "class_timer_handler.html", "class_timer_handler" ],
     [ "TMC4671", "class_t_m_c4671.html", "class_t_m_c4671" ],
     [ "TMC4671ABNConf", "struct_t_m_c4671_a_b_n_conf.html", "struct_t_m_c4671_a_b_n_conf" ],

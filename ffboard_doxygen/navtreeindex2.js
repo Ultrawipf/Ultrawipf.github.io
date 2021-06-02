@@ -1,6 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"class_adc_handler.html#aeb222fef89b27262339b4a4fdeb4775b":[3,0,2,2],
 "class_analog_source.html":[3,0,3],
 "class_analog_source.html#a02384f29891cb3330cfe4fed4890985d":[3,0,3,0],
 "class_analog_source.html#a1178f347f32e5e87b21d8113e1e87645":[3,0,3,5],
@@ -249,5 +248,6 @@ var NAVTREEINDEX2 =
 "class_encoder_local.html#a1085ee849d6178c15f5ede76b66e7031":[3,0,31,3],
 "class_encoder_local.html#a1481fae056308cf15e94add0860eedbe":[3,0,31,6],
 "class_encoder_local.html#a16bfa00e3e2d41a1975f906d66d25a5c":[3,0,31,2],
-"class_encoder_local.html#a1e09ff4d0e99fa4741f871b020f3eee5":[3,0,31,15]
+"class_encoder_local.html#a1e09ff4d0e99fa4741f871b020f3eee5":[3,0,31,15],
+"class_encoder_local.html#a21db1a0ac9fdd28317814747a79e39f5":[3,0,31,8]
 };

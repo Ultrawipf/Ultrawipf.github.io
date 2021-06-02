@@ -1,6 +1,8 @@
 var _t_m_c4671_8h =
 [
     [ "TMC4671MotConf", "struct_t_m_c4671_mot_conf.html", "struct_t_m_c4671_mot_conf" ],
+    [ "StatusFlags", "union_status_flags.html", "union_status_flags" ],
+    [ "StatusFlags_s", "struct_status_flags_1_1_status_flags__s.html", "struct_status_flags_1_1_status_flags__s" ],
     [ "TMC4671MainConfig", "struct_t_m_c4671_main_config.html", "struct_t_m_c4671_main_config" ],
     [ "TMC4671PIDConf", "struct_t_m_c4671_p_i_d_conf.html", "struct_t_m_c4671_p_i_d_conf" ],
     [ "TMC4671Limits", "struct_t_m_c4671_limits.html", "struct_t_m_c4671_limits" ],

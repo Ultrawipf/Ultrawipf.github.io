@@ -13,6 +13,7 @@ var _error_handler_8h =
       [ "undervoltage", "_error_handler_8h.html#a6f3b1ba4fbf4167d3a58b0b331ddcfefa6b92208edd7c44027fb570c008b638b9", null ],
       [ "overvoltage", "_error_handler_8h.html#a6f3b1ba4fbf4167d3a58b0b331ddcfefa97586d839fb4db72de3f0f6c3e20464e", null ],
       [ "tmcCommunicationError", "_error_handler_8h.html#a6f3b1ba4fbf4167d3a58b0b331ddcfefafa2876d74ef419a6d459d972e13fdd7d", null ],
+      [ "tmcPLLunlocked", "_error_handler_8h.html#a6f3b1ba4fbf4167d3a58b0b331ddcfefa9f68e8453c10f4d1adfd0059fb556fd6", null ],
       [ "overtemp", "_error_handler_8h.html#a6f3b1ba4fbf4167d3a58b0b331ddcfefa5f70813d126d15d6e3d68ec7ee5f547c", null ],
       [ "encoderAlignmentFailed", "_error_handler_8h.html#a6f3b1ba4fbf4167d3a58b0b331ddcfefada8d080f9ba3ccb69fc4ce6dbbe85c21", null ],
       [ "adcCalibrationError", "_error_handler_8h.html#a6f3b1ba4fbf4167d3a58b0b331ddcfefac578babf71b6394c7a21b677f9440647", null ],

@@ -92,7 +92,8 @@ var hierarchy =
     ] ],
     [ "ExtiHandler", "class_exti_handler.html", [
       [ "EncoderLocal", "class_encoder_local.html", null ],
-      [ "FFBWheel", "class_f_f_b_wheel.html", null ]
+      [ "FFBWheel", "class_f_f_b_wheel.html", null ],
+      [ "TMC4671", "class_t_m_c4671.html", null ]
     ] ],
     [ "FFB_Effect", "struct_f_f_b___effect.html", null ],
     [ "hcd_event_t", "structhcd__event__t.html", null ],
@@ -171,6 +172,8 @@ var hierarchy =
     [ "SpiHandler", "class_spi_handler.html", [
       [ "SPIPort", "class_s_p_i_port.html", null ]
     ] ],
+    [ "StatusFlags", "union_status_flags.html", null ],
+    [ "StatusFlags::StatusFlags_s", "struct_status_flags_1_1_status_flags__s.html", null ],
     [ "cpp_freertos::Tasklet", "classcpp__freertos_1_1_tasklet.html", null ],
     [ "cpp_freertos::Thread", "classcpp__freertos_1_1_thread.html", [
       [ "ErrorPrinter", "class_error_printer.html", null ],

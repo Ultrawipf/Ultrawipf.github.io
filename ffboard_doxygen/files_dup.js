@@ -47,7 +47,6 @@ var files_dup =
     [ "cdc_rndis_host.c", "cdc__rndis__host_8c.html", "cdc__rndis__host_8c" ],
     [ "cdc_rndis_host.h", "cdc__rndis__host_8h.html", "cdc__rndis__host_8h" ],
     [ "cevent_groups.cpp", "cevent__groups_8cpp.html", null ],
-    [ "ChoosableClass.cpp", "_choosable_class_8cpp.html", null ],
     [ "ChoosableClass.h", "_choosable_class_8h.html", [
       [ "ClassIdentifier", "struct_class_identifier.html", "struct_class_identifier" ],
       [ "ChoosableClass", "class_choosable_class.html", "class_choosable_class" ]
