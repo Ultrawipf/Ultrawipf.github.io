@@ -4,7 +4,7 @@ var class_effects_calculator =
     [ "~EffectsCalculator", "class_effects_calculator.html#abfcb256492a5378e74a981ca0ed09ba9", null ],
     [ "applyEnvelope", "class_effects_calculator.html#a656bed62da2c426913793112463e744e", null ],
     [ "calcComponentForce", "class_effects_calculator.html#ad7e935f8c27c72f5c2f5c0109c5f9758", null ],
-    [ "calcConditionEffectForce", "class_effects_calculator.html#aa2d7b2ce75a7c000acb1863ce94426a9", null ],
+    [ "calcConditionEffectForce", "class_effects_calculator.html#a1618f359981b47f1a5c867273e3a9669", null ],
     [ "calcNonConditionEffectForce", "class_effects_calculator.html#ae3c920d9205332a3d30fac9e325c1809", null ],
     [ "calculateEffects", "class_effects_calculator.html#a914471232309c31183417b1f78895ecd", null ],
     [ "command", "class_effects_calculator.html#aa6ecc385bd772fc972689b47589ecdfe", null ],

@@ -39,6 +39,7 @@ var class_t_m_c4671 =
     [ "getTargetPos", "class_t_m_c4671.html#a06ae5833379616b674ce9c6649d0b26f", null ],
     [ "getTargetVelocity", "class_t_m_c4671.html#a6310c811c0580b908f9d6fc7906f87ea", null ],
     [ "getTemp", "class_t_m_c4671.html#ab6d35ae751a30d11bede253ad587f0d9", null ],
+    [ "getTmcType", "class_t_m_c4671.html#a56451ab3143ccf482b459769d059e572", null ],
     [ "getTorque", "class_t_m_c4671.html#a9193081bd0d6d7dc49a9999de21a082b", null ],
     [ "getType", "class_t_m_c4671.html#a411c96d431c7f0a93ab4212778e10a1e", null ],
     [ "getVelocity", "class_t_m_c4671.html#af0c0db83886faf7c02081f24de5e7bac", null ],

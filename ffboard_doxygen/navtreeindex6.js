@@ -1,5 +1,7 @@
 var NAVTREEINDEX6 =
 {
+"class_uart_handler.html#aef648554b29b7e6997a1cda8fc8cef51":[3,0,111,0],
+"class_usb_hid_handler.html":[3,0,120],
 "class_usb_hid_handler.html#a05a390b45bacd9fb9a3882a44c3d7005":[3,0,120,3],
 "class_usb_hid_handler.html#a138d05a49b2a61e4a72fc912dd4b8022":[3,0,120,0],
 "class_usb_hid_handler.html#a16f8b48a5d16c4089bdc2ce725549fd8":[3,0,120,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX6 =
 "classcpp__freertos_1_1_timer.html#aa86f6d14b67157711e6e3001a8d79e65":[3,0,0,30,8],
 "classcpp__freertos_1_1_timer.html#ab9df38de944064725d42f9e8572bcf6a":[3,0,0,30,0],
 "classcpp__freertos_1_1_timer.html#abe2ba000ef220abfb0ad36e9d61094f2":[3,0,0,30,6],
-"classcpp__freertos_1_1_timer.html#abfb9dfc3970efe4c1d5e344df787ad80":[3,0,0,30,7],
-"classcpp__freertos_1_1_timer.html#ae512d19700e4197dfb6b6e7c59fa6143":[3,0,0,30,11],
-"classcpp__freertos_1_1_timer.html#af6d4167af4fd308d78e56ca6d713b8c4":[3,0,0,30,3]
+"classcpp__freertos_1_1_timer.html#abfb9dfc3970efe4c1d5e344df787ad80":[3,0,0,30,7]
 };

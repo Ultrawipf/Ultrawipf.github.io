@@ -327,8 +327,8 @@ var group___class_driver___m_s_c___common =
     [ "scsi_start_stop_unit_t", "group___class_driver___m_s_c___common.html#ga80fe4f493de3c359529e102e3adb0552", null ],
     [ "scsi_test_unit_ready_t", "group___class_driver___m_s_c___common.html#gacd41801e10c1ffe1f19d6779b01c91ea", null ],
     [ "scsi_write10_t", "group___class_driver___m_s_c___common.html#ga87709f2def5d51890e7f62bcc69943fa", [
-      [ "MSC_CBW_SIGNATURE", "group___class_driver___m_s_c___common.html#gga61dadd085c1777f559549e05962b2c9ea1d7a1491e63c8fa476a37677bd4defa9", null ],
-      [ "MSC_CSW_SIGNATURE", "group___class_driver___m_s_c___common.html#gga61dadd085c1777f559549e05962b2c9ea6a3e02fda8ecf085a11ec330d9a09d1a", null ]
+      [ "MSC_CBW_SIGNATURE", "group___class_driver___m_s_c___common.html#gga726ca809ffd3d67ab4b8476646f26635a1d7a1491e63c8fa476a37677bd4defa9", null ],
+      [ "MSC_CSW_SIGNATURE", "group___class_driver___m_s_c___common.html#gga726ca809ffd3d67ab4b8476646f26635a6a3e02fda8ecf085a11ec330d9a09d1a", null ]
     ] ],
     [ "msc_csw_status_t", "group___class_driver___m_s_c___common.html#gab78ea3586ce0c7a8bb2680d7fbcca3ae", [
       [ "MSC_CSW_STATUS_PASSED", "group___class_driver___m_s_c___common.html#ggab78ea3586ce0c7a8bb2680d7fbcca3aeafeaad74e991e7bbc602c60cfb2fef201", null ],

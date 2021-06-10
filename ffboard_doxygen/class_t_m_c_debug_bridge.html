@@ -202,6 +202,8 @@ Static Private Member Functions</h2></td></tr>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a218f11af80c8eaa34e6857cbad1b35a2"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_t_m_c4671_p_i_d_conf.html">TMC4671PIDConf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_t_m_c_debug_bridge.html#a218f11af80c8eaa34e6857cbad1b35a2">tmcpids</a></td></tr>
 <tr class="separator:a218f11af80c8eaa34e6857cbad1b35a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9aefba75fffaf471a074bc979386aea8"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_t_m_c4671_limits.html">TMC4671Limits</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_t_m_c_debug_bridge.html#a9aefba75fffaf471a074bc979386aea8">tmclimits</a></td></tr>
+<tr class="separator:a9aefba75fffaf471a074bc979386aea8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc5768c34d861cf954391e3684e34aa1"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_t_m_c4671.html">TMC4671</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_t_m_c_debug_bridge.html#acc5768c34d861cf954391e3684e34aa1">drv</a></td></tr>
 <tr class="separator:acc5768c34d861cf954391e3684e34aa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49e06822390cc11f2c55cc25e0adef73"><td class="memItemLeft" align="right" valign="top">SPI_HandleTypeDef *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_t_m_c_debug_bridge.html#a49e06822390cc11f2c55cc25e0adef73">spi</a> = &amp;<a class="el" href="_t_m_c_debug_bridge_8h.html#a49b76b3df998b61ed9347ac903b9ecf8">HSPIDRV</a></td></tr>
@@ -281,7 +283,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_t_m_c_debug_bridge_8cpp_source.html#l00210">210</a> of file <a class="el" href="_t_m_c_debug_bridge_8cpp_source.html">TMCDebugBridge.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_t_m_c_debug_bridge_8cpp_source.html#l00211">211</a> of file <a class="el" href="_t_m_c_debug_bridge_8cpp_source.html">TMCDebugBridge.cpp</a>.</p>
 
 </div>
 </div>
@@ -672,7 +674,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_t_m_c_debug_bridge_8h_source.html#l00053">53</a> of file <a class="el" href="_t_m_c_debug_bridge_8h_source.html">TMCDebugBridge.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_t_m_c_debug_bridge_8h_source.html#l00063">63</a> of file <a class="el" href="_t_m_c_debug_bridge_8h_source.html">TMCDebugBridge.h</a>.</p>
 
 </div>
 </div>
@@ -696,7 +698,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_t_m_c_debug_bridge_8h_source.html#l00054">54</a> of file <a class="el" href="_t_m_c_debug_bridge_8h_source.html">TMCDebugBridge.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_t_m_c_debug_bridge_8h_source.html#l00064">64</a> of file <a class="el" href="_t_m_c_debug_bridge_8h_source.html">TMCDebugBridge.h</a>.</p>
 
 </div>
 </div>
@@ -720,7 +722,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_t_m_c_debug_bridge_8h_source.html#l00049">49</a> of file <a class="el" href="_t_m_c_debug_bridge_8h_source.html">TMCDebugBridge.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_t_m_c_debug_bridge_8h_source.html#l00059">59</a> of file <a class="el" href="_t_m_c_debug_bridge_8h_source.html">TMCDebugBridge.h</a>.</p>
 
 </div>
 </div>
@@ -774,7 +776,41 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_t_m_c_debug_bridge_8h_source.html#l00052">52</a> of file <a class="el" href="_t_m_c_debug_bridge_8h_source.html">TMCDebugBridge.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_t_m_c_debug_bridge_8h_source.html#l00062">62</a> of file <a class="el" href="_t_m_c_debug_bridge_8h_source.html">TMCDebugBridge.h</a>.</p>
+
+</div>
+</div>
+<a id="a9aefba75fffaf471a074bc979386aea8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9aefba75fffaf471a074bc979386aea8">&#9670;&nbsp;</a></span>tmclimits</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="struct_t_m_c4671_limits.html">TMC4671Limits</a> TMCDebugBridge::tmclimits</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= <a class="code" href="struct_t_m_c4671_limits.html">TMC4671Limits</a>({</div>
+<div class="line">        .pid_torque_flux_ddt    = 32767,</div>
+<div class="line">        .pid_uq_ud              = 30000,</div>
+<div class="line">        .pid_torque_flux        = 32767,</div>
+<div class="line">        .pid_acc_lim            = 50, </div>
+<div class="line">        .pid_vel_lim            = 2147483647,</div>
+<div class="line">        .pid_pos_low                = -2147483647,</div>
+<div class="line">        .pid_pos_high           = 2147483647</div>
+<div class="line">    })</div>
+<div class="ttc" id="astruct_t_m_c4671_limits_html"><div class="ttname"><a href="struct_t_m_c4671_limits.html">TMC4671Limits</a></div><div class="ttdef"><b>Definition:</b> <a href="_t_m_c4671_8h_source.html#l00134">TMC4671.h:134</a></div></div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="_t_m_c_debug_bridge_8h_source.html#l00049">49</a> of file <a class="el" href="_t_m_c_debug_bridge_8h_source.html">TMCDebugBridge.h</a>.</p>
 
 </div>
 </div>
@@ -801,10 +837,10 @@ Additional Inherited Members</h2></td></tr>
 <div class="line">                                                 .fluxP = 400,</div>
 <div class="line">                                                 .torqueI = 400,</div>
 <div class="line">                                                 .torqueP = 300,</div>
-<div class="line">                                                 .velocityI = 64,</div>
-<div class="line">                                                 .velocityP = 256,</div>
+<div class="line">                                                 .velocityI = 10,</div>
+<div class="line">                                                 .velocityP = 500,</div>
 <div class="line">                                                 .positionI = 0,</div>
-<div class="line">                                                 .positionP = 64,</div>
+<div class="line">                                                 .positionP = 40,</div>
 <div class="line">                                                 .sequentialPI = <span class="keyword">true</span>})</div>
 <div class="ttc" id="astruct_t_m_c4671_p_i_d_conf_html"><div class="ttname"><a href="struct_t_m_c4671_p_i_d_conf.html">TMC4671PIDConf</a></div><div class="ttdef"><b>Definition:</b> <a href="_t_m_c4671_8h_source.html#l00122">TMC4671.h:122</a></div></div>
 </div><!-- fragment -->

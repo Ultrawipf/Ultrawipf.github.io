@@ -193,8 +193,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:ad7e935f8c27c72f5c2f5c0109c5f9758"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3c920d9205332a3d30fac9e325c1809"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effects_calculator.html#ae3c920d9205332a3d30fac9e325c1809">calcNonConditionEffectForce</a> (<a class="el" href="struct_f_f_b___effect.html">FFB_Effect</a> *effect)</td></tr>
 <tr class="separator:ae3c920d9205332a3d30fac9e325c1809"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa2d7b2ce75a7c000acb1863ce94426a9"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effects_calculator.html#aa2d7b2ce75a7c000acb1863ce94426a9">calcConditionEffectForce</a> (<a class="el" href="struct_f_f_b___effect.html">FFB_Effect</a> *effect, float metric, uint8_t <a class="el" href="class_effects_calculator.html#a7bc1656240ffd645a917f2e292761668">gain</a>, uint8_t idx, float scale, float angle_ratio)</td></tr>
-<tr class="separator:aa2d7b2ce75a7c000acb1863ce94426a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1618f359981b47f1a5c867273e3a9669"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effects_calculator.html#a1618f359981b47f1a5c867273e3a9669">calcConditionEffectForce</a> (<a class="el" href="struct_f_f_b___effect.html">FFB_Effect</a> *effect, float metric, uint8_t <a class="el" href="class_effects_calculator.html#a7bc1656240ffd645a917f2e292761668">gain</a>, int32_t pos, uint8_t idx, float scale, float angle_ratio)</td></tr>
+<tr class="separator:a1618f359981b47f1a5c867273e3a9669"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a656bed62da2c426913793112463e744e"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effects_calculator.html#a656bed62da2c426913793112463e744e">applyEnvelope</a> (<a class="el" href="struct_f_f_b___effect.html">FFB_Effect</a> *effect, int32_t value)</td></tr>
 <tr class="separator:a656bed62da2c426913793112463e744e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75361265c82c503a59edb453f40614fc"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effects_calculator.html#a75361265c82c503a59edb453f40614fc">listEffectsUsed</a> ()</td></tr>
@@ -339,7 +339,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00392">392</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00386">386</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
 
 </div>
 </div>
@@ -399,8 +399,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="aa2d7b2ce75a7c000acb1863ce94426a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa2d7b2ce75a7c000acb1863ce94426a9">&#9670;&nbsp;</a></span>calcConditionEffectForce()</h2>
+<a id="a1618f359981b47f1a5c867273e3a9669"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1618f359981b47f1a5c867273e3a9669">&#9670;&nbsp;</a></span>calcConditionEffectForce()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -425,6 +425,12 @@ Additional Inherited Members</h2></td></tr>
           <td></td>
           <td class="paramtype">uint8_t&#160;</td>
           <td class="paramname"><em>gain</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int32_t&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -457,7 +463,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00364">364</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00367">367</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
 
 </div>
 </div>
@@ -546,7 +552,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="class_command_handler.html#a2966eb86d048f2701b4562cfa262ed71">CommandHandler</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00579">579</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00573">573</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
 
 </div>
 </div>
@@ -565,7 +571,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00470">470</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00464">464</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
 
 </div>
 </div>
@@ -669,7 +675,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00542">542</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00536">536</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
 
 </div>
 </div>
@@ -689,7 +695,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00536">536</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00530">530</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
 
 </div>
 </div>
@@ -719,7 +725,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="class_hid_command_handler.html#a2d63e10b855fac7a5392b08d2b48560c">HidCommandHandler</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00560">560</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00554">554</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
 
 </div>
 </div>
@@ -749,7 +755,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="class_persistent_storage.html#aa8187136adfa89fca9ddee2578f6eb68">PersistentStorage</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00482">482</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00476">476</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
 
 </div>
 </div>
@@ -779,7 +785,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="class_persistent_storage.html#a105599e99ab0e4244a531c2286f2ffa2">PersistentStorage</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00505">505</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00499">499</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
 
 </div>
 </div>
@@ -829,7 +835,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00516">516</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00510">510</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
 
 </div>
 </div>
@@ -849,7 +855,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00472">472</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00466">466</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
 
 </div>
 </div>
@@ -877,7 +883,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00418">418</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00412">412</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
 
 </div>
 </div>
@@ -897,7 +903,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00465">465</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00459">459</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
 
 </div>
 </div>

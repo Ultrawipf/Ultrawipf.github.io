@@ -1,5 +1,7 @@
 var NAVTREEINDEX8 =
 {
+"functions_func_r.html":[3,3,1,15],
+"functions_func_s.html":[3,3,1,16],
 "functions_func_t.html":[3,3,1,17],
 "functions_func_u.html":[3,3,1,18],
 "functions_func_v.html":[3,3,1,19],
@@ -122,8 +124,8 @@ var NAVTREEINDEX8 =
 "global__callbacks_8h.html#aa0a57d21c95f563224403b8e5fae77f8":[4,0,87,1],
 "global__callbacks_8h.html#ac27457df13a8c37bc626fc948348e46e":[4,0,87,5],
 "global__callbacks_8h_source.html":[4,0,87],
-"globals.html":[4,1,0,0],
 "globals.html":[4,1,0],
+"globals.html":[4,1,0,0],
 "globals_a.html":[4,1,0,1],
 "globals_b.html":[4,1,0,2],
 "globals_c.html":[4,1,0,3],
@@ -209,8 +211,8 @@ var NAVTREEINDEX8 =
 "group___a_u_d_i_o___serial___device.html#ga174b50cfb8892143b096a48c3c2f1b80":[1,1,0,7],
 "group___a_u_d_i_o___serial___device.html#ga174b50cfb8892143b096a48c3c2f1b80":[4,0,5,20],
 "group___a_u_d_i_o___serial___device.html#ga174b50cfb8892143b096a48c3c2f1b80":[4,0,6,7],
-"group___a_u_d_i_o___serial___device.html#ga1c9db92bad4240d7f7c82321fcb10867":[4,0,6,23],
 "group___a_u_d_i_o___serial___device.html#ga1c9db92bad4240d7f7c82321fcb10867":[1,1,0,23],
+"group___a_u_d_i_o___serial___device.html#ga1c9db92bad4240d7f7c82321fcb10867":[4,0,6,23],
 "group___a_u_d_i_o___serial___device.html#ga203ac09097d03c0e5669883120698746":[1,1,0,0],
 "group___a_u_d_i_o___serial___device.html#ga203ac09097d03c0e5669883120698746":[4,0,5,7],
 "group___a_u_d_i_o___serial___device.html#ga203ac09097d03c0e5669883120698746":[4,0,6,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX8 =
 "group___a_u_d_i_o___serial___device.html#ga701b1052def1f2597f7dc03127cbf4b6":[4,0,5,35],
 "group___a_u_d_i_o___serial___device.html#ga701b1052def1f2597f7dc03127cbf4b6":[4,0,6,34],
 "group___a_u_d_i_o___serial___device.html#ga701b1052def1f2597f7dc03127cbf4b6":[1,1,0,34],
-"group___a_u_d_i_o___serial___device.html#ga7db4f92b33f3b7eff4394a8e037c57d8":[1,1,0,13],
-"group___a_u_d_i_o___serial___device.html#ga7db4f92b33f3b7eff4394a8e037c57d8":[4,0,6,13],
-"group___a_u_d_i_o___serial___device.html#ga873bcba48292e5301b6f84ab9a9ae3c4":[4,0,6,24]
+"group___a_u_d_i_o___serial___device.html#ga7db4f92b33f3b7eff4394a8e037c57d8":[1,1,0,13]
 };

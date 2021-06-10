@@ -1,5 +1,7 @@
 var NAVTREEINDEX32 =
 {
+"vendor__device_8c_source.html":[4,0,196],
+"vendor__device_8h.html":[4,0,197],
 "vendor__device_8h.html#a1aec83944132a7f5fdcf70213ba4f169":[4,0,197,2],
 "vendor__device_8h.html#a29ba66001cf0db3736699f90c16780f1":[4,0,197,16],
 "vendor__device_8h.html#a32d7dbc54e7cd14338bf9d639f40aa3e":[4,0,197,0],
