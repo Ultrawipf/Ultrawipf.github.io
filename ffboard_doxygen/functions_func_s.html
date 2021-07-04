@@ -96,6 +96,7 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 , <a class="el" href="class_local_buttons.html#a83177d23aeea9bfe8a90d75eee957449">LocalButtons</a>
 , <a class="el" href="class_motor_p_w_m.html#a04d925329fb425185f5d12c972e395e9">MotorPWM</a>
 , <a class="el" href="class_normalized_axis.html#a7ed13742e476a39b9d7b7ecbba32cc60">NormalizedAxis</a>
+, <a class="el" href="class_o_drive_c_a_n.html#a6e7835f8f6d70262cbf64cb25f987bae">ODriveCAN</a>
 , <a class="el" href="class_persistent_storage.html#a105599e99ab0e4244a531c2286f2ffa2">PersistentStorage</a>
 , <a class="el" href="class_shifter_analog.html#a5db074133ff37fc881451bc0c715c363">ShifterAnalog</a>
 , <a class="el" href="class_s_p_i___buttons.html#aad159b15367d850ec9d33f911cab9a04">SPI_Buttons</a>
@@ -127,7 +128,11 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 : <a class="el" href="class_hid_command_handler.html#ab759578b93ab966ad1c7e54d13626415">HidCommandHandler</a>
 </li>
 <li>sendMessage()
-: <a class="el" href="class_can_bridge.html#a71dc7e859e199d879475d15946827669">CanBridge</a>
+: <a class="el" href="class_can_bridge.html#a7d04c6de9bf46beab5d4c1fb4d53423c">CanBridge</a>
+, <a class="el" href="class_c_a_n_port.html#ab3f59af8df79dbd26e1717be04ebf5fc">CANPort</a>
+</li>
+<li>sendMsg()
+: <a class="el" href="class_o_drive_c_a_n.html#ab3ee2297abf009ec340f6565544e5c82">ODriveCAN</a>
 </li>
 <li>sendSerial()
 : <a class="el" href="class_command_handler.html#a7f80a73828221060784deeaebea6ce69">CommandHandler</a>
@@ -216,8 +221,8 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 <li>setBtnTypes()
 : <a class="el" href="class_f_f_b_wheel.html#ad7cbf95263f36916a4067728e58c9680">FFBWheel</a>
 </li>
-<li>setCanSpeed()
-: <a class="el" href="class_can_bridge.html#a8a4af03c3980893e5dbb20aa413f950a">CanBridge</a>
+<li>setCanRate()
+: <a class="el" href="class_o_drive_c_a_n.html#a188691da747f6b54c96fd41c28577473">ODriveCAN</a>
 </li>
 <li>setCfFilter()
 : <a class="el" href="class_effects_calculator.html#ab947ff3bb05eff55bbc824ecb58bbedf">EffectsCalculator</a>
@@ -307,6 +312,7 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 </li>
 <li>setMode()
 : <a class="el" href="class_motor_p_w_m.html#ad42b97cf54a94176354c6fc6db9ab4b2">MotorPWM</a>
+, <a class="el" href="class_o_drive_c_a_n.html#acae9b813e29f83db4657c34cf7efadce">ODriveCAN</a>
 , <a class="el" href="class_shifter_analog.html#af47832b6636a405cf3a3290aaeadc264">ShifterAnalog</a>
 , <a class="el" href="class_s_p_i___buttons.html#abb61a708255758691e315e9b81353e7f">SPI_Buttons</a>
 </li>
@@ -347,6 +353,7 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 : <a class="el" href="class_axis.html#a9492c65142e3a7d0482bfbae847e5f2b">Axis</a>
 , <a class="el" href="class_encoder.html#aacf98b034fee3e2fd70cc443a784a5e0">Encoder</a>
 , <a class="el" href="class_encoder_local.html#a1e09ff4d0e99fa4741f871b020f3eee5">EncoderLocal</a>
+, <a class="el" href="class_o_drive_c_a_n.html#a4852b2c6334d07079a7bdeb67d8335a3">ODriveCAN</a>
 , <a class="el" href="class_t_m_c4671.html#a3363fd0780c8de76fdcf0bb96d25f082">TMC4671</a>
 </li>
 <li>setPositionExt()
@@ -377,11 +384,20 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 <li>setSequentialPI()
 : <a class="el" href="class_t_m_c4671.html#a867f9fe5e5f9d5b50b96a22c19290c6a">TMC4671</a>
 </li>
+<li>setSpeed()
+: <a class="el" href="class_c_a_n_port.html#ae9eb0b0c8fb9b7df692b13177e156d97">CANPort</a>
+</li>
+<li>setSpeedPreset()
+: <a class="el" href="class_c_a_n_port.html#a819cdefc5c8098eb5aa85c5358bc8772">CANPort</a>
+</li>
 <li>setSpiAddr()
 : <a class="el" href="class_t_m_c4671.html#a7e24c58fc247cef97c74cc7b22732783">TMC4671</a>
 </li>
 <li>setSpiConfig()
 : <a class="el" href="class_s_p_i_device.html#aafab005ab5eca20c27c6c3d4cf0da9da">SPIDevice</a>
+</li>
+<li>setState()
+: <a class="el" href="class_o_drive_c_a_n.html#a20df20c69f312f0ab847a1f7afb661ca">ODriveCAN</a>
 </li>
 <li>setStatusFlags()
 : <a class="el" href="class_t_m_c4671.html#a6d879e265152bbdb69f6ddd446ed7cf9">TMC4671</a>
@@ -399,7 +415,8 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 : <a class="el" href="class_t_m_c4671.html#ac1d93b241b50551752026875080c76d8">TMC4671</a>
 </li>
 <li>setTorque()
-: <a class="el" href="class_t_m_c4671.html#a78ad71b3a34f55dcb8a257dd71829470">TMC4671</a>
+: <a class="el" href="class_o_drive_c_a_n.html#a411cad3ce134b57cdf88a7f9a48e75a2">ODriveCAN</a>
+, <a class="el" href="class_t_m_c4671.html#a78ad71b3a34f55dcb8a257dd71829470">TMC4671</a>
 </li>
 <li>setTorqueLimit()
 : <a class="el" href="class_t_m_c4671.html#afd51fee1847e0bd494dbf9b4a19e5b4b">TMC4671</a>
@@ -440,6 +457,9 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 </li>
 <li>Singleton()
 : <a class="el" href="class_singleton.html#a923b995920da9c06590adb170ab2f890">Singleton&lt; T &gt;</a>
+</li>
+<li>speedToPreset()
+: <a class="el" href="class_c_a_n_port.html#adb39aafe38e2216e27539cd23978ff81">CANPort</a>
 </li>
 <li>SPI_Buttons()
 : <a class="el" href="class_s_p_i___buttons.html#a5a7d7e0c01efa563e1c79df4d85cfd7e">SPI_Buttons</a>
@@ -509,12 +529,16 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 <li>start_FFB()
 : <a class="el" href="class_hid_f_f_b.html#a208283b8a09e8cb67461f47c491b8ad5">HidFFB</a>
 </li>
+<li>startAnticogging()
+: <a class="el" href="class_o_drive_c_a_n.html#a579729504813b79d92c846d3433e4386">ODriveCAN</a>
+</li>
 <li>StartFromISR()
 : <a class="el" href="classcpp__freertos_1_1_timer.html#ae512d19700e4197dfb6b6e7c59fa6143">cpp_freertos::Timer</a>
 </li>
 <li>startMotor()
 : <a class="el" href="class_motor_driver.html#aa7de17ce2e32f58c9d3ab2d379c636a9">MotorDriver</a>
 , <a class="el" href="class_motor_p_w_m.html#a9761b07ef79d66358fc5c539b1ecab28">MotorPWM</a>
+, <a class="el" href="class_o_drive_c_a_n.html#aaf7808235b85e4b54c679e4aed7aa663">ODriveCAN</a>
 , <a class="el" href="class_t_m_c4671.html#a1ae9df1a47323d8b2fd5aebc6bc3b2d3">TMC4671</a>
 </li>
 <li>StartScheduler()
@@ -538,6 +562,7 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 <li>stopMotor()
 : <a class="el" href="class_motor_driver.html#aef624f5da2b1644823052cc80ac218bd">MotorDriver</a>
 , <a class="el" href="class_motor_p_w_m.html#aa93dd5c2970589c1270c88a08e3e7c03">MotorPWM</a>
+, <a class="el" href="class_o_drive_c_a_n.html#a39d21bec378b965b922487799e48c187">ODriveCAN</a>
 , <a class="el" href="class_t_m_c4671.html#acdf9e395332356e9659cfe9a6caf1556">TMC4671</a>
 </li>
 <li>Suspend()

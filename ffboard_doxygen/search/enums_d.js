@@ -1,4 +1,7 @@
 var searchData=
 [
-  ['xfer_5fresult_5ft_6781',['xfer_result_t',['../group___u_s_b_def___type.html#ga6a3b3a4d6801fd9b02feb0510c84e5f9',1,'tusb_types.h']]]
+  ['usbtmc_5fmsgid_5fenum_6901',['usbtmc_msgid_enum',['../usbtmc_8h.html#ae76b6ce18005a5fe9c14723c433c527b',1,'usbtmc.h']]],
+  ['usbtmc_5fstatus_5fenum_6902',['usbtmc_status_enum',['../usbtmc_8h.html#ae5dcdfb01c55239e21f9fdcfe0b62692',1,'usbtmc.h']]],
+  ['usbtmcd_5fstate_5fenum_6903',['usbtmcd_state_enum',['../usbtmc__device_8c.html#a1894598404de628b7ff560a783174d8e',1,'usbtmc_device.c']]],
+  ['usmtmc_5frequest_5ftype_5fenum_6904',['usmtmc_request_type_enum',['../usbtmc_8h.html#aee18bbea2d1733020445c633fde64832',1,'usbtmc.h']]]
 ];

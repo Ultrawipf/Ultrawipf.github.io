@@ -10,9 +10,16 @@ var hierarchy =
     [ "btd_interface_t", "structbtd__interface__t.html", null ],
     [ "ButtonSourceConfig", "struct_button_source_config.html", null ],
     [ "CAN_Config_t", "struct_c_a_n___config__t.html", null ],
+    [ "CAN_rx_msg", "struct_c_a_n__rx__msg.html", null ],
+    [ "CAN_tx_msg", "struct_c_a_n__tx__msg.html", null ],
     [ "CanHandler", "class_can_handler.html", [
-      [ "CanBridge", "class_can_bridge.html", null ]
+      [ "CanBridge", "class_can_bridge.html", null ],
+      [ "ODriveCAN", "class_o_drive_c_a_n.html", [
+        [ "ODriveCAN1", "class_o_drive_c_a_n1.html", null ],
+        [ "ODriveCAN2", "class_o_drive_c_a_n2.html", null ]
+      ] ]
     ] ],
+    [ "CANPort", "class_c_a_n_port.html", null ],
     [ "cdcd_interface_t", "structcdcd__interface__t.html", null ],
     [ "cdch_data_t", "structcdch__data__t.html", null ],
     [ "ChoosableClass", "class_choosable_class.html", [
@@ -29,6 +36,7 @@ var hierarchy =
       ] ],
       [ "Encoder", "class_encoder.html", [
         [ "EncoderLocal", "class_encoder_local.html", null ],
+        [ "ODriveCAN", "class_o_drive_c_a_n.html", null ],
         [ "TMC4671", "class_t_m_c4671.html", [
           [ "TMC_1", "class_t_m_c__1.html", null ],
           [ "TMC_2", "class_t_m_c__2.html", null ]
@@ -43,6 +51,7 @@ var hierarchy =
       ] ],
       [ "MotorDriver", "class_motor_driver.html", [
         [ "MotorPWM", "class_motor_p_w_m.html", null ],
+        [ "ODriveCAN", "class_o_drive_c_a_n.html", null ],
         [ "TMC4671", "class_t_m_c4671.html", null ]
       ] ]
     ] ],
@@ -64,6 +73,7 @@ var hierarchy =
       [ "NormalizedAxis", "class_normalized_axis.html", [
         [ "Axis", "class_axis.html", null ]
       ] ],
+      [ "ODriveCAN", "class_o_drive_c_a_n.html", null ],
       [ "SPI_Buttons", "class_s_p_i___buttons.html", null ],
       [ "ShifterAnalog", "class_shifter_analog.html", null ],
       [ "TMC4671", "class_t_m_c4671.html", null ]
@@ -136,6 +146,7 @@ var hierarchy =
       [ "FFBWheel", "class_f_f_b_wheel.html", null ],
       [ "MotorPWM", "class_motor_p_w_m.html", null ],
       [ "NormalizedAxis", "class_normalized_axis.html", null ],
+      [ "ODriveCAN", "class_o_drive_c_a_n.html", null ],
       [ "TMC4671", "class_t_m_c4671.html", null ]
     ] ],
     [ "cpp_freertos::Queue", "classcpp__freertos_1_1_queue.html", [
@@ -178,6 +189,7 @@ var hierarchy =
     [ "cpp_freertos::Thread", "classcpp__freertos_1_1_thread.html", [
       [ "ErrorPrinter", "class_error_printer.html", null ],
       [ "FFBoardMainCommandThread", "class_f_f_board_main_command_thread.html", null ],
+      [ "ODriveCAN", "class_o_drive_c_a_n.html", null ],
       [ "TMC4671", "class_t_m_c4671.html", null ],
       [ "USBdevice", "class_u_s_bdevice.html", null ],
       [ "cpp_freertos::WorkQueue::CWorkerThread", "classcpp__freertos_1_1_work_queue_1_1_c_worker_thread.html", null ]

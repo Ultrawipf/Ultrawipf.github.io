@@ -132,6 +132,7 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 </li>
 <li>getCpr()
 : <a class="el" href="class_encoder.html#a7ea557d2536d6c2c0a05f0c34a2003a9">Encoder</a>
+, <a class="el" href="class_o_drive_c_a_n.html#ae02fc8301756d45fdc59d37ba9fe869a">ODriveCAN</a>
 , <a class="el" href="class_t_m_c4671.html#a29e6be7de5761e0b577fd31f818ec2ad">TMC4671</a>
 </li>
 <li>getCsPin()
@@ -151,6 +152,7 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 </li>
 <li>getEncoder()
 : <a class="el" href="class_motor_driver.html#adf44b8e43d09d27344388fc755a7689a">MotorDriver</a>
+, <a class="el" href="class_o_drive_c_a_n.html#a9e51bae8612eb81442dfbf6c515b9d41">ODriveCAN</a>
 , <a class="el" href="class_t_m_c4671.html#a8ce3a2b5b85e62d2aed7885185e5cdb4">TMC4671</a>
 </li>
 <li>getEncType()
@@ -191,6 +193,7 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 , <a class="el" href="class_f_f_b_wheel.html#ad1590112eef7df0295225000f6a87e9c">FFBWheel</a>
 , <a class="el" href="class_local_analog.html#a0a5f0d4ef8f89ebe5557ec561f1db7f5">LocalAnalog</a>
 , <a class="el" href="class_motor_p_w_m.html#a253278b6886a996c02ad52e5fe0ff577">MotorPWM</a>
+, <a class="el" href="class_o_drive_c_a_n.html#a52cad696f743d5b1ac3d6494fa8bcb7f">ODriveCAN</a>
 , <a class="el" href="class_shifter_analog.html#a884d27bd2f805f55d3d816354c913a66">ShifterAnalog</a>
 , <a class="el" href="class_s_p_i___buttons.html#acdf745aff934f5ac6a7116fa1418016c">SPI_Buttons</a>
 , <a class="el" href="class_t_m_c4671.html#a46dbcc0b45c851a5a6478133c615e698">TMC4671</a>
@@ -217,6 +220,9 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 , <a class="el" href="class_motor_driver.html#a3852b1dea06787db1a5302943284c5a4">MotorDriver</a>
 , <a class="el" href="class_motor_p_w_m.html#aa97cf5ba62a08c311ddb36e516686d8c">MotorPWM</a>
 , <a class="el" href="class_normalized_axis.html#acc7c93eced0c1719afd03c086d9b9737">NormalizedAxis</a>
+, <a class="el" href="class_o_drive_c_a_n1.html#a6c3de7e9b4f61f4254e5c84cfabcaca8">ODriveCAN1</a>
+, <a class="el" href="class_o_drive_c_a_n2.html#a9b270a07a32f8083f7a3bf4869dcb96e">ODriveCAN2</a>
+, <a class="el" href="class_o_drive_c_a_n.html#a6a48f6cb98cebd8dd1704487466cd2f5">ODriveCAN</a>
 , <a class="el" href="class_shifter_analog.html#ac369647f2b335485f5f49f46c0771f5d">ShifterAnalog</a>
 , <a class="el" href="class_s_p_i___buttons__1.html#a1d77e78816660bb2ce7d91b729faba7a">SPI_Buttons_1</a>
 , <a class="el" href="class_s_p_i___buttons__2.html#ae51ed498a7d9fe4b417ca10cdb5132c4">SPI_Buttons_2</a>
@@ -253,10 +259,12 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 <li>getPos()
 : <a class="el" href="class_encoder.html#a5041739a15b236ef2428c1e7e974f8e2">Encoder</a>
 , <a class="el" href="class_encoder_local.html#a1481fae056308cf15e94add0860eedbe">EncoderLocal</a>
+, <a class="el" href="class_o_drive_c_a_n.html#a8c2fe33cdd44f475d7f4e0c9f0c0b25b">ODriveCAN</a>
 , <a class="el" href="class_t_m_c4671.html#a9ac710beda08bf836a9e132ba545c5e8">TMC4671</a>
 </li>
 <li>getPos_f()
 : <a class="el" href="class_encoder.html#a99e71d386d47f62b67988142d6fb133c">Encoder</a>
+, <a class="el" href="class_o_drive_c_a_n.html#a93817f5290fa64befe3d675b5ab42d30">ODriveCAN</a>
 </li>
 <li>getPower()
 : <a class="el" href="class_normalized_axis.html#ad7b42c8b965208047a94720274f07389">NormalizedAxis</a>
@@ -279,6 +287,12 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 </li>
 <li>getSingletonRefCount()
 : <a class="el" href="class_singleton.html#a3a924c986029211d675f0707816fa25e">Singleton&lt; T &gt;</a>
+</li>
+<li>getSpeed()
+: <a class="el" href="class_c_a_n_port.html#a7139a714f033aca9676d6ef101cd3a88">CANPort</a>
+</li>
+<li>getSpeedPreset()
+: <a class="el" href="class_c_a_n_port.html#ab0ac86f6557a081022363dd14f4ad9d6">CANPort</a>
 </li>
 <li>getSpiAddr()
 : <a class="el" href="class_t_m_c4671.html#ad0edd178d5a193fad3897d26a6128bab">TMC4671</a>
@@ -357,7 +371,8 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 : <a class="el" href="classcpp__freertos_1_1_semaphore.html#a48c0998ba13e32110b2738651b9b07d5">cpp_freertos::Semaphore</a>
 </li>
 <li>giveSemaphore()
-: <a class="el" href="class_s_p_i_port.html#ac3feeaf8dffc219625567c0aa0789d3a">SPIPort</a>
+: <a class="el" href="class_c_a_n_port.html#a1b5be52564d6de5af058e78e0eda0b3a">CANPort</a>
+, <a class="el" href="class_s_p_i_port.html#ac3feeaf8dffc219625567c0aa0789d3a">SPIPort</a>
 , <a class="el" href="class_u_a_r_t_port.html#ac58896395936ae7193efcc3f05675d1e">UARTPort</a>
 </li>
 <li>global_gain

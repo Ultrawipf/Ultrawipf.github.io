@@ -85,9 +85,7 @@ $(document).ready(function(){initNavTree('class_can_handler.html',''); initResiz
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
-<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_can_handler-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">CanHandler Class Reference</div>  </div>
@@ -101,7 +99,10 @@ Inheritance diagram for CanHandler:</div>
  <div class="center">
   <img src="class_can_handler.png" usemap="#CanHandler_map" alt=""/>
   <map id="CanHandler_map" name="CanHandler_map">
-<area href="class_can_bridge.html" alt="CanBridge" shape="rect" coords="0,56,80,80"/>
+<area href="class_can_bridge.html" alt="CanBridge" shape="rect" coords="0,56,87,80"/>
+<area href="class_o_drive_c_a_n.html" alt="ODriveCAN" shape="rect" coords="97,56,184,80"/>
+<area href="class_o_drive_c_a_n1.html" alt="ODriveCAN1" shape="rect" coords="48,112,135,136"/>
+<area href="class_o_drive_c_a_n2.html" alt="ODriveCAN2" shape="rect" coords="145,112,232,136"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -122,24 +123,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0e2267410edc1d3f36bf8cb228ff458b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_can_handler.html#a0e2267410edc1d3f36bf8cb228ff458b">canTxAbortCallback</a> (CAN_HandleTypeDef *hcan, uint32_t mailbox)</td></tr>
 <tr class="separator:a0e2267410edc1d3f36bf8cb228ff458b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a15b094a650152430a950678af57cbfc0"><td class="memItemLeft" align="right" valign="top">static int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_can_handler.html#a15b094a650152430a950678af57cbfc0">addCanFilter</a> (CAN_HandleTypeDef *CanHandle, CAN_FilterTypeDef sFilterConfig)</td></tr>
-<tr class="separator:a15b094a650152430a950678af57cbfc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66b65929226f8f21af359d862c6509b0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_can_handler.html#a66b65929226f8f21af359d862c6509b0">removeCanFilter</a> (CAN_HandleTypeDef *CanHandle, uint8_t filterId)</td></tr>
-<tr class="separator:a66b65929226f8f21af359d862c6509b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:a40672afaa48f472234780bc711e31a5c"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; <a class="el" href="class_can_handler.html">CanHandler</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_can_handler.html#a40672afaa48f472234780bc711e31a5c">canHandlers</a></td></tr>
 <tr class="separator:a40672afaa48f472234780bc711e31a5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
-Static Private Attributes</h2></td></tr>
-<tr class="memitem:a858a33e5de76cc05a06e366fac734858"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; CAN_FilterTypeDef &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_can_handler.html#a858a33e5de76cc05a06e366fac734858">canFilters</a></td></tr>
-<tr class="separator:a858a33e5de76cc05a06e366fac734858"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9979f243f0e556b1445cad9085c4c73"><td class="memItemLeft" align="right" valign="top">static const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_can_handler.html#ad9979f243f0e556b1445cad9085c4c73">slaveFilterStart</a> = 14</td></tr>
-<tr class="separator:ad9979f243f0e556b1445cad9085c4c73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
@@ -192,44 +179,6 @@ Static Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a15b094a650152430a950678af57cbfc0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a15b094a650152430a950678af57cbfc0">&#9670;&nbsp;</a></span>addCanFilter()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int32_t CanHandler::addCanFilter </td>
-          <td>(</td>
-          <td class="paramtype">CAN_HandleTypeDef *&#160;</td>
-          <td class="paramname"><em>CanHandle</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">CAN_FilterTypeDef&#160;</td>
-          <td class="paramname"><em>sFilterConfig</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_can_handler_8cpp_source.html#l00062">62</a> of file <a class="el" href="_can_handler_8cpp_source.html">CanHandler.cpp</a>.</p>
-
-</div>
-</div>
 <a id="afbcdeeb42119dc4f9e844e40f7e777d5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afbcdeeb42119dc4f9e844e40f7e777d5">&#9670;&nbsp;</a></span>canErrorCallback()</h2>
 
@@ -253,6 +202,7 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p><a class="el" href="class_error.html">Error</a> during can transfer </p>
 
 <p>Reimplemented in <a class="el" href="class_can_bridge.html#a2e93f005127cd16fd3a1133cca2e27c6">CanBridge</a>.</p>
 
@@ -293,6 +243,7 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>RX FiFo is full </p>
 
 <p class="definition">Definition at line <a class="el" href="_can_handler_8cpp_source.html#l00024">24</a> of file <a class="el" href="_can_handler_8cpp_source.html">CanHandler.cpp</a>.</p>
 
@@ -343,8 +294,9 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>New message received in fifo number </p>
 
-<p>Reimplemented in <a class="el" href="class_can_bridge.html#aa982e0d9856e19be48c5cc858d753599">CanBridge</a>.</p>
+<p>Reimplemented in <a class="el" href="class_o_drive_c_a_n.html#a42656b61d844150c463b53fdfde72e9b">ODriveCAN</a>, and <a class="el" href="class_can_bridge.html#aa982e0d9856e19be48c5cc858d753599">CanBridge</a>.</p>
 
 <p class="definition">Definition at line <a class="el" href="_can_handler_8cpp_source.html#l00031">31</a> of file <a class="el" href="_can_handler_8cpp_source.html">CanHandler.cpp</a>.</p>
 
@@ -383,6 +335,7 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>CAN transmission aborted </p>
 
 <p class="definition">Definition at line <a class="el" href="_can_handler_8cpp_source.html#l00052">52</a> of file <a class="el" href="_can_handler_8cpp_source.html">CanHandler.cpp</a>.</p>
 
@@ -421,74 +374,13 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>CAN transmission complete </p>
 
 <p class="definition">Definition at line <a class="el" href="_can_handler_8cpp_source.html#l00045">45</a> of file <a class="el" href="_can_handler_8cpp_source.html">CanHandler.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a66b65929226f8f21af359d862c6509b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66b65929226f8f21af359d862c6509b0">&#9670;&nbsp;</a></span>removeCanFilter()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void CanHandler::removeCanFilter </td>
-          <td>(</td>
-          <td class="paramtype">CAN_HandleTypeDef *&#160;</td>
-          <td class="paramname"><em>CanHandle</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>filterId</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_can_handler_8cpp_source.html#l00087">87</a> of file <a class="el" href="_can_handler_8cpp_source.html">CanHandler.cpp</a>.</p>
-
-</div>
-</div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a858a33e5de76cc05a06e366fac734858"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a858a33e5de76cc05a06e366fac734858">&#9670;&nbsp;</a></span>canFilters</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt; CAN_FilterTypeDef &gt; CanHandler::canFilters</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_can_handler_8h_source.html#l00033">33</a> of file <a class="el" href="_can_handler_8h_source.html">CanHandler.h</a>.</p>
-
-</div>
-</div>
 <a id="a40672afaa48f472234780bc711e31a5c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a40672afaa48f472234780bc711e31a5c">&#9670;&nbsp;</a></span>canHandlers</h2>
 
@@ -510,30 +402,6 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_can_handler_8h_source.html#l00020">20</a> of file <a class="el" href="_can_handler_8h_source.html">CanHandler.h</a>.</p>
-
-</div>
-</div>
-<a id="ad9979f243f0e556b1445cad9085c4c73"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad9979f243f0e556b1445cad9085c4c73">&#9670;&nbsp;</a></span>slaveFilterStart</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const uint8_t CanHandler::slaveFilterStart = 14</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_can_handler_8h_source.html#l00034">34</a> of file <a class="el" href="_can_handler_8h_source.html">CanHandler.h</a>.</p>
 
 </div>
 </div>

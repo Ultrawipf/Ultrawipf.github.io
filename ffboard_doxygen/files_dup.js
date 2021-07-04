@@ -28,6 +28,12 @@ var files_dup =
     [ "ButtonSource.h", "_button_source_8h.html", [
       [ "ButtonSource", "class_button_source.html", "class_button_source" ]
     ] ],
+    [ "CAN.cpp", "_c_a_n_8cpp.html", null ],
+    [ "CAN.h", "_c_a_n_8h.html", [
+      [ "CAN_tx_msg", "struct_c_a_n__tx__msg.html", "struct_c_a_n__tx__msg" ],
+      [ "CAN_rx_msg", "struct_c_a_n__rx__msg.html", "struct_c_a_n__rx__msg" ],
+      [ "CANPort", "class_c_a_n_port.html", "class_c_a_n_port" ]
+    ] ],
     [ "CanBridge.cpp", "_can_bridge_8cpp.html", "_can_bridge_8cpp" ],
     [ "CanBridge.h", "_can_bridge_8h.html", [
       [ "CAN_Config_t", "struct_c_a_n___config__t.html", "struct_c_a_n___config__t" ],
@@ -204,6 +210,8 @@ var files_dup =
       [ "axis_metric_t", "structaxis__metric__t.html", "structaxis__metric__t" ],
       [ "NormalizedAxis", "class_normalized_axis.html", "class_normalized_axis" ]
     ] ],
+    [ "ODriveCAN.cpp", "_o_drive_c_a_n_8cpp.html", null ],
+    [ "ODriveCAN.h", "_o_drive_c_a_n_8h.html", "_o_drive_c_a_n_8h" ],
     [ "osal.h", "osal_8h.html", "osal_8h" ],
     [ "osal_freertos.h", "osal__freertos_8h.html", "osal__freertos_8h" ],
     [ "OutputPin.h", "_output_pin_8h.html", [

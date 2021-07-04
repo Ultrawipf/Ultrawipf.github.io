@@ -206,6 +206,7 @@ var menudata={children:[
 {text:"f",url:"globals_enum.html#index_f"},
 {text:"h",url:"globals_enum.html#index_h"},
 {text:"m",url:"globals_enum.html#index_m"},
+{text:"o",url:"globals_enum.html#index_o"},
 {text:"p",url:"globals_enum.html#index_p"},
 {text:"r",url:"globals_enum.html#index_r"},
 {text:"s",url:"globals_enum.html#index_s"},

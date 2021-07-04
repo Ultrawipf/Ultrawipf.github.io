@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('eeprom__addresses_8h_source.html','');
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;main.h&quot;</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">// Change this to the amount of currently registered variables</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#define NB_OF_VAR   63</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#define NB_OF_VAR   65</span></div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">extern</span> uint16_t <a class="code" href="eeprom__addresses_8h.html#a1fb74b26daf6fdfa3dc85e4232ef4769">VirtAddVarTab</a>[NB_OF_VAR];</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
@@ -218,7 +218,12 @@ $(document).ready(function(){initNavTree('eeprom__addresses_8h_source.html','');
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;<span class="preprocessor">#define ADR_TMC3_FLUX_I                 0x3AA</span></div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160; </div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160; </div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* EEPROM_ADDRESSES_H_ */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;<span class="comment">// Odrive</span></div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;<span class="preprocessor">#define ADR_ODRIVE_CANID                0x3D0 </span><span class="comment">//0-6 ID M0, 7-12 ID M1, 13-15 can speed</span></div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;<span class="preprocessor">#define ADR_ODRIVE_SETTING1             0x3D1</span></div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160; </div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160; </div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* EEPROM_ADDRESSES_H_ */</span><span class="preprocessor"></span></div>
 <div class="ttc" id="aeeprom__addresses_8h_html_a1fb74b26daf6fdfa3dc85e4232ef4769"><div class="ttname"><a href="eeprom__addresses_8h.html#a1fb74b26daf6fdfa3dc85e4232ef4769">VirtAddVarTab</a></div><div class="ttdeci">uint16_t VirtAddVarTab[NB_OF_VAR]</div><div class="ttdef"><b>Definition:</b> <a href="eeprom__addresses_8c_source.html#l00015">eeprom_addresses.c:15</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
