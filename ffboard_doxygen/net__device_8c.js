@@ -20,7 +20,7 @@ var net__device_8c =
     [ "ecm_buf", "net__device_8c.html#aacecfafc538a4f5d440b78cceb55ea7f", null ],
     [ "ecm_notify_csc", "net__device_8c.html#a05830a79fca5eb67e9866f6a1872c449", null ],
     [ "ecm_notify_nc", "net__device_8c.html#a29c2e5320f24abbfc54743508128f47b", null ],
-    [ "notify", "net__device_8c.html#a29f338758ae887a10e80b632e4e3a092", null ],
+    [ "notify", "net__device_8c.html#ada16d01267f9a9990aeb6b1235e7684c", null ],
     [ "received", "net__device_8c.html#a38d53e1575ad74f40a600feb0ef0056e", null ],
     [ "rndis_buf", "net__device_8c.html#ac8a18b41b8c0a77a59735bda13ddc7ec", null ],
     [ "transmitted", "net__device_8c.html#a5e1292b9567e802016471969b34e375a", null ]

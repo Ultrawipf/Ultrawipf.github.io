@@ -80,7 +80,7 @@ var searchData=
   ['bmintfccapabilities_5797',['bmIntfcCapabilities',['../struct_t_u___a_t_t_r___p_a_c_k_e_d.html#a986ca63d2d14720d753e3abcde06eaa9',1,'TU_ATTR_PACKED']]],
   ['bmintfccapabilities488_5798',['bmIntfcCapabilities488',['../struct_t_u___a_t_t_r___p_a_c_k_e_d.html#a7ca9f2245ea110491a6cf3d466df7184',1,'TU_ATTR_PACKED']]],
   ['bmrequesttype_5799',['bmRequestType',['../struct_t_u___a_t_t_r___p_a_c_k_e_d.html#ad21fccd456640cfe9e822579ac510410',1,'TU_ATTR_PACKED']]],
-  ['bmrequesttype_5fbit_5800',['bmRequestType_bit',['../struct_t_u___a_t_t_r___p_a_c_k_e_d.html#a06e18a572e2100e7f531ab0d7362f2e8',1,'TU_ATTR_PACKED']]],
+  ['bmrequesttype_5fbit_5800',['bmRequestType_bit',['../struct_t_u___a_t_t_r___p_a_c_k_e_d.html#a2b2ad6a95c91af52fa57422d0f7060c2',1,'TU_ATTR_PACKED']]],
   ['bmtransferattributes_5801',['bmTransferAttributes',['../struct_t_u___a_t_t_r___p_a_c_k_e_d.html#ac935679a3377b513254a77183b7425d2',1,'TU_ATTR_PACKED']]],
   ['bnotify1_5802',['bNotify1',['../struct_t_u___a_t_t_r___p_a_c_k_e_d.html#a43657f93ae8104dc60d54fd3a763dff6',1,'TU_ATTR_PACKED']]],
   ['bnrchannels_5803',['bNrChannels',['../struct_t_u___a_t_t_r___p_a_c_k_e_d.html#acd0f218c6d122f49520337ec19fb6cd3',1,'TU_ATTR_PACKED']]],
