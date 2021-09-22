@@ -86,7 +86,6 @@ $(document).ready(function(){initNavTree('class_f_f_b_wheel.html',''); initResiz
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
@@ -202,16 +201,6 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a459fc5dbbc8c19107b5081ab640f8c33 inherit pub_static_methods_class_command_handler"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_handler.html#a459fc5dbbc8c19107b5081ab640f8c33">setLogsEnabled</a> (bool enabled)</td></tr>
 <tr class="separator:a459fc5dbbc8c19107b5081ab640f8c33 inherit pub_static_methods_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:aedac96f4f91fe0f9363b1ccaffb11e31"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_f_b_wheel.html#aedac96f4f91fe0f9363b1ccaffb11e31">degreesOfRotation</a> = 900</td></tr>
-<tr class="separator:aedac96f4f91fe0f9363b1ccaffb11e31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06553100795da57c6e164e71d2ac9952"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_f_b_wheel.html#a06553100795da57c6e164e71d2ac9952">nextDegreesOfRotation</a> = <a class="el" href="class_f_f_b_wheel.html#aedac96f4f91fe0f9363b1ccaffb11e31">degreesOfRotation</a></td></tr>
-<tr class="separator:a06553100795da57c6e164e71d2ac9952"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_attribs_class_f_f_board_main"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_f_f_board_main')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_f_f_board_main.html">FFBoardMain</a></td></tr>
-<tr class="memitem:a442bbae3c532fe4ce38181e2af62684f inherit pub_attribs_class_f_f_board_main"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_f_f_board_main_command_thread.html">FFBoardMainCommandThread</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_f_board_main.html#a442bbae3c532fe4ce38181e2af62684f">systemCommands</a></td></tr>
-<tr class="separator:a442bbae3c532fe4ce38181e2af62684f inherit pub_attribs_class_f_f_board_main"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:ac153f59c36f46e31136e83a4e378d3c2"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_class_identifier.html">ClassIdentifier</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_f_b_wheel.html#ac153f59c36f46e31136e83a4e378d3c2">info</a></td></tr>
@@ -229,6 +218,8 @@ Static Public Attributes</h2></td></tr>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a09d3599ae327242f65b76a378c0ddfc2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_f_b_wheel.html#a09d3599ae327242f65b76a378c0ddfc2">send_report</a> ()</td></tr>
 <tr class="separator:a09d3599ae327242f65b76a378c0ddfc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ee191433b752d249ce14270b8b19c84"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_f_b_wheel.html#a3ee191433b752d249ce14270b8b19c84">setReportRate</a> (uint8_t rateidx)</td></tr>
+<tr class="separator:a3ee191433b752d249ce14270b8b19c84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_timer_handler"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_timer_handler')"><img src="closed.png" alt="-"/>&#160;Private Member Functions inherited from <a class="el" href="class_timer_handler.html">TimerHandler</a></td></tr>
 <tr class="memitem:a409d15fdbecc293396b29923c2a2f485 inherit pub_methods_class_timer_handler"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_timer_handler.html#a409d15fdbecc293396b29923c2a2f485">TimerHandler</a> ()</td></tr>
 <tr class="separator:a409d15fdbecc293396b29923c2a2f485 inherit pub_methods_class_timer_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -269,6 +260,12 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a149477a66842ef43a586b25a32e58930"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23f87d4a384c6a262a2840a6ec26efae"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_f_b_wheel.html#a23f87d4a384c6a262a2840a6ec26efae">usb_report_rate</a> = HID_BINTERVAL</td></tr>
 <tr class="separator:a23f87d4a384c6a262a2840a6ec26efae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44cc49cf81c07978724ac31c21a64e7f"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_f_b_wheel.html#a44cc49cf81c07978724ac31c21a64e7f">usb_report_rate_idx</a> = 0</td></tr>
+<tr class="separator:a44cc49cf81c07978724ac31c21a64e7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c8679be73e52dcb7ed7732cc9971607"><td class="memItemLeft" align="right" valign="top">const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_f_b_wheel.html#a9c8679be73e52dcb7ed7732cc9971607">usb_report_rates</a> [4] = {1,2,4,8}</td></tr>
+<tr class="separator:a9c8679be73e52dcb7ed7732cc9971607"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a701c93737ea0bbdfd19408f007a7fc0f"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_f_b_wheel.html#a701c93737ea0bbdfd19408f007a7fc0f">usb_report_rates_names</a> = &quot;1kHz:0,500Hz:1,250Hz:2,125Hz:3&quot;</td></tr>
+<tr class="separator:a701c93737ea0bbdfd19408f007a7fc0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2aac56d0af5161c413a08658edb06c97"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_f_b_wheel.html#a2aac56d0af5161c413a08658edb06c97">report_rate_cnt</a> = 0</td></tr>
 <tr class="separator:a2aac56d0af5161c413a08658edb06c97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50de62ca480e30b87057ab6625a864ac"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_hid_f_f_b.html">HidFFB</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_f_b_wheel.html#a50de62ca480e30b87057ab6625a864ac">ffb</a></td></tr>
@@ -302,6 +299,9 @@ Private Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_attribs_class_f_f_board_main"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_f_f_board_main')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_f_f_board_main.html">FFBoardMain</a></td></tr>
+<tr class="memitem:a442bbae3c532fe4ce38181e2af62684f inherit pub_attribs_class_f_f_board_main"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_f_f_board_main_command_thread.html">FFBoardMainCommandThread</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_f_board_main.html#a442bbae3c532fe4ce38181e2af62684f">systemCommands</a></td></tr>
+<tr class="separator:a442bbae3c532fe4ce38181e2af62684f inherit pub_attribs_class_f_f_board_main"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_class_command_handler"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_command_handler')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_command_handler.html">CommandHandler</a></td></tr>
 <tr class="memitem:a3de5a97bb00981074ef6ea85caea8093 inherit pro_methods_class_command_handler"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_handler.html#a3de5a97bb00981074ef6ea85caea8093">addCommandHandler</a> ()</td></tr>
 <tr class="separator:a3de5a97bb00981074ef6ea85caea8093 inherit pro_methods_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -425,7 +425,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8cpp_source.html#l00196">196</a> of file <a class="el" href="_f_f_b_wheel_8cpp_source.html">FFBWheel.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8cpp_source.html#l00205">205</a> of file <a class="el" href="_f_f_b_wheel_8cpp_source.html">FFBWheel.cpp</a>.</p>
 
 </div>
 </div>
@@ -445,7 +445,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8cpp_source.html#l00164">164</a> of file <a class="el" href="_f_f_b_wheel_8cpp_source.html">FFBWheel.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8cpp_source.html#l00173">173</a> of file <a class="el" href="_f_f_b_wheel_8cpp_source.html">FFBWheel.cpp</a>.</p>
 
 </div>
 </div>
@@ -464,7 +464,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8cpp_source.html#l00176">176</a> of file <a class="el" href="_f_f_b_wheel_8cpp_source.html">FFBWheel.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8cpp_source.html#l00185">185</a> of file <a class="el" href="_f_f_b_wheel_8cpp_source.html">FFBWheel.cpp</a>.</p>
 
 </div>
 </div>
@@ -483,7 +483,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8cpp_source.html#l00143">143</a> of file <a class="el" href="_f_f_b_wheel_8cpp_source.html">FFBWheel.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8cpp_source.html#l00152">152</a> of file <a class="el" href="_f_f_b_wheel_8cpp_source.html">FFBWheel.cpp</a>.</p>
 
 </div>
 </div>
@@ -543,7 +543,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8cpp_source.html#l00266">266</a> of file <a class="el" href="_f_f_b_wheel_8cpp_source.html">FFBWheel.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8cpp_source.html#l00284">284</a> of file <a class="el" href="_f_f_b_wheel_8cpp_source.html">FFBWheel.cpp</a>.</p>
 
 </div>
 </div>
@@ -583,7 +583,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="class_error_handler.html#a60a21df81f9184e16ad596b237ad4eff">ErrorHandler</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8cpp_source.html#l00325">325</a> of file <a class="el" href="_f_f_b_wheel_8cpp_source.html">FFBWheel.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8cpp_source.html#l00347">347</a> of file <a class="el" href="_f_f_b_wheel_8cpp_source.html">FFBWheel.cpp</a>.</p>
 
 </div>
 </div>
@@ -613,7 +613,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="class_exti_handler.html#a98dad3ef8d41c40d84493e41b1f8c16e">ExtiHandler</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8cpp_source.html#l00306">306</a> of file <a class="el" href="_f_f_b_wheel_8cpp_source.html">FFBWheel.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8cpp_source.html#l00328">328</a> of file <a class="el" href="_f_f_b_wheel_8cpp_source.html">FFBWheel.cpp</a>.</p>
 
 </div>
 </div>
@@ -632,7 +632,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8cpp_source.html#l00211">211</a> of file <a class="el" href="_f_f_b_wheel_8cpp_source.html">FFBWheel.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8cpp_source.html#l00220">220</a> of file <a class="el" href="_f_f_b_wheel_8cpp_source.html">FFBWheel.cpp</a>.</p>
 
 </div>
 </div>
@@ -709,7 +709,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8cpp_source.html#l00207">207</a> of file <a class="el" href="_f_f_b_wheel_8cpp_source.html">FFBWheel.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8cpp_source.html#l00216">216</a> of file <a class="el" href="_f_f_b_wheel_8cpp_source.html">FFBWheel.cpp</a>.</p>
 
 </div>
 </div>
@@ -796,7 +796,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="class_persistent_storage.html#a105599e99ab0e4244a531c2286f2ffa2">PersistentStorage</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8cpp_source.html#l00086">86</a> of file <a class="el" href="_f_f_b_wheel_8cpp_source.html">FFBWheel.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8cpp_source.html#l00092">92</a> of file <a class="el" href="_f_f_b_wheel_8cpp_source.html">FFBWheel.cpp</a>.</p>
 
 </div>
 </div>
@@ -824,7 +824,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>Sends periodic gamepad reports of buttons and analog axes </p>
 
-<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8cpp_source.html#l00218">218</a> of file <a class="el" href="_f_f_b_wheel_8cpp_source.html">FFBWheel.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8cpp_source.html#l00227">227</a> of file <a class="el" href="_f_f_b_wheel_8cpp_source.html">FFBWheel.cpp</a>.</p>
 
 </div>
 </div>
@@ -844,7 +844,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8cpp_source.html#l00184">184</a> of file <a class="el" href="_f_f_b_wheel_8cpp_source.html">FFBWheel.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8cpp_source.html#l00193">193</a> of file <a class="el" href="_f_f_b_wheel_8cpp_source.html">FFBWheel.cpp</a>.</p>
 
 </div>
 </div>
@@ -864,7 +864,36 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8cpp_source.html#l00151">151</a> of file <a class="el" href="_f_f_b_wheel_8cpp_source.html">FFBWheel.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8cpp_source.html#l00160">160</a> of file <a class="el" href="_f_f_b_wheel_8cpp_source.html">FFBWheel.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a3ee191433b752d249ce14270b8b19c84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ee191433b752d249ce14270b8b19c84">&#9670;&nbsp;</a></span>setReportRate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FFBWheel::setReportRate </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>rateidx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Changes the hid report rate based on the index for usb_report_rates </p>
+
+<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8cpp_source.html#l00278">278</a> of file <a class="el" href="_f_f_b_wheel_8cpp_source.html">FFBWheel.cpp</a>.</p>
 
 </div>
 </div>
@@ -894,7 +923,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="class_timer_handler.html#a22b251078df0edfda8ade99324045649">TimerHandler</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8cpp_source.html#l00270">270</a> of file <a class="el" href="_f_f_b_wheel_8cpp_source.html">FFBWheel.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8cpp_source.html#l00288">288</a> of file <a class="el" href="_f_f_b_wheel_8cpp_source.html">FFBWheel.cpp</a>.</p>
 
 </div>
 </div>
@@ -924,7 +953,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="class_f_f_board_main.html#a14549edbd09efde0a95caeabd7772000">FFBoardMain</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8cpp_source.html#l00097">97</a> of file <a class="el" href="_f_f_b_wheel_8cpp_source.html">FFBWheel.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8cpp_source.html#l00107">107</a> of file <a class="el" href="_f_f_b_wheel_8cpp_source.html">FFBWheel.cpp</a>.</p>
 
 </div>
 </div>
@@ -954,7 +983,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="class_f_f_board_main.html#a919f31e6e99ecef3eb3a1cba6432fa72">FFBoardMain</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8cpp_source.html#l00299">299</a> of file <a class="el" href="_f_f_b_wheel_8cpp_source.html">FFBWheel.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8cpp_source.html#l00321">321</a> of file <a class="el" href="_f_f_b_wheel_8cpp_source.html">FFBWheel.cpp</a>.</p>
 
 </div>
 </div>
@@ -980,11 +1009,11 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Called when the usb port is connected </p>
+<p>USB plugged in </p>
 
 <p>Reimplemented from <a class="el" href="class_f_f_board_main.html#a5c8c9bf502e526c5212a98608aeed010">FFBoardMain</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8cpp_source.html#l00289">289</a> of file <a class="el" href="_f_f_b_wheel_8cpp_source.html">FFBWheel.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8cpp_source.html#l00311">311</a> of file <a class="el" href="_f_f_b_wheel_8cpp_source.html">FFBWheel.cpp</a>.</p>
 
 </div>
 </div>
@@ -1010,11 +1039,11 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Called when the usb port is disconnected </p>
+<p>USB unplugged Deactivates FFB </p>
 
 <p>Reimplemented from <a class="el" href="class_f_f_board_main.html#aae6ecdffa3bcb2f3ad9eba415c2f9f2a">FFBoardMain</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8cpp_source.html#l00280">280</a> of file <a class="el" href="_f_f_b_wheel_8cpp_source.html">FFBWheel.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8cpp_source.html#l00299">299</a> of file <a class="el" href="_f_f_b_wheel_8cpp_source.html">FFBWheel.cpp</a>.</p>
 
 </div>
 </div>
@@ -1039,7 +1068,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8h_source.html#l00104">104</a> of file <a class="el" href="_f_f_b_wheel_8h_source.html">FFBWheel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8h_source.html#l00107">107</a> of file <a class="el" href="_f_f_b_wheel_8h_source.html">FFBWheel.h</a>.</p>
 
 </div>
 </div>
@@ -1063,7 +1092,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8h_source.html#l00108">108</a> of file <a class="el" href="_f_f_b_wheel_8h_source.html">FFBWheel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8h_source.html#l00111">111</a> of file <a class="el" href="_f_f_b_wheel_8h_source.html">FFBWheel.h</a>.</p>
 
 </div>
 </div>
@@ -1087,7 +1116,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8h_source.html#l00096">96</a> of file <a class="el" href="_f_f_b_wheel_8h_source.html">FFBWheel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8h_source.html#l00099">99</a> of file <a class="el" href="_f_f_b_wheel_8h_source.html">FFBWheel.h</a>.</p>
 
 </div>
 </div>
@@ -1111,7 +1140,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8h_source.html#l00102">102</a> of file <a class="el" href="_f_f_b_wheel_8h_source.html">FFBWheel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8h_source.html#l00105">105</a> of file <a class="el" href="_f_f_b_wheel_8h_source.html">FFBWheel.h</a>.</p>
 
 </div>
 </div>
@@ -1135,7 +1164,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8h_source.html#l00092">92</a> of file <a class="el" href="_f_f_b_wheel_8h_source.html">FFBWheel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8h_source.html#l00095">95</a> of file <a class="el" href="_f_f_b_wheel_8h_source.html">FFBWheel.h</a>.</p>
 
 </div>
 </div>
@@ -1159,7 +1188,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8h_source.html#l00107">107</a> of file <a class="el" href="_f_f_b_wheel_8h_source.html">FFBWheel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8h_source.html#l00110">110</a> of file <a class="el" href="_f_f_b_wheel_8h_source.html">FFBWheel.h</a>.</p>
 
 </div>
 </div>
@@ -1183,7 +1212,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8h_source.html#l00095">95</a> of file <a class="el" href="_f_f_b_wheel_8h_source.html">FFBWheel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8h_source.html#l00098">98</a> of file <a class="el" href="_f_f_b_wheel_8h_source.html">FFBWheel.h</a>.</p>
 
 </div>
 </div>
@@ -1207,7 +1236,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8h_source.html#l00103">103</a> of file <a class="el" href="_f_f_b_wheel_8h_source.html">FFBWheel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8h_source.html#l00106">106</a> of file <a class="el" href="_f_f_b_wheel_8h_source.html">FFBWheel.h</a>.</p>
 
 </div>
 </div>
@@ -1231,23 +1260,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8h_source.html#l00083">83</a> of file <a class="el" href="_f_f_b_wheel_8h_source.html">FFBWheel.h</a>.</p>
-
-</div>
-</div>
-<a id="aedac96f4f91fe0f9363b1ccaffb11e31"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aedac96f4f91fe0f9363b1ccaffb11e31">&#9670;&nbsp;</a></span>degreesOfRotation</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint16_t FFBWheel::degreesOfRotation = 900</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8h_source.html#l00079">79</a> of file <a class="el" href="_f_f_b_wheel_8h_source.html">FFBWheel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8h_source.html#l00080">80</a> of file <a class="el" href="_f_f_b_wheel_8h_source.html">FFBWheel.h</a>.</p>
 
 </div>
 </div>
@@ -1271,7 +1284,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8h_source.html#l00084">84</a> of file <a class="el" href="_f_f_b_wheel_8h_source.html">FFBWheel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8h_source.html#l00081">81</a> of file <a class="el" href="_f_f_b_wheel_8h_source.html">FFBWheel.h</a>.</p>
 
 </div>
 </div>
@@ -1295,7 +1308,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8h_source.html#l00110">110</a> of file <a class="el" href="_f_f_b_wheel_8h_source.html">FFBWheel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8h_source.html#l00113">113</a> of file <a class="el" href="_f_f_b_wheel_8h_source.html">FFBWheel.h</a>.</p>
 
 </div>
 </div>
@@ -1319,7 +1332,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8h_source.html#l00091">91</a> of file <a class="el" href="_f_f_b_wheel_8h_source.html">FFBWheel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8h_source.html#l00094">94</a> of file <a class="el" href="_f_f_b_wheel_8h_source.html">FFBWheel.h</a>.</p>
 
 </div>
 </div>
@@ -1372,7 +1385,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8h_source.html#l00099">99</a> of file <a class="el" href="_f_f_b_wheel_8h_source.html">FFBWheel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8h_source.html#l00102">102</a> of file <a class="el" href="_f_f_b_wheel_8h_source.html">FFBWheel.h</a>.</p>
 
 </div>
 </div>
@@ -1396,23 +1409,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8h_source.html#l00113">113</a> of file <a class="el" href="_f_f_b_wheel_8h_source.html">FFBWheel.h</a>.</p>
-
-</div>
-</div>
-<a id="a06553100795da57c6e164e71d2ac9952"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a06553100795da57c6e164e71d2ac9952">&#9670;&nbsp;</a></span>nextDegreesOfRotation</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint16_t FFBWheel::nextDegreesOfRotation = <a class="el" href="class_f_f_b_wheel.html#aedac96f4f91fe0f9363b1ccaffb11e31">degreesOfRotation</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8h_source.html#l00080">80</a> of file <a class="el" href="_f_f_b_wheel_8h_source.html">FFBWheel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8h_source.html#l00116">116</a> of file <a class="el" href="_f_f_b_wheel_8h_source.html">FFBWheel.h</a>.</p>
 
 </div>
 </div>
@@ -1436,7 +1433,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8h_source.html#l00089">89</a> of file <a class="el" href="_f_f_b_wheel_8h_source.html">FFBWheel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8h_source.html#l00092">92</a> of file <a class="el" href="_f_f_b_wheel_8h_source.html">FFBWheel.h</a>.</p>
 
 </div>
 </div>
@@ -1460,7 +1457,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8h_source.html#l00098">98</a> of file <a class="el" href="_f_f_b_wheel_8h_source.html">FFBWheel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8h_source.html#l00101">101</a> of file <a class="el" href="_f_f_b_wheel_8h_source.html">FFBWheel.h</a>.</p>
 
 </div>
 </div>
@@ -1484,7 +1481,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8h_source.html#l00100">100</a> of file <a class="el" href="_f_f_b_wheel_8h_source.html">FFBWheel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8h_source.html#l00103">103</a> of file <a class="el" href="_f_f_b_wheel_8h_source.html">FFBWheel.h</a>.</p>
 
 </div>
 </div>
@@ -1509,6 +1506,78 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8h_source.html#l00088">88</a> of file <a class="el" href="_f_f_b_wheel_8h_source.html">FFBWheel.h</a>.</p>
+
+</div>
+</div>
+<a id="a44cc49cf81c07978724ac31c21a64e7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44cc49cf81c07978724ac31c21a64e7f">&#9670;&nbsp;</a></span>usb_report_rate_idx</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t FFBWheel::usb_report_rate_idx = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8h_source.html#l00089">89</a> of file <a class="el" href="_f_f_b_wheel_8h_source.html">FFBWheel.h</a>.</p>
+
+</div>
+</div>
+<a id="a9c8679be73e52dcb7ed7732cc9971607"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c8679be73e52dcb7ed7732cc9971607">&#9670;&nbsp;</a></span>usb_report_rates</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const uint8_t FFBWheel::usb_report_rates[4] = {1,2,4,8}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8h_source.html#l00090">90</a> of file <a class="el" href="_f_f_b_wheel_8h_source.html">FFBWheel.h</a>.</p>
+
+</div>
+</div>
+<a id="a701c93737ea0bbdfd19408f007a7fc0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a701c93737ea0bbdfd19408f007a7fc0f">&#9670;&nbsp;</a></span>usb_report_rates_names</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string FFBWheel::usb_report_rates_names = &quot;1kHz:0,500Hz:1,250Hz:2,125Hz:3&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8h_source.html#l00091">91</a> of file <a class="el" href="_f_f_b_wheel_8h_source.html">FFBWheel.h</a>.</p>
 
 </div>
 </div>

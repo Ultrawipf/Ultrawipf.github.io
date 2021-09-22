@@ -22,6 +22,7 @@ var _o_drive_c_a_n_8h =
     [ "ODriveLocalState", "_o_drive_c_a_n_8h.html#abf9bd05cd369f434291d67fb39600086", [
       [ "IDLE", "_o_drive_c_a_n_8h.html#abf9bd05cd369f434291d67fb39600086aa5daf7f2ebbba4975d61dab1c40188c7", null ],
       [ "WAIT_READY", "_o_drive_c_a_n_8h.html#abf9bd05cd369f434291d67fb39600086a3d1a0d5cadd2678fdc2e097055d24522", null ],
+      [ "WAIT_CALIBRATION_DONE", "_o_drive_c_a_n_8h.html#abf9bd05cd369f434291d67fb39600086ae15d8bf86107919ff6b556476ab0941f", null ],
       [ "WAIT_CALIBRATION", "_o_drive_c_a_n_8h.html#abf9bd05cd369f434291d67fb39600086a4d2719ad988167ac2d8338d3e01facb8", null ],
       [ "RUNNING", "_o_drive_c_a_n_8h.html#abf9bd05cd369f434291d67fb39600086a43491564ebcfd38568918efbd6e840fd", null ],
       [ "START_RUNNING", "_o_drive_c_a_n_8h.html#abf9bd05cd369f434291d67fb39600086aa90ef80a9add9768edc7637d3ba4b5f4", null ]

@@ -348,7 +348,7 @@ $(document).ready(function(){initNavTree('_t_m_c4671_8cpp_source.html',''); init
 <div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="class_t_m_c4671.html#ae8f8fa6028cdc6637510eb65cf0b4420">oldTMCdetected</a>){</div>
 <div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;        <a class="code" href="class_t_m_c4671.html#a5ce57e06d0f62f66f7634e77a9627348">setBrakeLimits</a>(52400,52800);</div>
 <div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;    }<span class="keywordflow">else</span>{</div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;        <a class="code" href="class_t_m_c4671.html#a5ce57e06d0f62f66f7634e77a9627348">setBrakeLimits</a>(50700,50900); <span class="comment">// Activates around 60V as last resort failsave. Check offsets from tmc leakage</span></div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;        <a class="code" href="class_t_m_c4671.html#a5ce57e06d0f62f66f7634e77a9627348">setBrakeLimits</a>(50700,50900); <span class="comment">// Activates around 60V as last resort failsave. Check offsets from tmc leakage. ~ 1.426V</span></div>
 <div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;    }</div>
 <div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160; </div>
 <div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;    <span class="comment">// Status mask</span></div>
@@ -385,7 +385,7 @@ $(document).ready(function(){initNavTree('_t_m_c4671_8cpp_source.html',''); init
 <div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;    <a class="code" href="class_t_m_c4671.html#a007ee36f6bc20dad75e5ff372ce75ee5">writeReg</a>(0x03, 2);</div>
 <div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;    int32_t adcval = ((<a class="code" href="class_t_m_c4671.html#af11f8cba5111e5f4d502adab3698d467">readReg</a>(0x02)) &amp; 0xffff) - 0x7fff; <span class="comment">// Center offset</span></div>
 <div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;    adcval -= <a class="code" href="_t_m_c4671_8h.html#aa755b4df95e1ff5fb4a112117549bf0a">tmcOffset</a>;</div>
-<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;    <span class="keywordflow">if</span>(adcval == 0){</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;    <span class="keywordflow">if</span>(adcval &lt;= 0){</div>
 <div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;        <span class="keywordflow">return</span> 0.0;</div>
 <div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;    }</div>
 <div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;    <span class="keywordtype">float</span> r = <a class="code" href="_t_m_c4671_8h.html#a172353e1ee6c16aa8817fe0c39de4052">thermistor_R2</a> * (((float)43252 / (<span class="keywordtype">float</span>)adcval)); <span class="comment">//43252 equivalent ADC count if it was 3.3V and not 2.5V</span></div>

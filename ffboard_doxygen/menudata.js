@@ -212,6 +212,7 @@ var menudata={children:[
 {text:"s",url:"globals_enum.html#index_s"},
 {text:"t",url:"globals_enum.html#index_t"},
 {text:"u",url:"globals_enum.html#index_u"},
+{text:"v",url:"globals_enum.html#index_v"},
 {text:"x",url:"globals_enum.html#index_x"}]},
 {text:"Enumerator",url:"globals_eval.html",children:[
 {text:"a",url:"globals_eval.html#index_a"},

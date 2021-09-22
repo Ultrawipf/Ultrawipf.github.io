@@ -133,7 +133,7 @@ var group___class_driver___h_i_d___gamepad =
       [ "bmIntfcCapabilities", "struct_t_u___a_t_t_r___p_a_c_k_e_d.html#a986ca63d2d14720d753e3abcde06eaa9", null ],
       [ "bmIntfcCapabilities488", "struct_t_u___a_t_t_r___p_a_c_k_e_d.html#a7ca9f2245ea110491a6cf3d466df7184", null ],
       [ "bmRequestType", "struct_t_u___a_t_t_r___p_a_c_k_e_d.html#ad21fccd456640cfe9e822579ac510410", null ],
-      [ "bmRequestType_bit", "struct_t_u___a_t_t_r___p_a_c_k_e_d.html#a2b2ad6a95c91af52fa57422d0f7060c2", null ],
+      [ "bmRequestType_bit", "struct_t_u___a_t_t_r___p_a_c_k_e_d.html#a06e18a572e2100e7f531ab0d7362f2e8", null ],
       [ "bmTransferAttributes", "struct_t_u___a_t_t_r___p_a_c_k_e_d.html#ac935679a3377b513254a77183b7425d2", null ],
       [ "bNotify1", "struct_t_u___a_t_t_r___p_a_c_k_e_d.html#a43657f93ae8104dc60d54fd3a763dff6", null ],
       [ "bNrChannels", "struct_t_u___a_t_t_r___p_a_c_k_e_d.html#acd0f218c6d122f49520337ec19fb6cd3", null ],

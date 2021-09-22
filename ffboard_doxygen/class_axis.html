@@ -193,6 +193,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af5254c18663365cda4eae894fc6a81d0 inherit pub_methods_class_normalized_axis"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af29e882458b8f4f54b2232319ad3892f inherit pub_methods_class_normalized_axis"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_normalized_axis.html#af29e882458b8f4f54b2232319ad3892f">updateTorque</a> (int32_t *totalTorque)</td></tr>
 <tr class="separator:af29e882458b8f4f54b2232319ad3892f inherit pub_methods_class_normalized_axis"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba1b647eb3b8a8e37a69e52245dd4afe inherit pub_methods_class_normalized_axis"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_normalized_axis.html#aba1b647eb3b8a8e37a69e52245dd4afe">processHidCommand</a> (HID_Custom_Data_t *data)</td></tr>
+<tr class="separator:aba1b647eb3b8a8e37a69e52245dd4afe inherit pub_methods_class_normalized_axis"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_persistent_storage"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_persistent_storage')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_persistent_storage.html">PersistentStorage</a></td></tr>
 <tr class="memitem:a0f6d37b59d3ce8deedb1862db79fd356 inherit pub_methods_class_persistent_storage"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_persistent_storage.html#a0f6d37b59d3ce8deedb1862db79fd356">PersistentStorage</a> ()</td></tr>
 <tr class="separator:a0f6d37b59d3ce8deedb1862db79fd356 inherit pub_methods_class_persistent_storage"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -296,6 +298,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a459fc5dbbc8c19107b5081ab640f8c33 inherit pub_static_methods_class_command_handler"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_handler.html#a459fc5dbbc8c19107b5081ab640f8c33">setLogsEnabled</a> (bool enabled)</td></tr>
 <tr class="separator:a459fc5dbbc8c19107b5081ab640f8c33 inherit pub_static_methods_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_class_normalized_axis"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_normalized_axis')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_normalized_axis.html">NormalizedAxis</a></td></tr>
+<tr class="memitem:a23f8992dbd40974231f9eaea7740820f inherit pro_methods_class_normalized_axis"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_normalized_axis.html#a23f8992dbd40974231f9eaea7740820f">setDegrees</a> (uint16_t degrees)</td></tr>
+<tr class="separator:a23f8992dbd40974231f9eaea7740820f inherit pro_methods_class_normalized_axis"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7b42c8b965208047a94720274f07389 inherit pro_methods_class_normalized_axis"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_normalized_axis.html#ad7b42c8b965208047a94720274f07389">getPower</a> ()</td></tr>
 <tr class="separator:ad7b42c8b965208047a94720274f07389 inherit pro_methods_class_normalized_axis"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6318b7b38693176f3daaed805cc15ae5 inherit pro_methods_class_normalized_axis"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_normalized_axis.html#a6318b7b38693176f3daaed805cc15ae5">getTorqueScaler</a> ()</td></tr>
@@ -313,6 +317,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_attribs_class_normalized_axis"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_normalized_axis')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_normalized_axis.html">NormalizedAxis</a></td></tr>
 <tr class="memitem:a1bf0c1c28af9c8eb9bcce5096927e100 inherit pro_attribs_class_normalized_axis"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_normalized_axis.html#a1bf0c1c28af9c8eb9bcce5096927e100">degreesOfRotation</a> = 900</td></tr>
 <tr class="separator:a1bf0c1c28af9c8eb9bcce5096927e100 inherit pro_attribs_class_normalized_axis"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d470b46202e448228c24fe7c4c0ddcb inherit pro_attribs_class_normalized_axis"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_normalized_axis.html#a9d470b46202e448228c24fe7c4c0ddcb">lastdegreesOfRotation</a> = <a class="el" href="class_normalized_axis.html#a1bf0c1c28af9c8eb9bcce5096927e100">degreesOfRotation</a></td></tr>
+<tr class="separator:a9d470b46202e448228c24fe7c4c0ddcb inherit pro_attribs_class_normalized_axis"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a925b12e1f7f13b2f81dee5317cc7bd55 inherit pro_attribs_class_normalized_axis"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_normalized_axis.html#a925b12e1f7f13b2f81dee5317cc7bd55">nextDegreesOfRotation</a> = <a class="el" href="class_normalized_axis.html#a1bf0c1c28af9c8eb9bcce5096927e100">degreesOfRotation</a></td></tr>
 <tr class="separator:a925b12e1f7f13b2f81dee5317cc7bd55 inherit pro_attribs_class_normalized_axis"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3100881c897412efaa5439d259b6e86 inherit pro_attribs_class_normalized_axis"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_normalized_axis.html#ae3100881c897412efaa5439d259b6e86">axis</a></td></tr>
@@ -420,7 +426,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="class_normalized_axis.html#a87074e7130bb1920babfbd000262e352">NormalizedAxis</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_axis_8cpp_source.html#l00284">284</a> of file <a class="el" href="_axis_8cpp_source.html">Axis.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_axis_8cpp_source.html#l00286">286</a> of file <a class="el" href="_axis_8cpp_source.html">Axis.cpp</a>.</p>
 
 </div>
 </div>
@@ -448,7 +454,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_axis_8cpp_source.html#l00368">368</a> of file <a class="el" href="_axis_8cpp_source.html">Axis.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_axis_8cpp_source.html#l00370">370</a> of file <a class="el" href="_axis_8cpp_source.html">Axis.cpp</a>.</p>
 
 </div>
 </div>
@@ -495,7 +501,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_axis_8cpp_source.html#l00376">376</a> of file <a class="el" href="_axis_8cpp_source.html">Axis.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_axis_8cpp_source.html#l00378">378</a> of file <a class="el" href="_axis_8cpp_source.html">Axis.cpp</a>.</p>
 
 </div>
 </div>
@@ -673,7 +679,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented from <a class="el" href="class_normalized_axis.html#aba1b647eb3b8a8e37a69e52245dd4afe">NormalizedAxis</a>.</p>
+<p>Reimplemented from <a class="el" href="class_hid_command_handler.html#a2d63e10b855fac7a5392b08d2b48560c">HidCommandHandler</a>.</p>
 
 <p class="definition">Definition at line <a class="el" href="_axis_8cpp_source.html#l00250">250</a> of file <a class="el" href="_axis_8cpp_source.html">Axis.cpp</a>.</p>
 

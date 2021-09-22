@@ -20,6 +20,7 @@ var class_f_f_b_wheel =
     [ "send_report", "class_f_f_b_wheel.html#a09d3599ae327242f65b76a378c0ddfc2", null ],
     [ "setAinTypes", "class_f_f_b_wheel.html#a8a14e9f9f57da667b2250838f6d9dcd0", null ],
     [ "setBtnTypes", "class_f_f_b_wheel.html#ad7cbf95263f36916a4067728e58c9680", null ],
+    [ "setReportRate", "class_f_f_b_wheel.html#a3ee191433b752d249ce14270b8b19c84", null ],
     [ "timerElapsed", "class_f_f_b_wheel.html#a8c42c7f3e28ea504aaf32bfc2b1a30ed", null ],
     [ "update", "class_f_f_b_wheel.html#a01c082e830ce76bcfd1f48e1b69a15c9", null ],
     [ "usbInit", "class_f_f_b_wheel.html#ac42eeec32e4db1c6856afa81350fe7a4", null ],
@@ -34,16 +35,17 @@ var class_f_f_b_wheel =
     [ "btns", "class_f_f_b_wheel.html#aee7867ae172bdf0f92d60b8d80cbd6b9", null ],
     [ "btnsources", "class_f_f_b_wheel.html#a51922fb6225e58002f617835dcbed339", null ],
     [ "control", "class_f_f_b_wheel.html#a3226cf0af8ca06ada7b26494e61b42ab", null ],
-    [ "degreesOfRotation", "class_f_f_b_wheel.html#aedac96f4f91fe0f9363b1ccaffb11e31", null ],
     [ "effects_calc", "class_f_f_b_wheel.html#a149477a66842ef43a586b25a32e58930", null ],
     [ "errorPrinter", "class_f_f_b_wheel.html#abe20eeb490cc84ad6057aef7ff96075f", null ],
     [ "ffb", "class_f_f_b_wheel.html#a50de62ca480e30b87057ab6625a864ac", null ],
     [ "info", "class_f_f_b_wheel.html#ac153f59c36f46e31136e83a4e378d3c2", null ],
     [ "lastReportHID", "class_f_f_b_wheel.html#a860f01967e9d068e791d986233b1a3ff", null ],
     [ "lastUsbReportTick", "class_f_f_b_wheel.html#a287c09eb1e684a324ec7af0ac23805d2", null ],
-    [ "nextDegreesOfRotation", "class_f_f_b_wheel.html#a06553100795da57c6e164e71d2ac9952", null ],
     [ "report_rate_cnt", "class_f_f_b_wheel.html#a2aac56d0af5161c413a08658edb06c97", null ],
     [ "reportHID", "class_f_f_b_wheel.html#afc94e6e6e218e60d73c656fc527a8738", null ],
     [ "reportSendCounter", "class_f_f_b_wheel.html#a3a6162929559c8c563fda9f90b93230f", null ],
-    [ "usb_report_rate", "class_f_f_b_wheel.html#a23f87d4a384c6a262a2840a6ec26efae", null ]
+    [ "usb_report_rate", "class_f_f_b_wheel.html#a23f87d4a384c6a262a2840a6ec26efae", null ],
+    [ "usb_report_rate_idx", "class_f_f_b_wheel.html#a44cc49cf81c07978724ac31c21a64e7f", null ],
+    [ "usb_report_rates", "class_f_f_b_wheel.html#a9c8679be73e52dcb7ed7732cc9971607", null ],
+    [ "usb_report_rates_names", "class_f_f_b_wheel.html#a701c93737ea0bbdfd19408f007a7fc0f", null ]
 ];

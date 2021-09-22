@@ -334,6 +334,8 @@ var files_dup =
     [ "vendor_device.h", "vendor__device_8h.html", "vendor__device_8h" ],
     [ "vendor_host.c", "vendor__host_8c.html", "vendor__host_8c" ],
     [ "vendor_host.h", "vendor__host_8h.html", "vendor__host_8h" ],
+    [ "VescCAN.cpp", "_vesc_c_a_n_8cpp.html", null ],
+    [ "VescCAN.h", "_vesc_c_a_n_8h.html", "_vesc_c_a_n_8h" ],
     [ "voltagesense.cpp", "voltagesense_8cpp.html", "voltagesense_8cpp" ],
     [ "voltagesense.h", "voltagesense_8h.html", "voltagesense_8h" ],
     [ "workqueue.hpp", "workqueue_8hpp.html", [

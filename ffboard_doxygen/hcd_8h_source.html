@@ -149,20 +149,20 @@ $(document).ready(function(){initNavTree('hcd_8h_source.html',''); initResizable
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keyword">struct </span>{</div>
 <div class="line"><a name="l00065"></a><span class="lineno"><a class="line" href="structhcd__event__t.html#a5b930e759c251e453ffc467386bc0641">   65</a></span>&#160;      uint8_t <a class="code" href="structhcd__event__t.html#a5b930e759c251e453ffc467386bc0641">hub_addr</a>;</div>
 <div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="structhcd__event__t.html#a402ed40fc9b86b0510e76d4842eaf6dc">   66</a></span>&#160;      uint8_t <a class="code" href="structhcd__event__t.html#a402ed40fc9b86b0510e76d4842eaf6dc">hub_port</a>;</div>
-<div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="structhcd__event__t.html#a0c3b1a939c64b0d6d84db9d34dc72a47">   67</a></span>&#160;    } connection;</div>
+<div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="structhcd__event__t.html#a53efb353f61a27834b994ca01178753b">   67</a></span>&#160;    } connection;</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="comment">// XFER_COMPLETE</span></div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keyword">struct </span>{</div>
 <div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="structhcd__event__t.html#a322c00e84336ba097ce129c6c9b1a5df">   71</a></span>&#160;      uint8_t <a class="code" href="structhcd__event__t.html#a322c00e84336ba097ce129c6c9b1a5df">ep_addr</a>;</div>
 <div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="structhcd__event__t.html#ac2f509497de671a9fb9d3cb1e7fb5cd7">   72</a></span>&#160;      uint8_t <a class="code" href="structhcd__event__t.html#ac2f509497de671a9fb9d3cb1e7fb5cd7">result</a>;</div>
 <div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="structhcd__event__t.html#ab1b0ac3a2ec6d7c17c829dabf84eb064">   73</a></span>&#160;      uint32_t <a class="code" href="structhcd__event__t.html#ab1b0ac3a2ec6d7c17c829dabf84eb064">len</a>;</div>
-<div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="structhcd__event__t.html#a9362232a6cc571dd7d9ce55ca583b376">   74</a></span>&#160;    } xfer_complete;</div>
+<div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="structhcd__event__t.html#a0fd0fcb0cadc1dc4bb764f2411510b44">   74</a></span>&#160;    } xfer_complete;</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="comment">// FUNC_CALL</span></div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keyword">struct </span>{</div>
 <div class="line"><a name="l00078"></a><span class="lineno"><a class="line" href="structhcd__event__t.html#a9d9de0e3ad07ee56f34040a8bfca6137">   78</a></span>&#160;      void (*func) (<span class="keywordtype">void</span>*);</div>
 <div class="line"><a name="l00079"></a><span class="lineno"><a class="line" href="structhcd__event__t.html#a2b9934c37d40fa6b14689ece0b597c4b">   79</a></span>&#160;      <span class="keywordtype">void</span>* <a class="code" href="structhcd__event__t.html#a2b9934c37d40fa6b14689ece0b597c4b">param</a>;</div>
-<div class="line"><a name="l00080"></a><span class="lineno"><a class="line" href="structhcd__event__t.html#a123a88d849416e44d474b370aa1ec43a">   80</a></span>&#160;    }func_call;</div>
+<div class="line"><a name="l00080"></a><span class="lineno"><a class="line" href="structhcd__event__t.html#ab4951588ee84bb509b2a9e6118a8afe3">   80</a></span>&#160;    }func_call;</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  };</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;} <a class="code" href="structhcd__event__t.html">hcd_event_t</a>;</div>
