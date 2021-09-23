@@ -4,7 +4,7 @@ var searchData=
   ['request_7880',['request',['../hid__cmd__defs_8h.html#a3f333b1c841dda37afbc4c28598a6fc5a10573b873d2fa5a365d558a45e328e47',1,'hid_cmd_defs.h']]],
   ['res1_7881',['res1',['../_t_m_c4671_8h.html#affe1640d3ae28fb6e7d823943b6b784ba91e7e433e34c3b8843334c1467001cb7',1,'TMC4671.h']]],
   ['res2_7882',['res2',['../_t_m_c4671_8h.html#affe1640d3ae28fb6e7d823943b6b784ba3528579414912ea7816656ea7b96b29e',1,'TMC4671.h']]],
-  ['reset_5fdelay_7883',['RESET_DELAY',['../usbh_8c.html#a2970898e8a43ce21e1cc510d49f1b89da255e787af798f103692ae6a228b0600a',1,'usbh.c']]],
+  ['reset_5fdelay_7883',['RESET_DELAY',['../usbh_8c.html#aac34dfe6c6b73b43a4656c9dce041034a255e787af798f103692ae6a228b0600a',1,'usbh.c']]],
   ['response_5favailable_7884',['RESPONSE_AVAILABLE',['../group___class_driver___c_d_c.html#ggafe51e6ac2b0028e0d33de1cbb4739e6fa4fa6052a18b9742a8c5a321434a11fab',1,'cdc.h']]],
   ['ring_5fdetect_7885',['RING_DETECT',['../group___class_driver___c_d_c.html#ggafe51e6ac2b0028e0d33de1cbb4739e6faa656b09593945174eccd36c41a7ac647',1,'cdc.h']]],
   ['rndis_5foid_5f802_5f3_5fcurrent_5faddress_7886',['RNDIS_OID_802_3_CURRENT_ADDRESS',['../group___c_d_c___r_n_d_i_s___common.html#gga1f481916fd3d96784ade7285b72c8e7aaf509eb06271336da15296595b42f8e89',1,'cdc_rndis.h']]],

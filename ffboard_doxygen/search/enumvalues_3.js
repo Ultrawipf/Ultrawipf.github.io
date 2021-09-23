@@ -4,8 +4,8 @@ var searchData=
   ['dcd_5ffull_5fspeed_7483',['DCD_FULL_SPEED',['../dcd__synopsys_8c.html#a394b3903fbf00ba2b6243f60689a5a5fa4b53476aa1a5198cd76c1fde72edad9c',1,'dcd_synopsys.c']]],
   ['dcd_5ffull_5fspeed_5fuse_5fhs_7484',['DCD_FULL_SPEED_USE_HS',['../dcd__synopsys_8c.html#a394b3903fbf00ba2b6243f60689a5a5fabf33ff0c2945502e728509109a6b0ae0',1,'dcd_synopsys.c']]],
   ['dcd_5fhigh_5fspeed_7485',['DCD_HIGH_SPEED',['../dcd__synopsys_8c.html#a394b3903fbf00ba2b6243f60689a5a5fa55e505dfca825ff73191bee5d7f114f1',1,'dcd_synopsys.c']]],
-  ['desc_5foffset_5flen_7486',['DESC_OFFSET_LEN',['../group___u_s_b_def___type.html#gga80155586fa275b28773c9b203f52cabaa7b0bfe73ad193a4aab08993e9fabf428',1,'tusb_types.h']]],
-  ['desc_5foffset_5ftype_7487',['DESC_OFFSET_TYPE',['../group___u_s_b_def___type.html#gga80155586fa275b28773c9b203f52cabaae9b31577bb641dd4a39d6091be145bf6',1,'tusb_types.h']]],
+  ['desc_5foffset_5flen_7486',['DESC_OFFSET_LEN',['../group___u_s_b_def___type.html#gga6b7b47dd702d9e331586d485013fd1eaa7b0bfe73ad193a4aab08993e9fabf428',1,'tusb_types.h']]],
+  ['desc_5foffset_5ftype_7487',['DESC_OFFSET_TYPE',['../group___u_s_b_def___type.html#gga6b7b47dd702d9e331586d485013fd1eaae9b31577bb641dd4a39d6091be145bf6',1,'tusb_types.h']]],
   ['device_5fcapability_5fauthentication_7488',['DEVICE_CAPABILITY_AUTHENTICATION',['../group___u_s_b_def___type.html#ggae8dad3738b9ff604cc3cdedf28cf2245a83140be00578117f44d16bd8c3e40aae',1,'tusb_types.h']]],
   ['device_5fcapability_5fbattery_5finfo_7489',['DEVICE_CAPABILITY_BATTERY_INFO',['../group___u_s_b_def___type.html#ggae8dad3738b9ff604cc3cdedf28cf2245a622d33ad07c750ca5bb23210d95ae27c',1,'tusb_types.h']]],
   ['device_5fcapability_5fbillboard_7490',['DEVICE_CAPABILITY_BILLBOARD',['../group___u_s_b_def___type.html#ggae8dad3738b9ff604cc3cdedf28cf2245ab61354be2478a4bee0fdcd48dcb994c0',1,'tusb_types.h']]],
@@ -30,5 +30,5 @@ var searchData=
   ['dfu_5frequest_5fgetstate_7509',['DFU_REQUEST_GETSTATE',['../dfu__rt__device_8c.html#a3f8c3355e116b6b3e1f4456d78e591aea4fb42c4e4f2dde0b3725e36cae2770b0',1,'dfu_rt_device.c']]],
   ['dfu_5frequest_5fgetstatus_7510',['DFU_REQUEST_GETSTATUS',['../dfu__rt__device_8c.html#a3f8c3355e116b6b3e1f4456d78e591aea2a605ea936737a87fa38bf4f7b64426e',1,'dfu_rt_device.c']]],
   ['dfu_5frequest_5fupload_7511',['DFU_REQUEST_UPLOAD',['../dfu__rt__device_8c.html#a3f8c3355e116b6b3e1f4456d78e591aea2107138fe930491b1b44839976c1ac47',1,'dfu_rt_device.c']]],
-  ['drvid_5finvalid_7512',['DRVID_INVALID',['../usbd_8c.html#a0ed680fdb405e7195d9f14032851eebba06827fb1b800dd4df84c46e3db632cf7',1,'usbd.c']]]
+  ['drvid_5finvalid_7512',['DRVID_INVALID',['../usbd_8c.html#aaf105ae5beaca1dee30ae54530691fcea06827fb1b800dd4df84c46e3db632cf7',1,'usbd.c']]]
 ];

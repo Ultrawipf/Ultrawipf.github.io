@@ -168,7 +168,7 @@ $(document).ready(function(){initNavTree('_f_f_b_wheel_8cpp_source.html',''); in
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    uint16_t conf1 = 0;</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="flash__helpers_8h.html#abe1c4bced00f5a4ee1b698098dbad093">Flash_Read</a>(ADR_FFBWHEEL_CONF1,&amp;conf1)){</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        uint8_t rateidx = conf1 &amp; 0x2;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        uint8_t rateidx = conf1 &amp; 0x3;</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        <a class="code" href="class_f_f_b_wheel.html#a3ee191433b752d249ce14270b8b19c84">setReportRate</a>(rateidx);</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    }</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160; </div>
@@ -180,7 +180,7 @@ $(document).ready(function(){initNavTree('_f_f_b_wheel_8cpp_source.html',''); in
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <a class="code" href="flash__helpers_8h.html#a549dcc0553f49f57e77bb36940db828a">Flash_Write</a>(ADR_FFBWHEEL_ANALOGCONF,this-&gt;<a class="code" href="class_f_f_b_wheel.html#a7292c9bd7049990980ae2d0b05a45eaa">ainsources</a>);</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160; </div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    uint8_t conf1 = 0;</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    conf1 |= <a class="code" href="class_f_f_b_wheel.html#a44cc49cf81c07978724ac31c21a64e7f">usb_report_rate_idx</a> &amp; 0x2;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    conf1 |= <a class="code" href="class_f_f_b_wheel.html#a44cc49cf81c07978724ac31c21a64e7f">usb_report_rate_idx</a> &amp; 0x3;</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <a class="code" href="flash__helpers_8h.html#a549dcc0553f49f57e77bb36940db828a">Flash_Write</a>(ADR_FFBWHEEL_CONF1,conf1);</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;}</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160; </div>

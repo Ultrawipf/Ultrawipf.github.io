@@ -110,14 +110,14 @@ var searchData=
   ['comm_5ffw_5fversion_7469',['COMM_FW_VERSION',['../_vesc_c_a_n_8h.html#ade8aa0c8682cb29483f2d2b58786989fac0f5ae778030faa9ff97bd73b9c17682',1,'VescCAN.h']]],
   ['comm_5fget_5fvalues_5fselective_7470',['COMM_GET_VALUES_SELECTIVE',['../_vesc_c_a_n_8h.html#ade8aa0c8682cb29483f2d2b58786989fac62513ac3d8a268c40130929f12d471d',1,'VescCAN.h']]],
   ['comm_5frotor_5fposition_7471',['COMM_ROTOR_POSITION',['../_vesc_c_a_n_8h.html#ade8aa0c8682cb29483f2d2b58786989fa0740d6f7ed6d40d5934ae8faebe1724e',1,'VescCAN.h']]],
-  ['config_5fnum_7472',['CONFIG_NUM',['../usbh_8c.html#afa231099d07583c3ed0981e0bb665f55a9ef96027281cc2b3431239fb6b10cde7',1,'usbh.c']]],
+  ['config_5fnum_7472',['CONFIG_NUM',['../usbh_8c.html#a0ed680fdb405e7195d9f14032851eebba9ef96027281cc2b3431239fb6b10cde7',1,'usbh.c']]],
   ['connection_5fspeed_5fchange_7473',['CONNECTION_SPEED_CHANGE',['../group___class_driver___c_d_c.html#ggafe51e6ac2b0028e0d33de1cbb4739e6fa396f8875eac6a9948fd4e5ae378cd093',1,'cdc.h']]],
   ['control_5fmode_5fposition_5fcontrol_7474',['CONTROL_MODE_POSITION_CONTROL',['../_o_drive_c_a_n_8h.html#afbb352e995053f25fb271f45cd99b930a87f372b5c7e05c3cc5fce1a780693a11',1,'ODriveCAN.h']]],
   ['control_5fmode_5ftorque_5fcontrol_7475',['CONTROL_MODE_TORQUE_CONTROL',['../_o_drive_c_a_n_8h.html#afbb352e995053f25fb271f45cd99b930ac531e9abc75088ee4897cea851e89973',1,'ODriveCAN.h']]],
   ['control_5fmode_5fvelocity_5fcontrol_7476',['CONTROL_MODE_VELOCITY_CONTROL',['../_o_drive_c_a_n_8h.html#afbb352e995053f25fb271f45cd99b930aec79fcd36b6c18f194358b41c1fbdff7',1,'ODriveCAN.h']]],
   ['control_5fmode_5fvoltage_5fcontrol_7477',['CONTROL_MODE_VOLTAGE_CONTROL',['../_o_drive_c_a_n_8h.html#afbb352e995053f25fb271f45cd99b930a28445e9544349ceb74627c54e350ac68',1,'ODriveCAN.h']]],
-  ['control_5fstage_5fack_7478',['CONTROL_STAGE_ACK',['../group___u_s_b_def___type.html#ggaf9bdc3014f3d54c426b6d2df10de4960a18079efec0cdb821f24b437b646b864d',1,'tusb_types.h']]],
-  ['control_5fstage_5fdata_7479',['CONTROL_STAGE_DATA',['../group___u_s_b_def___type.html#ggaf9bdc3014f3d54c426b6d2df10de4960ae5d89e21948588e11d6564fdf0e66c0b',1,'tusb_types.h']]],
-  ['control_5fstage_5fsetup_7480',['CONTROL_STAGE_SETUP',['../group___u_s_b_def___type.html#ggaf9bdc3014f3d54c426b6d2df10de4960af17ae8688f98708446ce909eb0e83c7c',1,'tusb_types.h']]],
+  ['control_5fstage_5fack_7478',['CONTROL_STAGE_ACK',['../group___u_s_b_def___type.html#ggadb49720dc49f7d4e4cf9adbf2948e409a18079efec0cdb821f24b437b646b864d',1,'tusb_types.h']]],
+  ['control_5fstage_5fdata_7479',['CONTROL_STAGE_DATA',['../group___u_s_b_def___type.html#ggadb49720dc49f7d4e4cf9adbf2948e409ae5d89e21948588e11d6564fdf0e66c0b',1,'tusb_types.h']]],
+  ['control_5fstage_5fsetup_7480',['CONTROL_STAGE_SETUP',['../group___u_s_b_def___type.html#ggadb49720dc49f7d4e4cf9adbf2948e409af17ae8688f98708446ce909eb0e83c7c',1,'tusb_types.h']]],
   ['critical_7481',['critical',['../_error_handler_8h.html#a01775e5fef063175684d0fc8d9c7d301a7e85bcb66fb9a809d5ab4f62a8b8bea8',1,'ErrorHandler.h']]]
 ];
