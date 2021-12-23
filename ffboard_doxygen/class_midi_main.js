@@ -1,8 +1,12 @@
 var class_midi_main =
 [
+    [ "MidiMain_commands", "class_midi_main.html#a4b0c3afca1fb736faebb4cb8da5cda92", [
+      [ "power", "class_midi_main.html#a4b0c3afca1fb736faebb4cb8da5cda92a62cd275989e78ee56a81f0265a87562e", null ],
+      [ "range", "class_midi_main.html#a4b0c3afca1fb736faebb4cb8da5cda92a37b19816109a32106d109e83bbb3c97d", null ]
+    ] ],
     [ "MidiMain", "class_midi_main.html#a9ce100cb6ebda157151ae98024951095", null ],
     [ "~MidiMain", "class_midi_main.html#ad61b9cc8ba35bde997a820f01d3562f5", null ],
-    [ "command", "class_midi_main.html#aa1d2534f12e9b3b050ecb4c6ad16efeb", null ],
+    [ "command", "class_midi_main.html#afdbefd9787ef84cc8bc95bf5df8e8c0e", null ],
     [ "controlChange", "class_midi_main.html#a0b363111006d243e5cc928578ee11160", null ],
     [ "getInfo", "class_midi_main.html#a884f0f0620145fab82839f5aea6526bf", null ],
     [ "isCreatable", "class_midi_main.html#a72c6e64ef302404ca62a1d0a8b04590d", null ],

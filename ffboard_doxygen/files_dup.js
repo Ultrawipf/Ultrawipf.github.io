@@ -16,12 +16,7 @@ var files_dup =
       [ "AxesManager", "class_axes_manager.html", "class_axes_manager" ]
     ] ],
     [ "Axis.cpp", "_axis_8cpp.html", null ],
-    [ "Axis.h", "_axis_8h.html", [
-      [ "Control_t", "struct_control__t.html", "struct_control__t" ],
-      [ "AxisFlashAddrs", "struct_axis_flash_addrs.html", "struct_axis_flash_addrs" ],
-      [ "AxisConfig", "struct_axis_config.html", "struct_axis_config" ],
-      [ "Axis", "class_axis.html", "class_axis" ]
-    ] ],
+    [ "Axis.h", "_axis_8h.html", "_axis_8h" ],
     [ "bth_device.c", "bth__device_8c.html", "bth__device_8c" ],
     [ "bth_device.h", "bth__device_8h.html", "bth__device_8h" ],
     [ "ButtonSource.cpp", "_button_source_8cpp.html", null ],
@@ -52,22 +47,36 @@ var files_dup =
     [ "cdc_rndis.h", "cdc__rndis_8h.html", "cdc__rndis_8h" ],
     [ "cdc_rndis_host.c", "cdc__rndis__host_8c.html", "cdc__rndis__host_8c" ],
     [ "cdc_rndis_host.h", "cdc__rndis__host_8h.html", "cdc__rndis__host_8h" ],
+    [ "CDCcomm.cpp", "_c_d_ccomm_8cpp.html", null ],
+    [ "CDCcomm.h", "_c_d_ccomm_8h.html", [
+      [ "CDCcomm", "class_c_d_ccomm.html", "class_c_d_ccomm" ]
+    ] ],
     [ "cevent_groups.cpp", "cevent__groups_8cpp.html", null ],
     [ "ChoosableClass.h", "_choosable_class_8h.html", [
       [ "ClassIdentifier", "struct_class_identifier.html", "struct_class_identifier" ],
       [ "ChoosableClass", "class_choosable_class.html", "class_choosable_class" ]
     ] ],
     [ "ClassChooser.h", "_class_chooser_8h.html", "_class_chooser_8h" ],
+    [ "ClassIDs.h", "_class_i_ds_8h.html", "_class_i_ds_8h" ],
     [ "CmdParser.cpp", "_cmd_parser_8cpp.html", null ],
-    [ "CmdParser.h", "_cmd_parser_8h.html", "_cmd_parser_8h" ],
+    [ "CmdParser.h", "_cmd_parser_8h.html", [
+      [ "CmdParser", "class_cmd_parser.html", "class_cmd_parser" ]
+    ] ],
     [ "cmem_pool.cpp", "cmem__pool_8cpp.html", null ],
     [ "cmutex.cpp", "cmutex_8cpp.html", null ],
     [ "CommandHandler.cpp", "_command_handler_8cpp.html", null ],
     [ "CommandHandler.h", "_command_handler_8h.html", "_command_handler_8h" ],
+    [ "CommandInterface.cpp", "_command_interface_8cpp.html", "_command_interface_8cpp" ],
+    [ "CommandInterface.h", "_command_interface_8h.html", [
+      [ "CommandInterface", "class_command_interface.html", "class_command_interface" ],
+      [ "StringCommandInterface", "class_string_command_interface.html", "class_string_command_interface" ],
+      [ "CDC_CommandInterface", "class_c_d_c___command_interface.html", "class_c_d_c___command_interface" ],
+      [ "UART_CommandInterface", "class_u_a_r_t___command_interface.html", "class_u_a_r_t___command_interface" ]
+    ] ],
     [ "condition_variable.hpp", "condition__variable_8hpp.html", [
       [ "ConditionVariable", "classcpp__freertos_1_1_condition_variable.html", "classcpp__freertos_1_1_condition_variable" ]
     ] ],
-    [ "constants.h", "constants_8h.html", null ],
+    [ "constants.h", "constants_8h.html", "constants_8h" ],
     [ "cpp_target_config.h", "cpp__target__config_8h.html", "cpp__target__config_8h" ],
     [ "cppmain.cpp", "cppmain_8cpp.html", "cppmain_8cpp" ],
     [ "cppmain.h", "cppmain_8h.html", "cppmain_8h" ],
@@ -97,10 +106,7 @@ var files_dup =
     [ "eeprom_addresses.c", "eeprom__addresses_8c.html", "eeprom__addresses_8c" ],
     [ "eeprom_addresses.h", "eeprom__addresses_8h.html", "eeprom__addresses_8h" ],
     [ "EffectsCalculator.cpp", "_effects_calculator_8cpp.html", null ],
-    [ "EffectsCalculator.h", "_effects_calculator_8h.html", [
-      [ "effect_gain_t", "structeffect__gain__t.html", "structeffect__gain__t" ],
-      [ "EffectsCalculator", "class_effects_calculator.html", "class_effects_calculator" ]
-    ] ],
+    [ "EffectsCalculator.h", "_effects_calculator_8h.html", "_effects_calculator_8h" ],
     [ "Encoder.cpp", "_encoder_8cpp.html", null ],
     [ "Encoder.h", "_encoder_8h.html", "_encoder_8h" ],
     [ "EncoderLocal.cpp", "_encoder_local_8cpp.html", null ],
@@ -115,12 +121,15 @@ var files_dup =
     [ "ExtiHandler.h", "_exti_handler_8h.html", [
       [ "ExtiHandler", "class_exti_handler.html", "class_exti_handler" ]
     ] ],
+    [ "FastAvg.h", "_fast_avg_8h.html", [
+      [ "FastAvg", "class_fast_avg.html", "class_fast_avg" ]
+    ] ],
     [ "ffb_defs.h", "ffb__defs_8h.html", "ffb__defs_8h" ],
     [ "FFBoardMain.cpp", "_f_f_board_main_8cpp.html", null ],
     [ "FFBoardMain.h", "_f_f_board_main_8h.html", [
       [ "FFBoardMain", "class_f_f_board_main.html", "class_f_f_board_main" ]
     ] ],
-    [ "FFBoardMainCommandThread.cpp", "_f_f_board_main_command_thread_8cpp.html", "_f_f_board_main_command_thread_8cpp" ],
+    [ "FFBoardMainCommandThread.cpp", "_f_f_board_main_command_thread_8cpp.html", null ],
     [ "FFBoardMainCommandThread.h", "_f_f_board_main_command_thread_8h.html", [
       [ "FFBoardMainCommandThread", "class_f_f_board_main_command_thread.html", "class_f_f_board_main_command_thread" ]
     ] ],
@@ -137,15 +146,12 @@ var files_dup =
     [ "global_callbacks.h", "global__callbacks_8h.html", "global__callbacks_8h" ],
     [ "hcd.h", "hcd_8h.html", "hcd_8h" ],
     [ "hid.h", "hid_8h.html", "hid_8h" ],
-    [ "hid_cmd_defs.h", "hid__cmd__defs_8h.html", "hid__cmd__defs_8h" ],
     [ "hid_device.c", "hid__device_8c.html", "hid__device_8c" ],
     [ "hid_device.h", "hid__device_8h.html", "hid__device_8h" ],
     [ "hid_host.c", "hid__host_8c.html", "hid__host_8c" ],
     [ "hid_host.h", "hid__host_8h.html", "hid__host_8h" ],
-    [ "HidCommandHandler.cpp", "_hid_command_handler_8cpp.html", null ],
-    [ "HidCommandHandler.h", "_hid_command_handler_8h.html", [
-      [ "HidCommandHandler", "class_hid_command_handler.html", "class_hid_command_handler" ]
-    ] ],
+    [ "HidCommandInterface.cpp", "_hid_command_interface_8cpp.html", null ],
+    [ "HidCommandInterface.h", "_hid_command_interface_8h.html", "_hid_command_interface_8h" ],
     [ "HidFFB.cpp", "_hid_f_f_b_8cpp.html", null ],
     [ "HidFFB.h", "_hid_f_f_b_8h.html", [
       [ "HidFFB", "class_hid_f_f_b.html", "class_hid_f_f_b" ]
@@ -194,6 +200,10 @@ var files_dup =
     [ "msc_device.h", "msc__device_8h.html", "msc__device_8h" ],
     [ "msc_host.c", "msc__host_8c.html", "msc__host_8c" ],
     [ "msc_host.h", "msc__host_8h.html", "msc__host_8h" ],
+    [ "MtEncoderSPI.cpp", "_mt_encoder_s_p_i_8cpp.html", null ],
+    [ "MtEncoderSPI.h", "_mt_encoder_s_p_i_8h.html", [
+      [ "MtEncoderSPI", "class_mt_encoder_s_p_i.html", "class_mt_encoder_s_p_i" ]
+    ] ],
     [ "mutex.hpp", "mutex_8hpp.html", [
       [ "MutexCreateException", "classcpp__freertos_1_1_mutex_create_exception.html", "classcpp__freertos_1_1_mutex_create_exception" ],
       [ "Mutex", "classcpp__freertos_1_1_mutex.html", "classcpp__freertos_1_1_mutex" ],
@@ -203,13 +213,6 @@ var files_dup =
     ] ],
     [ "net_device.c", "net__device_8c.html", "net__device_8c" ],
     [ "net_device.h", "net__device_8h.html", "net__device_8h" ],
-    [ "NormalizedAxis.cpp", "_normalized_axis_8cpp.html", null ],
-    [ "NormalizedAxis.h", "_normalized_axis_8h.html", [
-      [ "NormalizedAxisFlashAddrs_t", "struct_normalized_axis_flash_addrs__t.html", "struct_normalized_axis_flash_addrs__t" ],
-      [ "metric_t", "structmetric__t.html", "structmetric__t" ],
-      [ "axis_metric_t", "structaxis__metric__t.html", "structaxis__metric__t" ],
-      [ "NormalizedAxis", "class_normalized_axis.html", "class_normalized_axis" ]
-    ] ],
     [ "ODriveCAN.cpp", "_o_drive_c_a_n_8cpp.html", null ],
     [ "ODriveCAN.h", "_o_drive_c_a_n_8h.html", "_o_drive_c_a_n_8h" ],
     [ "osal.h", "osal_8h.html", "osal_8h" ],
@@ -263,6 +266,8 @@ var files_dup =
     [ "SpiHandler.h", "_spi_handler_8h.html", [
       [ "SpiHandler", "class_spi_handler.html", "class_spi_handler" ]
     ] ],
+    [ "SystemCommands.cpp", "_system_commands_8cpp.html", "_system_commands_8cpp" ],
+    [ "SystemCommands.h", "_system_commands_8h.html", "_system_commands_8h" ],
     [ "tasklet.hpp", "tasklet_8hpp.html", [
       [ "TaskletCreateException", "classcpp__freertos_1_1_tasklet_create_exception.html", "classcpp__freertos_1_1_tasklet_create_exception" ],
       [ "Tasklet", "classcpp__freertos_1_1_tasklet.html", "classcpp__freertos_1_1_tasklet" ]

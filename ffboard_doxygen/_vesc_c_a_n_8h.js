@@ -1,6 +1,19 @@
 var _vesc_c_a_n_8h =
 [
     [ "VescCAN", "class_vesc_c_a_n.html", "class_vesc_c_a_n" ],
+    [ "VescCAN_commands", "_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219f", [
+      [ "canid", "_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fad9e0e5fa1c6f9ea949e956c2af81ac4c", null ],
+      [ "canspd", "_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fa1bfb52c41ecc5f627260a5cae9c253bd", null ],
+      [ "errorflags", "_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fab5d8bf8d7558af1512e3bd20e99ab0a5", null ],
+      [ "vescstate", "_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fa55864dd8b4439f5dec78d95eeb3c97c5", null ],
+      [ "voltage", "_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fae437ba437f4106903e619bb380574954", null ],
+      [ "encrate", "_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fa42839c09d4d2f2f30961d704de2950b6", null ],
+      [ "pos", "_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fa5e0bdcbddccca4d66d74ba8c1cee1a68", null ],
+      [ "torque", "_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fae9ee2651c12f09e358eb1da8545952a7", null ],
+      [ "forcePosRead", "_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fa9012d5ecad304ed62c2d09b5922ad5de", null ],
+      [ "useEncoder", "_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fa2ab3e376a5be601a068bf43d5d70f17e", null ],
+      [ "offset", "_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fa7a86c157ee9713c34fbd7a1ee40f0c5a", null ]
+    ] ],
     [ "VescCANMsg", "_vesc_c_a_n_8h.html#a31f4088fc0096d6c5e2ee0396066eb47", [
       [ "CAN_PACKET_FILL_RX_BUFFER", "_vesc_c_a_n_8h.html#a31f4088fc0096d6c5e2ee0396066eb47a7bbf02396c7bb2d5c6f46ead66d854de", null ],
       [ "CAN_PACKET_FILL_RX_BUFFER_LONG", "_vesc_c_a_n_8h.html#a31f4088fc0096d6c5e2ee0396066eb47ad9edf754b02a0080743cf41ebbf5978e", null ],

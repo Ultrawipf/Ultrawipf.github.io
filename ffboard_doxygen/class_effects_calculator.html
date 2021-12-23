@@ -102,9 +102,8 @@ Inheritance diagram for EffectsCalculator:</div>
  <div class="center">
   <img src="class_effects_calculator.png" usemap="#EffectsCalculator_map" alt=""/>
   <map id="EffectsCalculator_map" name="EffectsCalculator_map">
-<area href="class_persistent_storage.html" alt="PersistentStorage" shape="rect" coords="0,0,131,24"/>
-<area href="class_command_handler.html" alt="CommandHandler" shape="rect" coords="141,0,272,24"/>
-<area href="class_hid_command_handler.html" alt="HidCommandHandler" shape="rect" coords="282,0,413,24"/>
+<area href="class_persistent_storage.html" alt="PersistentStorage" shape="rect" coords="0,0,112,24"/>
+<area href="class_command_handler.html" alt="CommandHandler" shape="rect" coords="122,0,234,24"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -115,7 +114,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abfcb256492a5378e74a981ca0ed09ba9"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effects_calculator.html#abfcb256492a5378e74a981ca0ed09ba9">~EffectsCalculator</a> ()</td></tr>
 <tr class="separator:abfcb256492a5378e74a981ca0ed09ba9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29378273784a7201c393e8cd680ffe90"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_class_identifier.html">ClassIdentifier</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effects_calculator.html#a29378273784a7201c393e8cd680ffe90">getInfo</a> ()</td></tr>
+<tr class="memdesc:a29378273784a7201c393e8cd680ffe90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Command handlers always have class infos. Works well with <a class="el" href="class_choosable_class.html">ChoosableClass</a>.  <a href="class_effects_calculator.html#a29378273784a7201c393e8cd680ffe90">More...</a><br /></td></tr>
 <tr class="separator:a29378273784a7201c393e8cd680ffe90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa8449464c681ddab60e3a436e982d45"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="_class_i_ds_8h.html#a79467dc849dd02adbaa4373bbd7aba75">ClassType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effects_calculator.html#aaa8449464c681ddab60e3a436e982d45">getClassType</a> () override</td></tr>
+<tr class="separator:aaa8449464c681ddab60e3a436e982d45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae11b5eebae3f30eb9e16053d958a8ce8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effects_calculator.html#ae11b5eebae3f30eb9e16053d958a8ce8">saveFlash</a> ()</td></tr>
 <tr class="separator:ae11b5eebae3f30eb9e16053d958a8ce8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89c4cb3439872f6030bd03b4600b5a0a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effects_calculator.html#a89c4cb3439872f6030bd03b4600b5a0a">restoreFlash</a> ()</td></tr>
@@ -136,10 +138,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab947ff3bb05eff55bbc824ecb58bbedf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c7a5d6fb390ac981f8b5a648f1f65a9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effects_calculator.html#a2c7a5d6fb390ac981f8b5a648f1f65a9">logEffectType</a> (uint8_t type)</td></tr>
 <tr class="separator:a2c7a5d6fb390ac981f8b5a648f1f65a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6ecc385bd772fc972689b47589ecdfe"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_command_handler_8h.html#a35ceaa27c27c5f68052e8633394228bf">ParseStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effects_calculator.html#aa6ecc385bd772fc972689b47589ecdfe">command</a> (<a class="el" href="struct_parsed_command.html">ParsedCommand</a> *cmd, std::string *reply)</td></tr>
-<tr class="separator:aa6ecc385bd772fc972689b47589ecdfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa962dbf1f998b94519b428c194156233"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effects_calculator.html#aa962dbf1f998b94519b428c194156233">processHidCommand</a> (HID_Custom_Data_t *data)</td></tr>
-<tr class="separator:aa962dbf1f998b94519b428c194156233"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab03374bae6d7cd45b410a6dc1fd9a53d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_command_handler_8h.html#aefaf83fec6a7da1d02ae7e912dd9a6d5">CommandStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effects_calculator.html#ab03374bae6d7cd45b410a6dc1fd9a53d">command</a> (const <a class="el" href="struct_parsed_command.html">ParsedCommand</a> &amp;cmd, std::vector&lt; <a class="el" href="class_command_reply.html">CommandReply</a> &gt; &amp;replies)</td></tr>
+<tr class="separator:ab03374bae6d7cd45b410a6dc1fd9a53d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55fb6432ba309c1b428f53a4743083e3"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effects_calculator.html#a55fb6432ba309c1b428f53a4743083e3">getHelpstring</a> ()</td></tr>
 <tr class="separator:a55fb6432ba309c1b428f53a4743083e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afcda3b9121654cf270e5ce4364c6abeb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effects_calculator.html#afcda3b9121654cf270e5ce4364c6abeb">setEffectsArray</a> (<a class="el" href="struct_f_f_b___effect.html">FFB_Effect</a> *pEffects)</td></tr>
@@ -150,21 +150,37 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1cf470862b87d0a1b91548c24dedc4f8 inherit pub_methods_class_persistent_storage"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_persistent_storage.html#a1cf470862b87d0a1b91548c24dedc4f8">~PersistentStorage</a> ()</td></tr>
 <tr class="separator:a1cf470862b87d0a1b91548c24dedc4f8 inherit pub_methods_class_persistent_storage"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_command_handler"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_command_handler')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_command_handler.html">CommandHandler</a></td></tr>
-<tr class="memitem:a9a98482665c0a42277473c2b489ea4cb inherit pub_methods_class_command_handler"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_handler.html#a9a98482665c0a42277473c2b489ea4cb">CommandHandler</a> ()</td></tr>
-<tr class="separator:a9a98482665c0a42277473c2b489ea4cb inherit pub_methods_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af331bf7b73ad45951226b30251f270f4 inherit pub_methods_class_command_handler"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_handler.html#af331bf7b73ad45951226b30251f270f4">CommandHandler</a> (const char *clsname, uint16_t clsid, uint8_t <a class="el" href="_command_handler_8h.html#a13a18e5b49561a2f007205dc0afeea14a7123a699d77db6479a1d8ece2c4f1c16">instance</a>=0)</td></tr>
+<tr class="separator:af331bf7b73ad45951226b30251f270f4 inherit pub_methods_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a774109b82ae7c2556d781f457f3974c7 inherit pub_methods_class_command_handler"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_handler.html#a774109b82ae7c2556d781f457f3974c7">~CommandHandler</a> ()</td></tr>
 <tr class="separator:a774109b82ae7c2556d781f457f3974c7 inherit pub_methods_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a34e3eee961ca48e61eee9011062842 inherit pub_methods_class_command_handler"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_handler.html#a5a34e3eee961ca48e61eee9011062842">hasCommands</a> ()</td></tr>
 <tr class="separator:a5a34e3eee961ca48e61eee9011062842 inherit pub_methods_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45979fba8f86796394ad7e22896fc33f inherit pub_methods_class_command_handler"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_handler.html#a45979fba8f86796394ad7e22896fc33f">setCommandsEnabled</a> (bool enable)</td></tr>
 <tr class="separator:a45979fba8f86796394ad7e22896fc33f inherit pub_methods_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_class_hid_command_handler"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_hid_command_handler')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_hid_command_handler.html">HidCommandHandler</a></td></tr>
-<tr class="memitem:ae742a869eb4f44e8a89fe98ef4419f8a inherit pub_methods_class_hid_command_handler"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hid_command_handler.html#ae742a869eb4f44e8a89fe98ef4419f8a">HidCommandHandler</a> ()</td></tr>
-<tr class="separator:ae742a869eb4f44e8a89fe98ef4419f8a inherit pub_methods_class_hid_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7feb25d4ff2e6e31c119d4fc4bfff152 inherit pub_methods_class_hid_command_handler"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hid_command_handler.html#a7feb25d4ff2e6e31c119d4fc4bfff152">~HidCommandHandler</a> ()</td></tr>
-<tr class="separator:a7feb25d4ff2e6e31c119d4fc4bfff152 inherit pub_methods_class_hid_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab759578b93ab966ad1c7e54d13626415 inherit pub_methods_class_hid_command_handler"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hid_command_handler.html#ab759578b93ab966ad1c7e54d13626415">sendHidCmd</a> (HID_Custom_Data_t *data)</td></tr>
-<tr class="separator:ab759578b93ab966ad1c7e54d13626415 inherit pub_methods_class_hid_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09e6c7b1db8de3631ffbc1e4c1336676 inherit pub_methods_class_command_handler"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_handler.html#a09e6c7b1db8de3631ffbc1e4c1336676">registerCommands</a> ()</td></tr>
+<tr class="separator:a09e6c7b1db8de3631ffbc1e4c1336676 inherit pub_methods_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed6a9e7304ae2edefc41d636442639a5 inherit pub_methods_class_command_handler"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_command_handler_8h.html#aefaf83fec6a7da1d02ae7e912dd9a6d5">CommandStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_handler.html#aed6a9e7304ae2edefc41d636442639a5">internalCommand</a> (const <a class="el" href="struct_parsed_command.html">ParsedCommand</a> &amp;cmd, std::vector&lt; <a class="el" href="class_command_reply.html">CommandReply</a> &gt; &amp;replies, <a class="el" href="class_command_interface.html">CommandInterface</a> *interface=nullptr)</td></tr>
+<tr class="separator:aed6a9e7304ae2edefc41d636442639a5 inherit pub_methods_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd8e021f6a407115dba838d7b16930bb inherit pub_methods_class_command_handler"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_handler.html#acd8e021f6a407115dba838d7b16930bb">getCommandsHelpstring</a> ()</td></tr>
+<tr class="separator:acd8e021f6a407115dba838d7b16930bb inherit pub_methods_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6efec263bc372a1ca57add26dd93a97 inherit pub_methods_class_command_handler"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_handler.html#af6efec263bc372a1ca57add26dd93a97">getCsvHelpstring</a> ()</td></tr>
+<tr class="separator:af6efec263bc372a1ca57add26dd93a97 inherit pub_methods_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad67013c18a56f13ff7159883dfce665e inherit pub_methods_class_command_handler"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_handler.html#ad67013c18a56f13ff7159883dfce665e">broadcastCommandReply</a> (<a class="el" href="class_command_reply.html">CommandReply</a> reply, uint32_t cmdId, <a class="el" href="_command_handler_8h.html#aec46f6cc23a395b611fbc7c7239b9c41">CMDtype</a> type)</td></tr>
+<tr class="separator:ad67013c18a56f13ff7159883dfce665e inherit pub_methods_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d6e4cd233e9221df2cf1ff3c1468385 inherit pub_methods_class_command_handler"><td class="memItemLeft" align="right" valign="top">virtual uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_handler.html#a5d6e4cd233e9221df2cf1ff3c1468385">getCommandHandlerID</a> ()</td></tr>
+<tr class="separator:a5d6e4cd233e9221df2cf1ff3c1468385 inherit pub_methods_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad27ce104d3546c2b6f7cd74dff950274 inherit pub_methods_class_command_handler"><td class="memItemLeft" align="right" valign="top">virtual uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_handler.html#ad27ce104d3546c2b6f7cd74dff950274">getSelectionID</a> ()</td></tr>
+<tr class="memdesc:ad27ce104d3546c2b6f7cd74dff950274 inherit pub_methods_class_command_handler"><td class="mdescLeft">&#160;</td><td class="mdescRight">normally returns class id but for choosable classes this can be the id used to create the class  <a href="class_command_handler.html#ad27ce104d3546c2b6f7cd74dff950274">More...</a><br /></td></tr>
+<tr class="separator:ad27ce104d3546c2b6f7cd74dff950274 inherit pub_methods_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9d9d0fd0bd0a58cfd8b6199081403a9 inherit pub_methods_class_command_handler"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_cmd_handler_info.html">CmdHandlerInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_handler.html#ad9d9d0fd0bd0a58cfd8b6199081403a9">getCommandHandlerInfo</a> ()</td></tr>
+<tr class="separator:ad9d9d0fd0bd0a58cfd8b6199081403a9 inherit pub_methods_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af658c15ccbac468224ed2c5997e06f91 inherit pub_methods_class_command_handler"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_handler.html#af658c15ccbac468224ed2c5997e06f91">isValidCommandId</a> (uint32_t cmdid, uint32_t ignoredFlags=0, uint32_t requiredFlag=0)</td></tr>
+<tr class="separator:af658c15ccbac468224ed2c5997e06f91 inherit pub_methods_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5417a6284e8066c67776301c7d25d72 inherit pub_methods_class_command_handler"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_cmd_handler_commanddef.html">CmdHandlerCommanddef</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_handler.html#ac5417a6284e8066c67776301c7d25d72">getCommandFromName</a> (const std::string &amp;cmd, uint32_t ignoredFlags=0)</td></tr>
+<tr class="separator:ac5417a6284e8066c67776301c7d25d72 inherit pub_methods_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a406a0e915a9373f5c1992711b167f7f9 inherit pub_methods_class_command_handler"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_cmd_handler_commanddef.html">CmdHandlerCommanddef</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_handler.html#a406a0e915a9373f5c1992711b167f7f9">getCommandFromId</a> (const uint32_t <a class="el" href="_command_handler_8h.html#a13a18e5b49561a2f007205dc0afeea14ab80bb7740288fda1f201890375a60c8f">id</a>, uint32_t ignoredFlags=0)</td></tr>
+<tr class="separator:a406a0e915a9373f5c1992711b167f7f9 inherit pub_methods_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -180,21 +196,24 @@ Static Public Attributes</h2></td></tr>
 <tr class="separator:a3ed49a2f47c50a087bcda25d9b00d50c inherit pub_static_attribs_class_persistent_storage"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_attribs_class_command_handler"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_class_command_handler')"><img src="closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="class_command_handler.html">CommandHandler</a></td></tr>
 <tr class="memitem:addbb8cd4ec08f1ffc017fdf03c324ed0 inherit pub_static_attribs_class_command_handler"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; <a class="el" href="class_command_handler.html">CommandHandler</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_handler.html#addbb8cd4ec08f1ffc017fdf03c324ed0">cmdHandlers</a></td></tr>
+<tr class="memdesc:addbb8cd4ec08f1ffc017fdf03c324ed0 inherit pub_static_attribs_class_command_handler"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of all registered command handlers to be called on commands.  <a href="class_command_handler.html#addbb8cd4ec08f1ffc017fdf03c324ed0">More...</a><br /></td></tr>
 <tr class="separator:addbb8cd4ec08f1ffc017fdf03c324ed0 inherit pub_static_attribs_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a340d66384489dc6e5faae48728a80929 inherit pub_static_attribs_class_command_handler"><td class="memItemLeft" align="right" valign="top">static std::set&lt; uint16_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_handler.html#a340d66384489dc6e5faae48728a80929">cmdHandlerIDs</a></td></tr>
+<tr class="memdesc:a340d66384489dc6e5faae48728a80929 inherit pub_static_attribs_class_command_handler"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reserves dynamic unique IDs to keep track of command handlers.  <a href="class_command_handler.html#a340d66384489dc6e5faae48728a80929">More...</a><br /></td></tr>
+<tr class="separator:a340d66384489dc6e5faae48728a80929 inherit pub_static_attribs_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa712fed44e0c1c489118b0577b2b4800 inherit pub_static_attribs_class_command_handler"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classcpp__freertos_1_1_mutex_standard.html">cpp_freertos::MutexStandard</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_handler.html#aa712fed44e0c1c489118b0577b2b4800">cmdHandlerListMutex</a></td></tr>
+<tr class="separator:aa712fed44e0c1c489118b0577b2b4800 inherit pub_static_attribs_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9029c76e98bec126216b0e6e35c0c88a inherit pub_static_attribs_class_command_handler"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_handler.html#a9029c76e98bec126216b0e6e35c0c88a">logEnabled</a> = true</td></tr>
 <tr class="separator:a9029c76e98bec126216b0e6e35c0c88a inherit pub_static_attribs_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_static_attribs_class_hid_command_handler"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_class_hid_command_handler')"><img src="closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="class_hid_command_handler.html">HidCommandHandler</a></td></tr>
-<tr class="memitem:ab90b124100cfa7a578cabb6f9af296d9 inherit pub_static_attribs_class_hid_command_handler"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; <a class="el" href="class_hid_command_handler.html">HidCommandHandler</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hid_command_handler.html#ab90b124100cfa7a578cabb6f9af296d9">hidCmdHandlers</a></td></tr>
-<tr class="separator:ab90b124100cfa7a578cabb6f9af296d9 inherit pub_static_attribs_class_hid_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:ad7e935f8c27c72f5c2f5c0109c5f9758"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effects_calculator.html#ad7e935f8c27c72f5c2f5c0109c5f9758">calcComponentForce</a> (<a class="el" href="struct_f_f_b___effect.html">FFB_Effect</a> *effect, int32_t forceVector, <a class="el" href="structmetric__t.html">metric_t</a> *metrics, uint8_t axis, uint8_t axisCount)</td></tr>
-<tr class="separator:ad7e935f8c27c72f5c2f5c0109c5f9758"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54a9c878157501eec2f017560a1c468e"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effects_calculator.html#a54a9c878157501eec2f017560a1c468e">calcComponentForce</a> (<a class="el" href="struct_f_f_b___effect.html">FFB_Effect</a> *effect, int32_t forceVector, std::vector&lt; std::unique_ptr&lt; <a class="el" href="class_axis.html">Axis</a> &gt;&gt; &amp;axes, uint8_t axis)</td></tr>
+<tr class="separator:a54a9c878157501eec2f017560a1c468e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3c920d9205332a3d30fac9e325c1809"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effects_calculator.html#ae3c920d9205332a3d30fac9e325c1809">calcNonConditionEffectForce</a> (<a class="el" href="struct_f_f_b___effect.html">FFB_Effect</a> *effect)</td></tr>
 <tr class="separator:ae3c920d9205332a3d30fac9e325c1809"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1618f359981b47f1a5c867273e3a9669"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effects_calculator.html#a1618f359981b47f1a5c867273e3a9669">calcConditionEffectForce</a> (<a class="el" href="struct_f_f_b___effect.html">FFB_Effect</a> *effect, float metric, uint8_t <a class="el" href="class_effects_calculator.html#a7bc1656240ffd645a917f2e292761668">gain</a>, int32_t pos, uint8_t idx, float scale, float angle_ratio)</td></tr>
-<tr class="separator:a1618f359981b47f1a5c867273e3a9669"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2d7b2ce75a7c000acb1863ce94426a9"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effects_calculator.html#aa2d7b2ce75a7c000acb1863ce94426a9">calcConditionEffectForce</a> (<a class="el" href="struct_f_f_b___effect.html">FFB_Effect</a> *effect, float metric, uint8_t <a class="el" href="class_effects_calculator.html#a7bc1656240ffd645a917f2e292761668">gain</a>, uint8_t idx, float scale, float angle_ratio)</td></tr>
+<tr class="separator:aa2d7b2ce75a7c000acb1863ce94426a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a656bed62da2c426913793112463e744e"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effects_calculator.html#a656bed62da2c426913793112463e744e">applyEnvelope</a> (<a class="el" href="struct_f_f_b___effect.html">FFB_Effect</a> *effect, int32_t value)</td></tr>
 <tr class="separator:a656bed62da2c426913793112463e744e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75361265c82c503a59edb453f40614fc"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effects_calculator.html#a75361265c82c503a59edb453f40614fc">listEffectsUsed</a> ()</td></tr>
@@ -206,15 +225,15 @@ Private Attributes</h2></td></tr>
 <tr class="separator:ae2c2f2178ce3205745afb5fc6af3b30b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16dd559d84404850ed15ca1f971e2997"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effects_calculator.html#a16dd559d84404850ed15ca1f971e2997">global_gain</a> = 0xff</td></tr>
 <tr class="separator:a16dd559d84404850ed15ca1f971e2997"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a533e7eeeadaf0f01aa2879622b2f800f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effects_calculator.html#a533e7eeeadaf0f01aa2879622b2f800f">damper_f</a> = 50</td></tr>
+<tr class="memitem:a533e7eeeadaf0f01aa2879622b2f800f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effects_calculator.html#a533e7eeeadaf0f01aa2879622b2f800f">damper_f</a> = 30</td></tr>
 <tr class="separator:a533e7eeeadaf0f01aa2879622b2f800f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a721fee26d06cbab158ea98687e87c20e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effects_calculator.html#a721fee26d06cbab158ea98687e87c20e">damper_q</a> = 0.2</td></tr>
+<tr class="memitem:a721fee26d06cbab158ea98687e87c20e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effects_calculator.html#a721fee26d06cbab158ea98687e87c20e">damper_q</a> = 0.4</td></tr>
 <tr class="separator:a721fee26d06cbab158ea98687e87c20e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d1a25a850fbf35b8a7c237e28e16660"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effects_calculator.html#a0d1a25a850fbf35b8a7c237e28e16660">friction_f</a> = 50</td></tr>
 <tr class="separator:a0d1a25a850fbf35b8a7c237e28e16660"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c0beaf851d1f7d65dd469b280774688"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effects_calculator.html#a4c0beaf851d1f7d65dd469b280774688">friction_q</a> = 0.2</td></tr>
 <tr class="separator:a4c0beaf851d1f7d65dd469b280774688"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:accc9cf20c3b16aef5d1a4334f96eb87a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effects_calculator.html#accc9cf20c3b16aef5d1a4334f96eb87a">inertia_f</a> = 20</td></tr>
+<tr class="memitem:accc9cf20c3b16aef5d1a4334f96eb87a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effects_calculator.html#accc9cf20c3b16aef5d1a4334f96eb87a">inertia_f</a> = 15</td></tr>
 <tr class="separator:accc9cf20c3b16aef5d1a4334f96eb87a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea3e0b6e1c4dc0a2045e7903cec5a47e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effects_calculator.html#aea3e0b6e1c4dc0a2045e7903cec5a47e">inertia_q</a> = 0.2</td></tr>
 <tr class="separator:aea3e0b6e1c4dc0a2045e7903cec5a47e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -226,6 +245,18 @@ Private Attributes</h2></td></tr>
 <tr class="separator:ab29b9b29517a3d154655f74e735ed15a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43c9cd847852a8f990f389c67c2213eb"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effects_calculator.html#a43c9cd847852a8f990f389c67c2213eb">cfFilter_qfloatScaler</a> = 0.01</td></tr>
 <tr class="separator:a43c9cd847852a8f990f389c67c2213eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59551b2ca0046ffe18c4b8a181754a3a"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effects_calculator.html#a59551b2ca0046ffe18c4b8a181754a3a">spring_scaler</a> = 4.0f</td></tr>
+<tr class="separator:a59551b2ca0046ffe18c4b8a181754a3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a182104206c76e0ed059c9d1f4e3ae56f"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effects_calculator.html#a182104206c76e0ed059c9d1f4e3ae56f">friction_scaler</a> = 0.4f</td></tr>
+<tr class="separator:a182104206c76e0ed059c9d1f4e3ae56f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ca54064532e01f28678546e50e7a69a"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effects_calculator.html#a9ca54064532e01f28678546e50e7a69a">damper_scaler</a> = 2.0f</td></tr>
+<tr class="separator:a9ca54064532e01f28678546e50e7a69a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86e09253dc111e22003d55affbc6322a"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effects_calculator.html#a86e09253dc111e22003d55affbc6322a">inertia_scaler</a> = 200.0f</td></tr>
+<tr class="separator:a86e09253dc111e22003d55affbc6322a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1fd80f6b7e1e285fce3ec56a995a04e"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effects_calculator.html#ab1fd80f6b7e1e285fce3ec56a995a04e">frictionPctSpeedToRampup</a> = 5</td></tr>
+<tr class="separator:ab1fd80f6b7e1e285fce3ec56a995a04e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf1288adacddcd43bf801e67ab5032eb"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effects_calculator.html#adf1288adacddcd43bf801e67ab5032eb">speedRampupPct</a> = (<a class="el" href="class_effects_calculator.html#ab1fd80f6b7e1e285fce3ec56a995a04e">frictionPctSpeedToRampup</a> / 100.0) * 32767</td></tr>
+<tr class="separator:adf1288adacddcd43bf801e67ab5032eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7bc1656240ffd645a917f2e292761668"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structeffect__gain__t.html">effect_gain_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effects_calculator.html#a7bc1656240ffd645a917f2e292761668">gain</a></td></tr>
 <tr class="separator:a7bc1656240ffd645a917f2e292761668"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abec85aa5f013efad97ce9a4080607eab"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effects_calculator.html#abec85aa5f013efad97ce9a4080607eab">effects_used</a> = 0</td></tr>
@@ -234,29 +265,64 @@ Private Attributes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_static_methods_class_command_handler"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_class_command_handler')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="class_command_handler.html">CommandHandler</a></td></tr>
-<tr class="memitem:a7f80a73828221060784deeaebea6ce69 inherit pub_static_methods_class_command_handler"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_handler.html#a7f80a73828221060784deeaebea6ce69">sendSerial</a> (std::string cmd, std::string string, char prefix=0)</td></tr>
-<tr class="separator:a7f80a73828221060784deeaebea6ce69 inherit pub_static_methods_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f1846340caca33036391050a3bfa785 inherit pub_static_methods_class_command_handler"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_handler.html#a2f1846340caca33036391050a3bfa785">logSerial</a> (std::string string)</td></tr>
+<tr class="memdesc:a2f1846340caca33036391050a3bfa785 inherit pub_static_methods_class_command_handler"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a log formatted sequence.  <a href="class_command_handler.html#a2f1846340caca33036391050a3bfa785">More...</a><br /></td></tr>
 <tr class="separator:a2f1846340caca33036391050a3bfa785 inherit pub_static_methods_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ad3a15342dfe6bd3bc86527195ea54a inherit pub_static_methods_class_command_handler"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_handler.html#a0ad3a15342dfe6bd3bc86527195ea54a">logsEnabled</a> ()</td></tr>
 <tr class="separator:a0ad3a15342dfe6bd3bc86527195ea54a inherit pub_static_methods_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a459fc5dbbc8c19107b5081ab640f8c33 inherit pub_static_methods_class_command_handler"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_handler.html#a459fc5dbbc8c19107b5081ab640f8c33">setLogsEnabled</a> (bool enabled)</td></tr>
 <tr class="separator:a459fc5dbbc8c19107b5081ab640f8c33 inherit pub_static_methods_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af262ab189be012be1177f35d274daeab inherit pub_static_methods_class_command_handler"><td class="memItemLeft" align="right" valign="top">static uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_handler.html#af262ab189be012be1177f35d274daeab">getClassIdFromName</a> (const char *<a class="el" href="_command_handler_8h.html#a13a18e5b49561a2f007205dc0afeea14ab068931cc450442b63f5b3d276ea4297">name</a>)</td></tr>
+<tr class="separator:af262ab189be012be1177f35d274daeab inherit pub_static_methods_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51521039233992858489e6adb18e1201 inherit pub_static_methods_class_command_handler"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_handler.html#a51521039233992858489e6adb18e1201">getClassNameFromId</a> (const uint32_t <a class="el" href="_command_handler_8h.html#a13a18e5b49561a2f007205dc0afeea14ab80bb7740288fda1f201890375a60c8f">id</a>)</td></tr>
+<tr class="separator:a51521039233992858489e6adb18e1201 inherit pub_static_methods_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92dfd54be6bd4837aba4fc9a955b6728 inherit pub_static_methods_class_command_handler"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_command_handler.html">CommandHandler</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_handler.html#a92dfd54be6bd4837aba4fc9a955b6728">getHandlerFromHandlerId</a> (const uint16_t cmdhandlerID)</td></tr>
+<tr class="separator:a92dfd54be6bd4837aba4fc9a955b6728 inherit pub_static_methods_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae24b57ff98c8669ec3209d7ac2b4a8bc inherit pub_static_methods_class_command_handler"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_command_handler.html">CommandHandler</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_handler.html#ae24b57ff98c8669ec3209d7ac2b4a8bc">getHandlerFromId</a> (const uint16_t <a class="el" href="_command_handler_8h.html#a13a18e5b49561a2f007205dc0afeea14ab80bb7740288fda1f201890375a60c8f">id</a>, const uint8_t <a class="el" href="_command_handler_8h.html#a13a18e5b49561a2f007205dc0afeea14a7123a699d77db6479a1d8ece2c4f1c16">instance</a>=0xFF)</td></tr>
+<tr class="separator:ae24b57ff98c8669ec3209d7ac2b4a8bc inherit pub_static_methods_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fd83685167b1a1e17e18cdcb4592eac inherit pub_static_methods_class_command_handler"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_command_handler.html">CommandHandler</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_handler.html#a6fd83685167b1a1e17e18cdcb4592eac">getHandlerFromClassName</a> (const char *<a class="el" href="_command_handler_8h.html#a13a18e5b49561a2f007205dc0afeea14ab068931cc450442b63f5b3d276ea4297">name</a>, const uint8_t <a class="el" href="_command_handler_8h.html#a13a18e5b49561a2f007205dc0afeea14a7123a699d77db6479a1d8ece2c4f1c16">instance</a>=0xFF)</td></tr>
+<tr class="separator:a6fd83685167b1a1e17e18cdcb4592eac inherit pub_static_methods_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a107ec1d0a9489c6e5601e1227161e017 inherit pub_static_methods_class_command_handler"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; <a class="el" href="class_command_handler.html">CommandHandler</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_handler.html#a107ec1d0a9489c6e5601e1227161e017">getHandlersFromClassName</a> (const char *<a class="el" href="_command_handler_8h.html#a13a18e5b49561a2f007205dc0afeea14ab068931cc450442b63f5b3d276ea4297">name</a>)</td></tr>
+<tr class="separator:a107ec1d0a9489c6e5601e1227161e017 inherit pub_static_methods_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef887429e777b6fa4cdf45165c7fde91 inherit pub_static_methods_class_command_handler"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; <a class="el" href="class_command_handler.html">CommandHandler</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_handler.html#aef887429e777b6fa4cdf45165c7fde91">getHandlersFromId</a> (const uint16_t <a class="el" href="_command_handler_8h.html#a13a18e5b49561a2f007205dc0afeea14ab80bb7740288fda1f201890375a60c8f">id</a>)</td></tr>
+<tr class="separator:aef887429e777b6fa4cdf45165c7fde91 inherit pub_static_methods_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a563efae94fc4c4cd910a0feefb681df3 inherit pub_static_methods_class_command_handler"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_handler.html#a563efae94fc4c4cd910a0feefb681df3">isInHandlerList</a> (<a class="el" href="class_command_handler.html">CommandHandler</a> *handler)</td></tr>
+<tr class="separator:a563efae94fc4c4cd910a0feefb681df3 inherit pub_static_methods_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb22b24f51c53110d1275157b5d82fde inherit pub_static_methods_class_command_handler"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_handler.html#adb22b24f51c53110d1275157b5d82fde">getAllHelpstrings</a> ()</td></tr>
+<tr class="separator:adb22b24f51c53110d1275157b5d82fde inherit pub_static_methods_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_class_command_handler"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_command_handler')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_command_handler.html">CommandHandler</a></td></tr>
+<tr class="memitem:a6b21c926cfce2d16e63fe12f442f390e inherit pro_methods_class_command_handler"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_handler.html#a6b21c926cfce2d16e63fe12f442f390e">setInstance</a> (uint8_t <a class="el" href="_command_handler_8h.html#a13a18e5b49561a2f007205dc0afeea14a7123a699d77db6479a1d8ece2c4f1c16">instance</a>)</td></tr>
+<tr class="separator:a6b21c926cfce2d16e63fe12f442f390e inherit pro_methods_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3de5a97bb00981074ef6ea85caea8093 inherit pro_methods_class_command_handler"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_handler.html#a3de5a97bb00981074ef6ea85caea8093">addCommandHandler</a> ()</td></tr>
 <tr class="separator:a3de5a97bb00981074ef6ea85caea8093 inherit pro_methods_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc82292657521596a2e77756886f95aa inherit pro_methods_class_command_handler"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_handler.html#adc82292657521596a2e77756886f95aa">removeCommandHandler</a> ()</td></tr>
 <tr class="separator:adc82292657521596a2e77756886f95aa inherit pro_methods_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c02f24d5e63fa11c657e9fadc97a8eb inherit pro_methods_class_command_handler"><td class="memTemplParams" colspan="2">template&lt;typename TVal &gt; </td></tr>
-<tr class="memitem:a0c02f24d5e63fa11c657e9fadc97a8eb inherit pro_methods_class_command_handler"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_command_handler.html#a0c02f24d5e63fa11c657e9fadc97a8eb">handleGetSet</a> (<a class="el" href="struct_parsed_command.html">ParsedCommand</a> *cmd, std::string *reply, TVal &amp;val)</td></tr>
-<tr class="separator:a0c02f24d5e63fa11c657e9fadc97a8eb inherit pro_methods_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2efb62247e3d01ce46766e7728de888f inherit pro_methods_class_command_handler"><td class="memTemplParams" colspan="2">template&lt;typename TVal &gt; </td></tr>
+<tr class="memitem:a2efb62247e3d01ce46766e7728de888f inherit pro_methods_class_command_handler"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="_command_handler_8h.html#aefaf83fec6a7da1d02ae7e912dd9a6d5">CommandStatus</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_command_handler.html#a2efb62247e3d01ce46766e7728de888f">handleGetSet</a> (const <a class="el" href="struct_parsed_command.html">ParsedCommand</a> &amp;cmd, std::vector&lt; <a class="el" href="class_command_reply.html">CommandReply</a> &gt; &amp;replies, TVal &amp;value)</td></tr>
+<tr class="separator:a2efb62247e3d01ce46766e7728de888f inherit pro_methods_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa030af802d761b4515b4ff78f640a53a inherit pro_methods_class_command_handler"><td class="memTemplParams" colspan="2">template&lt;typename TVal , class cls &gt; </td></tr>
+<tr class="memitem:aa030af802d761b4515b4ff78f640a53a inherit pro_methods_class_command_handler"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_command_handler.html#aa030af802d761b4515b4ff78f640a53a">handleGetSetFunc</a> (const <a class="el" href="struct_parsed_command.html">ParsedCommand</a> &amp;cmd, std::vector&lt; <a class="el" href="class_command_reply.html">CommandReply</a> &gt; &amp;replies, TVal &amp;value, void(cls::*setfunc)(TVal), cls *obj)</td></tr>
+<tr class="separator:aa030af802d761b4515b4ff78f640a53a inherit pro_methods_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46a4f520b99df3c02276dec435613f6b inherit pro_methods_class_command_handler"><td class="memTemplParams" colspan="2">template&lt;typename TVal , class cls , class cls1 , class cls2 &gt; </td></tr>
+<tr class="memitem:a46a4f520b99df3c02276dec435613f6b inherit pro_methods_class_command_handler"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_command_handler.html#a46a4f520b99df3c02276dec435613f6b">handleGetFuncSetFunc</a> (const <a class="el" href="struct_parsed_command.html">ParsedCommand</a> &amp;cmd, std::vector&lt; <a class="el" href="class_command_reply.html">CommandReply</a> &gt; &amp;replies, TVal(cls1::*getfunc)(), void(cls2::*setfunc)(TVal), cls *obj)</td></tr>
+<tr class="separator:a46a4f520b99df3c02276dec435613f6b inherit pro_methods_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ee871a0cd5fcd6cccd915251963a7d9 inherit pro_methods_class_command_handler"><td class="memTemplParams" colspan="2">template&lt;typename TVal , class cls &gt; </td></tr>
+<tr class="memitem:a1ee871a0cd5fcd6cccd915251963a7d9 inherit pro_methods_class_command_handler"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_command_handler.html#a1ee871a0cd5fcd6cccd915251963a7d9">handleGetFuncSet</a> (const <a class="el" href="struct_parsed_command.html">ParsedCommand</a> &amp;cmd, std::vector&lt; <a class="el" href="class_command_reply.html">CommandReply</a> &gt; &amp;replies, TVal &amp;value, TVal(cls::*getfunc)(), cls *obj)</td></tr>
+<tr class="separator:a1ee871a0cd5fcd6cccd915251963a7d9 inherit pro_methods_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26d4fbfbb1106d0465716e1968150a7d inherit pro_methods_class_command_handler"><td class="memTemplParams" colspan="2">template&lt;typename ID &gt; </td></tr>
+<tr class="memitem:a26d4fbfbb1106d0465716e1968150a7d inherit pro_methods_class_command_handler"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_command_handler.html#a26d4fbfbb1106d0465716e1968150a7d">registerCommand</a> (const char *cmd, const ID cmdid, const char *<a class="el" href="_command_handler_8h.html#a13a18e5b49561a2f007205dc0afeea14a657f8b8da628ef83cf69101b6817150a">help</a>=nullptr, uint32_t flags=0)</td></tr>
+<tr class="separator:a26d4fbfbb1106d0465716e1968150a7d inherit pro_methods_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_command_handler"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_command_handler')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_command_handler.html">CommandHandler</a></td></tr>
 <tr class="memitem:a516d2f479602386f947b2ec00cb7d467 inherit pro_attribs_class_command_handler"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_handler.html#a516d2f479602386f947b2ec00cb7d467">commandsEnabled</a> = true</td></tr>
 <tr class="separator:a516d2f479602386f947b2ec00cb7d467 inherit pro_attribs_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f584d2a8b93c309c2feaa538a1ed36d inherit pro_attribs_class_command_handler"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="struct_cmd_handler_commanddef.html">CmdHandlerCommanddef</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_handler.html#a3f584d2a8b93c309c2feaa538a1ed36d">registeredCommands</a></td></tr>
+<tr class="separator:a3f584d2a8b93c309c2feaa538a1ed36d inherit pro_attribs_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7421ca437044e8588b3fdf748ace166b inherit pro_attribs_class_command_handler"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_cmd_handler_info.html">CmdHandlerInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_handler.html#a7421ca437044e8588b3fdf748ace166b">cmdHandlerInfo</a></td></tr>
+<tr class="separator:a7421ca437044e8588b3fdf748ace166b inherit pro_attribs_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8h_source.html#l00029">29</a> of file <a class="el" href="_effects_calculator_8h_source.html">EffectsCalculator.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8h_source.html#l00033">33</a> of file <a class="el" href="_effects_calculator_8h_source.html">EffectsCalculator.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad00aef28323b412e4342273916a1b6f9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad00aef28323b412e4342273916a1b6f9">&#9670;&nbsp;</a></span>EffectsCalculator()</h2>
@@ -273,7 +339,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00033">33</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00032">32</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
 
 </div>
 </div>
@@ -300,7 +366,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00038">38</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00046">46</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
 
 </div>
 </div>
@@ -339,12 +405,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00390">390</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00464">464</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
 
 </div>
 </div>
-<a id="ad7e935f8c27c72f5c2f5c0109c5f9758"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad7e935f8c27c72f5c2f5c0109c5f9758">&#9670;&nbsp;</a></span>calcComponentForce()</h2>
+<a id="a54a9c878157501eec2f017560a1c468e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54a9c878157501eec2f017560a1c468e">&#9670;&nbsp;</a></span>calcComponentForce()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -367,20 +433,14 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structmetric__t.html">metric_t</a> *&#160;</td>
-          <td class="paramname"><em>metrics</em>, </td>
+          <td class="paramtype">std::vector&lt; std::unique_ptr&lt; <a class="el" href="class_axis.html">Axis</a> &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>axes</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>axis</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>axisCount</em>&#160;</td>
+          <td class="paramname"><em>axis</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -394,13 +454,14 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>| (rampup is from 0..5% of max velocity) | __________ (after use max coefficient) | / | / |- ---------------------&mdash; Velocity -| / | / | ----&mdash; | |</p>
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00282">282</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00294">294</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a1618f359981b47f1a5c867273e3a9669"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1618f359981b47f1a5c867273e3a9669">&#9670;&nbsp;</a></span>calcConditionEffectForce()</h2>
+<a id="aa2d7b2ce75a7c000acb1863ce94426a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2d7b2ce75a7c000acb1863ce94426a9">&#9670;&nbsp;</a></span>calcConditionEffectForce()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -425,12 +486,6 @@ Additional Inherited Members</h2></td></tr>
           <td></td>
           <td class="paramtype">uint8_t&#160;</td>
           <td class="paramname"><em>gain</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int32_t&#160;</td>
-          <td class="paramname"><em>pos</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -462,8 +517,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Calculates a conditional effect Takes care of deadband and offsets and scalers Gain of 255 = 1x. Prescale with scale factor </p>
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00367">367</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00435">435</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
 
 </div>
 </div>
@@ -490,8 +546,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Calculates forces from a non conditional effect Periodic and constant effects </p>
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00153">153</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00165">165</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
 
 </div>
 </div>
@@ -511,12 +568,12 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00085">85</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00093">93</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
 
 </div>
 </div>
-<a id="aa6ecc385bd772fc972689b47589ecdfe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa6ecc385bd772fc972689b47589ecdfe">&#9670;&nbsp;</a></span>command()</h2>
+<a id="ab03374bae6d7cd45b410a6dc1fd9a53d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab03374bae6d7cd45b410a6dc1fd9a53d">&#9670;&nbsp;</a></span>command()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -525,16 +582,16 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_command_handler_8h.html#a35ceaa27c27c5f68052e8633394228bf">ParseStatus</a> EffectsCalculator::command </td>
+          <td class="memname"><a class="el" href="_command_handler_8h.html#aefaf83fec6a7da1d02ae7e912dd9a6d5">CommandStatus</a> EffectsCalculator::command </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_parsed_command.html">ParsedCommand</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="struct_parsed_command.html">ParsedCommand</a> &amp;&#160;</td>
           <td class="paramname"><em>cmd</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string *&#160;</td>
-          <td class="paramname"><em>reply</em>&#160;</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="class_command_reply.html">CommandReply</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>replies</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -548,11 +605,47 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Implement this function. MUST return not found when no valid command was found or if a help command or similar was parsed. When it returns OK or FAIL parsing is normally stopped after this class and the command is not sent to others. A command can not start with "!" or contain "&gt;" anywhere in the reply or command name. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">cmd</td><td>The parsed command to be executed. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">replies</td><td>A vector to return one or multiple reply objects into. Replies to the interface will be generated based on the reply objects. A string reply may not contain start, end and separation markers: [,],| Other characters are allowed. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p>Reimplemented from <a class="el" href="class_command_handler.html#a2966eb86d048f2701b4562cfa262ed71">CommandHandler</a>.</p>
+<p>Reimplemented from <a class="el" href="class_command_handler.html#a8d2531d579c03d6672495ccb57f5ffb3">CommandHandler</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00577">577</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00636">636</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
+
+</div>
+</div>
+<a id="aaa8449464c681ddab60e3a436e982d45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa8449464c681ddab60e3a436e982d45">&#9670;&nbsp;</a></span>getClassType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="_class_i_ds_8h.html#a79467dc849dd02adbaa4373bbd7aba75">ClassType</a> EffectsCalculator::getClassType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Type of this class. Mainclass, motordriver... Should be implemented by the parent class so it is not in the info struct </p>
+
+<p>Reimplemented from <a class="el" href="class_command_handler.html#a59474bca13e1cc8a8e0e58c47cdce539">CommandHandler</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8h_source.html#l00040">40</a> of file <a class="el" href="_effects_calculator_8h_source.html">EffectsCalculator.h</a>.</p>
 
 </div>
 </div>
@@ -571,7 +664,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00468">468</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00542">542</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
 
 </div>
 </div>
@@ -597,10 +690,11 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Returns a description of this class </p>
 
 <p>Reimplemented from <a class="el" href="class_command_handler.html#a0842b01125770b9be569a29d49080a3f">CommandHandler</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8h_source.html#l00052">52</a> of file <a class="el" href="_effects_calculator_8h_source.html">EffectsCalculator.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8h_source.html#l00057">57</a> of file <a class="el" href="_effects_calculator_8h_source.html">EffectsCalculator.h</a>.</p>
 
 </div>
 </div>
@@ -627,9 +721,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Command handlers always have class infos. Works well with <a class="el" href="class_choosable_class.html">ChoosableClass</a>. </p>
+
 <p>Implements <a class="el" href="class_command_handler.html#a6d4dd2900284fea12f53ca1e513be856">CommandHandler</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00028">28</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00027">27</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
 
 </div>
 </div>
@@ -648,7 +744,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00048">48</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00056">56</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
 
 </div>
 </div>
@@ -674,8 +770,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Prints a list of effects that were active at some point Does not reset when an effect is deactivated </p>
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00540">540</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00618">618</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
 
 </div>
 </div>
@@ -695,37 +792,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00534">534</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
-
-</div>
-</div>
-<a id="aa962dbf1f998b94519b428c194156233"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa962dbf1f998b94519b428c194156233">&#9670;&nbsp;</a></span>processHidCommand()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void EffectsCalculator::processHidCommand </td>
-          <td>(</td>
-          <td class="paramtype">HID_Custom_Data_t *&#160;</td>
-          <td class="paramname"><em>data</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented from <a class="el" href="class_hid_command_handler.html#a2d63e10b855fac7a5392b08d2b48560c">HidCommandHandler</a>.</p>
-
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00558">558</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00608">608</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
 
 </div>
 </div>
@@ -755,7 +822,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="class_persistent_storage.html#aa8187136adfa89fca9ddee2578f6eb68">PersistentStorage</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00480">480</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00554">554</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
 
 </div>
 </div>
@@ -785,7 +852,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="class_persistent_storage.html#a105599e99ab0e4244a531c2286f2ffa2">PersistentStorage</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00503">503</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00577">577</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
 
 </div>
 </div>
@@ -805,7 +872,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00052">52</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00060">60</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
 
 </div>
 </div>
@@ -835,7 +902,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00514">514</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00588">588</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
 
 </div>
 </div>
@@ -855,7 +922,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00470">470</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00544">544</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
 
 </div>
 </div>
@@ -883,7 +950,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00416">416</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00490">490</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
 
 </div>
 </div>
@@ -903,7 +970,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00463">463</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8cpp_source.html#l00537">537</a> of file <a class="el" href="_effects_calculator_8cpp_source.html">EffectsCalculator.cpp</a>.</p>
 
 </div>
 </div>
@@ -928,7 +995,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8h_source.html#l00066">66</a> of file <a class="el" href="_effects_calculator_8h_source.html">EffectsCalculator.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8h_source.html#l00071">71</a> of file <a class="el" href="_effects_calculator_8h_source.html">EffectsCalculator.h</a>.</p>
 
 </div>
 </div>
@@ -952,7 +1019,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8h_source.html#l00067">67</a> of file <a class="el" href="_effects_calculator_8h_source.html">EffectsCalculator.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8h_source.html#l00072">72</a> of file <a class="el" href="_effects_calculator_8h_source.html">EffectsCalculator.h</a>.</p>
 
 </div>
 </div>
@@ -976,7 +1043,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8h_source.html#l00068">68</a> of file <a class="el" href="_effects_calculator_8h_source.html">EffectsCalculator.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8h_source.html#l00073">73</a> of file <a class="el" href="_effects_calculator_8h_source.html">EffectsCalculator.h</a>.</p>
 
 </div>
 </div>
@@ -1000,7 +1067,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8h_source.html#l00069">69</a> of file <a class="el" href="_effects_calculator_8h_source.html">EffectsCalculator.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8h_source.html#l00074">74</a> of file <a class="el" href="_effects_calculator_8h_source.html">EffectsCalculator.h</a>.</p>
 
 </div>
 </div>
@@ -1014,7 +1081,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float EffectsCalculator::damper_f = 50</td>
+          <td class="memname">float EffectsCalculator::damper_f = 30</td>
         </tr>
       </table>
   </td>
@@ -1024,7 +1091,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8h_source.html#l00063">63</a> of file <a class="el" href="_effects_calculator_8h_source.html">EffectsCalculator.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8h_source.html#l00068">68</a> of file <a class="el" href="_effects_calculator_8h_source.html">EffectsCalculator.h</a>.</p>
 
 </div>
 </div>
@@ -1038,7 +1105,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float EffectsCalculator::damper_q = 0.2</td>
+          <td class="memname">float EffectsCalculator::damper_q = 0.4</td>
         </tr>
       </table>
   </td>
@@ -1048,7 +1115,31 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8h_source.html#l00063">63</a> of file <a class="el" href="_effects_calculator_8h_source.html">EffectsCalculator.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8h_source.html#l00068">68</a> of file <a class="el" href="_effects_calculator_8h_source.html">EffectsCalculator.h</a>.</p>
+
+</div>
+</div>
+<a id="a9ca54064532e01f28678546e50e7a69a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ca54064532e01f28678546e50e7a69a">&#9670;&nbsp;</a></span>damper_scaler</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float EffectsCalculator::damper_scaler = 2.0f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8h_source.html#l00079">79</a> of file <a class="el" href="_effects_calculator_8h_source.html">EffectsCalculator.h</a>.</p>
 
 </div>
 </div>
@@ -1064,7 +1155,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8h_source.html#l00055">55</a> of file <a class="el" href="_effects_calculator_8h_source.html">EffectsCalculator.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8h_source.html#l00060">60</a> of file <a class="el" href="_effects_calculator_8h_source.html">EffectsCalculator.h</a>.</p>
 
 </div>
 </div>
@@ -1088,7 +1179,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8h_source.html#l00061">61</a> of file <a class="el" href="_effects_calculator_8h_source.html">EffectsCalculator.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8h_source.html#l00066">66</a> of file <a class="el" href="_effects_calculator_8h_source.html">EffectsCalculator.h</a>.</p>
 
 </div>
 </div>
@@ -1112,7 +1203,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8h_source.html#l00073">73</a> of file <a class="el" href="_effects_calculator_8h_source.html">EffectsCalculator.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8h_source.html#l00086">86</a> of file <a class="el" href="_effects_calculator_8h_source.html">EffectsCalculator.h</a>.</p>
 
 </div>
 </div>
@@ -1136,7 +1227,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8h_source.html#l00064">64</a> of file <a class="el" href="_effects_calculator_8h_source.html">EffectsCalculator.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8h_source.html#l00069">69</a> of file <a class="el" href="_effects_calculator_8h_source.html">EffectsCalculator.h</a>.</p>
 
 </div>
 </div>
@@ -1160,7 +1251,55 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8h_source.html#l00064">64</a> of file <a class="el" href="_effects_calculator_8h_source.html">EffectsCalculator.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8h_source.html#l00069">69</a> of file <a class="el" href="_effects_calculator_8h_source.html">EffectsCalculator.h</a>.</p>
+
+</div>
+</div>
+<a id="a182104206c76e0ed059c9d1f4e3ae56f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a182104206c76e0ed059c9d1f4e3ae56f">&#9670;&nbsp;</a></span>friction_scaler</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float EffectsCalculator::friction_scaler = 0.4f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8h_source.html#l00078">78</a> of file <a class="el" href="_effects_calculator_8h_source.html">EffectsCalculator.h</a>.</p>
+
+</div>
+</div>
+<a id="ab1fd80f6b7e1e285fce3ec56a995a04e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1fd80f6b7e1e285fce3ec56a995a04e">&#9670;&nbsp;</a></span>frictionPctSpeedToRampup</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int EffectsCalculator::frictionPctSpeedToRampup = 5</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8h_source.html#l00081">81</a> of file <a class="el" href="_effects_calculator_8h_source.html">EffectsCalculator.h</a>.</p>
 
 </div>
 </div>
@@ -1184,7 +1323,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8h_source.html#l00071">71</a> of file <a class="el" href="_effects_calculator_8h_source.html">EffectsCalculator.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8h_source.html#l00084">84</a> of file <a class="el" href="_effects_calculator_8h_source.html">EffectsCalculator.h</a>.</p>
 
 </div>
 </div>
@@ -1208,7 +1347,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8h_source.html#l00062">62</a> of file <a class="el" href="_effects_calculator_8h_source.html">EffectsCalculator.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8h_source.html#l00067">67</a> of file <a class="el" href="_effects_calculator_8h_source.html">EffectsCalculator.h</a>.</p>
 
 </div>
 </div>
@@ -1222,7 +1361,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float EffectsCalculator::inertia_f = 20</td>
+          <td class="memname">float EffectsCalculator::inertia_f = 15</td>
         </tr>
       </table>
   </td>
@@ -1232,7 +1371,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8h_source.html#l00065">65</a> of file <a class="el" href="_effects_calculator_8h_source.html">EffectsCalculator.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8h_source.html#l00070">70</a> of file <a class="el" href="_effects_calculator_8h_source.html">EffectsCalculator.h</a>.</p>
 
 </div>
 </div>
@@ -1256,7 +1395,31 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8h_source.html#l00065">65</a> of file <a class="el" href="_effects_calculator_8h_source.html">EffectsCalculator.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8h_source.html#l00070">70</a> of file <a class="el" href="_effects_calculator_8h_source.html">EffectsCalculator.h</a>.</p>
+
+</div>
+</div>
+<a id="a86e09253dc111e22003d55affbc6322a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86e09253dc111e22003d55affbc6322a">&#9670;&nbsp;</a></span>inertia_scaler</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float EffectsCalculator::inertia_scaler = 200.0f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8h_source.html#l00080">80</a> of file <a class="el" href="_effects_calculator_8h_source.html">EffectsCalculator.h</a>.</p>
 
 </div>
 </div>
@@ -1280,13 +1443,60 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">        .name   = <span class="stringliteral">&quot;NONE&quot;</span> ,</div>
-<div class="line">             .id    = 0,</div>
-<div class="line">             .unique = <span class="charliteral">&#39;0&#39;</span>,</div>
-<div class="line">             .hidden = <span class="keyword">true</span></div>
+<div class="line">          .name = <span class="stringliteral">&quot;Effects&quot;</span> ,</div>
+<div class="line">          .id   = CLSID_EFFECTSCALC,</div>
+<div class="line">          .hidden = <span class="keyword">true</span></div>
 <div class="line">}</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="_effects_calculator_8h_source.html#l00034">34</a> of file <a class="el" href="_effects_calculator_8h_source.html">EffectsCalculator.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8h_source.html#l00038">38</a> of file <a class="el" href="_effects_calculator_8h_source.html">EffectsCalculator.h</a>.</p>
+
+</div>
+</div>
+<a id="adf1288adacddcd43bf801e67ab5032eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf1288adacddcd43bf801e67ab5032eb">&#9670;&nbsp;</a></span>speedRampupPct</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float EffectsCalculator::speedRampupPct = (<a class="el" href="class_effects_calculator.html#ab1fd80f6b7e1e285fce3ec56a995a04e">frictionPctSpeedToRampup</a> / 100.0) * 32767</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8h_source.html#l00082">82</a> of file <a class="el" href="_effects_calculator_8h_source.html">EffectsCalculator.h</a>.</p>
+
+</div>
+</div>
+<a id="a59551b2ca0046ffe18c4b8a181754a3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59551b2ca0046ffe18c4b8a181754a3a">&#9670;&nbsp;</a></span>spring_scaler</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float EffectsCalculator::spring_scaler = 4.0f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_effects_calculator_8h_source.html#l00077">77</a> of file <a class="el" href="_effects_calculator_8h_source.html">EffectsCalculator.h</a>.</p>
 
 </div>
 </div>

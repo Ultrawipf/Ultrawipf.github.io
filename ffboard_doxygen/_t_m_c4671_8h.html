@@ -98,6 +98,8 @@ $(document).ready(function(){initNavTree('_t_m_c4671_8h.html',''); initResizable
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_t_m_c4671_mot_conf.html">TMC4671MotConf</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_t_m_c4671_hardware_type_conf.html">TMC4671HardwareTypeConf</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">union &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="union_status_flags.html">StatusFlags</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_status_flags_1_1_status_flags__s.html">StatusFlags::StatusFlags_s</a></td></tr>
@@ -230,21 +232,24 @@ Enumerations</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:a3b24d58867df0611d6df04e70b34c5c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1064cdca049007c828bd4a5b28f51d71"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_m_c4671_8h.html#a1064cdca049007c828bd4a5b28f51d71">TMC_HW_Ver</a> : uint8_t { <br />
+&#160;&#160;<a class="el" href="_t_m_c4671_8h.html#a1064cdca049007c828bd4a5b28f51d71ab50339a10e1de285ac99d4c3990b8693">NONE</a> =0
+, <a class="el" href="_t_m_c4671_8h.html#a1064cdca049007c828bd4a5b28f51d71a09d7da9ea375f1827517b45b61cfc6b8">v1_0</a>
+, <a class="el" href="_t_m_c4671_8h.html#a1064cdca049007c828bd4a5b28f51d71a0fdcfe7bc01aadbcbb7ff8c0e1024336">v1_2</a>
+, <a class="el" href="_t_m_c4671_8h.html#a1064cdca049007c828bd4a5b28f51d71ab129ca64ac50de9234964ac1976fdc85">v1_2_1</a>
+, <br />
+&#160;&#160;<a class="el" href="_t_m_c4671_8h.html#a1064cdca049007c828bd4a5b28f51d71a6844f19327f70873cdfcec7909fa9550">v1_2_1_LEM20</a>
+, <a class="el" href="_t_m_c4671_8h.html#a1064cdca049007c828bd4a5b28f51d71a59f988078b731d93c74ec5992cf9292f">v1_2_1_TMCS</a>
+<br />
+ }</td></tr>
+<tr class="separator:a1064cdca049007c828bd4a5b28f51d71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a49b76b3df998b61ed9347ac903b9ecf8"><td class="memItemLeft" align="right" valign="top">SPI_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_m_c4671_8h.html#a49b76b3df998b61ed9347ac903b9ecf8">HSPIDRV</a></td></tr>
 <tr class="separator:a49b76b3df998b61ed9347ac903b9ecf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a172353e1ee6c16aa8817fe0c39de4052"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_m_c4671_8h.html#a172353e1ee6c16aa8817fe0c39de4052">thermistor_R2</a> = 1500</td></tr>
-<tr class="separator:a172353e1ee6c16aa8817fe0c39de4052"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa755b4df95e1ff5fb4a112117549bf0a"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_m_c4671_8h.html#aa755b4df95e1ff5fb4a112117549bf0a">tmcOffset</a> = 1000</td></tr>
-<tr class="separator:aa755b4df95e1ff5fb4a112117549bf0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a290fa378df52f972deff2a7a80a83730"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_m_c4671_8h.html#a290fa378df52f972deff2a7a80a83730">thermistor_Beta</a> = 4300</td></tr>
-<tr class="separator:a290fa378df52f972deff2a7a80a83730"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77839dab2a2077c67c01413b3b2ae68b"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_m_c4671_8h.html#a77839dab2a2077c67c01413b3b2ae68b">thermistor_R</a> = 22000</td></tr>
-<tr class="separator:a77839dab2a2077c67c01413b3b2ae68b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9c27df933bf8005ac48b988d2d4623c"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_m_c4671_8h.html#ab9c27df933bf8005ac48b988d2d4623c">temp_limit</a> = 100</td></tr>
-<tr class="separator:ab9c27df933bf8005ac48b988d2d4623c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acecaf14b1bbf948db2c59ade57598a68"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; std::pair&lt; <a class="el" href="_t_m_c4671_8h.html#a1064cdca049007c828bd4a5b28f51d71">TMC_HW_Ver</a>, std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_m_c4671_8h.html#acecaf14b1bbf948db2c59ade57598a68">tmcHwVersionNames</a></td></tr>
+<tr class="separator:acecaf14b1bbf948db2c59ade57598a68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="af7a9c4e6e1bf0678c768e3210cdeadad"></a>
@@ -274,7 +279,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="af7a9c4e6e1bf0678c768e3210cdeadadae0aa021e21dddbd6d8cecec71e9cf564"></a>OK&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="_t_m_c4671_8h_source.html#l00038">38</a> of file <a class="el" href="_t_m_c4671_8h_source.html">TMC4671.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_t_m_c4671_8h_source.html#l00034">34</a> of file <a class="el" href="_t_m_c4671_8h_source.html">TMC4671.h</a>.</p>
 
 </div>
 </div>
@@ -306,7 +311,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a3b24d58867df0611d6df04e70b34c5c0aabf77184f55403d75b9d51d79162a7ca"></a>ext&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="_t_m_c4671_8h_source.html#l00045">45</a> of file <a class="el" href="_t_m_c4671_8h_source.html">TMC4671.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_t_m_c4671_8h_source.html#l00041">41</a> of file <a class="el" href="_t_m_c4671_8h_source.html">TMC4671.h</a>.</p>
 
 </div>
 </div>
@@ -335,7 +340,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a6116f1e0e18067831052e401757405c6ae9ee2651c12f09e358eb1da8545952a7"></a>torque&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="_t_m_c4671_8h_source.html#l00043">43</a> of file <a class="el" href="_t_m_c4671_8h_source.html">TMC4671.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_t_m_c4671_8h_source.html#l00039">39</a> of file <a class="el" href="_t_m_c4671_8h_source.html">TMC4671.h</a>.</p>
 
 </div>
 </div>
@@ -371,7 +376,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a1b04aa8e350271255d351486d3720741ab50339a10e1de285ac99d4c3990b8693"></a>NONE&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="_t_m_c4671_8h_source.html#l00042">42</a> of file <a class="el" href="_t_m_c4671_8h_source.html">TMC4671.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_t_m_c4671_8h_source.html#l00038">38</a> of file <a class="el" href="_t_m_c4671_8h_source.html">TMC4671.h</a>.</p>
 
 </div>
 </div>
@@ -402,7 +407,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a582234b0c15ab7ba48e3ddd16e7a41d2acd22bad976363fdd1bfbf6759fede482"></a>ERR&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="_t_m_c4671_8h_source.html#l00040">40</a> of file <a class="el" href="_t_m_c4671_8h_source.html">TMC4671.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_t_m_c4671_8h_source.html#l00036">36</a> of file <a class="el" href="_t_m_c4671_8h_source.html">TMC4671.h</a>.</p>
 
 </div>
 </div>
@@ -435,7 +440,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="addb917dd45972d75a9b40bab2ce78492ab50339a10e1de285ac99d4c3990b8693"></a>NONE&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="_t_m_c4671_8h_source.html#l00041">41</a> of file <a class="el" href="_t_m_c4671_8h_source.html">TMC4671.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_t_m_c4671_8h_source.html#l00037">37</a> of file <a class="el" href="_t_m_c4671_8h_source.html">TMC4671.h</a>.</p>
 
 </div>
 </div>
@@ -474,7 +479,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="affe1640d3ae28fb6e7d823943b6b784ba64a253130010448551e8eb7520f4a18f"></a>PhiM_hal&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="_t_m_c4671_8h_source.html#l00044">44</a> of file <a class="el" href="_t_m_c4671_8h_source.html">TMC4671.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_t_m_c4671_8h_source.html#l00040">40</a> of file <a class="el" href="_t_m_c4671_8h_source.html">TMC4671.h</a>.</p>
 
 </div>
 </div>
@@ -511,7 +516,39 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a08a7449bf7a92827d2af8ebebb8f218eabb482287d9e99acc78992b550d58c1ec"></a>EncoderFinished&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="_t_m_c4671_8h_source.html#l00037">37</a> of file <a class="el" href="_t_m_c4671_8h_source.html">TMC4671.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_t_m_c4671_8h_source.html#l00033">33</a> of file <a class="el" href="_t_m_c4671_8h_source.html">TMC4671.h</a>.</p>
+
+</div>
+</div>
+<a id="a1064cdca049007c828bd4a5b28f51d71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1064cdca049007c828bd4a5b28f51d71">&#9670;&nbsp;</a></span>TMC_HW_Ver</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="_t_m_c4671_8h.html#a1064cdca049007c828bd4a5b28f51d71">TMC_HW_Ver</a> : uint8_t</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a1064cdca049007c828bd4a5b28f51d71ab50339a10e1de285ac99d4c3990b8693"></a>NONE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1064cdca049007c828bd4a5b28f51d71a09d7da9ea375f1827517b45b61cfc6b8"></a>v1_0&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1064cdca049007c828bd4a5b28f51d71a0fdcfe7bc01aadbcbb7ff8c0e1024336"></a>v1_2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1064cdca049007c828bd4a5b28f51d71ab129ca64ac50de9234964ac1976fdc85"></a>v1_2_1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1064cdca049007c828bd4a5b28f51d71a6844f19327f70873cdfcec7909fa9550"></a>v1_2_1_LEM20&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1064cdca049007c828bd4a5b28f51d71a59f988078b731d93c74ec5992cf9292f"></a>v1_2_1_TMCS&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="_t_m_c4671_8h_source.html#l00044">44</a> of file <a class="el" href="_t_m_c4671_8h_source.html">TMC4671.h</a>.</p>
 
 </div>
 </div>
@@ -538,83 +575,33 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ab9c27df933bf8005ac48b988d2d4623c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab9c27df933bf8005ac48b988d2d4623c">&#9670;&nbsp;</a></span>temp_limit</h2>
+<a id="acecaf14b1bbf948db2c59ade57598a68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acecaf14b1bbf948db2c59ade57598a68">&#9670;&nbsp;</a></span>tmcHwVersionNames</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const float temp_limit = 100</td>
+          <td class="memname">const std::vector&lt;std::pair&lt;<a class="el" href="_t_m_c4671_8h.html#a1064cdca049007c828bd4a5b28f51d71">TMC_HW_Ver</a>,std::string&gt; &gt; tmcHwVersionNames</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_t_m_c4671_8h_source.html#l00062">62</a> of file <a class="el" href="_t_m_c4671_8h_source.html">TMC4671.h</a>.</p>
-
-</div>
-</div>
-<a id="a290fa378df52f972deff2a7a80a83730"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a290fa378df52f972deff2a7a80a83730">&#9670;&nbsp;</a></span>thermistor_Beta</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const float thermistor_Beta = 4300</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_t_m_c4671_8h_source.html#l00061">61</a> of file <a class="el" href="_t_m_c4671_8h_source.html">TMC4671.h</a>.</p>
-
-</div>
-</div>
-<a id="a77839dab2a2077c67c01413b3b2ae68b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a77839dab2a2077c67c01413b3b2ae68b">&#9670;&nbsp;</a></span>thermistor_R</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const float thermistor_R = 22000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_t_m_c4671_8h_source.html#l00061">61</a> of file <a class="el" href="_t_m_c4671_8h_source.html">TMC4671.h</a>.</p>
-
-</div>
-</div>
-<a id="a172353e1ee6c16aa8817fe0c39de4052"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a172353e1ee6c16aa8817fe0c39de4052">&#9670;&nbsp;</a></span>thermistor_R2</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const int thermistor_R2 = 1500</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_t_m_c4671_8h_source.html#l00058">58</a> of file <a class="el" href="_t_m_c4671_8h_source.html">TMC4671.h</a>.</p>
-
-</div>
-</div>
-<a id="aa755b4df95e1ff5fb4a112117549bf0a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa755b4df95e1ff5fb4a112117549bf0a">&#9670;&nbsp;</a></span>tmcOffset</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const int tmcOffset = 1000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_t_m_c4671_8h_source.html#l00058">58</a> of file <a class="el" href="_t_m_c4671_8h_source.html">TMC4671.h</a>.</p>
+<b>Initial value:</b><div class="fragment"><div class="line">{</div>
+<div class="line">            std::make_pair(<a class="code" href="_t_m_c4671_8h.html#a1064cdca049007c828bd4a5b28f51d71ab50339a10e1de285ac99d4c3990b8693">TMC_HW_Ver::NONE</a>,<span class="stringliteral">&quot;Undefined&quot;</span>), </div>
+<div class="line">            std::make_pair(<a class="code" href="_t_m_c4671_8h.html#a1064cdca049007c828bd4a5b28f51d71a09d7da9ea375f1827517b45b61cfc6b8">TMC_HW_Ver::v1_0</a>,<span class="stringliteral">&quot;v1.0&quot;</span>),</div>
+<div class="line">            std::make_pair(<a class="code" href="_t_m_c4671_8h.html#a1064cdca049007c828bd4a5b28f51d71a0fdcfe7bc01aadbcbb7ff8c0e1024336">TMC_HW_Ver::v1_2</a>,<span class="stringliteral">&quot;v1.2&quot;</span>),</div>
+<div class="line">            std::make_pair(<a class="code" href="_t_m_c4671_8h.html#a1064cdca049007c828bd4a5b28f51d71ab129ca64ac50de9234964ac1976fdc85">TMC_HW_Ver::v1_2_1</a>,<span class="stringliteral">&quot;v1.2.1 LEM GO 10&quot;</span>),</div>
+<div class="line">            std::make_pair(<a class="code" href="_t_m_c4671_8h.html#a1064cdca049007c828bd4a5b28f51d71a6844f19327f70873cdfcec7909fa9550">TMC_HW_Ver::v1_2_1_LEM20</a>,<span class="stringliteral">&quot;v1.2.1 LEM GO 20&quot;</span>),</div>
+<div class="line">            std::make_pair(<a class="code" href="_t_m_c4671_8h.html#a1064cdca049007c828bd4a5b28f51d71a59f988078b731d93c74ec5992cf9292f">TMC_HW_Ver::v1_2_1_TMCS</a>,<span class="stringliteral">&quot;v1.2.1 TMCS1100A2&quot;</span>)</div>
+<div class="line">}</div>
+<div class="ttc" id="a_t_m_c4671_8h_html_a1064cdca049007c828bd4a5b28f51d71a09d7da9ea375f1827517b45b61cfc6b8"><div class="ttname"><a href="_t_m_c4671_8h.html#a1064cdca049007c828bd4a5b28f51d71a09d7da9ea375f1827517b45b61cfc6b8">TMC_HW_Ver::v1_0</a></div><div class="ttdeci">@ v1_0</div></div>
+<div class="ttc" id="a_t_m_c4671_8h_html_a1064cdca049007c828bd4a5b28f51d71a0fdcfe7bc01aadbcbb7ff8c0e1024336"><div class="ttname"><a href="_t_m_c4671_8h.html#a1064cdca049007c828bd4a5b28f51d71a0fdcfe7bc01aadbcbb7ff8c0e1024336">TMC_HW_Ver::v1_2</a></div><div class="ttdeci">@ v1_2</div></div>
+<div class="ttc" id="a_t_m_c4671_8h_html_a1064cdca049007c828bd4a5b28f51d71a59f988078b731d93c74ec5992cf9292f"><div class="ttname"><a href="_t_m_c4671_8h.html#a1064cdca049007c828bd4a5b28f51d71a59f988078b731d93c74ec5992cf9292f">TMC_HW_Ver::v1_2_1_TMCS</a></div><div class="ttdeci">@ v1_2_1_TMCS</div></div>
+<div class="ttc" id="a_t_m_c4671_8h_html_a1064cdca049007c828bd4a5b28f51d71a6844f19327f70873cdfcec7909fa9550"><div class="ttname"><a href="_t_m_c4671_8h.html#a1064cdca049007c828bd4a5b28f51d71a6844f19327f70873cdfcec7909fa9550">TMC_HW_Ver::v1_2_1_LEM20</a></div><div class="ttdeci">@ v1_2_1_LEM20</div></div>
+<div class="ttc" id="a_t_m_c4671_8h_html_a1064cdca049007c828bd4a5b28f51d71ab129ca64ac50de9234964ac1976fdc85"><div class="ttname"><a href="_t_m_c4671_8h.html#a1064cdca049007c828bd4a5b28f51d71ab129ca64ac50de9234964ac1976fdc85">TMC_HW_Ver::v1_2_1</a></div><div class="ttdeci">@ v1_2_1</div></div>
+<div class="ttc" id="a_t_m_c4671_8h_html_a1064cdca049007c828bd4a5b28f51d71ab50339a10e1de285ac99d4c3990b8693"><div class="ttname"><a href="_t_m_c4671_8h.html#a1064cdca049007c828bd4a5b28f51d71ab50339a10e1de285ac99d4c3990b8693">TMC_HW_Ver::NONE</a></div><div class="ttdeci">@ NONE</div></div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="_t_m_c4671_8h_source.html#l00046">46</a> of file <a class="el" href="_t_m_c4671_8h_source.html">TMC4671.h</a>.</p>
 
 </div>
 </div>

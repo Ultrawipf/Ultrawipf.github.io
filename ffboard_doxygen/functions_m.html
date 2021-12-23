@@ -90,9 +90,6 @@ $(document).ready(function(){initNavTree('functions_m.html',''); initResizable()
 : <a class="el" href="struct____attribute____.html#a4ce1e9256408bfb9a512b6f901f73ed0">__attribute__</a>
 , <a class="el" href="struct_f_f_b___effect.html#a62401da07f92ed000189a331107f682c">FFB_Effect</a>
 </li>
-<li>main
-: <a class="el" href="class_f_f_board_main_command_thread.html#a1cbf22b1d38e50c869ee0a949cd3d5bb">FFBoardMainCommandThread</a>
-</li>
 <li>major_version
 : <a class="el" href="structrndis__msg__initialize__cmplt__t.html#a55e9109f36bf967378a18953c96d82ba">rndis_msg_initialize_cmplt_t</a>
 , <a class="el" href="structrndis__msg__initialize__t.html#ae46e1aab62ca9725b7577973db30a9b9">rndis_msg_initialize_t</a>
@@ -126,6 +123,9 @@ $(document).ready(function(){initNavTree('functions_m.html',''); initResizable()
 : <a class="el" href="structrndis__msg__initialize__cmplt__t.html#a7527de4cbfcefb7ad3727ce4ae4279df">rndis_msg_initialize_cmplt_t</a>
 , <a class="el" href="structrndis__msg__initialize__t.html#a0c6f32c93476dc2cded2d9b14291c92f">rndis_msg_initialize_t</a>
 </li>
+<li>maxAccel
+: <a class="el" href="struct_axis_flash_addrs.html#a0b4de1c3b3fa251ad136fcbb29910db7">AxisFlashAddrs</a>
+</li>
 <li>maxButtons
 : <a class="el" href="class_local_buttons.html#a694a8f21ace9151feebbbc978296f686">LocalButtons</a>
 , <a class="el" href="class_s_p_i___buttons.html#a8f853d48ebf05c7d3c15968da53f1a33">SPI_Buttons</a>
@@ -136,8 +136,17 @@ $(document).ready(function(){initNavTree('functions_m.html',''); initResizable()
 <li>maxSimultaneousEffects
 : <a class="el" href="struct____attribute____.html#a52df2f0479b7c9bab0b5f896c2b51278">__attribute__</a>
 </li>
+<li>maxSpeed
+: <a class="el" href="struct_axis_flash_addrs.html#a6a52d95dfedf40fe808c2f15c3c5bfb2">AxisFlashAddrs</a>
+</li>
+<li>maxSpeedDegS
+: <a class="el" href="class_axis.html#af52296b3d0172baf06b14acd8bd1b6e7">Axis</a>
+</li>
 <li>maxTorque
 : <a class="el" href="class_o_drive_c_a_n.html#a9f8120196e857aafec447c5272e374c1">ODriveCAN</a>
+</li>
+<li>maxTorqueRateMS
+: <a class="el" href="class_axis.html#aede3a331186fa917e1bd0095a0d77259">Axis</a>
 </li>
 <li>mclkA
 : <a class="el" href="struct_t_m_c4671_main_config.html#a83622d66dafc556e2b580c3500517baf">TMC4671MainConfig</a>
@@ -176,13 +185,16 @@ $(document).ready(function(){initNavTree('functions_m.html',''); initResizable()
 : <a class="el" href="class_can_bridge.html#a4ec526793fb3a60a9f8daa611f2a3a73">CanBridge</a>
 </li>
 <li>metric
-: <a class="el" href="class_normalized_axis.html#ae03fcf90d5136233bcb214c1880a3d81">NormalizedAxis</a>
+: <a class="el" href="class_axis.html#a24792643f27b8538970981b2539cb1d7">Axis</a>
 </li>
 <li>MidiHandler()
 : <a class="el" href="class_midi_handler.html#af94adc6eb370d6526242f54754aa8b81">MidiHandler</a>
 </li>
 <li>MidiMain()
 : <a class="el" href="class_midi_main.html#a9ce100cb6ebda157151ae98024951095">MidiMain</a>
+</li>
+<li>MidiMain_commands
+: <a class="el" href="class_midi_main.html#a4b0c3afca1fb736faebb4cb8da5cda92">MidiMain</a>
 </li>
 <li>midiRx()
 : <a class="el" href="class_midi_handler.html#a83520e890860d9b44ec06b6d25c3e5cd">MidiHandler</a>
@@ -230,6 +242,9 @@ $(document).ready(function(){initNavTree('functions_m.html',''); initResizable()
 <li>MotorPWM()
 : <a class="el" href="class_motor_p_w_m.html#a8af621c58795c79f224ffa600500bed1">MotorPWM</a>
 </li>
+<li>MotorPWM_commands
+: <a class="el" href="class_motor_p_w_m.html#a200f16b29b4a31cfd1bbc75219b3c80a">MotorPWM</a>
+</li>
 <li>motorReady()
 : <a class="el" href="class_motor_driver.html#a3acb195cff8b383d6d30ce4b97b70b29">MotorDriver</a>
 , <a class="el" href="class_o_drive_c_a_n.html#ac7c6fd4c4fe7be00e4f02412c2c817e6">ODriveCAN</a>
@@ -247,6 +262,12 @@ $(document).ready(function(){initNavTree('functions_m.html',''); initResizable()
 </li>
 <li>MsToTicks()
 : <a class="el" href="classcpp__freertos_1_1_ticks.html#a5dc8a555d3fc7cb9f244f8abcf52192a">cpp_freertos::Ticks</a>
+</li>
+<li>MtEncoderSPI()
+: <a class="el" href="class_mt_encoder_s_p_i.html#a71e78bf74a37fa7c23104a8bd2c4ad59">MtEncoderSPI</a>
+</li>
+<li>MtEncoderSPI_commands
+: <a class="el" href="class_mt_encoder_s_p_i.html#a329693332cff2b8e297684ec86053206">MtEncoderSPI</a>
 </li>
 <li>mtPos
 : <a class="el" href="class_vesc_c_a_n.html#ac598301e160612457cdc45d1ba664de3">VescCAN</a>

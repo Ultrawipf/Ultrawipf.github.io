@@ -235,13 +235,13 @@ $(document).ready(function(){initNavTree('tusb__fifo_8c_source.html',''); initRe
 <div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;{</div>
 <div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;  <span class="comment">// We limit the index space of p such that a correct wrap around happens</span></div>
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;  <span class="comment">// Check for a wrap around or if we are in unused index space - This has to be checked first!! We are exploiting the wrap around to the correct index</span></div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;  <span class="keywordflow">if</span> ((p &gt; p + offset) || (p + offset &gt; f-&gt;<a class="code" href="group__group__fifo.html#ga583d3d061ee89b506abfe10b21ed662a">max_pointer_idx</a>))</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;  <span class="keywordflow">if</span> ((p &gt; p + <a class="code" href="_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fa7a86c157ee9713c34fbd7a1ee40f0c5a">offset</a>) || (p + <a class="code" href="_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fa7a86c157ee9713c34fbd7a1ee40f0c5a">offset</a> &gt; f-&gt;<a class="code" href="group__group__fifo.html#ga583d3d061ee89b506abfe10b21ed662a">max_pointer_idx</a>))</div>
 <div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;  {</div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    p = (p + offset) + f-&gt;<a class="code" href="group__group__fifo.html#ga604fcc93deb53d672b353ae6813e2c6f">non_used_index_space</a>;</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    p = (p + <a class="code" href="_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fa7a86c157ee9713c34fbd7a1ee40f0c5a">offset</a>) + f-&gt;<a class="code" href="group__group__fifo.html#ga604fcc93deb53d672b353ae6813e2c6f">non_used_index_space</a>;</div>
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;  }</div>
 <div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;  <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;  {</div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    p += offset;</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    p += <a class="code" href="_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fa7a86c157ee9713c34fbd7a1ee40f0c5a">offset</a>;</div>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;  }</div>
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;  <span class="keywordflow">return</span> p;</div>
 <div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;}</div>
@@ -251,13 +251,13 @@ $(document).ready(function(){initNavTree('tusb__fifo_8c_source.html',''); initRe
 <div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;{</div>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;  <span class="comment">// We limit the index space of p such that a correct wrap around happens</span></div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;  <span class="comment">// Check for a wrap around or if we are in unused index space - This has to be checked first!! We are exploiting the wrap around to the correct index</span></div>
-<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;  <span class="keywordflow">if</span> ((p &lt; p - offset) || (p - offset &gt; f-&gt;<a class="code" href="group__group__fifo.html#ga583d3d061ee89b506abfe10b21ed662a">max_pointer_idx</a>))</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;  <span class="keywordflow">if</span> ((p &lt; p - <a class="code" href="_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fa7a86c157ee9713c34fbd7a1ee40f0c5a">offset</a>) || (p - <a class="code" href="_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fa7a86c157ee9713c34fbd7a1ee40f0c5a">offset</a> &gt; f-&gt;<a class="code" href="group__group__fifo.html#ga583d3d061ee89b506abfe10b21ed662a">max_pointer_idx</a>))</div>
 <div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;  {</div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    p = (p - offset) - f-&gt;<a class="code" href="group__group__fifo.html#ga604fcc93deb53d672b353ae6813e2c6f">non_used_index_space</a>;</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    p = (p - <a class="code" href="_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fa7a86c157ee9713c34fbd7a1ee40f0c5a">offset</a>) - f-&gt;<a class="code" href="group__group__fifo.html#ga604fcc93deb53d672b353ae6813e2c6f">non_used_index_space</a>;</div>
 <div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;  }</div>
 <div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;  <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;  {</div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    p -= offset;</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    p -= <a class="code" href="_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fa7a86c157ee9713c34fbd7a1ee40f0c5a">offset</a>;</div>
 <div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;  }</div>
 <div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;  <span class="keywordflow">return</span> p;</div>
 <div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;}</div>
@@ -265,7 +265,7 @@ $(document).ready(function(){initNavTree('tusb__fifo_8c_source.html',''); initRe
 <div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;<span class="comment">// get relative from absolute pointer</span></div>
 <div class="line"><a name="l00177"></a><span class="lineno"><a class="line" href="tusb__fifo_8c.html#ad28af677f8f417c569298981125d717a">  177</a></span>&#160;<span class="keyword">static</span> uint16_t <a class="code" href="tusb__fifo_8c.html#ad28af677f8f417c569298981125d717a">get_relative_pointer</a>(<a class="code" href="structtu__fifo__t.html">tu_fifo_t</a>* f, uint16_t p, uint16_t offset)</div>
 <div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;{</div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="tusb__fifo_8c.html#a16f88c5e195fa5bab54d7bb41e49680a">_ff_mod</a>(<a class="code" href="tusb__fifo_8c.html#a6238e2884f42935eafaf654b21cccf8c">advance_pointer</a>(f, p, offset), f-&gt;<a class="code" href="group__group__fifo.html#ga3dfff98adc95216871ffd2bfb91d36e6">depth</a>);</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="tusb__fifo_8c.html#a16f88c5e195fa5bab54d7bb41e49680a">_ff_mod</a>(<a class="code" href="tusb__fifo_8c.html#a6238e2884f42935eafaf654b21cccf8c">advance_pointer</a>(f, p, <a class="code" href="_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fa7a86c157ee9713c34fbd7a1ee40f0c5a">offset</a>), f-&gt;<a class="code" href="group__group__fifo.html#ga3dfff98adc95216871ffd2bfb91d36e6">depth</a>);</div>
 <div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;}</div>
 <div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160; </div>
 <div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;<span class="comment">// Works on local copies of w and r</span></div>
@@ -323,9 +323,9 @@ $(document).ready(function(){initNavTree('tusb__fifo_8c_source.html',''); initRe
 <div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;  }</div>
 <div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160; </div>
 <div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;  <span class="comment">// Skip beginning of buffer</span></div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;  <span class="keywordflow">if</span> (cnt == 0 || offset &gt;= cnt) <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;  <span class="keywordflow">if</span> (cnt == 0 || <a class="code" href="_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fa7a86c157ee9713c34fbd7a1ee40f0c5a">offset</a> &gt;= cnt) <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160; </div>
-<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;  uint16_t rRel = <a class="code" href="tusb__fifo_8c.html#ad28af677f8f417c569298981125d717a">get_relative_pointer</a>(f, rAbs, offset);</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;  uint16_t rRel = <a class="code" href="tusb__fifo_8c.html#ad28af677f8f417c569298981125d717a">get_relative_pointer</a>(f, rAbs, <a class="code" href="_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fa7a86c157ee9713c34fbd7a1ee40f0c5a">offset</a>);</div>
 <div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160; </div>
 <div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;  <span class="comment">// Peek data</span></div>
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;  <a class="code" href="tusb__fifo_8c.html#a61b7167f22d96ecb2d9554907f9deb44">_ff_pull</a>(f, p_buffer, rRel);</div>
@@ -348,16 +348,16 @@ $(document).ready(function(){initNavTree('tusb__fifo_8c_source.html',''); initRe
 <div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;  }</div>
 <div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160; </div>
 <div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;  <span class="comment">// Skip beginning of buffer</span></div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;  <span class="keywordflow">if</span> (cnt == 0 || offset &gt;= cnt) <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;  <span class="keywordflow">if</span> (cnt == 0 || <a class="code" href="_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fa7a86c157ee9713c34fbd7a1ee40f0c5a">offset</a> &gt;= cnt) <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160; </div>
 <div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;  <span class="comment">// Check if we can read something at and after offset - if too less is available we read what remains</span></div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;  cnt -= offset;</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;  cnt -= <a class="code" href="_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fa7a86c157ee9713c34fbd7a1ee40f0c5a">offset</a>;</div>
 <div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;  <span class="keywordflow">if</span> (cnt &lt; n) {</div>
 <div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;    <span class="keywordflow">if</span> (cnt == 0) <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;    n = cnt;</div>
 <div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;  }</div>
 <div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160; </div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;  uint16_t rRel = <a class="code" href="tusb__fifo_8c.html#ad28af677f8f417c569298981125d717a">get_relative_pointer</a>(f, rAbs, offset);</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;  uint16_t rRel = <a class="code" href="tusb__fifo_8c.html#ad28af677f8f417c569298981125d717a">get_relative_pointer</a>(f, rAbs, <a class="code" href="_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fa7a86c157ee9713c34fbd7a1ee40f0c5a">offset</a>);</div>
 <div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160; </div>
 <div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;  <span class="comment">// Peek data</span></div>
 <div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;  <a class="code" href="tusb__fifo_8c.html#afa1c6f5a071f63b672e834249d9baad8">_ff_pull_n</a>(f, p_buffer, n, rRel);</div>
@@ -451,7 +451,7 @@ $(document).ready(function(){initNavTree('tusb__fifo_8c_source.html',''); initRe
 <div class="line"><a name="l00466"></a><span class="lineno"><a class="line" href="group__group__fifo.html#ga684d4d6e2b06c6713a70226c5f1089da">  466</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="group__group__fifo.html#ga684d4d6e2b06c6713a70226c5f1089da">tu_fifo_peek_at</a>(<a class="code" href="structtu__fifo__t.html">tu_fifo_t</a>* f, uint16_t offset, <span class="keywordtype">void</span> * p_buffer)</div>
 <div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;{</div>
 <div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;  <a class="code" href="tusb__fifo_8c.html#a71b98327c306b862398bca3616fe4c40">tu_fifo_lock</a>(f);                                          <span class="comment">// TODO: Here we may distinguish for read and write pointer mutexes!</span></div>
-<div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;  <span class="keywordtype">bool</span> ret = <a class="code" href="tusb__fifo_8c.html#a89696b2862d6e36671cc01a1a8dbc55b">_tu_fifo_peek_at</a>(f, offset, p_buffer, f-&gt;<a class="code" href="group__group__fifo.html#gabece2dadd1a2d7015998565faffe2cf3">wr_idx</a>, f-&gt;<a class="code" href="group__group__fifo.html#ga17a02116369813e3db1f3241a96f7dc5">rd_idx</a>);</div>
+<div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;  <span class="keywordtype">bool</span> ret = <a class="code" href="tusb__fifo_8c.html#a89696b2862d6e36671cc01a1a8dbc55b">_tu_fifo_peek_at</a>(f, <a class="code" href="_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fa7a86c157ee9713c34fbd7a1ee40f0c5a">offset</a>, p_buffer, f-&gt;<a class="code" href="group__group__fifo.html#gabece2dadd1a2d7015998565faffe2cf3">wr_idx</a>, f-&gt;<a class="code" href="group__group__fifo.html#ga17a02116369813e3db1f3241a96f7dc5">rd_idx</a>);</div>
 <div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;  <a class="code" href="tusb__fifo_8c.html#ade60911221bdcf12f5b7317a98bd9378">tu_fifo_unlock</a>(f);</div>
 <div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;  <span class="keywordflow">return</span> ret;</div>
 <div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;}</div>
@@ -461,7 +461,7 @@ $(document).ready(function(){initNavTree('tusb__fifo_8c_source.html',''); initRe
 <div class="line"><a name="l00491"></a><span class="lineno"><a class="line" href="group__group__fifo.html#gaad30aec2484b84a9d3fefedb560c8847">  491</a></span>&#160;uint16_t <a class="code" href="group__group__fifo.html#gaad30aec2484b84a9d3fefedb560c8847">tu_fifo_peek_at_n</a>(<a class="code" href="structtu__fifo__t.html">tu_fifo_t</a>* f, uint16_t offset, <span class="keywordtype">void</span> * p_buffer, uint16_t n)</div>
 <div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;{</div>
 <div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;  <a class="code" href="tusb__fifo_8c.html#a71b98327c306b862398bca3616fe4c40">tu_fifo_lock</a>(f);                                          <span class="comment">// TODO: Here we may distinguish for read and write pointer mutexes!</span></div>
-<div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;  <span class="keywordtype">bool</span> ret = <a class="code" href="tusb__fifo_8c.html#a5b8f5b2cd2561110648f2c97f1bf8c76">_tu_fifo_peek_at_n</a>(f, offset, p_buffer, n, f-&gt;<a class="code" href="group__group__fifo.html#gabece2dadd1a2d7015998565faffe2cf3">wr_idx</a>, f-&gt;<a class="code" href="group__group__fifo.html#ga17a02116369813e3db1f3241a96f7dc5">rd_idx</a>);</div>
+<div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;  <span class="keywordtype">bool</span> ret = <a class="code" href="tusb__fifo_8c.html#a5b8f5b2cd2561110648f2c97f1bf8c76">_tu_fifo_peek_at_n</a>(f, <a class="code" href="_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fa7a86c157ee9713c34fbd7a1ee40f0c5a">offset</a>, p_buffer, n, f-&gt;<a class="code" href="group__group__fifo.html#gabece2dadd1a2d7015998565faffe2cf3">wr_idx</a>, f-&gt;<a class="code" href="group__group__fifo.html#ga17a02116369813e3db1f3241a96f7dc5">rd_idx</a>);</div>
 <div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;  <a class="code" href="tusb__fifo_8c.html#ade60911221bdcf12f5b7317a98bd9378">tu_fifo_unlock</a>(f);</div>
 <div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;  <span class="keywordflow">return</span> ret;</div>
 <div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160;}</div>
@@ -569,6 +569,7 @@ $(document).ready(function(){initNavTree('tusb__fifo_8c_source.html',''); initRe
 <div class="line"><a name="l00667"></a><span class="lineno">  667</span>&#160;{</div>
 <div class="line"><a name="l00668"></a><span class="lineno">  668</span>&#160;  f-&gt;<a class="code" href="group__group__fifo.html#ga17a02116369813e3db1f3241a96f7dc5">rd_idx</a> = <a class="code" href="tusb__fifo_8c.html#a6238e2884f42935eafaf654b21cccf8c">advance_pointer</a>(f, f-&gt;<a class="code" href="group__group__fifo.html#ga17a02116369813e3db1f3241a96f7dc5">rd_idx</a>, n);</div>
 <div class="line"><a name="l00669"></a><span class="lineno">  669</span>&#160;}</div>
+<div class="ttc" id="a_vesc_c_a_n_8h_html_a2125c9b686c373137058c5ae8fa4219fa7a86c157ee9713c34fbd7a1ee40f0c5a"><div class="ttname"><a href="_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fa7a86c157ee9713c34fbd7a1ee40f0c5a">VescCAN_commands::offset</a></div><div class="ttdeci">@ offset</div></div>
 <div class="ttc" id="agroup__group__fifo_html_ga05fa5f34756ab3cc587d6c0e23958e84"><div class="ttname"><a href="group__group__fifo.html#ga05fa5f34756ab3cc587d6c0e23958e84">tu_fifo_overflowed</a></div><div class="ttdeci">bool tu_fifo_overflowed(tu_fifo_t *f)</div><div class="ttdoc">Check if overflow happened.</div><div class="ttdef"><b>Definition:</b> <a href="tusb__fifo_8c_source.html#l00378">tusb_fifo.c:378</a></div></div>
 <div class="ttc" id="agroup__group__fifo_html_ga0653c4e3af5b0b2766ff72264f5836b7"><div class="ttname"><a href="group__group__fifo.html#ga0653c4e3af5b0b2766ff72264f5836b7">tu_fifo_count</a></div><div class="ttdeci">uint16_t tu_fifo_count(tu_fifo_t *f)</div><div class="ttdoc">Get number of items in FIFO.</div><div class="ttdef"><b>Definition:</b> <a href="tusb__fifo_8c_source.html#l00298">tusb_fifo.c:298</a></div></div>
 <div class="ttc" id="agroup__group__fifo_html_ga0d6091eaa8ac247eaccd47e9d236a5db"><div class="ttname"><a href="group__group__fifo.html#ga0d6091eaa8ac247eaccd47e9d236a5db">tu_fifo_correct_read_pointer</a></div><div class="ttdeci">void tu_fifo_correct_read_pointer(tu_fifo_t *f)</div><div class="ttdef"><b>Definition:</b> <a href="tusb__fifo_8c_source.html#l00384">tusb_fifo.c:384</a></div></div>

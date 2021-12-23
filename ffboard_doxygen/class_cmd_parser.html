@@ -85,7 +85,7 @@ $(document).ready(function(){initNavTree('class_cmd_parser.html',''); initResiza
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_cmd_parser-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">CmdParser Class Reference</div>  </div>
@@ -96,30 +96,38 @@ $(document).ready(function(){initNavTree('class_cmd_parser.html',''); initResiza
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a2ea6dfe5c12c9effc1419764e46e076e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cmd_parser.html#a2ea6dfe5c12c9effc1419764e46e076e">CmdParser</a> ()</td></tr>
-<tr class="separator:a2ea6dfe5c12c9effc1419764e46e076e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afeb856410b3b1b18c0a1985e6927a3b5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cmd_parser.html#afeb856410b3b1b18c0a1985e6927a3b5">CmdParser</a> (uint32_t <a class="el" href="class_cmd_parser.html#ad37192931e30367206cafc105687a386">reservedBuffer</a>=16)</td></tr>
+<tr class="separator:afeb856410b3b1b18c0a1985e6927a3b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b7e3267e702350917314ae9730fcb3c"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cmd_parser.html#a6b7e3267e702350917314ae9730fcb3c">~CmdParser</a> ()</td></tr>
 <tr class="separator:a6b7e3267e702350917314ae9730fcb3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad68c2e4f48ce9dc3c66e3dc3f57db770"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cmd_parser.html#ad68c2e4f48ce9dc3c66e3dc3f57db770">clear</a> ()</td></tr>
 <tr class="separator:ad68c2e4f48ce9dc3c66e3dc3f57db770"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aded3ab32751f8ce700b6d40b0d0a8a4b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cmd_parser.html#aded3ab32751f8ce700b6d40b0d0a8a4b">add</a> (char *Buf, uint32_t *Len)</td></tr>
 <tr class="separator:aded3ab32751f8ce700b6d40b0d0a8a4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a72d30ac58725e1b180e171f8772d68e1"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="struct_parsed_command.html">ParsedCommand</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cmd_parser.html#a72d30ac58725e1b180e171f8772d68e1">parse</a> ()</td></tr>
-<tr class="separator:a72d30ac58725e1b180e171f8772d68e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37ffbf1ce84fab558a4915b0d4f8de92"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cmd_parser.html#a37ffbf1ce84fab558a4915b0d4f8de92">parse</a> (std::vector&lt; <a class="el" href="struct_parsed_command.html">ParsedCommand</a> &gt; &amp;commands)</td></tr>
+<tr class="separator:a37ffbf1ce84fab558a4915b0d4f8de92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a9752a43b5bd1cde432d71a021a30d0"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cmd_parser.html#a0a9752a43b5bd1cde432d71a021a30d0">bufferCapacity</a> ()</td></tr>
+<tr class="separator:a0a9752a43b5bd1cde432d71a021a30d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9055b89e82e22ee44bd34783314a952"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cmd_parser.html#ab9055b89e82e22ee44bd34783314a952">setClearBufferTimeout</a> (uint32_t timeout)</td></tr>
+<tr class="separator:ab9055b89e82e22ee44bd34783314a952"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
 <tr class="memitem:aaa747257b6972eccbe7a37c3fb0bf1f0"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cmd_parser.html#aaa747257b6972eccbe7a37c3fb0bf1f0">buffer</a></td></tr>
 <tr class="separator:aaa747257b6972eccbe7a37c3fb0bf1f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a907b330b34168855101297fa5b174e45"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cmd_parser.html#a907b330b34168855101297fa5b174e45">helpstring</a> = &quot;Parser usage:\n Set cmd=int/cmd?adr=var\n Get: cmd?/cmd?var\nInfo: cmd!\ndelims: ;/CR/NL/SPACE\n&quot;</td></tr>
-<tr class="separator:a907b330b34168855101297fa5b174e45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad37192931e30367206cafc105687a386"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cmd_parser.html#ad37192931e30367206cafc105687a386">reservedBuffer</a> = 0</td></tr>
+<tr class="separator:ad37192931e30367206cafc105687a386"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5306d5a0697a5f3c5124020420a2fb4"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cmd_parser.html#ae5306d5a0697a5f3c5124020420a2fb4">clearBufferTimeout</a> = 0</td></tr>
+<tr class="separator:ae5306d5a0697a5f3c5124020420a2fb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7e2622a979302b80c61e0e0560708c4"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cmd_parser.html#ac7e2622a979302b80c61e0e0560708c4">lastAddTime</a> = 0</td></tr>
+<tr class="separator:ac7e2622a979302b80c61e0e0560708c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="_cmd_parser_8h_source.html#l00043">43</a> of file <a class="el" href="_cmd_parser_8h_source.html">CmdParser.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_cmd_parser_8h_source.html#l00023">23</a> of file <a class="el" href="_cmd_parser_8h_source.html">CmdParser.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a2ea6dfe5c12c9effc1419764e46e076e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2ea6dfe5c12c9effc1419764e46e076e">&#9670;&nbsp;</a></span>CmdParser()</h2>
+<a id="afeb856410b3b1b18c0a1985e6927a3b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afeb856410b3b1b18c0a1985e6927a3b5">&#9670;&nbsp;</a></span>CmdParser()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -127,13 +135,14 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">CmdParser::CmdParser </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>reservedBuffer</em> = <code>16</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_cmd_parser_8cpp_source.html#l00011">11</a> of file <a class="el" href="_cmd_parser_8cpp_source.html">CmdParser.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_cmd_parser_8cpp_source.html#l00014">14</a> of file <a class="el" href="_cmd_parser_8cpp_source.html">CmdParser.cpp</a>.</p>
 
 </div>
 </div>
@@ -160,7 +169,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_cmd_parser_8cpp_source.html#l00015">15</a> of file <a class="el" href="_cmd_parser_8cpp_source.html">CmdParser.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_cmd_parser_8cpp_source.html#l00019">19</a> of file <a class="el" href="_cmd_parser_8cpp_source.html">CmdParser.cpp</a>.</p>
 
 </div>
 </div>
@@ -191,7 +200,26 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_cmd_parser_8cpp_source.html#l00023">23</a> of file <a class="el" href="_cmd_parser_8cpp_source.html">CmdParser.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_cmd_parser_8cpp_source.html#l00028">28</a> of file <a class="el" href="_cmd_parser_8cpp_source.html">CmdParser.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a0a9752a43b5bd1cde432d71a021a30d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a9752a43b5bd1cde432d71a021a30d0">&#9670;&nbsp;</a></span>bufferCapacity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t CmdParser::bufferCapacity </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_cmd_parser_8cpp_source.html#l00053">53</a> of file <a class="el" href="_cmd_parser_8cpp_source.html">CmdParser.cpp</a>.</p>
 
 </div>
 </div>
@@ -210,26 +238,48 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_cmd_parser_8cpp_source.html#l00018">18</a> of file <a class="el" href="_cmd_parser_8cpp_source.html">CmdParser.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_cmd_parser_8cpp_source.html#l00022">22</a> of file <a class="el" href="_cmd_parser_8cpp_source.html">CmdParser.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a72d30ac58725e1b180e171f8772d68e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a72d30ac58725e1b180e171f8772d68e1">&#9670;&nbsp;</a></span>parse()</h2>
+<a id="a37ffbf1ce84fab558a4915b0d4f8de92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37ffbf1ce84fab558a4915b0d4f8de92">&#9670;&nbsp;</a></span>parse()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt; <a class="el" href="struct_parsed_command.html">ParsedCommand</a> &gt; CmdParser::parse </td>
+          <td class="memname">bool CmdParser::parse </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="struct_parsed_command.html">ParsedCommand</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>commands</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_cmd_parser_8cpp_source.html#l00039">39</a> of file <a class="el" href="_cmd_parser_8cpp_source.html">CmdParser.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_cmd_parser_8cpp_source.html#l00059">59</a> of file <a class="el" href="_cmd_parser_8cpp_source.html">CmdParser.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ab9055b89e82e22ee44bd34783314a952"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9055b89e82e22ee44bd34783314a952">&#9670;&nbsp;</a></span>setClearBufferTimeout()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CmdParser::setClearBufferTimeout </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>timeout</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>If the last command was earlier than the timeout force clear the buffer before appending. Gets rid of unparsable parts in the buffer. Set 0 to never force clear the buffer automatically and only clear parsed portions (default). </p>
+
+<p class="definition">Definition at line <a class="el" href="_cmd_parser_8cpp_source.html#l00049">49</a> of file <a class="el" href="_cmd_parser_8cpp_source.html">CmdParser.cpp</a>.</p>
 
 </div>
 </div>
@@ -239,30 +289,94 @@ Public Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">std::string CmdParser::buffer</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_cmd_parser_8h_source.html#l00050">50</a> of file <a class="el" href="_cmd_parser_8h_source.html">CmdParser.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_cmd_parser_8h_source.html#l00036">36</a> of file <a class="el" href="_cmd_parser_8h_source.html">CmdParser.h</a>.</p>
 
 </div>
 </div>
-<a id="a907b330b34168855101297fa5b174e45"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a907b330b34168855101297fa5b174e45">&#9670;&nbsp;</a></span>helpstring</h2>
+<a id="ae5306d5a0697a5f3c5124020420a2fb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5306d5a0697a5f3c5124020420a2fb4">&#9670;&nbsp;</a></span>clearBufferTimeout</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const std::string CmdParser::helpstring = &quot;Parser usage:\n Set cmd=int/cmd?adr=var\n Get: cmd?/cmd?var\nInfo: cmd!\ndelims: ;/CR/NL/SPACE\n&quot;</td>
+          <td class="memname">uint32_t CmdParser::clearBufferTimeout = 0</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_cmd_parser_8h_source.html#l00055">55</a> of file <a class="el" href="_cmd_parser_8h_source.html">CmdParser.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_cmd_parser_8h_source.html#l00039">39</a> of file <a class="el" href="_cmd_parser_8h_source.html">CmdParser.h</a>.</p>
+
+</div>
+</div>
+<a id="ac7e2622a979302b80c61e0e0560708c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7e2622a979302b80c61e0e0560708c4">&#9670;&nbsp;</a></span>lastAddTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t CmdParser::lastAddTime = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_cmd_parser_8h_source.html#l00040">40</a> of file <a class="el" href="_cmd_parser_8h_source.html">CmdParser.h</a>.</p>
+
+</div>
+</div>
+<a id="ad37192931e30367206cafc105687a386"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad37192931e30367206cafc105687a386">&#9670;&nbsp;</a></span>reservedBuffer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t CmdParser::reservedBuffer = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_cmd_parser_8h_source.html#l00037">37</a> of file <a class="el" href="_cmd_parser_8h_source.html">CmdParser.h</a>.</p>
 
 </div>
 </div>

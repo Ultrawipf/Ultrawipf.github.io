@@ -95,7 +95,7 @@ $(document).ready(function(){initNavTree('cppmain_8cpp.html',''); initResizable(
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aa11d3d8e97e352b9641b407890f15300"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_f_f_board_main.html">FFBoardMain</a> *<a class="el" href="global__callbacks_8cpp.html#a110533e35b0fa447de490c1d59732905">mainclass</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cppmain_8cpp.html#aa11d3d8e97e352b9641b407890f15300">__attribute__</a> ((section(&quot;.ccmram&quot;)))</td></tr>
+<tr class="memitem:aa11d3d8e97e352b9641b407890f15300"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_f_f_board_main.html">FFBoardMain</a> *<a class="el" href="_system_commands_8cpp.html#a110533e35b0fa447de490c1d59732905">mainclass</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cppmain_8cpp.html#aa11d3d8e97e352b9641b407890f15300">__attribute__</a> ((section(&quot;.ccmram&quot;)))</td></tr>
 <tr class="separator:aa11d3d8e97e352b9641b407890f15300"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a128a29499985fe63f8e67a47b9ae7fa1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cppmain_8cpp.html#a128a29499985fe63f8e67a47b9ae7fa1">cppmain</a> ()</td></tr>
 <tr class="separator:a128a29499985fe63f8e67a47b9ae7fa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -107,6 +107,8 @@ Functions</h2></td></tr>
 <tr class="separator:a7ac38fce3243a7dcf448301ee9ffd392"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f850d0608418aea291e4c0fdab93826"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cppmain_8cpp.html#a9f850d0608418aea291e4c0fdab93826">free</a> (void *p)</td></tr>
 <tr class="separator:a9f850d0608418aea291e4c0fdab93826"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a531355cea579a1aab91a7a2135024cdc"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cppmain_8cpp.html#a531355cea579a1aab91a7a2135024cdc">getRunTimeCounterValue</a> (void)</td></tr>
+<tr class="separator:a531355cea579a1aab91a7a2135024cdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -139,7 +141,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_f_f_board_main.html">FFBoardMain</a>* <a class="el" href="global__callbacks_8cpp.html#a110533e35b0fa447de490c1d59732905">mainclass</a> <a class="el" href="struct____attribute____.html">__attribute__</a> </td>
+          <td class="memname"><a class="el" href="class_f_f_board_main.html">FFBoardMain</a>* <a class="el" href="_system_commands_8cpp.html#a110533e35b0fa447de490c1d59732905">mainclass</a> <a class="el" href="struct____attribute____.html">__attribute__</a> </td>
           <td>(</td>
           <td class="paramtype">(section(&quot;.ccmram&quot;))&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -164,6 +166,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Firmware is not intended for this chip! This can be caused by accidentially flashing an incorrect firmware file and likely screws up clock and pin configs Do not proceed.</p>
 
 <p class="definition">Definition at line <a class="el" href="cppmain_8cpp_source.html#l00035">35</a> of file <a class="el" href="cppmain_8cpp_source.html">cppmain.cpp</a>.</p>
 
@@ -185,7 +188,27 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="cppmain_8cpp_source.html#l00093">93</a> of file <a class="el" href="cppmain_8cpp_source.html">cppmain.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cppmain_8cpp_source.html#l00106">106</a> of file <a class="el" href="cppmain_8cpp_source.html">cppmain.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a531355cea579a1aab91a7a2135024cdc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a531355cea579a1aab91a7a2135024cdc">&#9670;&nbsp;</a></span>getRunTimeCounterValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned long getRunTimeCounterValue </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="cppmain_8cpp_source.html#l00111">111</a> of file <a class="el" href="cppmain_8cpp_source.html">cppmain.cpp</a>.</p>
 
 </div>
 </div>
@@ -205,7 +228,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="cppmain_8cpp_source.html#l00088">88</a> of file <a class="el" href="cppmain_8cpp_source.html">cppmain.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cppmain_8cpp_source.html#l00101">101</a> of file <a class="el" href="cppmain_8cpp_source.html">cppmain.cpp</a>.</p>
 
 </div>
 </div>
@@ -224,7 +247,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="cppmain_8cpp_source.html#l00082">82</a> of file <a class="el" href="cppmain_8cpp_source.html">cppmain.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cppmain_8cpp_source.html#l00095">95</a> of file <a class="el" href="cppmain_8cpp_source.html">cppmain.cpp</a>.</p>
 
 </div>
 </div>
@@ -243,7 +266,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="cppmain_8cpp_source.html#l00074">74</a> of file <a class="el" href="cppmain_8cpp_source.html">cppmain.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cppmain_8cpp_source.html#l00087">87</a> of file <a class="el" href="cppmain_8cpp_source.html">cppmain.cpp</a>.</p>
 
 </div>
 </div>

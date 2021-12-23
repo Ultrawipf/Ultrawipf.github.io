@@ -33,6 +33,7 @@ var global__callbacks_8cpp =
     [ "tud_descriptor_string_cb", "global__callbacks_8cpp.html#abfeec5b42e1f441949b03daa435dfc81", null ],
     [ "tud_hid_descriptor_report_cb", "global__callbacks_8cpp.html#aa7d171a13655c675ec79764f888a0e7f", null ],
     [ "tud_hid_get_report_cb", "global__callbacks_8cpp.html#a6e2cbfa4f30aab0b986853b9d0e94085", null ],
+    [ "tud_hid_report_complete_cb", "global__callbacks_8cpp.html#a38461a4d62d110f5d712a5a75fa8943e", null ],
     [ "tud_hid_set_report_cb", "global__callbacks_8cpp.html#a3b7d9ad4015f5cb88a7653ea0e51d2e3", null ],
     [ "tud_midi_rx_cb", "global__callbacks_8cpp.html#a32472696dbfb227089f0ae16871cb284", null ],
     [ "tud_mount_cb", "global__callbacks_8cpp.html#a48c4b198a1116d9f04b95ef466c00796", null ],

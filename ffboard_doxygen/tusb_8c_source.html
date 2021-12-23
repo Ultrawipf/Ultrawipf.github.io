@@ -188,8 +188,8 @@ $(document).ready(function(){initNavTree('tusb_8c_source.html',''); initResizabl
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160; </div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;  uint8_t <span class="keyword">const</span> *buf8 = (uint8_t <span class="keyword">const</span> *) buf;</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160; </div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;  <span class="keywordtype">char</span> format[] = <span class="stringliteral">&quot;%00X&quot;</span>;</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;  format[2] += 2*size;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;  <span class="keywordtype">char</span> <a class="code" href="_system_commands_8h.html#a4a42a50bc0a826d5ab6d847950749d07a1ddcb92ade31c8fbd370001f9b29a7d9">format</a>[] = <span class="stringliteral">&quot;%00X&quot;</span>;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;  <a class="code" href="_system_commands_8h.html#a4a42a50bc0a826d5ab6d847950749d07a1ddcb92ade31c8fbd370001f9b29a7d9">format</a>[2] += 2*size;</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160; </div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;  <span class="keyword">const</span> uint8_t item_per_line  = 16 / size;</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160; </div>
@@ -215,7 +215,7 @@ $(document).ready(function(){initNavTree('tusb_8c_source.html',''); initResizabl
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    buf8 += size;</div>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160; </div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    tu_printf(<span class="stringliteral">&quot; &quot;</span>);</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    tu_printf(format, value);</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    tu_printf(<a class="code" href="_system_commands_8h.html#a4a42a50bc0a826d5ab6d847950749d07a1ddcb92ade31c8fbd370001f9b29a7d9">format</a>, value);</div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;  }</div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160; </div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;  <span class="comment">// fill up last row to 16 for printing ascii</span></div>
@@ -237,6 +237,7 @@ $(document).ready(function(){initNavTree('tusb_8c_source.html',''); initResizabl
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160; </div>
 <div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// host or device enabled</span></div>
+<div class="ttc" id="a_system_commands_8h_html_a4a42a50bc0a826d5ab6d847950749d07a1ddcb92ade31c8fbd370001f9b29a7d9"><div class="ttname"><a href="_system_commands_8h.html#a4a42a50bc0a826d5ab6d847950749d07a1ddcb92ade31c8fbd370001f9b29a7d9">FFBoardMain_commands::format</a></div><div class="ttdeci">@ format</div></div>
 <div class="ttc" id="agroup___group___error_html_gaacf502da165393860e63ca5b209b9ea0"><div class="ttname"><a href="group___group___error.html#gaacf502da165393860e63ca5b209b9ea0">tusb_strerr</a></div><div class="ttdeci">char const  *const tusb_strerr[TUSB_ERROR_COUNT]</div><div class="ttdoc">Enum to String for debugging purposes. Only available if CFG_TUSB_DEBUG &gt; 0.</div><div class="ttdef"><b>Definition:</b> <a href="tusb_8c_source.html#l00069">tusb.c:69</a></div></div>
 <div class="ttc" id="atusb_8c_html_a38c87e2269e3194bed4452605b151aae"><div class="ttname"><a href="tusb_8c.html#a38c87e2269e3194bed4452605b151aae">dump_str_line</a></div><div class="ttdeci">static void dump_str_line(uint8_t const *buf, uint16_t count)</div><div class="ttdef"><b>Definition:</b> <a href="tusb_8c_source.html#l00071">tusb.c:71</a></div></div>
 <div class="ttc" id="atusb_8c_html_a4eb99285a0129893d3f48de7de237df5"><div class="ttname"><a href="tusb_8c.html#a4eb99285a0129893d3f48de7de237df5">_initialized</a></div><div class="ttdeci">static bool _initialized</div><div class="ttdef"><b>Definition:</b> <a href="tusb_8c_source.html#l00033">tusb.c:33</a></div></div>

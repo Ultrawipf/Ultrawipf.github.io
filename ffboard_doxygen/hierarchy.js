@@ -21,6 +21,7 @@ var hierarchy =
       [ "VescCAN", "class_vesc_c_a_n.html", null ]
     ] ],
     [ "CANPort", "class_c_a_n_port.html", null ],
+    [ "CDCcomm", "class_c_d_ccomm.html", null ],
     [ "cdcd_interface_t", "structcdcd__interface__t.html", null ],
     [ "cdch_data_t", "structcdch__data__t.html", null ],
     [ "ChoosableClass", "class_choosable_class.html", [
@@ -37,6 +38,7 @@ var hierarchy =
       ] ],
       [ "Encoder", "class_encoder.html", [
         [ "EncoderLocal", "class_encoder_local.html", null ],
+        [ "MtEncoderSPI", "class_mt_encoder_s_p_i.html", null ],
         [ "ODriveCAN", "class_o_drive_c_a_n.html", null ],
         [ "TMC4671", "class_t_m_c4671.html", [
           [ "TMC_1", "class_t_m_c__1.html", null ],
@@ -65,23 +67,34 @@ var hierarchy =
     [ "ClassChooser< Encoder >", "class_class_chooser.html", null ],
     [ "ClassChooser< MotorDriver >", "class_class_chooser.html", null ],
     [ "ClassIdentifier", "struct_class_identifier.html", null ],
+    [ "CmdHandlerCommanddef", "struct_cmd_handler_commanddef.html", null ],
+    [ "CmdHandlerInfo", "struct_cmd_handler_info.html", null ],
     [ "CmdParser", "class_cmd_parser.html", null ],
     [ "CommandHandler", "class_command_handler.html", [
+      [ "Axis", "class_axis.html", null ],
       [ "EffectsCalculator", "class_effects_calculator.html", null ],
       [ "EncoderLocal", "class_encoder_local.html", null ],
       [ "FFBoardMain", "class_f_f_board_main.html", null ],
       [ "LocalAnalog", "class_local_analog.html", null ],
       [ "LocalButtons", "class_local_buttons.html", null ],
       [ "MotorPWM", "class_motor_p_w_m.html", null ],
-      [ "NormalizedAxis", "class_normalized_axis.html", [
-        [ "Axis", "class_axis.html", null ]
-      ] ],
+      [ "MtEncoderSPI", "class_mt_encoder_s_p_i.html", null ],
       [ "ODriveCAN", "class_o_drive_c_a_n.html", null ],
       [ "SPI_Buttons", "class_s_p_i___buttons.html", null ],
       [ "ShifterAnalog", "class_shifter_analog.html", null ],
+      [ "SystemCommands", "class_system_commands.html", null ],
       [ "TMC4671", "class_t_m_c4671.html", null ],
       [ "VescCAN", "class_vesc_c_a_n.html", null ]
     ] ],
+    [ "CommandInterface", "class_command_interface.html", [
+      [ "HID_CommandInterface", "class_h_i_d___command_interface.html", null ],
+      [ "StringCommandInterface", "class_string_command_interface.html", [
+        [ "CDC_CommandInterface", "class_c_d_c___command_interface.html", null ],
+        [ "UART_CommandInterface", "class_u_a_r_t___command_interface.html", null ]
+      ] ]
+    ] ],
+    [ "CommandReply", "class_command_reply.html", null ],
+    [ "CommandResult", "struct_command_result.html", null ],
     [ "cpp_freertos::ConditionVariable", "classcpp__freertos_1_1_condition_variable.html", null ],
     [ "Control_t", "struct_control__t.html", null ],
     [ "cpp_freertos::CriticalSection", "classcpp__freertos_1_1_critical_section.html", null ],
@@ -109,12 +122,10 @@ var hierarchy =
       [ "FFBWheel", "class_f_f_b_wheel.html", null ],
       [ "TMC4671", "class_t_m_c4671.html", null ]
     ] ],
+    [ "FastAvg< LEN >", "class_fast_avg.html", null ],
+    [ "FastAvg< 8 >", "class_fast_avg.html", null ],
     [ "FFB_Effect", "struct_f_f_b___effect.html", null ],
     [ "hcd_event_t", "structhcd__event__t.html", null ],
-    [ "HidCommandHandler", "class_hid_command_handler.html", [
-      [ "EffectsCalculator", "class_effects_calculator.html", null ],
-      [ "NormalizedAxis", "class_normalized_axis.html", null ]
-    ] ],
     [ "hidd_interface_t", "structhidd__interface__t.html", null ],
     [ "hidh_interface_t", "structhidh__interface__t.html", null ],
     [ "hub_port_status_response_t", "structhub__port__status__response__t.html", null ],
@@ -137,19 +148,19 @@ var hierarchy =
       [ "cpp_freertos::MutexStandard", "classcpp__freertos_1_1_mutex_standard.html", null ]
     ] ],
     [ "netd_interface_t", "structnetd__interface__t.html", null ],
-    [ "NormalizedAxisFlashAddrs_t", "struct_normalized_axis_flash_addrs__t.html", null ],
     [ "osal_queue_def_t", "structosal__queue__def__t.html", null ],
     [ "OutputPin", "class_output_pin.html", null ],
     [ "ParsedCommand", "struct_parsed_command.html", null ],
     [ "PersistentStorage", "class_persistent_storage.html", [
       [ "AnalogSource", "class_analog_source.html", null ],
       [ "AxesManager", "class_axes_manager.html", null ],
+      [ "Axis", "class_axis.html", null ],
       [ "ButtonSource", "class_button_source.html", null ],
       [ "EffectsCalculator", "class_effects_calculator.html", null ],
       [ "EncoderLocal", "class_encoder_local.html", null ],
       [ "FFBWheel", "class_f_f_b_wheel.html", null ],
       [ "MotorPWM", "class_motor_p_w_m.html", null ],
-      [ "NormalizedAxis", "class_normalized_axis.html", null ],
+      [ "MtEncoderSPI", "class_mt_encoder_s_p_i.html", null ],
       [ "ODriveCAN", "class_o_drive_c_a_n.html", null ],
       [ "TMC4671", "class_t_m_c4671.html", null ],
       [ "VescCAN", "class_vesc_c_a_n.html", null ]
@@ -181,6 +192,7 @@ var hierarchy =
     [ "Singleton< T >", "class_singleton.html", null ],
     [ "SPIConfig", "struct_s_p_i_config.html", null ],
     [ "SPIDevice", "class_s_p_i_device.html", [
+      [ "MtEncoderSPI", "class_mt_encoder_s_p_i.html", null ],
       [ "SPI_Buttons", "class_s_p_i___buttons.html", null ],
       [ "ShifterAnalog::G27ShifterButtonClient", "class_shifter_analog_1_1_g27_shifter_button_client.html", null ],
       [ "TMC4671", "class_t_m_c4671.html", null ]
@@ -194,8 +206,10 @@ var hierarchy =
     [ "cpp_freertos::Thread", "classcpp__freertos_1_1_thread.html", [
       [ "ErrorPrinter", "class_error_printer.html", null ],
       [ "FFBoardMainCommandThread", "class_f_f_board_main_command_thread.html", null ],
+      [ "HID_CommandInterface", "class_h_i_d___command_interface.html", null ],
       [ "ODriveCAN", "class_o_drive_c_a_n.html", null ],
       [ "TMC4671", "class_t_m_c4671.html", null ],
+      [ "UART_CommandInterface", "class_u_a_r_t___command_interface.html", null ],
       [ "USBdevice", "class_u_s_bdevice.html", null ],
       [ "VescCAN", "class_vesc_c_a_n.html", null ],
       [ "cpp_freertos::WorkQueue::CWorkerThread", "classcpp__freertos_1_1_work_queue_1_1_c_worker_thread.html", null ]
@@ -213,6 +227,7 @@ var hierarchy =
     [ "TMC4671Biquad", "struct_t_m_c4671_biquad.html", null ],
     [ "TMC4671FlashAddrs", "struct_t_m_c4671_flash_addrs.html", null ],
     [ "TMC4671HALLConf", "struct_t_m_c4671_h_a_l_l_conf.html", null ],
+    [ "TMC4671HardwareTypeConf", "struct_t_m_c4671_hardware_type_conf.html", null ],
     [ "TMC4671Limits", "struct_t_m_c4671_limits.html", null ],
     [ "TMC4671MainConfig", "struct_t_m_c4671_main_config.html", null ],
     [ "TMC4671MotConf", "struct_t_m_c4671_mot_conf.html", null ],
@@ -225,7 +240,9 @@ var hierarchy =
     [ "tu_lookup_entry_t", "structtu__lookup__entry__t.html", null ],
     [ "tu_lookup_table_t", "structtu__lookup__table__t.html", null ],
     [ "tu_timeout_t", "structtu__timeout__t.html", null ],
-    [ "UARTDevice", "class_u_a_r_t_device.html", null ],
+    [ "UARTDevice", "class_u_a_r_t_device.html", [
+      [ "UART_CommandInterface", "class_u_a_r_t___command_interface.html", null ]
+    ] ],
     [ "UartHandler", "class_uart_handler.html", [
       [ "UARTPort", "class_u_a_r_t_port.html", null ]
     ] ],

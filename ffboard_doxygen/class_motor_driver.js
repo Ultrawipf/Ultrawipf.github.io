@@ -3,6 +3,7 @@ var class_motor_driver =
     [ "MotorDriver", "class_motor_driver.html#a52801ff0d1d12eb8a74cbf09159a3001", null ],
     [ "~MotorDriver", "class_motor_driver.html#a0df66c7274364da4eb4391bc497ff354", null ],
     [ "emergencyStop", "class_motor_driver.html#aa286a9611cf33a4a140010d99be1d58d", null ],
+    [ "getClassType", "class_motor_driver.html#a7f24c664c6b5504bad1ee6f0ff8acd9f", null ],
     [ "getEncoder", "class_motor_driver.html#adf44b8e43d09d27344388fc755a7689a", null ],
     [ "getInfo", "class_motor_driver.html#a3852b1dea06787db1a5302943284c5a4", null ],
     [ "hasIntegratedEncoder", "class_motor_driver.html#aacfec8dee7778471057908b02b81dc39", null ],

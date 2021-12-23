@@ -1,15 +1,21 @@
 var class_can_bridge =
 [
+    [ "CanBridge_commands", "class_can_bridge.html#ab39dbe74e9199ba423ac057f3a418378", [
+      [ "can", "class_can_bridge.html#ab39dbe74e9199ba423ac057f3a418378a2c61ebff5a7f675451467527df66788d", null ],
+      [ "canrtr", "class_can_bridge.html#ab39dbe74e9199ba423ac057f3a418378a591ad4fb2081df6ccebb9aafe55926dc", null ],
+      [ "canspd", "class_can_bridge.html#ab39dbe74e9199ba423ac057f3a418378a1bfb52c41ecc5f627260a5cae9c253bd", null ]
+    ] ],
     [ "CanBridge", "class_can_bridge.html#a0f4ac8770d53015508382321f89a05b4", null ],
     [ "~CanBridge", "class_can_bridge.html#a311596205f903d3c7e715218fdd0cab0", null ],
     [ "canErrorCallback", "class_can_bridge.html#a2e93f005127cd16fd3a1133cca2e27c6", null ],
     [ "canRxPendCallback", "class_can_bridge.html#aa982e0d9856e19be48c5cc858d753599", null ],
     [ "cdcRcv", "class_can_bridge.html#a438f901525c810f0fc66493779660616", null ],
-    [ "command", "class_can_bridge.html#a76099ee1c9a5e9b3066094bcdd30d909", null ],
+    [ "command", "class_can_bridge.html#a61705bd6ff0e65911c4d32236428d2ae", null ],
     [ "getHelpstring", "class_can_bridge.html#a4ad00d344635c612e77dd3a2f0f1320f", null ],
     [ "getInfo", "class_can_bridge.html#a1e769d597c60a89da9622e69398e1e2e", null ],
     [ "isCreatable", "class_can_bridge.html#a53b0cce6e732d9a621001c05efb9a38a", null ],
     [ "messageToString", "class_can_bridge.html#a4ec526793fb3a60a9f8daa611f2a3a73", null ],
+    [ "registerCommands", "class_can_bridge.html#adb0d96609d6a6ab42a16b22d555bea70", null ],
     [ "sendMessage", "class_can_bridge.html#a48f7fb996e9e5feee83dba7f585e6da3", null ],
     [ "sendMessage", "class_can_bridge.html#a7d04c6de9bf46beab5d4c1fb4d53423c", null ],
     [ "update", "class_can_bridge.html#a09665da361c9caa5fd08f13ed45fab15", null ],

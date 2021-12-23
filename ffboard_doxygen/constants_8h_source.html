@@ -98,18 +98,20 @@ $(document).ready(function(){initNavTree('constants_8h_source.html',''); initRes
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#define SW_VERSION &quot;1.4.4&quot;</span> <span class="comment">// Version string</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#define MIN_SW_CONFIGURATOR &quot;1.4.0&quot;</span> <span class="comment">// Minimal supported configurator version. to be removed in a later version!</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#define MAX_AXIS 2 </span><span class="comment">// ONLY USE 2 for now else screws HID Reports</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">//#define SW_VERSION &quot;1.5.0&quot; // Version string</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="constants_8h.html#ab7537ddcca251e52a113e28417d4c5cf">   13</a></span>&#160;<span class="keyword">static</span> <span class="keyword">const</span> uint8_t <a class="code" href="constants_8h.html#ab7537ddcca251e52a113e28417d4c5cf">SW_VERSION_INT</a>[3] = {1,5,2}; <span class="comment">// Version as array. 8 bit each!</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">//#define MIN_SW_CONFIGURATOR &quot;1.5.0&quot; // Minimal supported configurator version. to be removed in a later version!</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#define MAX_AXIS 2 </span><span class="comment">// ONLY USE 2 for now else screws HID Reports</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#ifndef CANBUS</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#undef ODRIVE</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#undef VESC</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#ifndef CANBUS</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#undef ODRIVE</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#undef VESC</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aconstants_8h_html_ab7537ddcca251e52a113e28417d4c5cf"><div class="ttname"><a href="constants_8h.html#ab7537ddcca251e52a113e28417d4c5cf">SW_VERSION_INT</a></div><div class="ttdeci">static const uint8_t SW_VERSION_INT[3]</div><div class="ttdef"><b>Definition:</b> <a href="constants_8h_source.html#l00013">constants.h:13</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

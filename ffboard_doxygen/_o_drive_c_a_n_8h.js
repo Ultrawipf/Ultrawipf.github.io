@@ -3,11 +3,45 @@ var _o_drive_c_a_n_8h =
     [ "ODriveCAN", "class_o_drive_c_a_n.html", "class_o_drive_c_a_n" ],
     [ "ODriveCAN1", "class_o_drive_c_a_n1.html", "class_o_drive_c_a_n1" ],
     [ "ODriveCAN2", "class_o_drive_c_a_n2.html", "class_o_drive_c_a_n2" ],
+    [ "ODriveAxisError", "_o_drive_c_a_n_8h.html#a5ec2ce765e87449d72476383cc3ebdf1", [
+      [ "AXIS_ERROR_NONE", "_o_drive_c_a_n_8h.html#a5ec2ce765e87449d72476383cc3ebdf1a105b9219185bd995aa0875b5953779ca", null ],
+      [ "AXIS_ERROR_INVALID_STATE", "_o_drive_c_a_n_8h.html#a5ec2ce765e87449d72476383cc3ebdf1a9cd62285c0871ca2d09240ec918b5caa", null ],
+      [ "AXIS_ERROR_WATCHDOG_TIMER_EXPIRED", "_o_drive_c_a_n_8h.html#a5ec2ce765e87449d72476383cc3ebdf1a83b427f7478259020afcbf2259eacf87", null ],
+      [ "AXIS_ERROR_MIN_ENDSTOP_PRESSED", "_o_drive_c_a_n_8h.html#a5ec2ce765e87449d72476383cc3ebdf1a2e805a454df67cc1b4ca56282ed8e8bf", null ],
+      [ "AXIS_ERROR_MAX_ENDSTOP_PRESSED", "_o_drive_c_a_n_8h.html#a5ec2ce765e87449d72476383cc3ebdf1ac8655866a65a3897acd9155f857df632", null ],
+      [ "AXIS_ERROR_ESTOP_REQUESTED", "_o_drive_c_a_n_8h.html#a5ec2ce765e87449d72476383cc3ebdf1a3c80dffe1f4462bee71a7412a1b4c15e", null ],
+      [ "AXIS_ERROR_HOMING_WITHOUT_ENDSTOP", "_o_drive_c_a_n_8h.html#a5ec2ce765e87449d72476383cc3ebdf1a57b8ca292875c2c7847400414f2c9654", null ],
+      [ "AXIS_ERROR_OVER_TEMP", "_o_drive_c_a_n_8h.html#a5ec2ce765e87449d72476383cc3ebdf1aafe929cc276a323e7105c18bcc1136ad", null ],
+      [ "AXIS_ERROR_UNKNOWN_POSITION", "_o_drive_c_a_n_8h.html#a5ec2ce765e87449d72476383cc3ebdf1a97a9aa0070d8b6a740c923fd492520f6", null ]
+    ] ],
+    [ "ODriveCAN_commands", "_o_drive_c_a_n_8h.html#a539f13973573e98e043ff32d1b899068", [
+      [ "canid", "_o_drive_c_a_n_8h.html#a539f13973573e98e043ff32d1b899068ad9e0e5fa1c6f9ea949e956c2af81ac4c", null ],
+      [ "canspd", "_o_drive_c_a_n_8h.html#a539f13973573e98e043ff32d1b899068a1bfb52c41ecc5f627260a5cae9c253bd", null ],
+      [ "errors", "_o_drive_c_a_n_8h.html#a539f13973573e98e043ff32d1b899068a07213a0161f52846ab198be103b5ab43", null ],
+      [ "state", "_o_drive_c_a_n_8h.html#a539f13973573e98e043ff32d1b899068a9ed39e2ea931586b6a985a6942ef573e", null ],
+      [ "maxtorque", "_o_drive_c_a_n_8h.html#a539f13973573e98e043ff32d1b899068a0f49d893c80f4b1732e5c8a744d04e39", null ],
+      [ "vbus", "_o_drive_c_a_n_8h.html#a539f13973573e98e043ff32d1b899068aa6836846042d32ab49d028e4908a505b", null ],
+      [ "anticogging", "_o_drive_c_a_n_8h.html#a539f13973573e98e043ff32d1b899068ab72d6d56ec1607f414cd5de03914aa87", null ],
+      [ "connected", "_o_drive_c_a_n_8h.html#a539f13973573e98e043ff32d1b899068a06aa6fa8bdc2078e7e1bd903e70c8f6a", null ]
+    ] ],
     [ "ODriveControlMode", "_o_drive_c_a_n_8h.html#afbb352e995053f25fb271f45cd99b930", [
       [ "CONTROL_MODE_VOLTAGE_CONTROL", "_o_drive_c_a_n_8h.html#afbb352e995053f25fb271f45cd99b930a28445e9544349ceb74627c54e350ac68", null ],
       [ "CONTROL_MODE_TORQUE_CONTROL", "_o_drive_c_a_n_8h.html#afbb352e995053f25fb271f45cd99b930ac531e9abc75088ee4897cea851e89973", null ],
       [ "CONTROL_MODE_VELOCITY_CONTROL", "_o_drive_c_a_n_8h.html#afbb352e995053f25fb271f45cd99b930aec79fcd36b6c18f194358b41c1fbdff7", null ],
       [ "CONTROL_MODE_POSITION_CONTROL", "_o_drive_c_a_n_8h.html#afbb352e995053f25fb271f45cd99b930a87f372b5c7e05c3cc5fce1a780693a11", null ]
+    ] ],
+    [ "ODriveEncoderFlags", "_o_drive_c_a_n_8h.html#aaa5729c3c570bb9e79f2dab90f0cc856", [
+      [ "ERROR_NONE", "_o_drive_c_a_n_8h.html#aaa5729c3c570bb9e79f2dab90f0cc856a6a6f8d2f1d20e8b949977ed167b24496", null ],
+      [ "ERROR_UNSTABLE_GAIN", "_o_drive_c_a_n_8h.html#aaa5729c3c570bb9e79f2dab90f0cc856a3c58cdf80432c19707c2d2fa641ad4c9", null ],
+      [ "ERROR_CPR_POLEPAIRS_MISMATCH", "_o_drive_c_a_n_8h.html#aaa5729c3c570bb9e79f2dab90f0cc856a8fc1fc05462ebb166e374590f1f64717", null ],
+      [ "ERROR_NO_RESPONSE", "_o_drive_c_a_n_8h.html#aaa5729c3c570bb9e79f2dab90f0cc856a9ab333aa0a372c44df9a9c93e54d0c34", null ],
+      [ "ERROR_UNSUPPORTED_ENCODER_MODE", "_o_drive_c_a_n_8h.html#aaa5729c3c570bb9e79f2dab90f0cc856a71a2e797072cfd77110e4f066781ece0", null ],
+      [ "ERROR_ILLEGAL_HALL_STATE", "_o_drive_c_a_n_8h.html#aaa5729c3c570bb9e79f2dab90f0cc856aa9f5a9f5e4723b10adb506abeb55db85", null ],
+      [ "ERROR_INDEX_NOT_FOUND_YET", "_o_drive_c_a_n_8h.html#aaa5729c3c570bb9e79f2dab90f0cc856a82164195f2ef22b9c7e361e3834e50fd", null ],
+      [ "ERROR_ABS_SPI_TIMEOUT", "_o_drive_c_a_n_8h.html#aaa5729c3c570bb9e79f2dab90f0cc856aca071b1176d2e4156b92a07a5be4ec83", null ],
+      [ "ERROR_ABS_SPI_COM_FAIL", "_o_drive_c_a_n_8h.html#aaa5729c3c570bb9e79f2dab90f0cc856a2e74a4cbc3b285c80f97cd2c23371c77", null ],
+      [ "ERROR_ABS_SPI_NOT_READY", "_o_drive_c_a_n_8h.html#aaa5729c3c570bb9e79f2dab90f0cc856affb444c8f7f3199da590a824171ee8bb", null ],
+      [ "ERROR_HALL_NOT_CALIBRATED_YET", "_o_drive_c_a_n_8h.html#aaa5729c3c570bb9e79f2dab90f0cc856af6c11475d73756ab8e126ca63f82c9f7", null ]
     ] ],
     [ "ODriveInputMode", "_o_drive_c_a_n_8h.html#af21aeb1ceaadca1a54dd9286cbffd9b5", [
       [ "INPUT_MODE_INACTIVE", "_o_drive_c_a_n_8h.html#af21aeb1ceaadca1a54dd9286cbffd9b5a1b76cb0c26df47e42b2a637622fef61d", null ],

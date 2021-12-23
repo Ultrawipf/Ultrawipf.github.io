@@ -1,6 +1,7 @@
 var _t_m_c4671_8h =
 [
     [ "TMC4671MotConf", "struct_t_m_c4671_mot_conf.html", "struct_t_m_c4671_mot_conf" ],
+    [ "TMC4671HardwareTypeConf", "struct_t_m_c4671_hardware_type_conf.html", "struct_t_m_c4671_hardware_type_conf" ],
     [ "StatusFlags", "union_status_flags.html", "union_status_flags" ],
     [ "StatusFlags_s", "struct_status_flags_1_1_status_flags__s.html", "struct_status_flags_1_1_status_flags__s" ],
     [ "TMC4671MainConfig", "struct_t_m_c4671_main_config.html", "struct_t_m_c4671_main_config" ],
@@ -91,10 +92,14 @@ var _t_m_c4671_8h =
       [ "OverTemp", "_t_m_c4671_8h.html#a08a7449bf7a92827d2af8ebebb8f218ea9cfa39fcf8d4622338bfa04439eeda88", null ],
       [ "EncoderFinished", "_t_m_c4671_8h.html#a08a7449bf7a92827d2af8ebebb8f218eabb482287d9e99acc78992b550d58c1ec", null ]
     ] ],
+    [ "TMC_HW_Ver", "_t_m_c4671_8h.html#a1064cdca049007c828bd4a5b28f51d71", [
+      [ "NONE", "_t_m_c4671_8h.html#a1064cdca049007c828bd4a5b28f51d71ab50339a10e1de285ac99d4c3990b8693", null ],
+      [ "v1_0", "_t_m_c4671_8h.html#a1064cdca049007c828bd4a5b28f51d71a09d7da9ea375f1827517b45b61cfc6b8", null ],
+      [ "v1_2", "_t_m_c4671_8h.html#a1064cdca049007c828bd4a5b28f51d71a0fdcfe7bc01aadbcbb7ff8c0e1024336", null ],
+      [ "v1_2_1", "_t_m_c4671_8h.html#a1064cdca049007c828bd4a5b28f51d71ab129ca64ac50de9234964ac1976fdc85", null ],
+      [ "v1_2_1_LEM20", "_t_m_c4671_8h.html#a1064cdca049007c828bd4a5b28f51d71a6844f19327f70873cdfcec7909fa9550", null ],
+      [ "v1_2_1_TMCS", "_t_m_c4671_8h.html#a1064cdca049007c828bd4a5b28f51d71a59f988078b731d93c74ec5992cf9292f", null ]
+    ] ],
     [ "HSPIDRV", "_t_m_c4671_8h.html#a49b76b3df998b61ed9347ac903b9ecf8", null ],
-    [ "temp_limit", "_t_m_c4671_8h.html#ab9c27df933bf8005ac48b988d2d4623c", null ],
-    [ "thermistor_Beta", "_t_m_c4671_8h.html#a290fa378df52f972deff2a7a80a83730", null ],
-    [ "thermistor_R", "_t_m_c4671_8h.html#a77839dab2a2077c67c01413b3b2ae68b", null ],
-    [ "thermistor_R2", "_t_m_c4671_8h.html#a172353e1ee6c16aa8817fe0c39de4052", null ],
-    [ "tmcOffset", "_t_m_c4671_8h.html#aa755b4df95e1ff5fb4a112117549bf0a", null ]
+    [ "tmcHwVersionNames", "_t_m_c4671_8h.html#acecaf14b1bbf948db2c59ade57598a68", null ]
 ];

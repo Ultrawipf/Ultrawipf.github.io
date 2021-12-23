@@ -1,8 +1,12 @@
 var class_motor_p_w_m =
 [
+    [ "MotorPWM_commands", "class_motor_p_w_m.html#a200f16b29b4a31cfd1bbc75219b3c80a", [
+      [ "mode", "class_motor_p_w_m.html#a200f16b29b4a31cfd1bbc75219b3c80aa15d61712450a686a7f365adf4fef581f", null ],
+      [ "freq", "class_motor_p_w_m.html#a200f16b29b4a31cfd1bbc75219b3c80aab0038f6cab2d16ebdcf2e36d1779d8ba", null ]
+    ] ],
     [ "MotorPWM", "class_motor_p_w_m.html#a8af621c58795c79f224ffa600500bed1", null ],
     [ "~MotorPWM", "class_motor_p_w_m.html#a296c493d1029f6b3bcb21387e58b543a", null ],
-    [ "command", "class_motor_p_w_m.html#ac969d8c5d975d2cf05935362fd152819", null ],
+    [ "command", "class_motor_p_w_m.html#afbf694259ce5f15f359e53410b7d0e21", null ],
     [ "getHelpstring", "class_motor_p_w_m.html#a253278b6886a996c02ad52e5fe0ff577", null ],
     [ "getInfo", "class_motor_p_w_m.html#aa97cf5ba62a08c311ddb36e516686d8c", null ],
     [ "getMode", "class_motor_p_w_m.html#a8f3c8730eefe5b95aaeab614a203674d", null ],

@@ -7,6 +7,7 @@ var class_usb_hid_handler =
     [ "hidOut", "class_usb_hid_handler.html#a981a9cf241853cdb3529cacc9bb724ee", null ],
     [ "registerHidCallback", "class_usb_hid_handler.html#af644b224875908eb4b8efb77a7e47864", null ],
     [ "setHidDesc", "class_usb_hid_handler.html#a16f8b48a5d16c4089bdc2ce725549fd8", null ],
+    [ "transferComplete", "class_usb_hid_handler.html#a98a6aa1448d4afd80722650bec85bde8", null ],
     [ "globalHidHandler", "class_usb_hid_handler.html#a9734a0e103bb2c934de8cab9bef202ea", null ],
     [ "hid_desc", "class_usb_hid_handler.html#abdde7385ad6bf0a906dbeeba9d4b3ba9", null ]
 ];

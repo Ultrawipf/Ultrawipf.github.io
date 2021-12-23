@@ -124,19 +124,17 @@ $(document).ready(function(){initNavTree('functions_p.html',''); initResizable()
 : <a class="el" href="struct_t_u___a_t_t_r___p_a_c_k_e_d.html#ab15bafe69231f7b8c069d788272c3518">TU_ATTR_PACKED</a>
 </li>
 <li>parse()
-: <a class="el" href="class_cmd_parser.html#a72d30ac58725e1b180e171f8772d68e1">CmdParser</a>
+: <a class="el" href="class_cmd_parser.html#a37ffbf1ce84fab558a4915b0d4f8de92">CmdParser</a>
 </li>
 <li>parser
-: <a class="el" href="class_f_f_board_main_command_thread.html#ac09c5c834739300159d723920dd66dbf">FFBoardMainCommandThread</a>
-</li>
-<li>parserDone()
-: <a class="el" href="class_f_f_board_main.html#ac574f37d7803941edf6203d0b6fa7dc8">FFBoardMain</a>
+: <a class="el" href="class_string_command_interface.html#a8e04e43d5d3933e71df93f2de4c73cc2">StringCommandInterface</a>
 </li>
 <li>parserReady
-: <a class="el" href="class_f_f_board_main_command_thread.html#a84e8be50cb0fb7c70941742c1df35af0">FFBoardMainCommandThread</a>
+: <a class="el" href="class_command_interface.html#ab008a3d94a6b3d1e52d2e1baca0271ba">CommandInterface</a>
 </li>
-<li>parserSem
-: <a class="el" href="class_f_f_board_main_command_thread.html#aef8c43acec5144e13ad9627aef356509">FFBoardMainCommandThread</a>
+<li>parserTimeout
+: <a class="el" href="class_c_d_c___command_interface.html#ad38eea2fb692c80db0c09e98a9fd86bc">CDC_CommandInterface</a>
+, <a class="el" href="class_u_a_r_t___command_interface.html#a093b89d3ea74a3228a890ac1128a79fc">UART_CommandInterface</a>
 </li>
 <li>partial_medium_indicator
 : <a class="el" href="struct_t_u___a_t_t_r___p_a_c_k_e_d.html#adfb3a846f15f4475b1eb28f60fa787ac">TU_ATTR_PACKED</a>
@@ -362,6 +360,9 @@ $(document).ready(function(){initNavTree('functions_p.html',''); initResizable()
 <li>pos_sel
 : <a class="el" href="struct_t_m_c4671_mot_conf.html#a821121381aaf88049781fb4021804304">TMC4671MotConf</a>
 </li>
+<li>posDegrees
+: <a class="el" href="structmetric__t.html#a02c1b61e26413aaf19a366ce11612365">metric_t</a>
+</li>
 <li>position_I
 : <a class="el" href="struct_t_m_c4671_pid_precision.html#a0faef5ef7ff03eb8c5a0be7d035eb3df">TMC4671PidPrecision</a>
 </li>
@@ -388,18 +389,15 @@ $(document).ready(function(){initNavTree('functions_p.html',''); initResizable()
 : <a class="el" href="class_t_m_c4671.html#ad39175477b1007cc9ce5576f7866d435">TMC4671</a>
 </li>
 <li>power
-: <a class="el" href="class_midi_main.html#a55838d175ec6219ac0e2714008d5d45e">MidiMain</a>
-, <a class="el" href="class_normalized_axis.html#a15c45a8483d5b95f3318e19a1f12a4b4">NormalizedAxis</a>
-, <a class="el" href="struct_normalized_axis_flash_addrs__t.html#a9f7af73501773f9e9ece4d9632cb8a91">NormalizedAxisFlashAddrs_t</a>
+: <a class="el" href="class_axis.html#a90f31bc6a2f78000d6b2b3cd848286e1">Axis</a>
+, <a class="el" href="struct_axis_flash_addrs.html#afa3a5cc5cf33418372e039c74e62f6fc">AxisFlashAddrs</a>
+, <a class="el" href="class_midi_main.html#a55838d175ec6219ac0e2714008d5d45e">MidiMain</a>
 </li>
 <li>power_condition
 : <a class="el" href="struct_t_u___a_t_t_r___p_a_c_k_e_d.html#a6d408a93f8d00af90c8db4d55f4a76ca">TU_ATTR_PACKED</a>
 </li>
 <li>power_condition_mod
 : <a class="el" href="struct_t_u___a_t_t_r___p_a_c_k_e_d.html#a4d7cd1550de7d4f81eb68192fcf03156">TU_ATTR_PACKED</a>
-</li>
-<li>prefix
-: <a class="el" href="struct_parsed_command.html#ad59e76732735649925599600d53b90a9">ParsedCommand</a>
 </li>
 <li>prepareForUpdate()
 : <a class="el" href="class_axis.html#af64e0fe6b54b584aea65733c1a3299cf">Axis</a>
@@ -419,28 +417,17 @@ $(document).ready(function(){initNavTree('functions_p.html',''); initResizable()
 <li>printAvailableClasses()
 : <a class="el" href="class_class_chooser.html#a48c35819142dafb5e28cf83599952883">ClassChooser&lt; T &gt;</a>
 </li>
-<li>printErrors()
-: <a class="el" href="class_f_f_board_main_command_thread.html#a647ca432433789f60b8c74b18ceabc7e">FFBoardMainCommandThread</a>
-</li>
-<li>printFlashDump()
-: <a class="el" href="class_f_f_board_main_command_thread.html#aa2450615379ddfc60bc598aa8ed07c4e">FFBoardMainCommandThread</a>
-</li>
 <li>printModes()
-: <a class="el" href="class_shifter_analog.html#a25c2142e325c12ee158524688f779288">ShifterAnalog</a>
-, <a class="el" href="class_s_p_i___buttons.html#a58e2de47456df3e88aa7b29c914701b3">SPI_Buttons</a>
+: <a class="el" href="class_shifter_analog.html#aa998b30b632eea2ab2a74cd04b00538b">ShifterAnalog</a>
+, <a class="el" href="class_s_p_i___buttons.html#a069411e85916d3af03163e49b4e2c647">SPI_Buttons</a>
 </li>
 <li>Priority
 : <a class="el" href="classcpp__freertos_1_1_thread.html#a75d8a4c561b63555e4a61ac93fadebad">cpp_freertos::Thread</a>
 </li>
 <li>process()
 : <a class="el" href="class_biquad.html#a3a5433af6f3d6f1b14fd304cd8cdd42e">Biquad</a>
+, <a class="el" href="class_fast_avg.html#ac70f46c185f75f4bbae8c1b633099dad">FastAvg&lt; LEN &gt;</a>
 , <a class="el" href="class_s_p_i___buttons.html#ae84b99b26196f51aafca8a993e109bd4">SPI_Buttons</a>
-</li>
-<li>processHidCommand()
-: <a class="el" href="class_axis.html#aa8e848a0a1cfc36928d5f0cf2f990671">Axis</a>
-, <a class="el" href="class_effects_calculator.html#aa962dbf1f998b94519b428c194156233">EffectsCalculator</a>
-, <a class="el" href="class_hid_command_handler.html#a2d63e10b855fac7a5392b08d2b48560c">HidCommandHandler</a>
-, <a class="el" href="class_normalized_axis.html#aba1b647eb3b8a8e37a69e52245dd4afe">NormalizedAxis</a>
 </li>
 <li>product
 : <a class="el" href="structusb__string__desc.html#a05a728107da3fde05c6fb9231fea9dfa">usb_string_desc</a>

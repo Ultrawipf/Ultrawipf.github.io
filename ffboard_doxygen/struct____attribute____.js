@@ -1,9 +1,10 @@
 var struct____attribute____ =
 [
-    [ "addr", "struct____attribute____.html#a4ce6acf78e1c238f7189b8dd3dfeb323", null ],
+    [ "addr", "struct____attribute____.html#a4d08a8cdd95e53d17f712dde807840b0", null ],
     [ "attackLevel", "struct____attribute____.html#adab611af12f68975d518a86924737e92", null ],
     [ "attackTime", "struct____attribute____.html#a626340db63bd3ed89614ab41cb44469a", null ],
     [ "byteCount", "struct____attribute____.html#af75a11e3138d35ab8e13c34e44fc6af5", null ],
+    [ "clsid", "struct____attribute____.html#a62828bf9dacca91412eaa7dd342ec5f2", null ],
     [ "cmd", "struct____attribute____.html#a5353b2b936cc466411ab5c5addfa8fb5", null ],
     [ "cpOffset", "struct____attribute____.html#acace4e1922e468463188a0e52f31d2ab", null ],
     [ "data", "struct____attribute____.html#a81ed27f4606846a789c4b5cc1d984d87", null ],
@@ -19,6 +20,7 @@ var struct____attribute____ =
     [ "fadeLevel", "struct____attribute____.html#aac1998665a3eadd3434a64eff8abcc6b", null ],
     [ "fadeTime", "struct____attribute____.html#a1a605865d2a0a65133e5f0d713c04756", null ],
     [ "gain", "struct____attribute____.html#a7b5e1135ea483c594413089fd261cf1e", null ],
+    [ "instance", "struct____attribute____.html#a7c2ea7f9792c4b9615cb3aff494a1a2e", null ],
     [ "loadStatus", "struct____attribute____.html#a7e457826e79e396d7742ba45e8e4951e", null ],
     [ "magnitude", "struct____attribute____.html#a4ce1e9256408bfb9a512b6f901f73ed0", null ],
     [ "magnitude", "struct____attribute____.html#a71e50846c773db3ded064d06343ee459", null ],

@@ -154,8 +154,122 @@ Enumerations</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:abf9bd05cd369f434291d67fb39600086"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa5729c3c570bb9e79f2dab90f0cc856"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_o_drive_c_a_n_8h.html#aaa5729c3c570bb9e79f2dab90f0cc856">ODriveEncoderFlags</a> : uint32_t { <br />
+&#160;&#160;<a class="el" href="_o_drive_c_a_n_8h.html#aaa5729c3c570bb9e79f2dab90f0cc856a6a6f8d2f1d20e8b949977ed167b24496">ERROR_NONE</a> = 0
+, <a class="el" href="_o_drive_c_a_n_8h.html#aaa5729c3c570bb9e79f2dab90f0cc856a3c58cdf80432c19707c2d2fa641ad4c9">ERROR_UNSTABLE_GAIN</a> = 0x01
+, <a class="el" href="_o_drive_c_a_n_8h.html#aaa5729c3c570bb9e79f2dab90f0cc856a8fc1fc05462ebb166e374590f1f64717">ERROR_CPR_POLEPAIRS_MISMATCH</a> = 0x02
+, <a class="el" href="_o_drive_c_a_n_8h.html#aaa5729c3c570bb9e79f2dab90f0cc856a9ab333aa0a372c44df9a9c93e54d0c34">ERROR_NO_RESPONSE</a> = 0x04
+, <br />
+&#160;&#160;<a class="el" href="_o_drive_c_a_n_8h.html#aaa5729c3c570bb9e79f2dab90f0cc856a71a2e797072cfd77110e4f066781ece0">ERROR_UNSUPPORTED_ENCODER_MODE</a> = 0x08
+, <a class="el" href="_o_drive_c_a_n_8h.html#aaa5729c3c570bb9e79f2dab90f0cc856aa9f5a9f5e4723b10adb506abeb55db85">ERROR_ILLEGAL_HALL_STATE</a> = 0x10
+, <a class="el" href="_o_drive_c_a_n_8h.html#aaa5729c3c570bb9e79f2dab90f0cc856a82164195f2ef22b9c7e361e3834e50fd">ERROR_INDEX_NOT_FOUND_YET</a> = 0x20
+, <a class="el" href="_o_drive_c_a_n_8h.html#aaa5729c3c570bb9e79f2dab90f0cc856aca071b1176d2e4156b92a07a5be4ec83">ERROR_ABS_SPI_TIMEOUT</a> = 0x40
+, <br />
+&#160;&#160;<a class="el" href="_o_drive_c_a_n_8h.html#aaa5729c3c570bb9e79f2dab90f0cc856a2e74a4cbc3b285c80f97cd2c23371c77">ERROR_ABS_SPI_COM_FAIL</a> = 0x80
+, <a class="el" href="_o_drive_c_a_n_8h.html#aaa5729c3c570bb9e79f2dab90f0cc856affb444c8f7f3199da590a824171ee8bb">ERROR_ABS_SPI_NOT_READY</a> = 0x100
+, <a class="el" href="_o_drive_c_a_n_8h.html#aaa5729c3c570bb9e79f2dab90f0cc856af6c11475d73756ab8e126ca63f82c9f7">ERROR_HALL_NOT_CALIBRATED_YET</a> = 0x200
+<br />
+ }</td></tr>
+<tr class="separator:aaa5729c3c570bb9e79f2dab90f0cc856"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ec2ce765e87449d72476383cc3ebdf1"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_o_drive_c_a_n_8h.html#a5ec2ce765e87449d72476383cc3ebdf1">ODriveAxisError</a> : uint32_t { <br />
+&#160;&#160;<a class="el" href="_o_drive_c_a_n_8h.html#a5ec2ce765e87449d72476383cc3ebdf1a105b9219185bd995aa0875b5953779ca">AXIS_ERROR_NONE</a> = 0x00000000
+, <a class="el" href="_o_drive_c_a_n_8h.html#a5ec2ce765e87449d72476383cc3ebdf1a9cd62285c0871ca2d09240ec918b5caa">AXIS_ERROR_INVALID_STATE</a> = 0x00000001
+, <a class="el" href="_o_drive_c_a_n_8h.html#a5ec2ce765e87449d72476383cc3ebdf1a83b427f7478259020afcbf2259eacf87">AXIS_ERROR_WATCHDOG_TIMER_EXPIRED</a> = 0x00000800
+, <a class="el" href="_o_drive_c_a_n_8h.html#a5ec2ce765e87449d72476383cc3ebdf1a2e805a454df67cc1b4ca56282ed8e8bf">AXIS_ERROR_MIN_ENDSTOP_PRESSED</a> = 0x00001000
+, <br />
+&#160;&#160;<a class="el" href="_o_drive_c_a_n_8h.html#a5ec2ce765e87449d72476383cc3ebdf1ac8655866a65a3897acd9155f857df632">AXIS_ERROR_MAX_ENDSTOP_PRESSED</a> = 0x00002000
+, <a class="el" href="_o_drive_c_a_n_8h.html#a5ec2ce765e87449d72476383cc3ebdf1a3c80dffe1f4462bee71a7412a1b4c15e">AXIS_ERROR_ESTOP_REQUESTED</a> = 0x00004000
+, <a class="el" href="_o_drive_c_a_n_8h.html#a5ec2ce765e87449d72476383cc3ebdf1a57b8ca292875c2c7847400414f2c9654">AXIS_ERROR_HOMING_WITHOUT_ENDSTOP</a> = 0x00020000
+, <a class="el" href="_o_drive_c_a_n_8h.html#a5ec2ce765e87449d72476383cc3ebdf1aafe929cc276a323e7105c18bcc1136ad">AXIS_ERROR_OVER_TEMP</a> = 0x00040000
+, <br />
+&#160;&#160;<a class="el" href="_o_drive_c_a_n_8h.html#a5ec2ce765e87449d72476383cc3ebdf1a97a9aa0070d8b6a740c923fd492520f6">AXIS_ERROR_UNKNOWN_POSITION</a> = 0x00080000
+<br />
+ }</td></tr>
+<tr class="separator:a5ec2ce765e87449d72476383cc3ebdf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a539f13973573e98e043ff32d1b899068"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_o_drive_c_a_n_8h.html#a539f13973573e98e043ff32d1b899068">ODriveCAN_commands</a> : uint32_t { <br />
+&#160;&#160;<a class="el" href="_o_drive_c_a_n_8h.html#a539f13973573e98e043ff32d1b899068ad9e0e5fa1c6f9ea949e956c2af81ac4c">canid</a>
+, <a class="el" href="_o_drive_c_a_n_8h.html#a539f13973573e98e043ff32d1b899068a1bfb52c41ecc5f627260a5cae9c253bd">canspd</a>
+, <a class="el" href="_o_drive_c_a_n_8h.html#a539f13973573e98e043ff32d1b899068a07213a0161f52846ab198be103b5ab43">errors</a>
+, <a class="el" href="_o_drive_c_a_n_8h.html#a539f13973573e98e043ff32d1b899068a9ed39e2ea931586b6a985a6942ef573e">state</a>
+, <br />
+&#160;&#160;<a class="el" href="_o_drive_c_a_n_8h.html#a539f13973573e98e043ff32d1b899068a0f49d893c80f4b1732e5c8a744d04e39">maxtorque</a>
+, <a class="el" href="_o_drive_c_a_n_8h.html#a539f13973573e98e043ff32d1b899068aa6836846042d32ab49d028e4908a505b">vbus</a>
+, <a class="el" href="_o_drive_c_a_n_8h.html#a539f13973573e98e043ff32d1b899068ab72d6d56ec1607f414cd5de03914aa87">anticogging</a>
+, <a class="el" href="_o_drive_c_a_n_8h.html#a539f13973573e98e043ff32d1b899068a06aa6fa8bdc2078e7e1bd903e70c8f6a">connected</a>
+<br />
+ }</td></tr>
+<tr class="separator:a539f13973573e98e043ff32d1b899068"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a5ec2ce765e87449d72476383cc3ebdf1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ec2ce765e87449d72476383cc3ebdf1">&#9670;&nbsp;</a></span>ODriveAxisError</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="_o_drive_c_a_n_8h.html#a5ec2ce765e87449d72476383cc3ebdf1">ODriveAxisError</a> : uint32_t</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a5ec2ce765e87449d72476383cc3ebdf1a105b9219185bd995aa0875b5953779ca"></a>AXIS_ERROR_NONE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5ec2ce765e87449d72476383cc3ebdf1a9cd62285c0871ca2d09240ec918b5caa"></a>AXIS_ERROR_INVALID_STATE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5ec2ce765e87449d72476383cc3ebdf1a83b427f7478259020afcbf2259eacf87"></a>AXIS_ERROR_WATCHDOG_TIMER_EXPIRED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5ec2ce765e87449d72476383cc3ebdf1a2e805a454df67cc1b4ca56282ed8e8bf"></a>AXIS_ERROR_MIN_ENDSTOP_PRESSED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5ec2ce765e87449d72476383cc3ebdf1ac8655866a65a3897acd9155f857df632"></a>AXIS_ERROR_MAX_ENDSTOP_PRESSED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5ec2ce765e87449d72476383cc3ebdf1a3c80dffe1f4462bee71a7412a1b4c15e"></a>AXIS_ERROR_ESTOP_REQUESTED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5ec2ce765e87449d72476383cc3ebdf1a57b8ca292875c2c7847400414f2c9654"></a>AXIS_ERROR_HOMING_WITHOUT_ENDSTOP&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5ec2ce765e87449d72476383cc3ebdf1aafe929cc276a323e7105c18bcc1136ad"></a>AXIS_ERROR_OVER_TEMP&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5ec2ce765e87449d72476383cc3ebdf1a97a9aa0070d8b6a740c923fd492520f6"></a>AXIS_ERROR_UNKNOWN_POSITION&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="_o_drive_c_a_n_8h_source.html#l00029">29</a> of file <a class="el" href="_o_drive_c_a_n_8h_source.html">ODriveCAN.h</a>.</p>
+
+</div>
+</div>
+<a id="a539f13973573e98e043ff32d1b899068"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a539f13973573e98e043ff32d1b899068">&#9670;&nbsp;</a></span>ODriveCAN_commands</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="_o_drive_c_a_n_8h.html#a539f13973573e98e043ff32d1b899068">ODriveCAN_commands</a> : uint32_t</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a539f13973573e98e043ff32d1b899068ad9e0e5fa1c6f9ea949e956c2af81ac4c"></a>canid&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a539f13973573e98e043ff32d1b899068a1bfb52c41ecc5f627260a5cae9c253bd"></a>canspd&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a539f13973573e98e043ff32d1b899068a07213a0161f52846ab198be103b5ab43"></a>errors&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a539f13973573e98e043ff32d1b899068a9ed39e2ea931586b6a985a6942ef573e"></a>state&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a539f13973573e98e043ff32d1b899068a0f49d893c80f4b1732e5c8a744d04e39"></a>maxtorque&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a539f13973573e98e043ff32d1b899068aa6836846042d32ab49d028e4908a505b"></a>vbus&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a539f13973573e98e043ff32d1b899068ab72d6d56ec1607f414cd5de03914aa87"></a>anticogging&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a539f13973573e98e043ff32d1b899068a06aa6fa8bdc2078e7e1bd903e70c8f6a"></a>connected&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="_o_drive_c_a_n_8h_source.html#l00031">31</a> of file <a class="el" href="_o_drive_c_a_n_8h_source.html">ODriveCAN.h</a>.</p>
+
+</div>
+</div>
 <a id="afbb352e995053f25fb271f45cd99b930"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afbb352e995053f25fb271f45cd99b930">&#9670;&nbsp;</a></span>ODriveControlMode</h2>
 
@@ -183,6 +297,43 @@ Enumerations</h2></td></tr>
 </table>
 
 <p class="definition">Definition at line <a class="el" href="_o_drive_c_a_n_8h_source.html#l00024">24</a> of file <a class="el" href="_o_drive_c_a_n_8h_source.html">ODriveCAN.h</a>.</p>
+
+</div>
+</div>
+<a id="aaa5729c3c570bb9e79f2dab90f0cc856"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa5729c3c570bb9e79f2dab90f0cc856">&#9670;&nbsp;</a></span>ODriveEncoderFlags</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="_o_drive_c_a_n_8h.html#aaa5729c3c570bb9e79f2dab90f0cc856">ODriveEncoderFlags</a> : uint32_t</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aaa5729c3c570bb9e79f2dab90f0cc856a6a6f8d2f1d20e8b949977ed167b24496"></a>ERROR_NONE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aaa5729c3c570bb9e79f2dab90f0cc856a3c58cdf80432c19707c2d2fa641ad4c9"></a>ERROR_UNSTABLE_GAIN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aaa5729c3c570bb9e79f2dab90f0cc856a8fc1fc05462ebb166e374590f1f64717"></a>ERROR_CPR_POLEPAIRS_MISMATCH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aaa5729c3c570bb9e79f2dab90f0cc856a9ab333aa0a372c44df9a9c93e54d0c34"></a>ERROR_NO_RESPONSE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aaa5729c3c570bb9e79f2dab90f0cc856a71a2e797072cfd77110e4f066781ece0"></a>ERROR_UNSUPPORTED_ENCODER_MODE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aaa5729c3c570bb9e79f2dab90f0cc856aa9f5a9f5e4723b10adb506abeb55db85"></a>ERROR_ILLEGAL_HALL_STATE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aaa5729c3c570bb9e79f2dab90f0cc856a82164195f2ef22b9c7e361e3834e50fd"></a>ERROR_INDEX_NOT_FOUND_YET&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aaa5729c3c570bb9e79f2dab90f0cc856aca071b1176d2e4156b92a07a5be4ec83"></a>ERROR_ABS_SPI_TIMEOUT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aaa5729c3c570bb9e79f2dab90f0cc856a2e74a4cbc3b285c80f97cd2c23371c77"></a>ERROR_ABS_SPI_COM_FAIL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aaa5729c3c570bb9e79f2dab90f0cc856affb444c8f7f3199da590a824171ee8bb"></a>ERROR_ABS_SPI_NOT_READY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aaa5729c3c570bb9e79f2dab90f0cc856af6c11475d73756ab8e126ca63f82c9f7"></a>ERROR_HALL_NOT_CALIBRATED_YET&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="_o_drive_c_a_n_8h_source.html#l00028">28</a> of file <a class="el" href="_o_drive_c_a_n_8h_source.html">ODriveCAN.h</a>.</p>
 
 </div>
 </div>

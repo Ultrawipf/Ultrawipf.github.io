@@ -114,11 +114,11 @@ Variables</h2></td></tr>
 <b>Initial value:</b><div class="fragment"><div class="line">=</div>
 <div class="line">{</div>
 <div class="line"><span class="preprocessor">#ifdef ANALOGAXES</span></div>
-<div class="line">        add_class&lt;LocalAnalog,AnalogSource&gt;(),</div>
+<div class="line">        add_class&lt;LocalAnalog,AnalogSource&gt;(0),</div>
 <div class="line"><span class="preprocessor">#endif</span></div>
 <div class="line"><span class="preprocessor">}</span></div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8cpp_source.html#l00047">47</a> of file <a class="el" href="_f_f_b_wheel_8cpp_source.html">FFBWheel.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8cpp_source.html#l00046">46</a> of file <a class="el" href="_f_f_b_wheel_8cpp_source.html">FFBWheel.cpp</a>.</p>
 
 </div>
 </div>
@@ -136,20 +136,20 @@ Variables</h2></td></tr>
 <b>Initial value:</b><div class="fragment"><div class="line">=</div>
 <div class="line">{</div>
 <div class="line"><span class="preprocessor">#ifdef LOCALBUTTONS</span></div>
-<div class="line">        add_class&lt;LocalButtons,ButtonSource&gt;(),</div>
+<div class="line">        add_class&lt;LocalButtons,ButtonSource&gt;(0),</div>
 <div class="line"><span class="preprocessor">#endif</span></div>
 <div class="line"><span class="preprocessor">#ifdef SPIBUTTONS</span></div>
-<div class="line">        add_class&lt;SPI_Buttons_1,ButtonSource&gt;(),</div>
+<div class="line">        add_class&lt;SPI_Buttons_1,ButtonSource&gt;(1),</div>
 <div class="line"><span class="preprocessor">#endif</span></div>
 <div class="line"><span class="preprocessor">#ifdef SPIBUTTONS2</span></div>
-<div class="line">        add_class&lt;SPI_Buttons_2,ButtonSource&gt;(),</div>
+<div class="line">        add_class&lt;SPI_Buttons_2,ButtonSource&gt;(2),</div>
 <div class="line"><span class="preprocessor">#endif</span></div>
 <div class="line"><span class="preprocessor">#ifdef SHIFTERBUTTONS</span></div>
-<div class="line">        add_class&lt;ShifterAnalog,ButtonSource&gt;(),</div>
+<div class="line">        add_class&lt;ShifterAnalog,ButtonSource&gt;(3),</div>
 <div class="line"><span class="preprocessor">#endif</span></div>
 <div class="line"><span class="preprocessor">}</span></div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8cpp_source.html#l00030">30</a> of file <a class="el" href="_f_f_b_wheel_8cpp_source.html">FFBWheel.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_b_wheel_8cpp_source.html#l00029">29</a> of file <a class="el" href="_f_f_b_wheel_8cpp_source.html">FFBWheel.cpp</a>.</p>
 
 </div>
 </div>

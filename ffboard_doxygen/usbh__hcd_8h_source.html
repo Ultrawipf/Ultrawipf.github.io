@@ -153,13 +153,13 @@ $(document).ready(function(){initNavTree('usbh__hcd_8h_source.html',''); initRes
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  <span class="comment">//------------- device -------------//</span></div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  <span class="keyword">struct </span><a class="code" href="struct_t_u___a_t_t_r___p_a_c_k_e_d.html">TU_ATTR_PACKED</a></div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  {</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    uint8_t connected    : 1;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    uint8_t <a class="code" href="_o_drive_c_a_n_8h.html#a539f13973573e98e043ff32d1b899068a06aa6fa8bdc2078e7e1bd903e70c8f6a">connected</a>    : 1;</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    uint8_t addressed    : 1;</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    uint8_t configured   : 1;</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    uint8_t suspended    : 1;</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;  };</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  <span class="keyword">volatile</span> uint8_t state;             <span class="comment">// device state, value from enum tusbh_device_state_t</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  <span class="keyword">volatile</span> uint8_t <a class="code" href="_o_drive_c_a_n_8h.html#a539f13973573e98e043ff32d1b899068a9ed39e2ea931586b6a985a6942ef573e">state</a>;             <span class="comment">// device state, value from enum tusbh_device_state_t</span></div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;  uint8_t itf2drv[16];  <span class="comment">// map interface number to driver (0xff is invalid)</span></div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;  uint8_t ep2drv[CFG_TUH_EP_MAX][2]; <span class="comment">// map endpoint to driver ( 0xff is invalid )</span></div>
@@ -195,6 +195,8 @@ $(document).ready(function(){initNavTree('usbh__hcd_8h_source.html',''); initRes
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160; </div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* _TUSB_USBH_HCD_H_ */</span><span class="preprocessor"></span></div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160; </div>
+<div class="ttc" id="a_o_drive_c_a_n_8h_html_a539f13973573e98e043ff32d1b899068a06aa6fa8bdc2078e7e1bd903e70c8f6a"><div class="ttname"><a href="_o_drive_c_a_n_8h.html#a539f13973573e98e043ff32d1b899068a06aa6fa8bdc2078e7e1bd903e70c8f6a">ODriveCAN_commands::connected</a></div><div class="ttdeci">@ connected</div></div>
+<div class="ttc" id="a_o_drive_c_a_n_8h_html_a539f13973573e98e043ff32d1b899068a9ed39e2ea931586b6a985a6942ef573e"><div class="ttname"><a href="_o_drive_c_a_n_8h.html#a539f13973573e98e043ff32d1b899068a9ed39e2ea931586b6a985a6942ef573e">ODriveCAN_commands::state</a></div><div class="ttdeci">@ state</div></div>
 <div class="ttc" id="aosal_8h_html"><div class="ttname"><a href="osal_8h.html">osal.h</a></div></div>
 <div class="ttc" id="aosal__freertos_8h_html_a5930f7a2cc6f2bb374dea58f7256f943"><div class="ttname"><a href="osal__freertos_8h.html#a5930f7a2cc6f2bb374dea58f7256f943">osal_mutex_def_t</a></div><div class="ttdeci">StaticSemaphore_t osal_mutex_def_t</div><div class="ttdef"><b>Definition:</b> <a href="osal__freertos_8h_source.html#l00094">osal_freertos.h:94</a></div></div>
 <div class="ttc" id="aosal__freertos_8h_html_aa74df55450633a685e2b6bef57764f47"><div class="ttname"><a href="osal__freertos_8h.html#aa74df55450633a685e2b6bef57764f47">osal_mutex_t</a></div><div class="ttdeci">SemaphoreHandle_t osal_mutex_t</div><div class="ttdef"><b>Definition:</b> <a href="osal__freertos_8h_source.html#l00095">osal_freertos.h:95</a></div></div>

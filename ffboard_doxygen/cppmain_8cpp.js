@@ -3,6 +3,7 @@ var cppmain_8cpp =
     [ "__attribute__", "cppmain_8cpp.html#aa11d3d8e97e352b9641b407890f15300", null ],
     [ "cppmain", "cppmain_8cpp.html#a128a29499985fe63f8e67a47b9ae7fa1", null ],
     [ "free", "cppmain_8cpp.html#a9f850d0608418aea291e4c0fdab93826", null ],
+    [ "getRunTimeCounterValue", "cppmain_8cpp.html#a531355cea579a1aab91a7a2135024cdc", null ],
     [ "malloc", "cppmain_8cpp.html#a7ac38fce3243a7dcf448301ee9ffd392", null ],
     [ "micros", "cppmain_8cpp.html#a2b97cb2cd2661deade2d301d38c4ebe8", null ],
     [ "refreshWatchdog", "cppmain_8cpp.html#a50f798129589248b20010681d780ed50", null ],

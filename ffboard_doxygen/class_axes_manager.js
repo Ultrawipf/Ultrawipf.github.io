@@ -6,7 +6,6 @@ var class_axes_manager =
     [ "emergencyStop", "class_axes_manager.html#a456d91a30a8edca1283f1700eafeef96", null ],
     [ "getAxisCount", "class_axes_manager.html#a870f6d09234f274a65c6797c0873c262", null ],
     [ "getAxisValues", "class_axes_manager.html#aacd4d7102b72d89d18736c1d1ec2400b", null ],
-    [ "getHelpstring", "class_axes_manager.html#ae145095fdd861cfe1e22ade2767438d9", null ],
     [ "resetPosZero", "class_axes_manager.html#a85deee4d6fc31189f60729b3fcaff971", null ],
     [ "restoreFlash", "class_axes_manager.html#afae6cdc75050e23a151086d48cfb4392", null ],
     [ "saveFlash", "class_axes_manager.html#acf1ba339855959c30f0a8ecfacc49671", null ],
