@@ -95,7 +95,11 @@ $(document).ready(function(){initNavTree('_vesc_c_a_n_8h.html',''); initResizabl
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vesc_flash_addrs.html">VescFlashAddrs</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vesc_c_a_n.html">VescCAN</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_v_e_s_c__1.html">VESC_1</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
@@ -134,17 +138,18 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="separator:a12d8e5801006430b8ec1be3256505416"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2125c9b686c373137058c5ae8fa4219f"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219f">VescCAN_commands</a> : uint32_t { <br />
-&#160;&#160;<a class="el" href="_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fad9e0e5fa1c6f9ea949e956c2af81ac4c">canid</a>
+&#160;&#160;<a class="el" href="_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219faaab9fc163ea11b6df1129fbd6bc355de">offbcanid</a>
+, <a class="el" href="_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219faee973bc6cd6b5e260016f490825bb309">vesccanid</a>
 , <a class="el" href="_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fa1bfb52c41ecc5f627260a5cae9c253bd">canspd</a>
 , <a class="el" href="_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fab5d8bf8d7558af1512e3bd20e99ab0a5">errorflags</a>
-, <a class="el" href="_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fa55864dd8b4439f5dec78d95eeb3c97c5">vescstate</a>
 , <br />
-&#160;&#160;<a class="el" href="_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fae437ba437f4106903e619bb380574954">voltage</a>
+&#160;&#160;<a class="el" href="_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fa55864dd8b4439f5dec78d95eeb3c97c5">vescstate</a>
+, <a class="el" href="_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fae437ba437f4106903e619bb380574954">voltage</a>
 , <a class="el" href="_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fa42839c09d4d2f2f30961d704de2950b6">encrate</a>
 , <a class="el" href="_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fa5e0bdcbddccca4d66d74ba8c1cee1a68">pos</a>
-, <a class="el" href="_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fae9ee2651c12f09e358eb1da8545952a7">torque</a>
 , <br />
-&#160;&#160;<a class="el" href="_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fa9012d5ecad304ed62c2d09b5922ad5de">forcePosRead</a>
+&#160;&#160;<a class="el" href="_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fae9ee2651c12f09e358eb1da8545952a7">torque</a>
+, <a class="el" href="_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fa9012d5ecad304ed62c2d09b5922ad5de">forcePosRead</a>
 , <a class="el" href="_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fa2ab3e376a5be601a068bf43d5d70f17e">useEncoder</a>
 , <a class="el" href="_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fa7a86c157ee9713c34fbd7a1ee40f0c5a">offset</a>
 <br />
@@ -172,7 +177,8 @@ Enumerations</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a2125c9b686c373137058c5ae8fa4219fad9e0e5fa1c6f9ea949e956c2af81ac4c"></a>canid&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a2125c9b686c373137058c5ae8fa4219faaab9fc163ea11b6df1129fbd6bc355de"></a>offbcanid&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2125c9b686c373137058c5ae8fa4219faee973bc6cd6b5e260016f490825bb309"></a>vesccanid&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a2125c9b686c373137058c5ae8fa4219fa1bfb52c41ecc5f627260a5cae9c253bd"></a>canspd&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a2125c9b686c373137058c5ae8fa4219fab5d8bf8d7558af1512e3bd20e99ab0a5"></a>errorflags&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a2125c9b686c373137058c5ae8fa4219fa55864dd8b4439f5dec78d95eeb3c97c5"></a>vescstate&#160;</td><td class="fielddoc"></td></tr>

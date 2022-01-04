@@ -18,7 +18,9 @@ var hierarchy =
         [ "ODriveCAN1", "class_o_drive_c_a_n1.html", null ],
         [ "ODriveCAN2", "class_o_drive_c_a_n2.html", null ]
       ] ],
-      [ "VescCAN", "class_vesc_c_a_n.html", null ]
+      [ "VescCAN", "class_vesc_c_a_n.html", [
+        [ "VESC_1", "class_v_e_s_c__1.html", null ]
+      ] ]
     ] ],
     [ "CANPort", "class_c_a_n_port.html", null ],
     [ "CDCcomm", "class_c_d_ccomm.html", null ],
@@ -258,6 +260,7 @@ var hierarchy =
     ] ],
     [ "usbtmc_interface_state_t", "structusbtmc__interface__state__t.html", null ],
     [ "vendord_interface_t", "structvendord__interface__t.html", null ],
+    [ "VescFlashAddrs", "struct_vesc_flash_addrs.html", null ],
     [ "cpp_freertos::WorkItem", "classcpp__freertos_1_1_work_item.html", null ],
     [ "cpp_freertos::WorkQueue", "classcpp__freertos_1_1_work_queue.html", null ],
     [ "xfer_ctl_t", "structxfer__ctl__t.html", null ]

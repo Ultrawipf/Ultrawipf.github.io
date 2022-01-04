@@ -133,7 +133,7 @@ var group___u_s_b_def___type =
       [ "bmIntfcCapabilities", "struct_t_u___a_t_t_r___p_a_c_k_e_d.html#a986ca63d2d14720d753e3abcde06eaa9", null ],
       [ "bmIntfcCapabilities488", "struct_t_u___a_t_t_r___p_a_c_k_e_d.html#a7ca9f2245ea110491a6cf3d466df7184", null ],
       [ "bmRequestType", "struct_t_u___a_t_t_r___p_a_c_k_e_d.html#ad21fccd456640cfe9e822579ac510410", null ],
-      [ "bmRequestType_bit", "struct_t_u___a_t_t_r___p_a_c_k_e_d.html#ade345d875d34786d8b4716a4a53218bc", null ],
+      [ "bmRequestType_bit", "struct_t_u___a_t_t_r___p_a_c_k_e_d.html#a840e65207ee03a571ad5d81fc0ec4fea", null ],
       [ "bmTransferAttributes", "struct_t_u___a_t_t_r___p_a_c_k_e_d.html#ac935679a3377b513254a77183b7425d2", null ],
       [ "bNotify1", "struct_t_u___a_t_t_r___p_a_c_k_e_d.html#a43657f93ae8104dc60d54fd3a763dff6", null ],
       [ "bNrChannels", "struct_t_u___a_t_t_r___p_a_c_k_e_d.html#acd0f218c6d122f49520337ec19fb6cd3", null ],
@@ -319,14 +319,14 @@ var group___u_s_b_def___type =
     [ "tusb_desc_other_speed_t", "group___u_s_b_def___type.html#ga676f9ec48f2fc774865c290946651b97", null ],
     [ "tusb_desc_string_t", "group___u_s_b_def___type.html#ga076f45f0184127d7d695af61a371adf1", null ],
     [ "tusb_desc_webusb_url_t", "group___u_s_b_def___type.html#ga56223ef38820720ca7fbbad45a6a40bb", [
-      [ "TUSB_DESC_CONFIG_ATT_REMOTE_WAKEUP", "group___u_s_b_def___type.html#ggaaf105ae5beaca1dee30ae54530691fcea7d6c573ab243f61df3473d5f09417875", null ],
-      [ "TUSB_DESC_CONFIG_ATT_SELF_POWERED", "group___u_s_b_def___type.html#ggaaf105ae5beaca1dee30ae54530691fceab8c4e6066fdbe969da821d02bc1adacb", null ],
-      [ "DESC_OFFSET_LEN", "group___u_s_b_def___type.html#gga80155586fa275b28773c9b203f52cabaa7b0bfe73ad193a4aab08993e9fabf428", null ],
-      [ "DESC_OFFSET_TYPE", "group___u_s_b_def___type.html#gga80155586fa275b28773c9b203f52cabaae9b31577bb641dd4a39d6091be145bf6", null ],
-      [ "INTERFACE_INVALID_NUMBER", "group___u_s_b_def___type.html#gga6b7b47dd702d9e331586d485013fd1eaa864a113f67c0537a7d0cfd1df7c04974", null ],
-      [ "CONTROL_STAGE_SETUP", "group___u_s_b_def___type.html#ggaf9bdc3014f3d54c426b6d2df10de4960af17ae8688f98708446ce909eb0e83c7c", null ],
-      [ "CONTROL_STAGE_DATA", "group___u_s_b_def___type.html#ggaf9bdc3014f3d54c426b6d2df10de4960ae5d89e21948588e11d6564fdf0e66c0b", null ],
-      [ "CONTROL_STAGE_ACK", "group___u_s_b_def___type.html#ggaf9bdc3014f3d54c426b6d2df10de4960a18079efec0cdb821f24b437b646b864d", null ]
+      [ "TUSB_DESC_CONFIG_ATT_REMOTE_WAKEUP", "group___u_s_b_def___type.html#gga05589fbab0657f08285ebdfe93f5ec9ea7d6c573ab243f61df3473d5f09417875", null ],
+      [ "TUSB_DESC_CONFIG_ATT_SELF_POWERED", "group___u_s_b_def___type.html#gga05589fbab0657f08285ebdfe93f5ec9eab8c4e6066fdbe969da821d02bc1adacb", null ],
+      [ "DESC_OFFSET_LEN", "group___u_s_b_def___type.html#gga16af7b253440dadd46a80a4b9fddba4da7b0bfe73ad193a4aab08993e9fabf428", null ],
+      [ "DESC_OFFSET_TYPE", "group___u_s_b_def___type.html#gga16af7b253440dadd46a80a4b9fddba4dae9b31577bb641dd4a39d6091be145bf6", null ],
+      [ "INTERFACE_INVALID_NUMBER", "group___u_s_b_def___type.html#ggaba01db17f4a2bfbc3db60dc172972a25a864a113f67c0537a7d0cfd1df7c04974", null ],
+      [ "CONTROL_STAGE_SETUP", "group___u_s_b_def___type.html#ggaaf105ae5beaca1dee30ae54530691fceaf17ae8688f98708446ce909eb0e83c7c", null ],
+      [ "CONTROL_STAGE_DATA", "group___u_s_b_def___type.html#ggaaf105ae5beaca1dee30ae54530691fceae5d89e21948588e11d6564fdf0e66c0b", null ],
+      [ "CONTROL_STAGE_ACK", "group___u_s_b_def___type.html#ggaaf105ae5beaca1dee30ae54530691fcea18079efec0cdb821f24b437b646b864d", null ]
     ] ],
     [ "app_subclass_type_t", "group___u_s_b_def___type.html#gafcb8687b2ccbc3b5c207701a15568c18", [
       [ "APP_SUBCLASS_USBTMC", "group___u_s_b_def___type.html#ggafcb8687b2ccbc3b5c207701a15568c18a883944cc6c44a19f67b2b8c93fc23b35", null ],

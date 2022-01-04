@@ -1,8 +1,11 @@
 var _vesc_c_a_n_8h =
 [
+    [ "VescFlashAddrs", "struct_vesc_flash_addrs.html", "struct_vesc_flash_addrs" ],
     [ "VescCAN", "class_vesc_c_a_n.html", "class_vesc_c_a_n" ],
+    [ "VESC_1", "class_v_e_s_c__1.html", "class_v_e_s_c__1" ],
     [ "VescCAN_commands", "_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219f", [
-      [ "canid", "_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fad9e0e5fa1c6f9ea949e956c2af81ac4c", null ],
+      [ "offbcanid", "_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219faaab9fc163ea11b6df1129fbd6bc355de", null ],
+      [ "vesccanid", "_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219faee973bc6cd6b5e260016f490825bb309", null ],
       [ "canspd", "_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fa1bfb52c41ecc5f627260a5cae9c253bd", null ],
       [ "errorflags", "_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fab5d8bf8d7558af1512e3bd20e99ab0a5", null ],
       [ "vescstate", "_vesc_c_a_n_8h.html#a2125c9b686c373137058c5ae8fa4219fa55864dd8b4439f5dec78d95eeb3c97c5", null ],

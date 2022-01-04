@@ -174,6 +174,8 @@ var annotated_dup =
     [ "UsbHidHandler", "class_usb_hid_handler.html", "class_usb_hid_handler" ],
     [ "usbtmc_interface_state_t", "structusbtmc__interface__state__t.html", "structusbtmc__interface__state__t" ],
     [ "vendord_interface_t", "structvendord__interface__t.html", "structvendord__interface__t" ],
+    [ "VESC_1", "class_v_e_s_c__1.html", "class_v_e_s_c__1" ],
     [ "VescCAN", "class_vesc_c_a_n.html", "class_vesc_c_a_n" ],
+    [ "VescFlashAddrs", "struct_vesc_flash_addrs.html", "struct_vesc_flash_addrs" ],
     [ "xfer_ctl_t", "structxfer__ctl__t.html", "structxfer__ctl__t" ]
 ];

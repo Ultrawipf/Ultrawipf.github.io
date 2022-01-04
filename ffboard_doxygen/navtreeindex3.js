@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"class_axis.html#a0b3129bc899fdaaa3dd83d478f2b9d7d":[3,0,6,9],
 "class_axis.html#a0cd5bdf9a42ada994758f899663a3700":[3,0,6,68],
 "class_axis.html#a0eaac51813b3dab5957d6f00e6127bb3":[3,0,6,62],
 "class_axis.html#a118bcd14c1699f98339ea27a56020199":[3,0,6,63],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "class_command_handler.html#a516d2f479602386f947b2ec00cb7d467":[3,0,31,43],
 "class_command_handler.html#a563efae94fc4c4cd910a0feefb681df3":[3,0,31,29],
 "class_command_handler.html#a59474bca13e1cc8a8e0e58c47cdce539":[3,0,31,8],
-"class_command_handler.html#a5a34e3eee961ca48e61eee9011062842":[3,0,31,27],
-"class_command_handler.html#a5d6e4cd233e9221df2cf1ff3c1468385":[3,0,31,11]
+"class_command_handler.html#a5a34e3eee961ca48e61eee9011062842":[3,0,31,27]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"class_mt_encoder_s_p_i.html#ae94a898b987374341f086079bb3b89ed":[3,0,72,3],
 "class_o_drive_c_a_n.html":[3,0,74],
 "class_o_drive_c_a_n.html#a1220f5650c87b5d0ae4cc6fce458972c":[3,0,74,41],
 "class_o_drive_c_a_n.html#a188691da747f6b54c96fd41c28577473":[3,0,74,20],
@@ -248,6 +249,5 @@ var NAVTREEINDEX6 =
 "class_singleton.html#ac4f6fb6cd3e873ea41e642f24f45a96f":[3,0,94,7],
 "class_singleton.html#ac6e7af82cba33f561bd64e5e0243e7f8":[3,0,94,1],
 "class_singleton.html#ad6f103597095efda360db4a230308666":[3,0,94,3],
-"class_spi_handler.html":[3,0,100],
-"class_spi_handler.html#a0fc4a2bd7aca7120d31c3cedf0706db3":[3,0,100,1]
+"class_spi_handler.html":[3,0,100]
 };

@@ -14,8 +14,8 @@ var group___group___h_c_d =
       [ "result", "structhcd__event__t.html#ac2f509497de671a9fb9d3cb1e7fb5cd7", null ],
       [ "rhport", "structhcd__event__t.html#a2135b5f0aa6e7a8c62767556f050e898", null ],
       [ "xfer_complete", "structhcd__event__t.html#a6603f228b7edcb62cdda3a23878abab0", null ],
-      [ "HCD_MAX_ENDPOINT", "group___group___h_c_d.html#ggae4d5251432e1a9e6803c0240cc492e18a51e209e23b136ec7cbe4fcb341d6a570", null ],
-      [ "HCD_MAX_XFER", "group___group___h_c_d.html#ggae4d5251432e1a9e6803c0240cc492e18a13517cb32e54e1b0ea77bb23a2fd07bc", null ]
+      [ "HCD_MAX_ENDPOINT", "group___group___h_c_d.html#gga7ff5f2dff38e7639981794c43dc9167ba51e209e23b136ec7cbe4fcb341d6a570", null ],
+      [ "HCD_MAX_XFER", "group___group___h_c_d.html#gga7ff5f2dff38e7639981794c43dc9167ba13517cb32e54e1b0ea77bb23a2fd07bc", null ]
     ] ],
     [ "hcd_device_close", "group___group___h_c_d.html#ga7c6ccf51f41f13d0e273f83dd4194abd", null ],
     [ "hcd_edpt_busy", "group___group___h_c_d.html#gac14921c3bd3f661684d0fcd4f2dc503e", null ],
