@@ -112,6 +112,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2a2c826dba2728234fdc66b52132eebf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05bd25ab1fa92e0cf080e0c997e79996"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_string_command_interface.html#a05bd25ab1fa92e0cf080e0c997e79996">addBuf</a> (char *Buf, uint32_t *Len)</td></tr>
 <tr class="separator:a05bd25ab1fa92e0cf080e0c997e79996"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6f5407c7754561161d8ca8d4e37c616"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_string_command_interface.html#aa6f5407c7754561161d8ca8d4e37c616">bufferCapacity</a> ()</td></tr>
+<tr class="separator:aa6f5407c7754561161d8ca8d4e37c616"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4cc52ed72ebbf064cea9117af032f61a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_string_command_interface.html#a4cc52ed72ebbf064cea9117af032f61a">getNewCommands</a> (std::vector&lt; <a class="el" href="struct_parsed_command.html">ParsedCommand</a> &gt; &amp;commands) override</td></tr>
 <tr class="separator:a4cc52ed72ebbf064cea9117af032f61a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ea88de8ab8c2c0a66398c7f9ab29d76"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_string_command_interface.html#a5ea88de8ab8c2c0a66398c7f9ab29d76">getHelpstring</a> ()</td></tr>
@@ -125,6 +127,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7c03182cda44cd54b5bcbd30974ea445 inherit pub_methods_class_command_interface"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab12fa4bc34dd18078110e8e926a066ba inherit pub_methods_class_command_interface"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_interface.html#ab12fa4bc34dd18078110e8e926a066ba">sendReplies</a> (std::vector&lt; <a class="el" href="struct_command_result.html">CommandResult</a> &gt; &amp;results, <a class="el" href="class_command_interface.html">CommandInterface</a> *originalInterface)</td></tr>
 <tr class="separator:ab12fa4bc34dd18078110e8e926a066ba inherit pub_methods_class_command_interface"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a256600b9ed96055684e0d4cec26b462e inherit pub_methods_class_command_interface"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_interface.html#a256600b9ed96055684e0d4cec26b462e">readyToSend</a> ()</td></tr>
+<tr class="separator:a256600b9ed96055684e0d4cec26b462e inherit pub_methods_class_command_interface"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -157,7 +161,7 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Helper class for string based interfaces </p>
 
-<p class="definition">Definition at line <a class="el" href="_command_interface_8h_source.html#l00042">42</a> of file <a class="el" href="_command_interface_8h_source.html">CommandInterface.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_command_interface_8h_source.html#l00043">43</a> of file <a class="el" href="_command_interface_8h_source.html">CommandInterface.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a2a2c826dba2728234fdc66b52132eebf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2a2c826dba2728234fdc66b52132eebf">&#9670;&nbsp;</a></span>StringCommandInterface()</h2>
@@ -183,7 +187,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_command_interface_8h_source.html#l00044">44</a> of file <a class="el" href="_command_interface_8h_source.html">CommandInterface.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_command_interface_8h_source.html#l00045">45</a> of file <a class="el" href="_command_interface_8h_source.html">CommandInterface.h</a>.</p>
 
 </div>
 </div>
@@ -214,7 +218,26 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_command_interface_8cpp_source.html#l00082">82</a> of file <a class="el" href="_command_interface_8cpp_source.html">CommandInterface.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_command_interface_8cpp_source.html#l00090">90</a> of file <a class="el" href="_command_interface_8cpp_source.html">CommandInterface.cpp</a>.</p>
+
+</div>
+</div>
+<a id="aa6f5407c7754561161d8ca8d4e37c616"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6f5407c7754561161d8ca8d4e37c616">&#9670;&nbsp;</a></span>bufferCapacity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t StringCommandInterface::bufferCapacity </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_command_interface_8cpp_source.html#l00099">99</a> of file <a class="el" href="_command_interface_8cpp_source.html">CommandInterface.cpp</a>.</p>
 
 </div>
 </div>
@@ -259,7 +282,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>Formats a command string from a reply result </p>
 
-<p class="definition">Definition at line <a class="el" href="_command_interface_8cpp_source.html#l00139">139</a> of file <a class="el" href="_command_interface_8cpp_source.html">CommandInterface.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_command_interface_8cpp_source.html#l00151">151</a> of file <a class="el" href="_command_interface_8cpp_source.html">CommandInterface.cpp</a>.</p>
 
 </div>
 </div>
@@ -303,7 +326,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_command_interface_8cpp_source.html#l00091">91</a> of file <a class="el" href="_command_interface_8cpp_source.html">CommandInterface.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_command_interface_8cpp_source.html#l00103">103</a> of file <a class="el" href="_command_interface_8cpp_source.html">CommandInterface.cpp</a>.</p>
 
 </div>
 </div>
@@ -341,7 +364,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_command_interface_8cpp_source.html#l00190">190</a> of file <a class="el" href="_command_interface_8cpp_source.html">CommandInterface.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_command_interface_8cpp_source.html#l00202">202</a> of file <a class="el" href="_command_interface_8cpp_source.html">CommandInterface.cpp</a>.</p>
 
 </div>
 </div>
@@ -380,7 +403,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>Creates the value part of the reply string </p>
 
-<p class="definition">Definition at line <a class="el" href="_command_interface_8cpp_source.html#l00177">177</a> of file <a class="el" href="_command_interface_8cpp_source.html">CommandInterface.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_command_interface_8cpp_source.html#l00189">189</a> of file <a class="el" href="_command_interface_8cpp_source.html">CommandInterface.cpp</a>.</p>
 
 </div>
 </div>
@@ -411,7 +434,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="class_u_a_r_t___command_interface.html#a53ba67271abdca90cda23bffd897e0ac">UART_CommandInterface</a>, and <a class="el" href="class_c_d_c___command_interface.html#afca19a7a17a240a6b18464f6b9ab78a2">CDC_CommandInterface</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_command_interface_8h_source.html#l00051">51</a> of file <a class="el" href="_command_interface_8h_source.html">CommandInterface.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_command_interface_8h_source.html#l00053">53</a> of file <a class="el" href="_command_interface_8h_source.html">CommandInterface.h</a>.</p>
 
 </div>
 </div>
@@ -441,7 +464,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="class_command_interface.html#a17927e91949212591a7cdbd37ddeee8a">CommandInterface</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_command_interface_8cpp_source.html#l00073">73</a> of file <a class="el" href="_command_interface_8cpp_source.html">CommandInterface.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_command_interface_8cpp_source.html#l00081">81</a> of file <a class="el" href="_command_interface_8cpp_source.html">CommandInterface.cpp</a>.</p>
 
 </div>
 </div>
@@ -466,7 +489,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_command_interface_8h_source.html#l00055">55</a> of file <a class="el" href="_command_interface_8h_source.html">CommandInterface.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_command_interface_8h_source.html#l00057">57</a> of file <a class="el" href="_command_interface_8h_source.html">CommandInterface.h</a>.</p>
 
 </div>
 </div>

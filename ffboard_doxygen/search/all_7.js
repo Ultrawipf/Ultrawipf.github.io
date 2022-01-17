@@ -1,10 +1,9 @@
 var searchData=
 [
-  ['g27_5fh_1632',['G27_H',['../class_shifter_analog.html#accacc6d1913810ad58fe569081098aaea82cdddaa0fe681e5a072d4deab1633e1',1,'ShifterAnalog']]],
-  ['g27_5fseq_1633',['G27_seq',['../class_shifter_analog.html#accacc6d1913810ad58fe569081098aaead42236708c5c2668c6f68bd07c16ef41',1,'ShifterAnalog']]],
-  ['g27shifterbuttonclient_1634',['G27ShifterButtonClient',['../class_shifter_analog_1_1_g27_shifter_button_client.html#a62c364e943bc35fabb50b053a8ecc79f',1,'ShifterAnalog::G27ShifterButtonClient']]],
+  ['g27_5fh_1633',['G27_H',['../class_shifter_analog.html#accacc6d1913810ad58fe569081098aaea82cdddaa0fe681e5a072d4deab1633e1',1,'ShifterAnalog']]],
+  ['g27_5fseq_1634',['G27_seq',['../class_shifter_analog.html#accacc6d1913810ad58fe569081098aaead42236708c5c2668c6f68bd07c16ef41',1,'ShifterAnalog']]],
   ['g27shifterbuttonclient_1635',['g27ShifterButtonClient',['../class_shifter_analog.html#a048ceb3072aec253f0fe1c207c3207a2',1,'ShifterAnalog']]],
-  ['g27shifterbuttonclient_1636',['G27ShifterButtonClient',['../class_shifter_analog_1_1_g27_shifter_button_client.html',1,'ShifterAnalog']]],
+  ['g27shifterbuttonclient_1636',['G27ShifterButtonClient',['../class_shifter_analog_1_1_g27_shifter_button_client.html#a62c364e943bc35fabb50b053a8ecc79f',1,'ShifterAnalog::G27ShifterButtonClient::G27ShifterButtonClient()'],['../class_shifter_analog_1_1_g27_shifter_button_client.html',1,'ShifterAnalog::G27ShifterButtonClient']]],
   ['g29_5fh_1637',['G29_H',['../class_shifter_analog.html#accacc6d1913810ad58fe569081098aaeacb040697e4f50a1c85a09a5160562b72',1,'ShifterAnalog']]],
   ['g29_5fseq_1638',['G29_seq',['../class_shifter_analog.html#accacc6d1913810ad58fe569081098aaea0a3b92e2245f48e0843f57e6ac4c6032',1,'ShifterAnalog']]],
   ['gain_1639',['gain',['../class_effects_calculator.html#a7bc1656240ffd645a917f2e292761668',1,'EffectsCalculator::gain()'],['../struct____attribute____.html#a7b5e1135ea483c594413089fd261cf1e',1,'__attribute__::gain()'],['../struct_f_f_b___effect.html#a50c87a7dd2869fda3b59c0256067b808',1,'FFB_Effect::gain()']]],

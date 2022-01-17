@@ -96,9 +96,9 @@ var _t_m_c4671_8h =
       [ "NONE", "_t_m_c4671_8h.html#a1064cdca049007c828bd4a5b28f51d71ab50339a10e1de285ac99d4c3990b8693", null ],
       [ "v1_0", "_t_m_c4671_8h.html#a1064cdca049007c828bd4a5b28f51d71a09d7da9ea375f1827517b45b61cfc6b8", null ],
       [ "v1_2", "_t_m_c4671_8h.html#a1064cdca049007c828bd4a5b28f51d71a0fdcfe7bc01aadbcbb7ff8c0e1024336", null ],
-      [ "v1_2_1", "_t_m_c4671_8h.html#a1064cdca049007c828bd4a5b28f51d71ab129ca64ac50de9234964ac1976fdc85", null ],
-      [ "v1_2_1_LEM20", "_t_m_c4671_8h.html#a1064cdca049007c828bd4a5b28f51d71a6844f19327f70873cdfcec7909fa9550", null ],
-      [ "v1_2_1_TMCS", "_t_m_c4671_8h.html#a1064cdca049007c828bd4a5b28f51d71a59f988078b731d93c74ec5992cf9292f", null ]
+      [ "v1_2_2", "_t_m_c4671_8h.html#a1064cdca049007c828bd4a5b28f51d71a5890325397fec85b18f616220d3235ad", null ],
+      [ "v1_2_2_LEM20", "_t_m_c4671_8h.html#a1064cdca049007c828bd4a5b28f51d71abe037adad1534fd5de5ec31255a3dc8c", null ],
+      [ "v1_2_2_TMCS", "_t_m_c4671_8h.html#a1064cdca049007c828bd4a5b28f51d71a500304a4522bbaed49e6da064372760c", null ]
     ] ],
     [ "HSPIDRV", "_t_m_c4671_8h.html#a49b76b3df998b61ed9347ac903b9ecf8", null ],
     [ "tmcHwVersionNames", "_t_m_c4671_8h.html#acecaf14b1bbf948db2c59ade57598a68", null ]

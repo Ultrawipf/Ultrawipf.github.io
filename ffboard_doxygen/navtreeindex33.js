@@ -1,5 +1,17 @@
 var NAVTREEINDEX33 =
 {
+"structusb__string__desc.html":[3,0,130],
+"structusb__string__desc.html#a05a728107da3fde05c6fb9231fea9dfa":[3,0,130,3],
+"structusb__string__desc.html#a3e34b785ca41a27101cd674248bc5407":[3,0,130,2],
+"structusb__string__desc.html#a44a6c3309ea50e70f7a679390812e1f3":[3,0,130,1],
+"structusb__string__desc.html#a5180199a7dbd2be7034185dab30d6ea9":[3,0,130,0],
+"structusbd__control__xfer__t.html":[3,0,131],
+"structusbd__control__xfer__t.html#a0ad5f3ba4939cac5d8b78be0a19666fa":[3,0,131,4],
+"structusbd__control__xfer__t.html#a0b3be3c88ce867dc9e09ea9f9c4d4638":[3,0,131,2],
+"structusbd__control__xfer__t.html#a92037e2adad4ba6973a8464970614254":[3,0,131,0],
+"structusbd__control__xfer__t.html#aeebeb317db89a7bab5858086d90c0530":[3,0,131,1],
+"structusbd__control__xfer__t.html#afa401a03cb10609eee0fc1a262d9e3c2":[3,0,131,3],
+"structusbd__device__t.html":[3,0,132],
 "structusbd__device__t.html#a4995b543b9073b6d896e177867ce6735":[3,0,132,3],
 "structusbd__device__t.html#a74733c94ac06554b339c4b6b4036779a":[3,0,132,2],
 "structusbd__device__t.html#a7ac04dbc0e57299c0a7f45009bd4df3f":[3,0,132,1],
@@ -237,17 +249,5 @@ var NAVTREEINDEX33 =
 "usbd__control_8c.html#af1f98509dea697a2975d5a8e1b3f8788":[4,0,194,8],
 "usbd__control_8c_source.html":[4,0,194],
 "usbd__pvt_8h.html":[4,0,195],
-"usbd__pvt_8h.html#a2acfc7062ccd10892583c6c674e27757":[4,0,195,5],
-"usbd__pvt_8h.html#a2f04a6c0936ebf2d3015103dbd83153d":[4,0,195,6],
-"usbd__pvt_8h.html#a381b55ad6eadb2bad7f95e2286dc50c9":[4,0,195,12],
-"usbd__pvt_8h.html#a3b0a5d91750b27db9b5b17549b7fa982":[4,0,195,10],
-"usbd__pvt_8h.html#a406b8e3f5527c4ca9b545e538b4181e9":[4,0,195,7],
-"usbd__pvt_8h.html#a4f431bf6b81bd35cbf67d79f5c53f8bd":[4,0,195,4],
-"usbd__pvt_8h.html#a54e631ffb1c448121351e58e5c966ddc":[4,0,195,2],
-"usbd__pvt_8h.html#a66f04dcaad638cd71eb379c84cf5d4b8":[4,0,195,3],
-"usbd__pvt_8h.html#a7cdd51abb7658b1193a73471ee18d860":[4,0,195,9],
-"usbd__pvt_8h.html#a95c40a7c8eeb1717a3b58a0af255f5ab":[4,0,195,13],
-"usbd__pvt_8h.html#aaa53ca0b650dfd85c4f59fa156f7a2cc":[4,0,195,14],
-"usbd__pvt_8h.html#add02f4f5fa20f430941140616956d748":[4,0,195,11],
-"usbd__pvt_8h.html#aef6dd2f07415e20f21b651f2de8aae30":[4,0,195,0]
+"usbd__pvt_8h.html#a2acfc7062ccd10892583c6c674e27757":[4,0,195,5]
 };

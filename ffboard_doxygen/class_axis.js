@@ -76,6 +76,8 @@ var class_axis =
     [ "maxTorqueRateMS", "class_axis.html#aede3a331186fa917e1bd0095a0d77259", null ],
     [ "metric", "class_axis.html#a24792643f27b8538970981b2539cb1d7", null ],
     [ "nextDegreesOfRotation", "class_axis.html#a29a92bb77a6f35fbdd0a79fbae9716ea", null ],
+    [ "outOfBounds", "class_axis.html#aa4945beb02c2947191b6edff918d9356", null ],
+    [ "outOfBoundsError", "class_axis.html#a599f86d6c5cb7060cdb78fce55faf369", null ],
     [ "power", "class_axis.html#a90f31bc6a2f78000d6b2b3cd848286e1", null ],
     [ "spdlimiterAvg", "class_axis.html#a3edc4e596ef00375ca13b71cf96addea", null ],
     [ "spdlimitreducerI", "class_axis.html#ad22650cf3a97de8973fc180320c59a5d", null ],

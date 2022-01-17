@@ -122,6 +122,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7c03182cda44cd54b5bcbd30974ea445"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab12fa4bc34dd18078110e8e926a066ba"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_interface.html#ab12fa4bc34dd18078110e8e926a066ba">sendReplies</a> (std::vector&lt; <a class="el" href="struct_command_result.html">CommandResult</a> &gt; &amp;results, <a class="el" href="class_command_interface.html">CommandInterface</a> *originalInterface)</td></tr>
 <tr class="separator:ab12fa4bc34dd18078110e8e926a066ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a256600b9ed96055684e0d4cec26b462e"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_interface.html#a256600b9ed96055684e0d4cec26b462e">readyToSend</a> ()</td></tr>
+<tr class="separator:a256600b9ed96055684e0d4cec26b462e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -326,6 +328,36 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a256600b9ed96055684e0d4cec26b462e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a256600b9ed96055684e0d4cec26b462e">&#9670;&nbsp;</a></span>readyToSend()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CommandInterface::readyToSend </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns true if it can send replies. False if the command thread should wait until previous replies are processed </p>
+
+<p>Reimplemented in <a class="el" href="class_c_d_c___command_interface.html#ab4156859243412ba1096da77ba362114">CDC_CommandInterface</a>, and <a class="el" href="class_h_i_d___command_interface.html#aa625a828d7101ba5f547c17792c0d518">HID_CommandInterface</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="_command_interface_8cpp_source.html#l00070">70</a> of file <a class="el" href="_command_interface_8cpp_source.html">CommandInterface.cpp</a>.</p>
+
+</div>
+</div>
 <a id="ab12fa4bc34dd18078110e8e926a066ba"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab12fa4bc34dd18078110e8e926a066ba">&#9670;&nbsp;</a></span>sendReplies()</h2>
 
@@ -412,7 +444,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_command_interface_8h_source.html#l00036">36</a> of file <a class="el" href="_command_interface_8h_source.html">CommandInterface.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_command_interface_8h_source.html#l00037">37</a> of file <a class="el" href="_command_interface_8h_source.html">CommandInterface.h</a>.</p>
 
 </div>
 </div>

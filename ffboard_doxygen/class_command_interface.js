@@ -6,6 +6,7 @@ var class_command_interface =
     [ "getHelpstring", "class_command_interface.html#aed0d3b4fa6f423b1157f766e7f56caea", null ],
     [ "getNewCommands", "class_command_interface.html#a17927e91949212591a7cdbd37ddeee8a", null ],
     [ "hasNewCommands", "class_command_interface.html#a7c03182cda44cd54b5bcbd30974ea445", null ],
+    [ "readyToSend", "class_command_interface.html#a256600b9ed96055684e0d4cec26b462e", null ],
     [ "sendReplies", "class_command_interface.html#ab12fa4bc34dd18078110e8e926a066ba", null ],
     [ "cmdInterfaces", "class_command_interface.html#a40cc1e75b002f0612220261ed5bc2500", null ],
     [ "parserReady", "class_command_interface.html#ab008a3d94a6b3d1e52d2e1baca0271ba", null ]

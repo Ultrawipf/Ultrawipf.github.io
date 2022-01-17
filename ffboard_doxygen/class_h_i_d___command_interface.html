@@ -126,6 +126,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a55669ce5ef22c247bcca5daaf49e9248"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c2821a4772674d2bb2c6e448890fc0c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_h_i_d___command_interface.html#a3c2821a4772674d2bb2c6e448890fc0c">transferComplete</a> (uint8_t itf, uint8_t const *report, uint8_t len)</td></tr>
 <tr class="separator:a3c2821a4772674d2bb2c6e448890fc0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa625a828d7101ba5f547c17792c0d518"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_h_i_d___command_interface.html#aa625a828d7101ba5f547c17792c0d518">readyToSend</a> ()</td></tr>
+<tr class="separator:aa625a828d7101ba5f547c17792c0d518"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af081cacc2176077655f7f6bbdd1f3e1a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_h_i_d___command_interface.html#af081cacc2176077655f7f6bbdd1f3e1a">Run</a> ()</td></tr>
 <tr class="separator:af081cacc2176077655f7f6bbdd1f3e1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_command_interface"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_command_interface')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_command_interface.html">CommandInterface</a></td></tr>
@@ -181,6 +183,10 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a84cd690504c847a3c09fe559079888c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06b4fce172baa678a0cc1d4e30ddb9c3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_h_i_d___command_interface.html#a06b4fce172baa678a0cc1d4e30ddb9c3">enableBroadcastFromOtherInterfaces</a> = true</td></tr>
 <tr class="separator:a06b4fce172baa678a0cc1d4e30ddb9c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9272c2ea6538ee42534a8a0a6a85ea12"><td class="memItemLeft" align="right" valign="top">const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_h_i_d___command_interface.html#a9272c2ea6538ee42534a8a0a6a85ea12">maxQueuedReplies</a> = 50</td></tr>
+<tr class="separator:a9272c2ea6538ee42534a8a0a6a85ea12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a329dd9f35a54566b99f25e81f9451ab5"><td class="memItemLeft" align="right" valign="top">const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_h_i_d___command_interface.html#a329dd9f35a54566b99f25e81f9451ab5">maxQueuedRepliesBroadcast</a> = 10</td></tr>
+<tr class="separator:a329dd9f35a54566b99f25e81f9451ab5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
@@ -340,7 +346,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_hid_command_interface_8cpp_source.html#l00131">131</a> of file <a class="el" href="_hid_command_interface_8cpp_source.html">HidCommandInterface.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_hid_command_interface_8cpp_source.html#l00138">138</a> of file <a class="el" href="_hid_command_interface_8cpp_source.html">HidCommandInterface.cpp</a>.</p>
 
 </div>
 </div>
@@ -370,7 +376,37 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_hid_command_interface_8cpp_source.html#l00093">93</a> of file <a class="el" href="_hid_command_interface_8cpp_source.html">HidCommandInterface.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_hid_command_interface_8cpp_source.html#l00100">100</a> of file <a class="el" href="_hid_command_interface_8cpp_source.html">HidCommandInterface.cpp</a>.</p>
+
+</div>
+</div>
+<a id="aa625a828d7101ba5f547c17792c0d518"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa625a828d7101ba5f547c17792c0d518">&#9670;&nbsp;</a></span>readyToSend()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool HID_CommandInterface::readyToSend </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns true if it can send replies. False if the command thread should wait until previous replies are processed </p>
+
+<p>Reimplemented from <a class="el" href="class_command_interface.html#a256600b9ed96055684e0d4cec26b462e">CommandInterface</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="_hid_command_interface_8cpp_source.html#l00055">55</a> of file <a class="el" href="_hid_command_interface_8cpp_source.html">HidCommandInterface.cpp</a>.</p>
 
 </div>
 </div>
@@ -420,7 +456,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_hid_command_interface_8cpp_source.html#l00189">189</a> of file <a class="el" href="_hid_command_interface_8cpp_source.html">HidCommandInterface.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_hid_command_interface_8cpp_source.html#l00196">196</a> of file <a class="el" href="_hid_command_interface_8cpp_source.html">HidCommandInterface.cpp</a>.</p>
 
 </div>
 </div>
@@ -461,7 +497,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="class_command_interface.html#ab12fa4bc34dd18078110e8e926a066ba">CommandInterface</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_hid_command_interface_8cpp_source.html#l00056">56</a> of file <a class="el" href="_hid_command_interface_8cpp_source.html">HidCommandInterface.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_hid_command_interface_8cpp_source.html#l00059">59</a> of file <a class="el" href="_hid_command_interface_8cpp_source.html">HidCommandInterface.cpp</a>.</p>
 
 </div>
 </div>
@@ -497,7 +533,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_hid_command_interface_8cpp_source.html#l00125">125</a> of file <a class="el" href="_hid_command_interface_8cpp_source.html">HidCommandInterface.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_hid_command_interface_8cpp_source.html#l00132">132</a> of file <a class="el" href="_hid_command_interface_8cpp_source.html">HidCommandInterface.cpp</a>.</p>
 
 </div>
 </div>
@@ -571,6 +607,54 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_hid_command_interface_8h_source.html#l00040">40</a> of file <a class="el" href="_hid_command_interface_8h_source.html">HidCommandInterface.h</a>.</p>
+
+</div>
+</div>
+<a id="a9272c2ea6538ee42534a8a0a6a85ea12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9272c2ea6538ee42534a8a0a6a85ea12">&#9670;&nbsp;</a></span>maxQueuedReplies</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const uint32_t HID_CommandInterface::maxQueuedReplies = 50</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_hid_command_interface_8h_source.html#l00058">58</a> of file <a class="el" href="_hid_command_interface_8h_source.html">HidCommandInterface.h</a>.</p>
+
+</div>
+</div>
+<a id="a329dd9f35a54566b99f25e81f9451ab5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a329dd9f35a54566b99f25e81f9451ab5">&#9670;&nbsp;</a></span>maxQueuedRepliesBroadcast</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const uint32_t HID_CommandInterface::maxQueuedRepliesBroadcast = 10</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_hid_command_interface_8h_source.html#l00059">59</a> of file <a class="el" href="_hid_command_interface_8h_source.html">HidCommandInterface.h</a>.</p>
 
 </div>
 </div>

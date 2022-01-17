@@ -89,6 +89,7 @@ $(document).ready(function(){initNavTree('class_f_f_board_main.html',''); initRe
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="class_f_f_board_main-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">FFBoardMain Class Reference</div>  </div>
@@ -129,6 +130,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a14549edbd09efde0a95caeabd7772000"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99dceaa3c195d2950ffd2d69c443a335"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_f_board_main.html#a99dceaa3c195d2950ffd2d69c443a335">cdcRcv</a> (char *Buf, uint32_t *Len)</td></tr>
 <tr class="separator:a99dceaa3c195d2950ffd2d69c443a335"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d88c2f8664e14a8c6a697a3439c9aee"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_f_board_main.html#a9d88c2f8664e14a8c6a697a3439c9aee">cdcRcvReady</a> (uint8_t itf)</td></tr>
+<tr class="separator:a9d88c2f8664e14a8c6a697a3439c9aee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae6ecdffa3bcb2f3ad9eba415c2f9f2a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_f_board_main.html#aae6ecdffa3bcb2f3ad9eba415c2f9f2a">usbSuspend</a> ()</td></tr>
 <tr class="separator:aae6ecdffa3bcb2f3ad9eba415c2f9f2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c8c9bf502e526c5212a98608aeed010"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_f_board_main.html#a5c8c9bf502e526c5212a98608aeed010">usbResume</a> ()</td></tr>
@@ -258,6 +261,11 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a7421ca437044e8588b3fdf748ace166b inherit pro_attribs_class_command_handler"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_cmd_handler_info.html">CmdHandlerInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_handler.html#a7421ca437044e8588b3fdf748ace166b">cmdHandlerInfo</a></td></tr>
 <tr class="separator:a7421ca437044e8588b3fdf748ace166b inherit pro_attribs_class_command_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-attribs"></a>
+Static Protected Attributes</h2></td></tr>
+<tr class="memitem:a1a03f654a3f374922917af6037deee80"><td class="memItemLeft" align="right" valign="top">static char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_f_board_main.html#a1a03f654a3f374922917af6037deee80">cdcbuf</a> []</td></tr>
+<tr class="separator:a1a03f654a3f374922917af6037deee80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_methods_class_command_handler"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_command_handler')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_command_handler.html">CommandHandler</a></td></tr>
@@ -302,7 +310,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_f_f_board_main_8cpp_source.html#l00019">19</a> of file <a class="el" href="_f_f_board_main_8cpp_source.html">FFBoardMain.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_board_main_8cpp_source.html#l00021">21</a> of file <a class="el" href="_f_f_board_main_8cpp_source.html">FFBoardMain.cpp</a>.</p>
 
 </div>
 </div>
@@ -329,7 +337,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_f_f_board_main_8cpp_source.html#l00081">81</a> of file <a class="el" href="_f_f_board_main_8cpp_source.html">FFBoardMain.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_board_main_8cpp_source.html#l00094">94</a> of file <a class="el" href="_f_f_board_main_8cpp_source.html">FFBoardMain.cpp</a>.</p>
 
 </div>
 </div>
@@ -367,11 +375,40 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Called by the CDC serial port when data is received </p>
+<p>Called when data is received on the CDC port </p>
 
 <p>Reimplemented in <a class="el" href="class_can_bridge.html#a438f901525c810f0fc66493779660616">CanBridge</a>, and <a class="el" href="class_t_m_c_debug_bridge.html#abc396cd98bd0df9302d32cb7ff2d2dae">TMCDebugBridge</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_f_f_board_main_8cpp_source.html#l00030">30</a> of file <a class="el" href="_f_f_board_main_8cpp_source.html">FFBoardMain.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_board_main_8cpp_source.html#l00032">32</a> of file <a class="el" href="_f_f_board_main_8cpp_source.html">FFBoardMain.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a9d88c2f8664e14a8c6a697a3439c9aee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d88c2f8664e14a8c6a697a3439c9aee">&#9670;&nbsp;</a></span>cdcRcvReady()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FFBoardMain::cdcRcvReady </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>itf</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Called by the CDC serial port when data is ready </p>
+
+<p class="definition">Definition at line <a class="el" href="_f_f_board_main_8cpp_source.html#l00040">40</a> of file <a class="el" href="_f_f_board_main_8cpp_source.html">FFBoardMain.cpp</a>.</p>
 
 </div>
 </div>
@@ -420,7 +457,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="class_t_m_c_debug_bridge.html#a5ce3ed664ee46b7ebbd3256105c757fc">TMCDebugBridge</a>, <a class="el" href="class_midi_main.html#afdbefd9787ef84cc8bc95bf5df8e8c0e">MidiMain</a>, <a class="el" href="class_f_f_b_wheel.html#a7da0b8bde548b1cf8c0e2881014609e7">FFBWheel</a>, <a class="el" href="class_custom_main.html#a7fa2d7f6cf95f65a835cc10dfd51e2e1">CustomMain</a>, and <a class="el" href="class_can_bridge.html#a61705bd6ff0e65911c4d32236428d2ae">CanBridge</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_f_f_board_main_8cpp_source.html#l00036">36</a> of file <a class="el" href="_f_f_board_main_8cpp_source.html">FFBoardMain.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_board_main_8cpp_source.html#l00049">49</a> of file <a class="el" href="_f_f_board_main_8cpp_source.html">FFBoardMain.cpp</a>.</p>
 
 </div>
 </div>
@@ -484,7 +521,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="class_t_m_c_debug_bridge.html#a3f879da66c87daa353a416448c21e0eb">TMCDebugBridge</a>, <a class="el" href="class_f_f_b_wheel.html#ad1590112eef7df0295225000f6a87e9c">FFBWheel</a>, <a class="el" href="class_custom_main.html#ab3f252a7cd6d20f19a7bf8e594aeaa9f">CustomMain</a>, and <a class="el" href="class_can_bridge.html#a4ad00d344635c612e77dd3a2f0f1320f">CanBridge</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_f_f_board_main_8cpp_source.html#l00077">77</a> of file <a class="el" href="_f_f_board_main_8cpp_source.html">FFBoardMain.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_board_main_8cpp_source.html#l00090">90</a> of file <a class="el" href="_f_f_board_main_8cpp_source.html">FFBoardMain.cpp</a>.</p>
 
 </div>
 </div>
@@ -515,7 +552,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="class_can_bridge.html#a1e769d597c60a89da9622e69398e1e2e">CanBridge</a>, <a class="el" href="class_t_m_c_debug_bridge.html#a2d69b85aeca2d825e3464478f4423c72">TMCDebugBridge</a>, <a class="el" href="class_midi_main.html#a884f0f0620145fab82839f5aea6526bf">MidiMain</a>, <a class="el" href="class_f_f_b_wheel.html#ab048aa9a2bd029b41c62962dacfaea04">FFBWheel</a>, and <a class="el" href="class_custom_main.html#a91e1f2b7b6f6e2db6947b813812ac44b">CustomMain</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_f_f_board_main_8cpp_source.html#l00023">23</a> of file <a class="el" href="_f_f_board_main_8cpp_source.html">FFBoardMain.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_board_main_8cpp_source.html#l00025">25</a> of file <a class="el" href="_f_f_board_main_8cpp_source.html">FFBoardMain.cpp</a>.</p>
 
 </div>
 </div>
@@ -572,7 +609,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="class_midi_main.html#aa35198fcfbc4459bd29ceb66f3e68af3">MidiMain</a>, <a class="el" href="class_f_f_b_wheel.html#a01c082e830ce76bcfd1f48e1b69a15c9">FFBWheel</a>, and <a class="el" href="class_can_bridge.html#a09665da361c9caa5fd08f13ed45fab15">CanBridge</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_f_f_board_main_8cpp_source.html#l00058">58</a> of file <a class="el" href="_f_f_board_main_8cpp_source.html">FFBoardMain.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_board_main_8cpp_source.html#l00071">71</a> of file <a class="el" href="_f_f_board_main_8cpp_source.html">FFBoardMain.cpp</a>.</p>
 
 </div>
 </div>
@@ -602,7 +639,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="class_midi_main.html#a35e6ce918a1899750be50eb49d35f0b5">MidiMain</a>, and <a class="el" href="class_f_f_b_wheel.html#ac42eeec32e4db1c6856afa81350fe7a4">FFBWheel</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_f_f_board_main_8cpp_source.html#l00048">48</a> of file <a class="el" href="_f_f_board_main_8cpp_source.html">FFBoardMain.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_board_main_8cpp_source.html#l00061">61</a> of file <a class="el" href="_f_f_board_main_8cpp_source.html">FFBoardMain.cpp</a>.</p>
 
 </div>
 </div>
@@ -632,7 +669,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="class_f_f_b_wheel.html#ac8c8f32246fc1628eac92286e54a9846">FFBWheel</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_f_f_board_main_8cpp_source.html#l00072">72</a> of file <a class="el" href="_f_f_board_main_8cpp_source.html">FFBoardMain.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_board_main_8cpp_source.html#l00085">85</a> of file <a class="el" href="_f_f_board_main_8cpp_source.html">FFBoardMain.cpp</a>.</p>
 
 </div>
 </div>
@@ -662,11 +699,35 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="class_f_f_b_wheel.html#a59a0ec0bf45517af23a7dbc9be8d692a">FFBWheel</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_f_f_board_main_8cpp_source.html#l00065">65</a> of file <a class="el" href="_f_f_board_main_8cpp_source.html">FFBoardMain.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_board_main_8cpp_source.html#l00078">78</a> of file <a class="el" href="_f_f_board_main_8cpp_source.html">FFBoardMain.cpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a1a03f654a3f374922917af6037deee80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a03f654a3f374922917af6037deee80">&#9670;&nbsp;</a></span>cdcbuf</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">char FFBoardMain::cdcbuf</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_f_f_board_main_8h_source.html#l00067">67</a> of file <a class="el" href="_f_f_board_main_8h_source.html">FFBoardMain.h</a>.</p>
+
+</div>
+</div>
 <a id="a67ab9cf31b367c0deeaa6712e0560968"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a67ab9cf31b367c0deeaa6712e0560968">&#9670;&nbsp;</a></span>cdcCmdInterface</h2>
 
@@ -679,7 +740,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_f_f_board_main_8h_source.html#l00056">56</a> of file <a class="el" href="_f_f_board_main_8h_source.html">FFBoardMain.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_board_main_8h_source.html#l00057">57</a> of file <a class="el" href="_f_f_board_main_8h_source.html">FFBoardMain.h</a>.</p>
 
 </div>
 </div>
@@ -695,7 +756,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_f_f_board_main_8h_source.html#l00055">55</a> of file <a class="el" href="_f_f_board_main_8h_source.html">FFBoardMain.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_board_main_8h_source.html#l00056">56</a> of file <a class="el" href="_f_f_board_main_8h_source.html">FFBoardMain.h</a>.</p>
 
 </div>
 </div>
@@ -711,7 +772,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_f_f_board_main_8h_source.html#l00057">57</a> of file <a class="el" href="_f_f_board_main_8h_source.html">FFBoardMain.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_board_main_8h_source.html#l00058">58</a> of file <a class="el" href="_f_f_board_main_8h_source.html">FFBoardMain.h</a>.</p>
 
 </div>
 </div>
@@ -753,7 +814,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>System command handler. </p>
 
-<p class="definition">Definition at line <a class="el" href="_f_f_board_main_8h_source.html#l00058">58</a> of file <a class="el" href="_f_f_board_main_8h_source.html">FFBoardMain.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_board_main_8h_source.html#l00059">59</a> of file <a class="el" href="_f_f_board_main_8h_source.html">FFBoardMain.h</a>.</p>
 
 </div>
 </div>
@@ -769,7 +830,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_f_f_board_main_8h_source.html#l00061">61</a> of file <a class="el" href="_f_f_board_main_8h_source.html">FFBoardMain.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_board_main_8h_source.html#l00062">62</a> of file <a class="el" href="_f_f_board_main_8h_source.html">FFBoardMain.h</a>.</p>
 
 </div>
 </div>
@@ -793,7 +854,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_f_f_board_main_8h_source.html#l00065">65</a> of file <a class="el" href="_f_f_board_main_8h_source.html">FFBoardMain.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_f_f_board_main_8h_source.html#l00066">66</a> of file <a class="el" href="_f_f_board_main_8h_source.html">FFBoardMain.h</a>.</p>
 
 </div>
 </div>
